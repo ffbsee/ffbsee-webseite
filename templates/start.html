@@ -5,31 +5,36 @@
     <h2>{{ this.title }}</h2>
   {{ this.body }}
 -->				<!-- Banner -->
-					<section id="banner">
-						<div class="content">
-							<header class="major special">
-								<h1>Ipsum dolor eu magna<br />
-								consequat lorem</h1>
-							</header>
-							<ul class="actions special">
-								<li><a href="#first" class="button primary wide scrolly">Get Started</a></li>
-							</ul>
-						</div>
-					</section>
 
-				<!-- Section -->
-					<section class="wrapper style1" id="first">
-						<div class="inner">
-							<header class="major special">
-								<h2>Magna feugiat</h2>
-								<p>Praesent dapibus neque id cursus faucibus consequat<br />
-								magna consequat erat ipsum lorem</p>
-							</header>
-							<div class="spotlights">
-								<section>
-									<div class="image"><img src="images/pic01.jpg" alt="" /></div>
-									<div class="content">
-										<header class="major">
+        <!-- Banner -->
+        <section id="banner">
+            <div class="content">
+                <header class="major special"> 
+                    <h1>{% for item in this.welcome 
+                        %}{{ item }}<br/>{%
+                    endfor %}</h1>
+                </header>
+                <ul class="actions special">
+                    <li><a href="{{ this.head_link|url }}" class="button primary wide scrolly">{{ this.head }}</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Section -->
+        <section class="wrapper style1" id="first">
+            <div class="inner">
+                <header class="major special">
+                    <h2>{{ this.body1 }}</h2>
+                    {{ this.body1m }}{%
+                    if this.body1t %}
+                    <a href="{% if this.body1l %}{{ this.body1l|url }}{% else %}#{% endif %}" class="button">{{ this.body1t }}</a>{%
+                    endif %}
+                </header>
+                <div class="spotlights">
+                    <section>
+                        <div class="image"><img src="{{ '/images/mitmachen.png'|url }}" alt="" /></div>
+                        <div class="content">
+                            <header class="major">
 											<h3>Sed erat aenean</h3>
 										</header>
 										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae magna consequat eu erat. Aliquam erat ipsum magna. Aenean ornare velit lacus varius enim ullamcorper proin magna etiam consequat.</p>
@@ -54,5 +59,52 @@
 							<header class="major special">
 								<h2>Dolor feugiat</h2>
 								<p>Praesent dapibus neque id cursus faucibus consequat<br />
-  
+								magna consequat erat ipsum lorem</p>
+							</header>
+							<div class="features">
+								<ul>
+									<li>
+										<span class="icon alt major fa-diamond"></span>
+										<h3>Erat lorem</h3>
+										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
+									</li>
+									<li>
+										<span class="icon alt major fa-laptop"></span>
+										<h3>Tempus nulla</h3>
+										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
+									</li>
+								</ul>
+								<span class="image"><img src="images/pic03.jpg" alt="" /></span>
+								<ul>
+									<li>
+										<span class="icon alt major fa-floppy-o"></span>
+										<h3>Nisl faucibus</h3>
+										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
+									</li>
+									<li>
+										<span class="icon alt major fa-paper-plane-o"></span>
+										<h3>Magna dolor</h3>
+										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<header class="major special alt">
+								<h2>Nisl consequat</h2>
+								<p>Praesent dapibus neque id cursus faucibus consequat<br />
+								magna consequat erat ipsum lorem</p>
+							</header>
+							<ul class="actions special">
+								<li><a href="#" class="button primary wide">Get Started</a></li>
+							</ul>
+						</div>
+					</section>
+
+
+
   {% endblock %}

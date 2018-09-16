@@ -6,3 +6,18 @@ body:
 
 This is a basic demo website that shows how to use Lektor for a basic
 website with some pages and a blog.
+---
+welcome:
+
+Freifunk Bodensee
+Freies Netz - Überall und für alle!
+---
+head: Mitmachen
+---
+head_link: #first
+---
+body1: Was ist Freifunk?
+---
+body1m: Freifunk ist ein dezentrales, freies Funknetz mit Anschluss ans Internet. Hier auf unserer Website erfährst du, welche Ziele wir mit Freifunk verfolgen und warum es eine gute Idee ist, sich uns anzuschließen :-)
+---
+body1t: Lerne Freifunk kennen
