@@ -58,66 +58,61 @@
                 </div>
             </div>
         </section>          
-				<!-- Section -->
-					<section class="wrapper style2 alt">
-						<div class="inner">
-							<header class="major special">
-								<h2>Dolor feugiat</h2>
-								<p>Praesent dapibus neque id cursus faucibus consequat<br />
-								magna consequat erat ipsum lorem</p>
-       
-							</header>
-							<div class="features">
-								<ul>
-									<li>
-										<span class="icon alt major fa-diamond"></span>
-										<h3>Erat lorem</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-									<li>
-										<span class="icon alt major fa-laptop"></span>
-										<h3>Tempus nulla</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-								</ul>
-								<span class="image"><img src="images/pic03.jpg" alt="" /></span>
-								<ul>
-									<li>
-										<span class="icon alt major fa-floppy-o"></span>
-										<h3>Nisl faucibus</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-									<li>
-										<span class="icon alt major fa-paper-plane-o"></span>
-										<h3>Magna dolor</h3>
-										<p>Praesent dapibus neque id faucibus sed neque egestas auguae ipsum dolor.</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+        <!-- Section -->
+        <section class="wrapper style2 alt">
+            <div class="inner">
+                <header class="major special">
+                    <h2>{{ this.main }}</h2>
+                    {{ this.mainm }}
+                </header>
+                <div class="features">
+                    <ul>
+                        <li>
+                            <span class="icon alt major {% if this.main1fa %}{{ this.main1fa }}{% else %}fa-diamond{% endif %}"></span>
+                            <h3>{{ this.main1 }}</h3>
+                            {{ this.main1m }}
+                        </li>
+                        <li>
+                            <span class="icon alt major {% if this.main2fa %}{{ this.main2fa }}{% else %}fa-laptop{% endif %}"></span>
+                            <h3>{{ this.main2 }}</h3>
+                            {{ this.main2m }}
+                        </li>
+                    </ul>{% if this.mainimg %}
+                    <span class="image"><img src="{{ this.mainimg|url }}" alt="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>i{% endif %}
+                     <ul>
+                        <li>
+                            <span class="icon alt major {% if this.mainafa %}{{ this.mainafa }}{% else %}fa-diamond{% endif %}"></span>
+                            <h3>{{ this.maina }}</h3>
+                            {{ this.mainam }}
+                        </li>
+                        <li>
+                            <span class="icon alt major {% if this.mainbfa %}{{ this.mainbfa }}{% else %}fa-laptop{% endif %}"></span>
+                            <h3>{{ this.mainb }}</h3>
+                            {{ this.mainbm }}
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section -->
+        <section class="wrapper style1">
+            <div class="inner">
+                <header class="major special alt">
+                    <h2>{{ this.unten }}</h2>
+                    {{ this.untenm }}{% if this.video %}
+                    <video poster="{{ '/images/video-thumbnail.png'|url }}" class="image fit" preload="none" controls>
+                        <source src="{{ 'video/Freifunk-verbindet.mp4'|url }}" type="video/mp4">
+                        <source src="{{ 'video/Freifunk-verbindet.ogv'|url }}" type="video/ogg">
+                        Video konnte nicht geladen werden. Du findest es sonst auc auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
+                    </video>
+                    <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png'|url }}"></a>
+                    <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
+                </header>{% if this.untenl %}
+                <ul class="actions special">
+                    <li><a href="{{ this.untenl|url }}" class="button primary wide">{{ this.untent }}</a></li>
+                </ul>{% endif %}
+            </div>
+        </section>
 
-				<!-- Section -->
-					<section class="wrapper style1">
-						<div class="inner">
-							<header class="major special alt">
-								<h2>Nisl consequat</h2>
-								<p>Praesent dapibus neque id cursus faucibus consequat<br />
-								magna consequat erat ipsum lorem</p>
-                                <video poster="{{ '/images/video-thumbnail.png'|url }}" class="image fit" preload="none" controls>
-                                    <source src="{{ 'video/Freifunk-verbindet.mp4'|url }}" type="video/mp4">
-                                    <source src="{{ 'video/Freifunk-verbindet.ogv'|url }}" type="video/ogg">    
-                                    Video konnte nicht geladen werden. Du findest es sonst auc auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
-                                </video>
-                                <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png'|url }}"></a>
-                                <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>
-							</header>
-							<ul class="actions special">
-								<li><a href="#" class="button primary wide">Get Started</a></li>
-							</ul>
-						</div>
-					</section>
-
-
-
-  {% endblock %}
+{% endblock %}
