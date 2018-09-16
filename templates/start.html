@@ -44,18 +44,20 @@
                         </div>
                     </section>
                     <section>
-                        <div class="image"><img src="images/pic02.jpg" alt="" /></div>
+                        <div class="image">{% if this.body3l %}<a href="{{ this.body3l|url }}">{%
+                            endif %}<img src="{{ this.body3img|url }}" alt="{% if this.body3t %}{{ this.body3t }}{% endif %}" />{%
+                        if this.body3l %}</a>{% endif %}</div>
                         <div class="content">
-										<header class="major">
-											<h3>Ipsum eu varius</h3>
-										</header>
-										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae magna consequat eu erat. Aliquam erat ipsum magna. Aenean ornare velit lacus varius enim ullamcorper proin magna etiam consequat.</p>
-									</div>
-								</section>
-							</div>
-						</div>
-					</section>
-
+                            <header class="major">
+                                <h3>{{ this.body3 }}</h3>
+                            </header>
+                            {{ this.body3m }}{% if this.body3b %}
+                            <a class="button primary" href="{% if this.body3l %}{{ this.body3l|url }}{% else %}#{% endif %}">{{ this.body3b }}</a>{% endif %}
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>          
 				<!-- Section -->
 					<section class="wrapper style2 alt">
 						<div class="inner">
@@ -63,6 +65,7 @@
 								<h2>Dolor feugiat</h2>
 								<p>Praesent dapibus neque id cursus faucibus consequat<br />
 								magna consequat erat ipsum lorem</p>
+       
 							</header>
 							<div class="features">
 								<ul>
@@ -101,6 +104,13 @@
 								<h2>Nisl consequat</h2>
 								<p>Praesent dapibus neque id cursus faucibus consequat<br />
 								magna consequat erat ipsum lorem</p>
+                                <video poster="{{ '/images/video-thumbnail.png'|url }}" class="image fit" preload="none" controls>
+                                    <source src="{{ 'video/Freifunk-verbindet.mp4'|url }}" type="video/mp4">
+                                    <source src="{{ 'video/Freifunk-verbindet.ogv'|url }}" type="video/ogg">    
+                                    Video konnte nicht geladen werden. Du findest es sonst auc auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
+                                </video>
+                                <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png'|url }}"></a>
+                                <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>
 							</header>
 							<ul class="actions special">
 								<li><a href="#" class="button primary wide">Get Started</a></li>
