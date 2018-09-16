@@ -2495,7 +2495,7 @@ body {
   padding-top: 14.75rem;
   padding: 8rem 0 6rem 0 ;
   background-attachment: fixed, fixed;
-  background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.jpg");
+  background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/see.svg");
   background-position: center, center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;

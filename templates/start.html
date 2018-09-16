@@ -32,17 +32,20 @@
                 </header>
                 <div class="spotlights">
                     <section>
-                        <div class="image"><img src="{{ '/images/mitmachen.png'|url }}" alt="" /></div>
+                        <div class="image">{% if this.body2l %}<a href="{{ this.body2l|url }}">{%
+                            endif %}<img src="{{ this.body2img|url }}" alt="{% if this.body2t %}{{ this.body2t }}{% endif %}" />{%
+                        if this.body2l %}</a>{% endif %}</div>
                         <div class="content">
                             <header class="major">
-											<h3>Sed erat aenean</h3>
-										</header>
-										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae magna consequat eu erat. Aliquam erat ipsum magna. Aenean ornare velit lacus varius enim ullamcorper proin magna etiam consequat.</p>
-									</div>
-								</section>
-								<section>
-									<div class="image"><img src="images/pic02.jpg" alt="" /></div>
-									<div class="content">
+                                <h3>{{ this.body2 }}</h3>
+                            </header>
+                            {{ this.body2m }}{% if this.body2b %}
+                            <a class="button primary" href="{% if this.body2l %}{{ this.body2l|url }}{% else %}#{% endif %}">{{ this.body2b }}</a>{% endif %}
+                        </div>
+                    </section>
+                    <section>
+                        <div class="image"><img src="images/pic02.jpg" alt="" /></div>
+                        <div class="content">
 										<header class="major">
 											<h3>Ipsum eu varius</h3>
 										</header>
