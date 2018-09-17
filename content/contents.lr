@@ -56,7 +56,7 @@ mainimg: /images/FFBSee.svg
 ---
 main1: Freifunk Firmware
 ---
-main1m: Mit der Freifunk Firmware kannst du deinen kompatibeln Router in einen Freifunk Router verwandeln. Lade dir einfach die passende Firmware für deinen Router runter und flashe deinen Router neu.
+main1m: Du brauchst eine spezielle Freifunk Firmware für deinen Router, um diesen in einen Freifunk Router um zu flashen.
 ---
 main2: Meshviewer
 ---
@@ -66,7 +66,7 @@ mainm:
 
 Freifunk ist eine dezentrales, unabhängiges Bürgernetz mit Zugang zum Internet. Freifunk bedeutet offene, uneingeschränkte und freie digitale Kommunikation. Jeder kann sich kostenlos über WLAN verbinden, ohne Passwort, ohne Registrierung. Jeder darf Freifunk nutzen, mitmachen und Freifunk erweitern. Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke. 
 ---
-main2m: Alle Freifunk Router auf der Karte
+main2m: Auf dem Meshviewer siehst du alle Freifunk Router, die zu Freifunk Bodensee gehören
 ---
 unten: Lisa erklärt Freifunk
 ---
@@ -88,6 +88,22 @@ maina: Mailingliste
 ---
 mainal: https://ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee
 ---
-mainam: Wir tauschen uns über die Freifunk Bodensee Mailingliste aus. Wenn du Fragen zu freifunk hast oder erfahren möchtest, wann das nächste Freifunk Bodensee treffen ist, ist das die richtige Anlaufstelle. Dort lesen viele Freifunker aus der Bodenseeregion mit, mit denen man oft auch mal ein persöhnliches Treffen vereinbaren kann um komplexe Fragen zu Freifunk zu klären oder bei Problemen oder größeren Installationen (zB eine Richtfunkverbindung) zu helfen.
+mainam: Wir tauschen uns über die Freifunk Bodensee Mailingliste aus. Diese kannst du hier abonieren:
 ---
 mainat: Mailingliste abonieren
+---
+mainala: mailto:freifunk-bodensee@list.ffbsee.de
+---
+mainata: freifunk-bodensee@list.ffbsee.de
+---
+mainb: GitHub
+---
+mainbm: Sowohl unsere Firmware, als auch die Konfiguration unserer Server ist Open Source und bei GitHub einsehbar:
+---
+main2l: https://meta.ffbsee.net/meshviewer/
+---
+main2t: Meshviewer
+---
+mainbl: https://github.com/ffbsee/
+---
+mainbt: GitHub Freifunk Bodensee

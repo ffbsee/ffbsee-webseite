@@ -15,7 +15,7 @@
                     endfor %}</h1>
                 </header>
                 <ul class="actions special">
-                    <li><a href="{{ this.head_link|url }}" class="button primary wide scrolly">{{ this.head }}</a></li>
+                    <li><a href="{{ this.head_link }}" class="button primary wide scrolly">{{ this.head }}</a></li>
                 </ul>
             </div>
         </section>
@@ -27,32 +27,32 @@
                     <h2>{{ this.body1 }}</h2>
                     {{ this.body1m }}{%
                     if this.body1t %}
-                    <a href="{% if this.body1l %}{{ this.body1l|url }}{% else %}#{% endif %}" class="button">{{ this.body1t }}</a>{%
+                    <a href="{% if this.body1l %}{{ this.body1l }}{% else %}#{% endif %}" class="button">{{ this.body1t }}</a>{%
                     endif %}
                 </header>
                 <div class="spotlights">
                     <section>
-                        <div class="image">{% if this.body2l %}<a href="{{ this.body2l|url }}">{%
-                            endif %}<img src="{{ this.body2img|url }}" alt="{% if this.body2t %}{{ this.body2t }}{% endif %}" />{%
+                        <div class="image">{% if this.body2l %}<a href="{{ this.body2l }}">{%
+                            endif %}<img src="{{ this.body2img }}" alt="{% if this.body2t %}{{ this.body2t }}{% endif %}" />{%
                         if this.body2l %}</a>{% endif %}</div>
                         <div class="content">
                             <header class="major">
                                 <h3>{{ this.body2 }}</h3>
                             </header>
                             {{ this.body2m }}{% if this.body2b %}
-                            <a class="button primary" href="{% if this.body2l %}{{ this.body2l|url }}{% else %}#{% endif %}">{{ this.body2b }}</a>{% endif %}
+                            <a class="button primary" href="{% if this.body2l %}{{ this.body2l }}{% else %}#{% endif %}">{{ this.body2b }}</a>{% endif %}
                         </div>
                     </section>
                     <section>
-                        <div class="image">{% if this.body3l %}<a href="{{ this.body3l|url }}">{%
-                            endif %}<img src="{{ this.body3img|url }}" alt="{% if this.body3t %}{{ this.body3t }}{% endif %}" />{%
+                        <div class="image">{% if this.body3l %}<a href="{{ this.body3l }}">{%
+                            endif %}<img src="{{ this.body3img }}" alt="{% if this.body3t %}{{ this.body3t }}{% endif %}" />{%
                         if this.body3l %}</a>{% endif %}</div>
                         <div class="content">
                             <header class="major">
                                 <h3>{{ this.body3 }}</h3>
                             </header>
                             {{ this.body3m }}{% if this.body3b %}
-                            <a class="button primary" href="{% if this.body3l %}{{ this.body3l|url }}{% else %}#{% endif %}">{{ this.body3b }}</a>{% endif %}
+                            <a class="button primary" href="{% if this.body3l %}{{ this.body3l }}{% else %}#{% endif %}">{{ this.body3b }}</a>{% endif %}
                         </div>
                     </section>
                 </div>
@@ -71,30 +71,30 @@
                             <span class="icon alt major {% if this.main1fa %}{{ this.main1fa }}{% else %}fa-diamond{% endif %}"></span>
                             <h3>{{ this.main1 }}</h3>
                             {{ this.main1m }}
-                            {% if this.main1l %}<a href="{{ this.main1l|url }}" class="button primary" style="margin-top: 10px;">{{ this.main1t }}</a>{%endif%}
-                            {% if this.main1la %}<a href="{{ this.main1la|url }}" class="button" style="margin-top: 10px;">{{ this.main1ta }}</a>{%endif%}
+                            {% if this.main1l %}<a href="{{ this.main1l }}" class="button primary" style="margin-top: 10px;">{{ this.main1t }}</a>{%endif%}
+                            {% if this.main1la %}<a href="{{ this.main1la }}" class="button" style="margin-top: 10px;">{{ this.main1ta }}</a>{%endif%}
                         </li>
                         <li>
                             <span class="icon alt major {% if this.main2fa %}{{ this.main2fa }}{% else %}fa-laptop{% endif %}"></span>
                             <h3>{{ this.main2 }}</h3>
                             {{ this.main2m }}
-                            {% if this.main2l %}<a href="{{ this.main2l|url }}" class="button primary">{{ this.main2t }}</a>{%endif%}
+                            {% if this.main2l %}<a href="{{ this.main2l }}" class="button primary">{{ this.main2t }}</a>{%endif%}
                         </li>
                     </ul>{% if this.mainimg %}
-                    <span class="image"><img src="{{ this.mainimg|url }}" alt="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>i{% endif %}
+                    <span class="image"><img src="{{ this.mainimg }}" alt="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>i{% endif %}
                      <ul>
                         <li>
                             <span class="icon alt major {% if this.mainafa %}{{ this.mainafa }}{% else %}fa-diamond{% endif %}"></span>
                             <h3>{{ this.maina }}</h3>
                             {{ this.mainam }}
-                            {% if this.mainal %}<a href="{{ this.mainal|url }}" class="button primary" style="margin-top: 10px;">{{ this.mainat }}</a>{%endif%}
-                            {% if this.mainala %}<a href="{{ this.mainala|url }}" class="button" style="margin-top: 10px;">{{ this.mainata }}</a>{%endif%}
+                            {% if this.mainal %}<a href="{{ this.mainal }}" class="button primary" style="margin-top: 10px;">{{ this.mainat }}</a>{%endif%}
+                            {% if this.mainala %}<a href="{{ this.mainala }}" class="button" style="margin-top: 10px;">{{ this.mainata }}</a>{%endif%}
                         </li>
                         <li>
                             <span class="icon alt major {% if this.mainbfa %}{{ this.mainbfa }}{% else %}fa-laptop{% endif %}"></span>
                             <h3>{{ this.mainb }}</h3>
                             {{ this.mainbm }}
-                            {% if this.mainbl %}<a href="{{ this.mainbl|url }}" class="button primary">{{ this.mainbt }}</a>{%endif%}
+                            {% if this.mainbl %}<a href="{{ this.mainbl }}" class="button primary">{{ this.mainbt }}</a>{%endif%}
                         </li>
                     </ul> 
                 </div>
@@ -107,16 +107,16 @@
                 <header class="major special alt">
                     <h2>{{ this.unten }}</h2>
                     {{ this.untenm }}{% if this.video %}
-                    <video poster="{{ '/images/video-thumbnail.png'|url }}" class="image fit" preload="none" controls>
-                        <source src="{{ 'video/Freifunk-verbindet.mp4'|url }}" type="video/mp4">
-                        <source src="{{ 'video/Freifunk-verbindet.ogv'|url }}" type="video/ogg">
+                    <video poster="{{ '/images/video-thumbnail.png' }}" class="image fit" preload="none" controls>
+                        <source src="{{ '/video/Freifunk-verbindet.mp4' }}" type="video/mp4">
+                        <source src="{{ '/video/Freifunk-verbindet.ogv' }}" type="video/ogg">
                         Video konnte nicht geladen werden. Du findest es auch auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
                     </video>
-                    <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png'|url }}"></a>
+                    <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png' }}"></a>
                     <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
                 </header>{% if this.untenl %}
                 <ul class="actions special">
-                    <li><a href="{{ this.untenl|url }}" class="button primary wide">{{ this.untent }}</a></li>
+                    <li><a href="{{ this.untenl }}" class="button primary wide">{{ this.untent }}</a></li>
                 </ul>{% endif %}
             </div>
         </section>
