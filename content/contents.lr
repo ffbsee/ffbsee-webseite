@@ -34,7 +34,7 @@ body2t: Du brauchst nur einen Freifunk Router!
 ---
 body2b: Welchen Router?
 ---
-body3: Noch Fragen?
+body3: Wie funktioniert das?
 ---
 body3img: /images/fragen.png
 ---
@@ -49,3 +49,45 @@ body3b: Antworten finden
 body3l: /faq/
 ---
 body3t: Fragen zu Freifunk?
+---
+main: Freifunk Bodensee
+---
+mainimg: /images/FFBSee.svg
+---
+main1: Freifunk Firmware
+---
+main1m: Mit der Freifunk Firmware kannst du deinen kompatibeln Router in einen Freifunk Router verwandeln. Lade dir einfach die passende Firmware für deinen Router runter und flashe deinen Router neu.
+---
+main2: Meshviewer
+---
+mainimgt: Router Flashen
+---
+mainm:
+
+Freifunk ist eine dezentrales, unabhängiges Bürgernetz mit Zugang zum Internet. Freifunk bedeutet offene, uneingeschränkte und freie digitale Kommunikation. Jeder kann sich kostenlos über WLAN verbinden, ohne Passwort, ohne Registrierung. Jeder darf Freifunk nutzen, mitmachen und Freifunk erweitern. Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke. 
+---
+main2m: Alle Freifunk Router auf der Karte
+---
+unten: Lisa erklärt Freifunk
+---
+untenm: In 87 Sekunden erklärt Lisa in diesem Video, was Freifunk ist und wie es funktioniert.
+---
+untenl: #
+---
+untent: Wie Freifunk Funktioniert
+---
+main1l: https://firmware.ffbsee.de/
+---
+main1t: Firmware Download
+---
+main1la: #
+---
+main1ta: Anleitung Router flashen
+---
+maina: Mailingliste
+---
+mainal: https://ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee
+---
+mainam: Wir tauschen uns über die Freifunk Bodensee Mailingliste aus. Wenn du Fragen zu freifunk hast oder erfahren möchtest, wann das nächste Freifunk Bodensee treffen ist, ist das die richtige Anlaufstelle. Dort lesen viele Freifunker aus der Bodenseeregion mit, mit denen man oft auch mal ein persöhnliches Treffen vereinbaren kann um komplexe Fragen zu Freifunk zu klären oder bei Problemen oder größeren Installationen (zB eine Richtfunkverbindung) zu helfen.
+---
+mainat: Mailingliste abonieren

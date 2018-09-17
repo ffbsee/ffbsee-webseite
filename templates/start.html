@@ -71,11 +71,14 @@
                             <span class="icon alt major {% if this.main1fa %}{{ this.main1fa }}{% else %}fa-diamond{% endif %}"></span>
                             <h3>{{ this.main1 }}</h3>
                             {{ this.main1m }}
+                            {% if this.main1l %}<a href="{{ this.main1l|url }}" class="button primary" style="margin-top: 10px;">{{ this.main1t }}</a>{%endif%}
+                            {% if this.main1la %}<a href="{{ this.main1la|url }}" class="button" style="margin-top: 10px;">{{ this.main1ta }}</a>{%endif%}
                         </li>
                         <li>
                             <span class="icon alt major {% if this.main2fa %}{{ this.main2fa }}{% else %}fa-laptop{% endif %}"></span>
                             <h3>{{ this.main2 }}</h3>
                             {{ this.main2m }}
+                            {% if this.main2l %}<a href="{{ this.main2l|url }}" class="button primary">{{ this.main2t }}</a>{%endif%}
                         </li>
                     </ul>{% if this.mainimg %}
                     <span class="image"><img src="{{ this.mainimg|url }}" alt="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>i{% endif %}
@@ -84,11 +87,14 @@
                             <span class="icon alt major {% if this.mainafa %}{{ this.mainafa }}{% else %}fa-diamond{% endif %}"></span>
                             <h3>{{ this.maina }}</h3>
                             {{ this.mainam }}
+                            {% if this.mainal %}<a href="{{ this.mainal|url }}" class="button primary" style="margin-top: 10px;">{{ this.mainat }}</a>{%endif%}
+                            {% if this.mainala %}<a href="{{ this.mainala|url }}" class="button" style="margin-top: 10px;">{{ this.mainata }}</a>{%endif%}
                         </li>
                         <li>
                             <span class="icon alt major {% if this.mainbfa %}{{ this.mainbfa }}{% else %}fa-laptop{% endif %}"></span>
                             <h3>{{ this.mainb }}</h3>
                             {{ this.mainbm }}
+                            {% if this.mainbl %}<a href="{{ this.mainbl|url }}" class="button primary">{{ this.mainbt }}</a>{%endif%}
                         </li>
                     </ul> 
                 </div>
@@ -104,7 +110,7 @@
                     <video poster="{{ '/images/video-thumbnail.png'|url }}" class="image fit" preload="none" controls>
                         <source src="{{ 'video/Freifunk-verbindet.mp4'|url }}" type="video/mp4">
                         <source src="{{ 'video/Freifunk-verbindet.ogv'|url }}" type="video/ogg">
-                        Video konnte nicht geladen werden. Du findest es sonst auc auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
+                        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
                     </video>
                     <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png'|url }}"></a>
                     <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
