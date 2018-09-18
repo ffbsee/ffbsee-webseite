@@ -9,27 +9,20 @@
         <link rel="stylesheet" href="{{ '/css/main.css'|url }}" />
     </head>
     <body class="is-preload">
-    
-        <!-- Wrapper -->
         <div id="wrapper">
-        
-            <!-- Header -->
-            <section id="header" class="alt">
-                
-                <!-- Logo -->
+            <section id="header"{% if this._path == '/' %} class="alt"{% endif %}>
                 <a href="/index.html" class="logo"><strong>Freifunk Bodensee</strong></a>
                 
-                <!-- Nav -->
                 <nav id="nav">
                     <ul>
                         <li{% if this._path == '/' %} class="current"{% endif
-                            %}><a href="{{ '/'|url }}">Welcome</a></li>
-                                {% for href, title in [
+                            %}><a href="{{ '/'|url }}">Start</a></li>{%
+                                for href, title in [
                                     ['/blog', 'Blog'],
                                     ['/projects', 'Projects'],
                                     ['/about', 'About']
-                                ] %}
-                                <li{% if this.is_child_of(href) %} class="active"{% endif
+                                    ] %}<li{%
+                                if this.is_child_of(href) %} class="active"{% endif
                             %}><a href="{{ href|url }}">{{ title }}</a></li>
                         {% endfor %}
                     </ul>
