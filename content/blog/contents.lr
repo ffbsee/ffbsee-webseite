@@ -1,3 +1,5 @@
 _model: blog
 ---
-title: Blog
+title: Neuigkeiten
+---
+subtitle: Aboniere den [RSS-Feed](/feed.xml) und bleibe auf dem laufenden!
