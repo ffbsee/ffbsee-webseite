@@ -1,0 +1,69 @@
+title: Die Firmware hat nun einen Autoupdater \o/
+---
+author: Mart
+---
+body:
+
+Die neuste Version der Freifunk Bodensee Firmware (v0.0.4) hat nun endlich einen funktionierenden Autoupdate-Mechanismus eingebaut.
+
+Bitte alle Router mit der alten Firmware updaten!
+---
+content:
+
+
+```
+Hallo Leute!
+Xperimental und ich haben in den letzten Tagen neue Firmware gebaut,
+die vor allem bugfixes enthaelt, aber nun auch zum ersten Mal
+per Auto-Update kommt!
+
+Auto-Update funktioniert fuer die wichtigstens TP-Link Modelle
+und einige Ubiquities. Fuer alle anderen bauen wir es nach Bedarf ein.
+
+Wie funktioniert das nun mit dem Auto-Update ?
+
+Gleich vorweg: Ab dem Moment, wenn ihr auf 0.0.4 seit, 
+wird es bei den nächsten Malen alles automatisch funktionieren.
+Das ist jetzt nur so kompliziert, weil wir eben gerade erst
+gestartet sind und noch nicht so weit waren.
+
+Auto-Update funktioniert nur automatisch , wenn ihr bei
+euren Routern mit 0.0.2 Firmware von Hand den IPv6 Fix angewendet habt.
+(Das geht folgendermaßen: 
+https://gist.github.com/xperimental/8fb062c2f5b753cff56b )
+Weiter unten gibt's die Anleitung, wie ihr es auch ohne den Fix
+in wenigen MInuten auf die neuere Version bringt!
+
+Falls von euch bereits jemand Firmware 0.0.3 geflasht hat gestern,
+so sollte das Auto-Update von selbst innerhalb
+der nächsten ca. 24 Stunden bei euch ankommen.
+
+Man kann das ganze auch auf dem Router per 
+"Suchen und aktualisieren" unter "Upgrade" manuell sofort ausloesen.
+
+Fuer alle, die eine Unveränderte 0.0.2 Firmware haben,
+gibt es eine einfache Lösung:
+Sucht euch euer passendes sysupgrade.bin von 
+https://vpn1.ffbsee.de/freifunk/firmware/0.0.4/
+(Vosicht, da muesst ihr genz genau euer richtiges
+Router Modell finden, steht evtl. auf der Unterseite
+des Routers, z.B. v10 beim wr841)
+
+Dann geht ihr auf euren Router unter Upgrade und
+"Image auswählen", nehmt die Datei, die ihr gerade
+(hoffentlich die richtige) runtergeladen habt
+und LASST bitte den Haken bei "Einstellungen behalten" drin!
+
+Das funktioniert mittlerweile!
+Dann "Senden" klicken und nach ca. 1 min sollte euer Router
+mit dem alten Namen und Geo-Kordinaten, aber mit Firmware 0.0.4 wieder laufen!
+
+Wir helfen sonst auch gerne weiter!
+
+Mart
+```
+
+---
+pub_date: 2017-02-25
+---
+twitter_handle: mart
