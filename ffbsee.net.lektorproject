@@ -1,2 +1,15 @@
 [project]
 name = ffbsee.net
+url = https://ffbsee.net/
+locale = de_DE
+
+[servers.ffbsee]
+name = ffbsee
+url = https://ffbsee.net/
+url_style = absolute
+enabled = yes
+default = yes
+target = rsync://web17@c3woc.de:/var/www/clients/client10/web17/web
+
+[packages]
+lektor-atom = 0.2
