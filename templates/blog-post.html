@@ -2,5 +2,10 @@
 {% from "macros/blog.html" import render_blog_post %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {{ render_blog_post(this) }}
+        <!-- Section -->
+	    <section class="wrapper style1">
+            <div class="inner">
+               {{ render_blog_post(this) }}
+            </div>
+        </section>
 {% endblock %}
