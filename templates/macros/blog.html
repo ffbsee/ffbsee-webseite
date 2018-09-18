@@ -9,17 +9,13 @@
          if post.subtitle %}{{ post.subtitle }}{%
          endif %}
       </header>
-  {% endif %}
-  <center><p class="meta">
-    Verfasst von
-    {% if post.twitter_handle %}
-      <a href="https://chaos.social/@{{ post.twitter_handle
-        }}">{{ post.author or post.twitter_handle }}</a>
-    {% else %}
-      {{ post.author }}
-    {% endif %}
-    am {{ post.pub_date.strftime('%d.%m.%Y') }}
-      </p></center>
+      <center>{% endif %}<p class="meta">
+    Verfasst von {% if post.twitter_handle 
+    %}<a href="https://chaos.social/@{{ post.twitter_handle
+        }}">{{ post.author or post.twitter_handle }}</a>{% else 
+    %}{{ post.author }}{% endif 
+    %} am {{ post.pub_date.strftime('%d.%m.%Y') }}</p>{% 
+    if not from_index %}</center>{% endif %}
   {{ post.body }}
   </div>
 {% endmacro %}

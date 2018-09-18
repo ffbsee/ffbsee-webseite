@@ -16,14 +16,21 @@
                 <nav id="nav">
                     <ul>
                         <li{% if this._path == '/' %} class="current"{% endif
-                            %}><a href="{{ '/'|url }}">Start</a></li>{%
-                                for href, title in [
-                                    ['/blog', 'Neuigkeiten'],
-                                    ['/projects', 'Projects'],
-                                    ['/about', 'About']
-                                    ] %}<li{%
-                                if this.is_child_of(href) %} class="active"{% endif
-                            %}><a href="{{ href|url }}">{{ title }}</a></li>
+                            %}><a href="{{ '/'|url }}">Start</a></li>
+                        {%  for href, title in [
+                            ['/blog', 'Neuigkeiten'],
+                            ['/anleitung', 'Anleitung'],
+                            ['/kontakt', 'Kontakt'],
+                            ['/faq', 'Antworten']
+                            ] %}<li{%
+                        if this.is_child_of(href) %} class="active"{% endif
+                            %}><a href="{{ href|url }}">{{ title }}</a>{%
+                        if title == 'Kontakt' %}
+                                <ul>
+                                    <li><a href="{{ '/impressum'|url }}">Impressum</a></li>
+                                    <li><a href="{{ '/datenschutz'|url }}">Datenschmutz</a></li>
+                                </ul>
+                            {% endif %}</li>
                         {% endfor %}
                     </ul>
                 </nav>
