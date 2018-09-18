@@ -2360,7 +2360,7 @@ body {
       font-style: normal;
       text-transform: none !important; }
     #header > .navPanelToggle:before {
-      content: '\f0c9';
+      content: '';
       float: right;
       margin: 0 0 0 0.625rem; }
   @media screen and (max-width: 1280px) {
@@ -2636,7 +2636,7 @@ body {
       font-style: normal;
       text-transform: none !important; }
     #navPanel .close:before {
-      content: '\f00d';
+      content: 'X';
       font-size: 1.25rem; }
     #navPanel .close:hover {
       color: #ffffff !important; }
