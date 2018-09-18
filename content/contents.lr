@@ -1,6 +1,6 @@
 _model: start
 ---
-title: Welcome to ffbsee.net!
+title: Freifunk Bodensee
 ---
 body:
 
@@ -108,4 +108,10 @@ mainbl: https://github.com/ffbsee/
 ---
 mainbt: GitHub Freifunk Bodensee
 ---
-main1fa: fas fa-camera-retro
+main1fa: fas fa-download
+---
+main2fa: fas fa-wifi
+---
+mainafa: fas fa-mail-bulk
+---
+mainbfa: fab fa-github
