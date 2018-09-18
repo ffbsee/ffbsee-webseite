@@ -36,31 +36,39 @@
                 </nav>
             </section>
     {% block body %}{% endblock %}
-				<!-- Footer -->
-					<section id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li>
-							<li><a href="#" class="icon alt fa-phone"><span class="label">Phone</span></a></li>
-						</ul>
-						<p class="copyright">
-							&copy; Untitled. All rights reserved.
-						</p>
-					</section>
-
-			</div>
+        <!-- Footer -->
+            <section id="footer">
+                <ul class="icons">{%
+                    for label, icon, href in [
+                        ['Twitter', 'fab fa-twitter', "https://twitter.com/@FFBSee"],
+                        ['Mastodon', 'fab fa-mastodon', "https://chaos.social/@FFBSee"],
+                        ['Facebook', 'fab fa-facebook', "https://www.facebook.com/freifunk.bodensee/"],
+                        ['GitHub', 'fab fa-github', "https://github.com/ffbsee/"],
+                        ['Firmware', 'fas fa-download', "https://firmware.ffbsee.de/"],
+                        ['News', 'fas fa-rss', "/feed.xml"],
+                        ['Mail', 'fas fa-envelope', "mailto:kommunikation@ffbsee.de"],
+                        ['Mailingliste', 'fas fa-mail-bulk', "mailto:freifunk-bodensee@list.ffbsee.de"],
+                        ['Telefon', 'fas fa-phone', "tel:+4975449667222"]
+                    ] %}
+                    <li><a href="{{ href }}" title="{{ label }}" target="_blank" class="icon {{ icon }}"></a></li>{%
+                    endfor %}
+                </ul>
+                <p class="copyright">
+                &copy; Freifunk Bodensee |
+                <a href="/datenschutz" style="border-bottom: none;">Datenschmutz</a> |
+                <a href="/impressum" style="border-bottom: none;">Impressum</a>
+                </p>
+            </section>
+        </div>
 
 		<!-- Scripts -->
-            <script src="{{ '/js/jquery.min.js'|url }}"></script>
-            <script src="{{ '/js/jquery.dropotron.min.js'|url }}"></script>
-            <script src="{{ '/js/jquery.scrollex.min.js'|url }}"></script>
-            <script src="{{ '/js/jquery.scrolly.min.js'|url }}"></script>
-            <script src="{{ '/js/browser.min.js'|url }}"></script>
-            <script src="{{ '/js/breakpoints.min.js'|url }}"></script>
-            <script src="{{ '/js/util.js'|url }}"></script>
-            <script src="{{ '/js/main.js'|url }}"></script>
-
+        <script src="{{ '/js/jquery.min.js'|url }}"></script>
+        <script src="{{ '/js/jquery.dropotron.min.js'|url }}"></script>
+        <script src="{{ '/js/jquery.scrollex.min.js'|url }}"></script>
+        <script src="{{ '/js/jquery.scrolly.min.js'|url }}"></script>
+        <script src="{{ '/js/browser.min.js'|url }}"></script>
+        <script src="{{ '/js/breakpoints.min.js'|url }}"></script>
+        <script src="{{ '/js/util.js'|url }}"></script>
+        <script src="{{ '/js/main.js'|url }}"></script>
 	</body>
 </html>

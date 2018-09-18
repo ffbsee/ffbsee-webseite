@@ -1268,11 +1268,8 @@ input[type="radio"] {
     position: relative; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
-      font-weight: normal;
       text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
@@ -1378,11 +1375,8 @@ input[type="radio"]:focus + label:before {
   outline: 0;
   position: relative; }
   .icon:before {
-    -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
     font-style: normal;
-    font-weight: normal;
     text-transform: none !important; }
   .icon > .label {
     display: none; }
@@ -2362,11 +2356,8 @@ body {
     text-transform: uppercase;
     top: 0; }
     #header > .navPanelToggle:before {
-      -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
-      font-weight: normal;
       text-transform: none !important; }
     #header > .navPanelToggle:before {
       content: '\f0c9';
@@ -2641,11 +2632,8 @@ body {
     vertical-align: middle;
     width: 7rem; }
     #navPanel .close:before {
-      -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
-      font-weight: normal;
       text-transform: none !important; }
     #navPanel .close:before {
       content: '\f00d';

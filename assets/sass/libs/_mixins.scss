@@ -10,13 +10,9 @@
 		@if $content {
 			content: $content;
 		}
-
         -webkit-font-smoothing: antialiased;
-        font-family: "Font Awesome 5 Free";
-		font-family: FontAwesome;
 		font-style: normal;
 		text-transform: none !important;
-
 	}
 
 }
