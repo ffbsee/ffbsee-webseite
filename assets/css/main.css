@@ -281,7 +281,6 @@ hr {
 
 header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
   background-color: #4797ec;
-  background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #884beb 90%);
   background-size: auto, auto;
   background-repeat: repeat, no-repeat; }
 
@@ -1161,7 +1160,6 @@ button,
   button.primary,
   .button.primary {
     background-color: #4797ec;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(71, 151, 236, 0), #884beb 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -1345,7 +1343,6 @@ input[type="radio"] + label {
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background-color: #4797ec;
-  background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(71, 151, 236, 0), #884beb 80%);
   background-size: auto, auto;
   background-repeat: repeat, no-repeat;
   border-color: #4797ec;
@@ -1668,7 +1665,6 @@ table.alt tbody tr td {
     background-color: #3a3a3a;
     color: #ffffff;
     background-color: #4797ec;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(71, 151, 236, 0), #884beb 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat; }
     .wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -1716,7 +1712,6 @@ table.alt tbody tr td {
       .wrapper.style2 button.primary,
       .wrapper.style2 .button.primary {
         background-color: #4797ec;
-        background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(71, 151, 236, 0), #884beb 80%);
         background-size: auto, auto;
         background-repeat: repeat, no-repeat;
         box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2105,7 +2100,6 @@ table.alt tbody tr td {
     #banner button.primary,
     #banner .button.primary {
       background-color: #4797ec;
-      background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(71, 151, 236, 0), #884beb 80%);
       background-size: auto, auto;
       background-repeat: repeat, no-repeat;
       box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2254,7 +2248,6 @@ body {
   background-color: #3a3a3a;
   color: #ffffff;
   background-color: #4797ec;
-  background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #884beb 90%);
   background-size: auto, auto;
   background-repeat: repeat, no-repeat;
   -moz-align-items: center;
@@ -2326,7 +2319,6 @@ body {
     position: absolute; }
     #header.alt:before {
       background-color: #4797ec;
-      background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(71, 151, 236, 0), #884beb 90%);
       background-size: auto, auto;
       background-repeat: repeat, no-repeat;
       content: '';
@@ -2562,7 +2554,6 @@ body {
 
 #navPanel {
   background-color: #4797ec;
-  background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(71, 151, 236, 0), #884beb 80%);
   background-size: auto, auto;
   background-repeat: repeat, no-repeat;
   -moz-transform: translateX(20rem);

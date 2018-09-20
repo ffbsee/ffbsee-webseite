@@ -41,7 +41,6 @@
 
 	@mixin gradient-background($stop: 80%, $angle: 45deg) {
 		background-color: _palette(accent1);
-		background-image: url('../../images/overlay.png'), linear-gradient($angle, transparentize(_palette(accent1), 1), _palette(accent2) $stop);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 	}
