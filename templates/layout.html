@@ -20,15 +20,17 @@
                         {%  for href, title in [
                             ['/blog', 'Neuigkeiten'],
                             ['/anleitung', 'Anleitung'],
+                            ['/faq', 'Fragen'],
                             ['/kontakt', 'Kontakt'],
-                            ['/faq', 'Antworten']
+                            ['/helfen', 'Unterstützen']
                             ] %}<li{%
                         if this.is_child_of(href) %} class="active"{% endif
                             %}><a href="{{ href|url }}">{{ title }}</a>{%
                         if title == 'Kontakt' %}
                                 <ul>
+                                    <li><a href="{{ '/kontakt'|url }}">Kontakt</a></li>
                                     <li><a href="{{ '/impressum'|url }}">Impressum</a></li>
-                                    <li><a href="{{ '/datenschutz'|url }}">Datenschmutz</a></li>
+                                    <li><a href="{{ '/datenschutz'|url }}">Datenschutz</a></li>
                                 </ul>
                             {% endif %}</li>
                         {% endfor %}
