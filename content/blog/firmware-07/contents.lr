@@ -1,0 +1,31 @@
+title: Firmware 0.7
+---
+author: Mart
+---
+content:
+
+Wir freuen uns sehr, euch unser neustes [Firmware-Release](https://github.com/ffbsee/firmware/releases/tag/0.7.0) zu präsentieren. Wir haben wieder viel Zeit aufgebracht, um unsere Ideen & eure Anregungen in die Tat umzusetzen und gemeinsam mit der tollen (Vor-)Arbeit der Ulmer- und Bielefelder Freifunk-Community ein neues Fimwarepäckchen geschnürt.
+
+Die aktuelle ``Firmware 0.7.0`` steht ab sofort zum Download bereit; neuerdings unterstützt vom sog. [Firmware Wizard](https://software.ffbsee.de), der euch die Suche nach passenden Firmware-Images deutlich erleichtert. Um von Hand das Update einzuspielen, braucht ihr die **SYSUPGRADE**-Version der Firmware für euer jeweiliges Router-Modell.
+
+Erstmal stehen vor allem die typischen ar71xx Firmware-Downloads zu Verfügung, die z.B. für die TP-Link- und Ubiquiti-Router relevant sind. Einige Exoten fehlen noch, kommen aber nach und nach dazu. So fehlt z.B. noch der neue Siemens Futro-Build, da hier immer einiges an zusätzlichen Kernel-Modulen ausgewählt und konfiguriert werden muss. Da braucht mart noch etwas Zeit.
+
+Gerne könnt ihr auch die Firmwae selber kompilieren. Weitere Informationen und den Quellcode findet ihr auf GitHub.com.
+Die Neuerungen der Firmware mal kurz zusammengefasst:
+
+* Unterstützung neuer Router Modelle und Hardware-Revisionen
+* Redesign der Weboberfläche
+* Viele Fixes von Openwrt/Gluon wurden portiert, womit etliche Fehler behoben wurden. So passt nun u.A. die Beschriftungen der Router-LAN-Ports auf der Weboberfläche besser mit den Beschriftungen des Routers überein, bei manchen Geräten wurde die Sende- und Empfangsleistung verbessert (CPE210/510). Auch funktionieren WLAN Scans über die Weboberfläche bei den meisten Modellen nun wieder zuverlässiger.
+    Es kann ein SSH Public Key über die Weboberfläche hochgeladen werden, ein Feature für alle, die gerne mit hoher Sicherheit auf die Kommandozeile des Routers zugreifen möchten. Diese Funktion ist zwar soweit fertig und funktioniert auch gut, wir haben aber noch viele Ideen für weitere Verbesserungen. Bspw. kann man bisher nur Public Keys hinzufügen aber noch nicht über die Weboberfläche „verwalten“, also z.B. wieder löschen. Es funktioniert auch noch nicht mit Keys beliebiger Größe. Keys mit typischen Größen wie z.B. 4096 bit stellen jedoch kein Problem dar.
+* Es gibt neu eine IPv6 nextnode IP (mit der man immer genau bei dem Router landet, an dem man gerade im Freifunk-Netz teilnimmt). Die Adresse nextnode.ffbsee ist: ``fdef:1701:b5ee:42::0`` Das IPv4 Pendant gibt es übrigens schon länger: ``10.11.175.127`` - Das Ganze dient dazu, die Weboberfläche (oder die Kommandozeile) aus dem Freifunk-Netz zu erreichen. Die Administration des Routers auf diesem Weg funktioniert aber nur, wenn dies im Router explizit so freigeschaltet wurde.
+
+Liebe Grüße,
+
+euer 0.7.0er Firmware-Team Byt3, L3D und mart
+
+---
+pub_date: 2017-05-03
+---
+subtitle: Freifunk Firmware mit der Version 0.7.0
+---
+twitter_handle: mart
