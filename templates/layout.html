@@ -26,11 +26,16 @@
                             ] %}<li{%
                         if this.is_child_of(href) %} class="active"{% endif
                             %}><a href="{{ href|url }}">{{ title }}</a>{%
-                        if title == 'Kontakt' %}
+                         if title == 'Kontakt' %}
                                 <ul>
                                     <li><a href="{{ '/kontakt'|url }}">Kontakt</a></li>
                                     <li><a href="{{ '/impressum'|url }}">Impressum</a></li>
                                     <li><a href="{{ '/datenschutz'|url }}">Datenschutz</a></li>
+                                </ul>
+                            {% elif title == 'Neuigkeiten' %}
+                                <ul>
+                                    <li><a href="{{ '/blog'|url }}">Nachrichten</a></li>
+                                    <li><a href="{{ '/kalender'|url }}">Kalender</a></li>
                                 </ul>
                             {% endif %}</li>
                         {% endfor %}
