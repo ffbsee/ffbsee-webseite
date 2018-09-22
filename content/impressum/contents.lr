@@ -1,0 +1,28 @@
+_model: page
+---
+title: Impressum
+---
+body:
+
+So könnt ihr Freifunk Bodensee erreichen:
+
++ Per E-Mail: ``kommunikation@ffbsee.de``
++ Mailingliste: ``freifunk-bodensee@list.ffbsee.de``
++ IRC: ``irc.hackint.org/#ffbsee``
++ Telefon: ``+49 (0)7551 9719523``
+
+Toten Baum kann man hier hin schicken:
+```
+Martin Hellebrand
+Marktstr. 1
+88662 Überlingen
+```
+
+Wenn du eine Störung an Freifunk melden möchtest oder dir unregelmäßigkeiten auffallen, dann schreib doch eine E-Mail an folgende Adresse:
+
+<a href="mailto:stoerung@freifunk-bodensee.net" class="button primary">stoerung@freifunk-bodensee.net</a>
+
+*Diese Adresse eigent sich auch zum Zustellen von Abuse Anfragen.
+
+---
+subtitle: Initiative Freifunk Bodensee
