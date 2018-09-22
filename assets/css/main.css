@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url(lato-font.css);
 /*
@@ -2352,7 +2353,7 @@ body {
       font-style: normal;
       text-transform: none !important; }
     #header > .navPanelToggle:before {
-      content: '';
+      content: '☰';
       float: right;
       margin: 0 0 0 0.625rem; }
   @media screen and (max-width: 1280px) {
