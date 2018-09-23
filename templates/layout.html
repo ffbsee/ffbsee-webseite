@@ -4,9 +4,11 @@
         <meta charset="utf-8" />
         <title>{% block title %}Freifunk Bodensee{% endblock %} — ffbsee.net</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <link rel="stylesheet" href="{{ '/css/main.css'|url }}" />
+        <meta name="description" content="Freifunk Bodensee - Freies Netz, überall und für alle!" />
+        <meta name="keywords" content="freifunk, Bodensee, FFBSee, Vernetzen, Netz, Internet, WLAN, Wifi, Überlingen, Friedrichshafen, Markdorf, Bodman, Ludwigshafen, Konstanz, Flüchtlingshilfe, frei, kostenlos" />
+        <link rel="stylesheet" href="{{ '/css/main.css'|url }}" />{%
+        block meta %}
+        <script src="{{ '/js/jquery-3.3.1.min.js'|url }}"></script>{% endblock %}
     </head>
     <body class="is-preload">
         <div id="wrapper">
@@ -71,7 +73,6 @@
         </div>
 
 		<!-- Scripts -->
-        <script src="{{ '/js/jquery.min.js'|url }}"></script>
         <script src="{{ '/js/jquery.dropotron.min.js'|url }}"></script>
         <script src="{{ '/js/jquery.scrollex.min.js'|url }}"></script>
         <script src="{{ '/js/jquery.scrolly.min.js'|url }}"></script>

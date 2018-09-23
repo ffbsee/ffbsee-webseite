@@ -1,0 +1,9 @@
+_model: kalender
+---
+title: Kalender
+---
+kalender: https://bodensee.space/calendarfeeds/ffbseepublic.ics
+---
+body: Hier ist der Kalender!
+---
+subtitle: Wann passiert hier etwas?
