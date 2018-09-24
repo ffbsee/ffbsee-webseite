@@ -2,8 +2,20 @@ _model: kalender
 ---
 title: Kalender
 ---
-kalender: https://bodensee.space/calendarfeeds/ffbseepublic.ics
+kalender: /termine.ics
 ---
-body: Hier ist der Kalender!
+body:
+
+Bei dem Kalender erfährst du, wann die nächsten Treffen sind oder wann es Termine gibt, die mit Freifunk zu tun haben.
+Dies können beispielsweise Veranstaltungen sein, die von Freifunk Bodensee mit Internet versorgt werden, Informationsveranstaltungen rund um Freifunk oder Communityübergreifende Treffen, bei denen sich Freifunker miteinander austauschen und etwas von einander lernen.
+
+Die Termine gibt es im oben angezeigten Javascript Kalender oder hier als Abonierbare ICS Kalenderdatei oder als Kalender in der Cloud:
+
+<center>
+<a href="https://bodensee.space/calendarfeeds/ffbseepublic.ics" class="button primary">ICS Kalender</a>
+<a href="https://wirtschaftseingang.de/index.php/apps/calendar/embed/I8XVDHTQ5YFCHYMZ" class="button primary">Kalender in der Cloud</a>
+</center>
+
+
 ---
 subtitle: Wann passiert hier etwas?
