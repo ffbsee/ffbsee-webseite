@@ -1,0 +1,67 @@
+_model: page
+---
+title: Kontakt
+---
+subtitle: Wie erreicht man Freifunk Bodensee?
+---
+body:
+
+Es gibt viele Wege, etwas von Freifunk Bodensee mitzubekommen. Doch welche genau das sind, erfährst du hier:
+
+ Mailingliste
+-----------------------
+
+Auf der Mailingliste werden wichtge und spannende Themen rund um Freifunk besprochen. Außerdem wird dort zu neuen Terminen wie einem lokalen Freifunk Treffen eingeladen. Außerdem werden große neuerungen in der Firmware dort bekanntgegeben und einige Themen Diskuttiert, die sich in der Firmware ändern, bei denen das Firmware Team die Meinung anderer Leute berücksichtigen möchte. Außerdem ist die Mailingliste ein guter Ort, um nach Unterstützung zu Fragen. Hier wird versucht jedem weiterzuhelfen. Begonnen mit: "Wie lade ich denn die Firmware runter" bis hin zu komplexen Themen wie: "Kann mir jemand beim aufbauen einer Richtfunkverbindung helfen" und vielen vielen Themen mehr.
+
+Um also bei Freifunk Bodensee mitzumachen ist das Abonieren der Mailingliste und vielleicht eine freundliche "Hallo, ich möchte Mitmachen"- EMail ein guter schritt!
+
+<center>
+<a href="mailto:"freifunk-bodensee@list.ffbsee.de" class="button primary">An die Mailingliste schreiben</a>
+<a href="https://ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee" class="button primary">Mailingliste abonieren</a>
+</center><br/>
+
+Direkter Kontakt
+--------------------------------
+Um dich direkt bei den Administratoren von Freifunk Bodensee zu melden, schau doch mal unter [Störung melden](/stoerung-melden/) nach. Dort findest du einen direkten Ansprechpartner, der dir meistens weiter helfen kann. Dennoch würden wir eine Mail an die Mailingliste bevorzugen, da dies auch anderen Menschen die Möglichkeit gibt, auf Fragen die sie selber hatten zu antworten und so Wissen zu verteilen. Außerdem entlastet das die Betreiber von Freifunk Bodensee, die das auch nur in ihrer Freizeit machen und nicht immer viel Zeit haben komplexe Nachrichten zu beantworten.
+
+<center>
+<a href="/stoerung-melden/" class="button primary">Störung melden</a>
+</center><br/>
+
+ Technik-Nerds
+------------------------
+Die Nerds bei Freifunk Bodensee treiben sich im IRC rum. 
+<blockquote>Internet Relay Chat, kurz IRC, bezeichnet ein rein textbasiertes Chat-System. Es ermöglicht Gesprächsrunden mit einer beliebigen Anzahl von Teilnehmern in so genannten Channels (Gesprächskanälen), aber auch Gespräche zwischen zwei Teilnehmern (Query).
+<br/><right><i>Quelle: <a href="https://de.wikipedia.org/wiki/Internet_Relay_Chat">Wikipedia</a></i></right>
+</blockquote>
+Dort sind wir auf dem Channel ``#ffbsee`` auf dem [Hackint](https://hackint.org) IRC Server ``irc.hackint.org``.
+
+<center>
+<a href="https://webirc.hackint.org/#irc://irc.hackint.org/#ffbsee" class="button primary">Web IRC</a>
+<a href="ircs://irc.hackint.org/#ffbseel" class="button primary">IRC</a>
+</center><br/>
+
+ Soziale Medien
+--------------------------------
+Selbstverständlich sind wir auch bei einigen Sozialen *(und auch etwas unsozialeren)* Medien mit dabei. Hier posten wir sehr unregelmäßig Inhalte und bekommen manchmal auch erst sehr verspätet von Direktnachrichten oder Erwähnungen etwas mit.
+
+<center>
+<a href="https://chaos.social/@FFBSee" class="button primary">Mastodon</a>
+<a href="https://twitter.com/@FFBSee" class="button primary">Twitter</a>
+<a href="https://www.facebook.com/freifunk.bodensee/" class="button primary">Facebook</a>
+</center><br/>
+
+ Forum
+---------------
+Es gibt ein großes Freifunk Forum. Auch dort sind wir mit vertreten:
+
+<center><a href="https://forum.freifunk.net/c/community/freifunk-bodensee" class="button primary">Freifunk Forum</a></center><br/>
+
+Quellcode
+-----------------
+Sowohl unsere Firmware, als auch das Setup unserer Gateways gibt es öffentlich einsehbar auf verschiedenen Platformen:
+
+<center>
+<a href="https://github.com/ffbsee" class="button primary">Github</a>
+<a href="https://gitea.see-base.de/ffbsee" class="button primary">Github Mirror</a>
+</center><br/>
