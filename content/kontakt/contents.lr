@@ -65,3 +65,14 @@ Sowohl unsere Firmware, als auch das Setup unserer Gateways gibt es öffentlich 
 <a href="https://github.com/ffbsee" class="button primary">Github</a>
 <a href="https://gitea.see-base.de/ffbsee" class="button primary">Github Mirror</a>
 </center><br/>
+
+ Freifunk Nodes
+-----------------------
+Bei den Routern im Freifunk Bodensee Netz, gibt es eine große Zahl an freiwilliger Angaben. Diese werden u.a. im Meshviewer und ind er Nodelist dargestellt:
+Außerdem gibt es ein Grafana mit vielen bunten Graphen zu den Freifunk Routern:
+
+<center>
+<a href="https://meta.ffbsee.net/mehsviewer" class="button primary">Meshviewer</a>
+<a href="https://meta.ffbsee.net/FFNodeList" class="button primary">Nodelist</a>
+<a href="https://s.ffbsee.de" class="button primary">Grafana</a>
+</center><br/>

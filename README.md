@@ -11,6 +11,6 @@ Als CMS kommt hier [Lektor](https://getlektor.com) zum Einsatz.
 
  Design:
 ----------
-Design based on [pixelarity.com](https://pixelarity.com/hyperbolic/)
+Design based on [pixelarity.com](https://pixelarity.com/?ref=9477955687)
 
 
