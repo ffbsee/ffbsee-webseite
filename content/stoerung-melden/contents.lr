@@ -1,0 +1,44 @@
+_model: page
+---
+title: Störung melden
+---
+body:
+
+Wenn du glaubst, dass etwas am Freifunk Netz nicht ganz richtig läuft oder du glaubst, dass dein Freifunk Router nicht ganz so funktioniert, wie er sollte, wäre es cool wenn du uns das sagen könntest.
+
+ Kontaktmöglichkeiten:
+=================================
+**E-Mail:** [stoerung@freifunk-bodensee.net](mailto:stoerung@freifunk-bodensee.net).<br/>
+**Telefon:** [+49 (0) 7544 - 96 67 222](tel:+4975449667222).<br/>
+**Mailingliste:** [freifunk-bodensee@list.ffbsee.de](mailto:freifunk-bodensee@list.ffbsee.de):
+
+Bitte beschreibe dein Problem möglichst genau. Mit einer kurzen Nachricht in der nur "Es geht nicht" steht, können wir leider nicht viel anfangen.
+
+ Folgende Daten können uns bei der Problemanalyse helfen:
+------------------------
++ Was ist kaputt?
++ Wann ist es dir aufgefallen?
++ Wie können wir den Fehler nachvollziehen?
++ Wie lautet der Name und die MAC Adresse deines Freifunk Routers?
++ Was für einen Freifunk Router verwendest du? *(Hardware Version, Versionsnummer der Firmware, ...)*
++ Ist dein Freifunk Router mit dem Internet verbunden?
+ - In welchen Port steckt welches Kabel?
+ - Was hast du für ein Internet Anbieter *(zB. TeleData, Telekom, Vodaphone, NeckarCom, TK-Lindau, Stadtwerke Konstanz...)*
++ Wenn es das Problem besser Beschreibt, schick doch ein Foto deines Routers oder ein Screenshot deiner Konfiguration mit.
+
+Wir hoffen, dass wir das Problem nachvollziehen können und dann auch relativ schnell beheben können.
+
+<hr/>
+
+Wenn du technisch etwas Erfahrung hast, dann findest du  den Fehler vielleicht selber. Die zwei großen Anlaufstellen hier wäre einerseits die Freifunk Firmware oder die Configuration des Freifunk Netzes.
+Von beiden ist der Quellcode öffentlich auf GitHub einsehbar und wir würden uns gewaltig über konstruktive Beiträge oder womöglich sogar eigenen Code von dir freuen, der Freifunk vorran bringt:
+
+<center>
+<a href="https://github.com/ffbsee/ansible" class="button primary">Configuration der Freifunk Server</a>
+<a href="https://github.com/ffbsee/firmware" class="button primary">Freifunk Bodensee Firmware</a>
+</center><br/>
+
+
+Wenn du Fragen hast, wie unsere Firmware oder die Configuration der Gateways funktioniert, darfst du uns gerne Ansprechen und wenn wir etwas Zeit haben, erklären wir dir das gerne!
+---
+subtitle: Sag bescheid, wenn dir etwas auffällt!
