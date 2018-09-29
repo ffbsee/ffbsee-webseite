@@ -1,24 +1,24 @@
 {% macro render_help_post(post, from_index=false) %}
-  <div class="blog-post">
-  {% if from_index %}
-    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
-    {{ post.subtitle }}
-  {% else %}
-     <header class="major special">
-         <h1>{{ post.title }}</h1>{%
-         if post.subtitle %}{{ post.subtitle }}{%
-         endif %}
-      </header>
-      <center>{% endif %}<p class="meta">
-    Verfasst von {% if post.twitter_handle 
-    %}<a href="https://chaos.social/@{{ post.twitter_handle
-        }}">{{ post.author or post.twitter_handle }}</a>{% else 
-    %}{{ post.author }}{% endif 
-    %}{% if post.pub_date %} am {{ post.pub_date.strftime('%d.%m.%Y') }}{% endif %}</p>{%
-    if not from_index %}</center>
-  {{ post.content }}
-  {% else %}
-  {{ post.body }}
-  {%endif %}
-  </div>
+{% if from_index %}
+        <!-- Section -->
+            <section>
+                <div class="image"><a href="{{ post|url }}"><img src="{% if post.preview %}{{ post.preview|url }}{% else %}/images/fragen.png{% endif %}" alt="" /></a></div>
+                <div class="content">
+                    <header class="major">
+                        <h3><a href="{{ post|url }}">{{ post.title }}</a></h3>
+                    </header>
+                    {{ post.body }}
+                </div>
+            </section>
+{% else %}
+    <div class="blog-post">
+        <header class="major special">
+            <h1>{{ post.title }}</h1>{%
+            if post.subtitle %}{{ post.subtitle }}{%
+            endif %}
+        </header>
+        {{ post.content }}
+        {% if post.code %}{{ post.code }}{% endif %}
+        {% if post.content2 %}{{ post.content2 }}{% endif %}
+    </div>{% endif %}
 {% endmacro %}

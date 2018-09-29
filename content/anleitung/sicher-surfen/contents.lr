@@ -1,0 +1,38 @@
+relevanz: 42
+---
+body:
+
+Freifunk ist ein WLAN ohne Verschlüsselung. 
+Hier erfährst du, wieso das nicht total gefährlich ist und du das trotzdem verwenden kannst.
+---
+subtitle: Ist ein offenes WLAN überhaupt sicher?
+---
+title: Sicher surfen
+---
+content:
+
+Ein Freifunk Router stellt ein offenes WLAN ohne Verschlüsselung zur Verfügung. 
+
+Ind diesem Video erfahrt ihr, wieso das kein Problem ist.
+---
+code:
+
+<center>
+<video poster="/anleitung/sicher-surfen/sichersurfen.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/Sicher-surfen.mp4" type="video/mp4">
+        <source src="/video/Sicher-surfen.ogv" type="video/ogg">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Heinrich Böll Stiftung</i></p>
+</center>
+---
+preview: /anleitung/sicher-surfen/preview.jpg
+---
+content2:
+
+Link zum empfolenen Plugin:
+<a href="https://www.eff.org/https-everywhere" class="button special">HTTPS Everywhere</a>
+
+Das Video kommt aus dem Jahr 2015. Heutzutage leiten die meisten Webseiten automatisch auf HTTPS weiter und Verschlüsseln damit die Verbindung zwischen eurem Handy/Laptop und dem Server, der die Webseite hostet. Dabei ist es egal, ob euer Computer über ein WLAN mit total komplizierten Passwort oder über Freifunk geht.
