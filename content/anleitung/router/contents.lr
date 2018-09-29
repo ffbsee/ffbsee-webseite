@@ -53,7 +53,7 @@ Videos schauen auf mittlerer bis hoher Qualität
 ```
 <a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a>
 <a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware Informationen</a>
-<a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a>
 
 
 TP-Link WDR 4300 und WDR 3600
@@ -69,7 +69,7 @@ Videos schauen auf mittlerer Qualität.
 ```
 <a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware Informationen WDR 4300</a>
 <a href="https://openwrt.org/toh/tp-link/tl-wdr3600" class="button">Hardware Informationen WDR 3600</a>
-<a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a>
 
 
 TP-Link WDR 1043ND
@@ -86,7 +86,7 @@ Videos schauen auf niedriger bis mittlerer Qualität.
 ```
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a>
 <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware Informationen</a>
-<a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a>
 
 Ubiquity Nanostation
 --------------
@@ -103,7 +103,7 @@ Videos schauen auf niedriger bis mittlerer Qualität.
 ```
 <a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a>
 <a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware Informationen</a>
-<a href="https://software.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a>
 
 
 
@@ -139,4 +139,26 @@ mehrfach gleichzeitig Videos schauen auf sehr guter Qualität.
 
 Auch mit nicht so teurer Hardware lässt sich Freifunk machen. Allerdings darf man dann nicht erwarten, ein Freifunk mit großer Bandbreite zu haben.
 Das WLAN eignet sich meist nur noch um emails zu schreiben oder Textnachrichten zu senden. Videos anschauen oder Bilder teilen ist oft mit höheren Wartezeiten verbunden oder die Bandbreite reicht gar nicht mehr aus.
+
+TP-Link CPE210 / CPE510
+--------------
+```
+KEINE KAUFEMPFEHLUNG
+
+Der TP-Link CPE ist einer der günstigsten Freifunk Router.
+Leider sendet er nur je nach Hardware auf einem Frequenzband, aber das ist ja schon mal etwas.
+Der CPE 210 sendet auf 2.4 GHz, der CPE 510 auf 5 GHz.
+Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
+Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und 
+seiner hohen Störanfälligkeit gerne als Briefbeschwerer.
+
+Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive 
+E-Mails schreiben und Textnachrichten senden. Videos und Bilder
+in niedriger Qualität haben meistens eine relativ lange Ladezeit.
+```
+<a href="https://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html" class="button">Preisvergleich CPE210</a>
+<a href="https://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html" class="button">Preisvergleich CPE510</a>
+<a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware Informationen CPE210</a>
+<a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware Informationen CPE510</a>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a>
 
