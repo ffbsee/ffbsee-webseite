@@ -42,7 +42,7 @@ Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" cla
  Arcer C7
 --------------
 ```
-Der Archer C7 ist einer der aktuell besten Freifunk Router.
+Der Archer C7 ist einer der aktuell besten einfach einzurichtenden Freifunk Router.
 Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
 Unterstützt werden nur die Modelle v2 und v4.
 Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
@@ -88,9 +88,55 @@ Videos schauen auf niedriger bis mittlerer Qualität.
 <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware Informationen</a>
 <a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a>
 
+Ubiquity Nanostation
+--------------
+```
+Die Ubiquity Nanostation eignet sich auch als mittelwertiger Freifunk Router.
+Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
+Leider sendet er nur auf jeweil 2.4 GHz oder 5GHz je nach Hardwaremodell, aber das ist ja schon mal etwas.
+Das Modell Nanostation M2 sendet auf 2.4 GHz, das Modell Nanostation M5 auf 5GHz.
+Leider ist der Router mit 40€-80€ immer noch relativ teuer,
+er eignet sich aber dafür auch bei der richtigen Konfiguration für Richtfunkverbindungen.
+
+Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Videos schauen auf niedriger bis mittlerer Qualität.
+```
+<a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a>
+<a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware Informationen</a>
+<a href="https://software.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a>
+
 
 
 <br/><br/><br/>
 <h2 id="komplex">Komplexe aber gute Freifunk Installation<h2>
 <h4>Recht kompliziert, dafür aber sehr gut!</h4>
+
+Freifunk Offloader
+--------------
+```
+Ein Freifunk Offloader ist ein kleiner Computer mit deutlich besseren Resourcen
+als ein Freifunk Router, der die Verbindung zu den Freifunk Gateways herstellt.
+Damit lässt sich eine deutlich bessere Verbindung ins Freifunk Netz erzielen,
+mit einer Bandbreite von meistens 80MBit bis 120MBit.
+
+Beliebte Hardware für einen Offloader ist eine Siemens Futro S550.
+Diese gibt es Gebraucht für 5€-20€ zu kaufen.
+
+Mit einem Offloader empfielt es sich sich auch professionelle Freifunk Installationen
+wie Richtfunk Installationen oder geößere WLAN Abdeckungen zu realisieren.
+
+Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+mehrfach gleichzeitig Videos schauen auf sehr guter Qualität.
+```
+<a href="https://www.ebay.de/sch/i.html?_nkw=futro+s550" class="button">Preisvergleich</a>
+<a href="https://ffmuc.net/wiki/p/VPN_Offloader#Offloader_mit_Siemens_Futro_S550" class="button primary">Freifunk Offloader</a>
+<a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a>
+
+
+<br/><br/><br/>
+<h2 id="schrott">Günstigere Hardware für langsames Freifunk<h2>
+<h4>Es funktioniert auch, ist aber sehr langsam!</h4>
+
+Auch mit nicht so teurer Hardware lässt sich Freifunk machen. Allerdings darf man dann nicht erwarten, ein Freifunk mit großer Bandbreite zu haben.
+Das WLAN eignet sich meist nur noch um emails zu schreiben oder Textnachrichten zu senden. Videos anschauen oder Bilder teilen ist oft mit höheren Wartezeiten verbunden oder die Bandbreite reicht gar nicht mehr aus.
 
