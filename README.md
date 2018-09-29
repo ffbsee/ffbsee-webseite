@@ -2,7 +2,7 @@
 
  Freifunk Bodensee - Webseite
 ============================
-
+[![Build Status](https://travis-ci.org/ffbsee/webseite.svg?branch=master)](https://travis-ci.org/ffbsee/webseite)
 Die Webseite der Freifunk Community [Freifunk Bodensee](https://ffbsee.net).
 
  CMS:
