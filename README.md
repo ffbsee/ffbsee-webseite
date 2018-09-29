@@ -1,8 +1,8 @@
+[![Build Status](https://travis-ci.org/ffbsee/webseite.svg?branch=master)](https://travis-ci.org/ffbsee/webseite)
 ![Freifunk Bodensee](https://freifunk-bodensee.net/lib/tpl/dokuwiki-template/images/logo.svg "FFBSee")
 
  Freifunk Bodensee - Webseite
 ============================
-[![Build Status](https://travis-ci.org/ffbsee/webseite.svg?branch=master)](https://travis-ci.org/ffbsee/webseite)
 Die Webseite der Freifunk Community [Freifunk Bodensee](https://ffbsee.net).
 
  CMS:
