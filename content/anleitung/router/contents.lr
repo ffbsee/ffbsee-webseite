@@ -1,0 +1,96 @@
+title: Welcher Freifunk Router?
+---
+preview: /images/mitmachen.png
+---
+relevanz: 42
+---
+subtitle: Welchen Router brauche ich?
+---
+body:
+
+Es gibt viele Geräte, die ein WLAN machen können.
+Einige sind auch mit Freifunk kompatibel.
+
+Hier erfährst du, welche Router wir empfehlen und welche Router eher weniger Spaß machen.
+---
+code:
+
+<center>
+<a href="#teuer" class="button primary">Schnell aber teuer</a><br/><br/>
+<a href="#komplex" class="button primary">Schnell und günstig, aber technisch aufwendig</a><br/><br/>
+<a href="#schrott" class="button">Sehr langsam, aber imerhin günstig</a>
+</center>
+<br/><br/>
+---
+content:
+
+Unsere Freifunk [Firmware](https://github.com/ffbsee/firmware) funktioniert mit einer angepassten Version von [OpenWRT](https://openwrt.org).
+
+Wer einen mit Freifunk kompatibeln Router haben möchte, muss sich zwischen drei Optionen Entscheiden:
+---
+content2:
+
+ Wichtig:
+===============
+Bei den Freifunk Routern ist die genaue Hardware-Version sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht Selbstverständlic, dass wenn ein Router mit dem Hardwaremodell v4.2 funktioniert, dass auch das Modell v4.3 oder v5 auch funktioniert.
+
+Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router flashen</a>
+
+<h2 id="teuer">Gute Freifunk Router<h2>
+<h4>Leider etwas teuer</h4>
+
+ Arcer C7
+--------------
+```
+Der Archer C7 ist einer der aktuell besten Freifunk Router.
+Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
+Unterstützt werden nur die Modelle v2 und v4.
+Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
+Leider ist der Router mit 70€-100€ relativ teuer.
+
+Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Videos schauen auf mittlerer bis hoher Qualität
+```
+<a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a>
+<a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware Informationen</a>
+<a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a>
+
+
+TP-Link WDR 4300 und WDR 3600
+--------------
+```
+Der TP-Link WDR 4300 und der WDR 3600 war ein sehr guten Modell für Freifunk
+Als der Router noch Hergestellt wurde, hatte er ~25€ gekostet.
+Er ist einer der ersten Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
+Leider ist der Router nicht mehr zu Kaufen und taucht auf dem Gebrauchtmarkt meistens für über 100€ auf.
+
+Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Videos schauen auf mittlerer Qualität.
+```
+<a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware Informationen WDR 4300</a>
+<a href="https://openwrt.org/toh/tp-link/tl-wdr3600" class="button">Hardware Informationen WDR 3600</a>
+<a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a>
+
+
+TP-Link WDR 1043ND
+--------------
+```
+Der TP-Link WDR 1043 ist auch noch einer der besseren Freifunk Router.
+Leider sendet er nur auf dem 2.4 GHz Band, aber das ist ja schon mal etwas.
+Unterstützt werden nur die Modelle v2 bis v5.
+Die Version v1 ist zu schwach und hat sich leider als nicht kompatibel herausgestellt.
+Leider ist der Router mit 40€-80€ immer noch relativ teuer.
+
+Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Videos schauen auf niedriger bis mittlerer Qualität.
+```
+<a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a>
+<a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware Informationen</a>
+<a href="https://software.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a>
+
+
+
+<br/><br/><br/>
+<h2 id="komplex">Komplexe aber gute Freifunk Installation<h2>
+<h4>Recht kompliziert, dafür aber sehr gut!</h4>
+
