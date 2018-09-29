@@ -30,4 +30,12 @@ text:
 Der erste Schritt ist, selber einen Freifunk Router aufzustellen. Hierfür findest du eine Anleitung auf unserer Webseite. Weiter geht es damit, anderen Menschen von Freifunk zu erzählen und beim Aufstellen von Freifunk Routern zu helfen.
 
 Wenn du Lust hast, bei der Firmware mit zu helfen, dann schau doch mal auf GitHub vorbei. 
-Melde dich doch mal auf der Mailingliste und komm bei einem Treffen vorbei. Außerdem schau mal bei der Seite [Unterstützung](/helfen) vorbei.
+Melde dich doch mal auf der [Mailingliste](/kontakt) und komm bei [einem Treffen](/kalender) vorbei. Außerdem schau mal bei der Seite [Unterstützung](/helfen) vorbei.
+#### faq ####
+ask: Ist mein Router mit Freifunk Kompatibel?
+----
+text:
+
+Unsere Freifunk Firmware basiert auf [OpenWRT](https://openwrt.org). Wenn es also möglich ist, OpenWRT auf deinen Router zu flashen, lässt sich meistens auch eine Freifunk Firmware bauen.
+
+Doch wenn dein Router sehr wenig Resourcen wie nur wenige MB Flash und RAM hat, könnte es für Freifunk nicht ausreichen. Du kannst auf der [Firmware](https://github.com/ffbsee/firmware) Github Seite selber dein Glück probieren. Oder du meldest dich auf der [Mailingliste](/kontakt).
