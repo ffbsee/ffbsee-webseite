@@ -1,0 +1,54 @@
+_model: page
+---
+title: Unterstützung
+---
+body:
+
+Freifunk Bodensee ist eine Initiative für Freies WLAN und unzensierten Internetzugang. Wir betreiben die Freifunk Infrastruktur in unserer Freizeit, wel wir von dem Gedanken des freien Internetzugangs für jeden überzeugt sind.
+
+Wenn du die Idee auch gut findest, würden wir uns sehr über deine Unterstützung freuen!
+
+
+ Was kann ich machen?
+============================
+<center>
+<a href="#share" class="button primary">Erzähle anderen von Freifunk</a><br/><br/>
+<a href="#help" class="button primary">Hilf  anderen beim Router aufbauen</a><br/><br/>
+<a href="#code" class="button primary">Beteilige dich bei der Freifunk Firmware</a><br/><br/>
+<a href="#give" class="button primary">Spenden</a><br/>
+</center><br/>
+
+<h3 id="share">Erzähle anderen von Freifunk</h3>
+
+Viele Menschen kennen Freifunk nicht und wissen daher auch nicht, wie einfach es sein kann ein offenes WLAN für jeden anzubieten.
+
+Erzähle anderen Menschen von Freifunk und ermuntere Sie, auch einen Freifunk Router aufzubauen. Es wäre echt schön, wenn man irgendwann überall einen offenen Internetzugang hat, auch wenn man gerade kein LTE empfängt oder sein Datenvolumen schon wieder aufgebraucht ist.
+
+Auf [GitHub](https://github.com/ffbsee/Grafik) gibt es Vorlagen für Aufkleber und Flyer. Wir haben aber auch eine große Zahl an Flyern und Aufklebern fertig gedruckt, die wir gerne mit dir teilen können.
+
+<h3 id="help">Helfe anderen beim Freifunker werden</h3>
+
+Nachdem Menschen von Freifunk erfahren haben, geht es darum auch mit zu machen und seinen ersten Freifunk Router aufzubauen. Hierfür gibt es zwar auf unserer Webseite viele Hilfen und Anleitungen, aber am besten Versteht man das, wenn man beim Router flashen nicht alleine ist.
+
+Wir würden uns riesig darüber freuen, wenn du anderen Menschen dabei hilfst ihren passenden Freifunk Router zu finden und diesen mit der richtigen Firmware auszustatten. 
+
+Gerne helfen wir auch bei Freifunk Treffen bei Fragen und Problemen weiter oder geben Tipps über die Mailingliste und im IRC.
+
+<h3 id="code">Entwickle an der Freifunk Bodensee Firmware</h3>
+
+ Die Freifunk Firmware liegt auf [GitHub](https://github.com/ffbsee/firmware) und kann von jedem verbessert, modifiziert und nachgebaut werden. Die Erfahrung zeigt aber, das kaum jemand sich dort an der Firmware entwicklung beteiligt. Die Freifunk Bodensee Firmware basiert auf [OpenWRT](https://openwrt.org) und wird von uns angepasst, um mit euren Router Freifunk zu machen.
+
+Hier gilt es die aktuelle Entwicklung an OpenWRT im Auge zu behalten um weiter mit neuer Hardware kompatibel zu sein und  mögliche Sicherheitslücken zeitnah zu schließen. Außerdem entwickeln sich die von Freifunk verwendeten Pakete weiter und auch hier muss sichergestellt werden, dass diese weiterhin mit unserer Firmware kompatibel sind.
+
+Auch die Wünsche und Anforderungen, die Menschen an die Firmware haben, entwickeln sich laufend weiter und sollten umgesetzt werden. Das ist für ein Projekt, das man in seiner Freizeit betreibt relativ viel Arbeit und wir freuen uns über jeden, der sich hier beteiligen will.
+
+<h3 id="give">Spenden</h3>
+
+Wenn du Freifunk selber verwendest, hast du vielleicht auch Lust, dich an den Kosten zu Beteiligen oder ein kleines Dankeschön zu spenden.
+Die größten Kosten die regelmäßig bei Freifunk Bodensee entstehen ist das Betreiben der Freifunk Gateways. Vielleicht wärst du ja Bereit die Finanzierung oder ein Teil der Finanzierung für einen unserer Server zu übernehmen. Oder du hast einen schnellen Internetanschluss und ein gutes Konzept zum bearbeiten von Abuse Anfragen und bist Bereit, einen Freifunk Gateway bei dir zu Betreiben und den Traffic direkt auszuleiten.
+
+wir freuen uns natürlich auch über Hardwarespenden. So bieten sich zum Beispiel das Spenden von Freifunk Routern an, die dann an Interessierten Freifunk-Einsteigern gegeben werden um mehr Freifunk zu machen.
+
+Zum Spenden mit Spendenbescheinigung bieten sich die Vereine [Freifunk 3Ländereck](https://ff3l.net) und die [Toolbox Bodensee e.V.](https://toolbox-bodensee.de) an. Freifunk 3-Ländereck Unterstützt uns bei der rechtlichen Situation beim Mieten der Freifunk Gateways, da die als Internet-Service-Provider bei der Bundesnetzagentur registriert sind. Die Toolbox ermöglicht uns, in Ihrem Vereinsheim unsere Treffen abzuhalten und hilft technisch Interessierten Menschen auch gerne bei Fragen zu Freifunk weiter.
+---
+subtitle: Was kann ich zu Freifunk beitragen?
