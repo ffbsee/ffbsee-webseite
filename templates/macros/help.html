@@ -1,0 +1,24 @@
+{% macro render_help_post(post, from_index=false) %}
+  <div class="blog-post">
+  {% if from_index %}
+    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+    {{ post.subtitle }}
+  {% else %}
+     <header class="major special">
+         <h1>{{ post.title }}</h1>{%
+         if post.subtitle %}{{ post.subtitle }}{%
+         endif %}
+      </header>
+      <center>{% endif %}<p class="meta">
+    Verfasst von {% if post.twitter_handle 
+    %}<a href="https://chaos.social/@{{ post.twitter_handle
+        }}">{{ post.author or post.twitter_handle }}</a>{% else 
+    %}{{ post.author }}{% endif 
+    %}{% if post.pub_date %} am {{ post.pub_date.strftime('%d.%m.%Y') }}{% endif %}</p>{%
+    if not from_index %}</center>
+  {{ post.content }}
+  {% else %}
+  {{ post.body }}
+  {%endif %}
+  </div>
+{% endmacro %}

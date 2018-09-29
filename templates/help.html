@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% from "macros/help.html" import render_help_post %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+        <!-- Section -->
+	    <section class="wrapper style1">
+            <div class="inner">
+                <header class="major special">
+                    <h1>{{ this.title }}</h1>
+                    {{ this.subtitle }}
+                </header>{%
+                for child in this.pagination.items %}
+                    {{ render_help_post(child, from_index=true) }}
+                {% endfor %}
+              </div>
+        </section>
+
+{% endblock %}
