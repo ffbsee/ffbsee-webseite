@@ -1,0 +1,33 @@
+_model: faq
+---
+title: Fragen
+---
+subtitle: Hier findest du einige Antworten
+---
+table:
+
+#### faq ####
+ask: Welchen Freifunk Router empfielt ihr?
+----
+text:
+
+Um ein Freifunk Netz zu haben, dass sich nicht nur zum Versenden von E-Mails und Textbasierten Nachrichten eignet, sondern auch für Bilder, Videos und größeren Datenmengen geeignet ist, solltest du nicht den billigsten Router nehmen, sondern die stärkere, dafür aber leider auch teurere Hardware.
+
+Eine aktuelle Auswahl findest du im Bereich Anleitungen.
+#### faq ####
+ask: Wo finde ich die Firmware?
+----
+text:
+
+Die Firmware für die Router gibt es auf <a href="https://firmware.ffbsee.de/" class="button">firmware.ffbsee.de</a>.
+
+Eine Liste mit allen verfügbaren Images gibt es auf [firmware.ffbsee.de/firmware](https://firmware.ffbsee.de/firmware). Den Quellcode der Firmware gibt es auf [GitHub](https://github.com/ffbsee/firmware). Hier könnt ihr eure Firmware auch direkt aus dem Quelltext compilieren. Eine Anleitung dazu steht dort.
+#### faq ####
+ask: Wie kann ich mitmachen?
+----
+text:
+
+Der erste Schritt ist, selber einen Freifunk Router aufzustellen. Hierfür findest du eine Anleitung auf unserer Webseite. Weiter geht es damit, anderen Menschen von Freifunk zu erzählen und beim Aufstellen von Freifunk Routern zu helfen.
+
+Wenn du Lust hast, bei der Firmware mit zu helfen, dann schau doch mal auf GitHub vorbei. 
+Melde dich doch mal auf der Mailingliste und komm bei einem Treffen vorbei. Außerdem schau mal bei der Seite [Unterstützung](/helfen) vorbei.

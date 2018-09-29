@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+        <!-- Section -->
+	    <section class="wrapper style1">
+          <div class="inner">
+            <header class="major special">
+              <h1>{{ this.title }}</h1>
+              {{ this.subtitle }}
+            </header>
+            {{ this.body }}
+            {% if this.table %}
+              <div class="table-wrapper">
+                <table><tbody>
+                    {{ this.table }}
+                  </tfoot>
+                </table>
+              </div>
+            {% endif %}
+          </div>
+        </section>
+
+{% endblock %}
