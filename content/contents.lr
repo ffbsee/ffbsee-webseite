@@ -26,7 +26,7 @@ body2: Mach mit und werde Freifunker
 ---
 body2img: /images/mitmachen.png
 ---
-body2l: #first
+body2l: /anleitung/router/
 ---
 body2m: Auf unserer Webseite finest du ausführliche Anleitungen, die dir helfen, deinen ersten Freifunk Router aufzustellen.
 ---
@@ -72,11 +72,11 @@ unten: Lisa erklärt Freifunk
 ---
 untenm: In 87 Sekunden erklärt Lisa in diesem Video, was Freifunk ist und wie es funktioniert.
 ---
-untenl: #
+untenl: /anleitung/
 ---
 untent: Wie Freifunk Funktioniert
 ---
-main1l: https://firmware.ffbsee.de/
+main1l: https://firmware.ffbsee.de/fw-wizard/
 ---
 main1t: Firmware Download
 ---
