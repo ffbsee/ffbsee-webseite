@@ -2,8 +2,94 @@ title: Router flashen mit einem TFTP Server
 ---
 body: Hier erfährst du, wie du einen Router mit Hilfe eines TFTP Servers zu einen Freifunk Router flashen kannst.
 ---
-subtitle: 
+subtitle: Router Flashen, aber ohne Webbrowser
 ---
 preview: /anleitung/tftp/easy.jpg
 ---
 relevanz: 23
+---
+code:
+
+<center>
+<video poster="/anleitung/tftp/video.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/tftp.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="https://www.youtube.com/watch?v=4K_yL4RlL7c" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Florian "adlerweb" Knodt</i></p>
+</center>
+---
+content:
+
+Es gibt zwei Methoden einen Router mit der Freifunk Firmware auszustatten: Über den Firmware Aktualisieren Bereich im Webmenü des Routers oder mit Hilfe eines TFTP Servers. Einige Router verhindern auch das Flashen über die Weboberfläche und da ist die Variante mit dem TFTP Server die einzig verbleibende Möglichkeit. 
+
+ Vorbereitung:
+-------------------
+Der Computer muss auf die Feste IPv4 Adresse ``192.168.0.66/24`` eingestellt werden, von der er beim Booten im Recoverymodus versucht eine Firmware herunter zu laden.
+Dies ist folgende Adresse:
+```
+IPv4 Adresse: 192.168.0.66
+Subnetzmaske: 255.255.255.0 
+```
+Außerdem sollte man einen kleinen Switch parat haben, an dem man nur seinen Computer und den Router ansteckt, der Freifunk bekommen soll.
+
+ TFTP Server unter Windows:
+------------------------
+
+Sofern man auf seinem Windows PC noch keinen TFTP-Server hat, muss einer installiert werden.
+
+Ein möglicher TFTP Server ist das Programm [openTFTP](https://sourceforge.net/projects/tftp-server/).
+
+Nach Installation findet sich ein Verzeichnis ``C:\OpenTFTPServer``. In diesem Verzeichnis ist eine Datei OpenTFTPServerMT.ini. In dieser Datei muss nun die IP-Adresse eingetragen werden, auf der der Server nachsieht, ob ein Router anfrägt. Für die meisten Router ist dies 192.168.0.66.
+
+In der Datei OpenTFTPServerMT.ini wird daher im Abschnitt LISTEN-ON die Zeile
+```
+192.168.0.66
+```
+ergänzt.
+
+Die Firmware Dateien müssen nun in das Verzeichnis ``C:\OpenTFTPServer\`` unter dem korrekten Namen kopiert werden.
+Es wird die Firmware für die Erstinstallation (``FACTORY``) benötigt. Diese findet man im [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard/).
+
+Starte per Doppelklick RunStandAloneMT.bat
+
+Wenn man nun alles richtig gemacht hat, öffnet sich eine Dos-Box und in der letzte Zeile steht
+```
+Listening On: 192.168.0.66:69
+```
+Kommt eine Meldung des Inhalts bind fail, so wurde möglicherweise ein Fehler beim Eintragen der statischen IP-Adresse gemacht. 
+
+Den Router von einer gelben Buchse per LAN-Kabel an einen kleinen Switch anschließen. Der PC sollte ebenfalls dort angeschlossen sein. 
+
+Den Reset-Knopf am Router festhalten. Bei festgehaltenem Reset-Knopf den Router einschalten. Den Reset-Knopf so lange festhalten, bis nur noch die Schloss-LED (bzw. bei v8 ggf. die Zahnrad-LED) leuchtet. Den Reset-Knopf noch einige Sekunden länger festhalten, danach kann dieser losgelassen werden.
+
+Auf dem Computer in der Dos Box beim OpenTFTP Server sollte nun stehen, welchen Namen die Firmware haben sollte. Die Firmware Datei dementsprechend umbenennen und wieder mit gedrückter Reset Taste den Router Neu starten.
+
+In der DOS Box kann man den Fortschritt beim kopieren der Firmware Datei beobachten. Wenn der Vorgang abgeschlossen ist, sollte der Router nach ein paar Minuten wieder Neu starten und wieder für Freifunk bereit stehen.
+
+Am Ende sollte nicht vergessen werden, die IP Adresse des Computer wieder auf DHCP zu stellen.
+
+Das ganze gibt es hier auch als Video Anleitung:
+-------------------------------------------------------- 
+---
+content2:
+
+ TFTP Server unter Linux
+------------
+
+Auch unter Linux gibt es mehrere TFTP Server. Zum Beispiel den [tftpd-hps](https://help.ubuntu.com/community/TFTP).
+Dieser kann meistens mit dem Packetmanager deiner Distribution installiert werden und mit dem Systemd Befel gestartet werden:
+```
+sudo systemctl start tftpd
+systemctl status tftpd
+```
+Mit dem Status Befehl kann das Verzeichnis für die Firmware Images ermittelt werden.
+Natürlich braucht auch der Linux Computer die IP Adresse ```192.168.0.66/24`` .
+
+Leider hat man keine so übersichtlichen Log, das man weiß welchen Namen die Images haben sollten. Hierfür muss man dann eben im OpenWRT Wiki nachschauen.
+
+ Weitere Informationen zu den Geräten:
+-----------------
+
+Die genauen Angaben wie die IP Adresse oder der Name der Firmware findet man im OpenWRT wiki: <a href="https://openwrt.org/toh/start" class="button primary">OpenWRT Wiki</a>
