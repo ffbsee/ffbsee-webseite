@@ -151,6 +151,8 @@ Der CPE 210 sendet auf 2.4 GHz, der CPE 510 auf 5 GHz.
 Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
 Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und 
 seiner hohen Störanfälligkeit gerne als Briefbeschwerer.
+Mit Freifunk ist nur der Version v1.x kompatibel.
+Die Kosten für den Router liegen bei 25€-50€.
 
 Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive 
 E-Mails schreiben und Textnachrichten senden. Videos und Bilder
@@ -161,4 +163,25 @@ in niedriger Qualität haben meistens eine relativ lange Ladezeit.
 <a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware Informationen CPE210</a>
 <a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware Informationen CPE510</a>
 <a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a>
+
+TP-Link WR841N
+--------------
+```
+KEINE KAUFEMPFEHLUNG
+ACHTUNG v14 IST NICHT KOMPATIBEL
+
+Der TP-Link WR841N ist einer der günstigsten Freifunk Router.
+Leider sendet er sein WLAN nur auf 2.4 GHz,.
+Durch seine extrem schwache Hardware raten wir vom Kauf dieses Modells ab. 
+Am besten eignet sich sonst noch das Modell v13. Das Modell v14 ist leider nicht mehr kompatibel.
+
+Achtung, die Sortierung der Router Modelle im Firmware Wizard kann verwirrend sein.
+
+Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive 
+E-Mails schreiben und Textnachrichten senden. Videos und Bilder
+in niedriger Qualität haben meistens eine relativ lange Ladezeit.
+```
+<a href="https://www.heise.de/preisvergleich/tp-link-tl-wr841n-a340658.html" class="button">Preisvergleich</a>
+<a href="https://openwrt.org/toh/tp-link/tl-wr841nd" class="button">Hardware Informationen</a>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR841N%2FND%E2%81%A3" class="button primary">Firmware</a>
 
