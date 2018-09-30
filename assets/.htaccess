@@ -1,0 +1,17 @@
+### Don't allow access to git directories
+<IfModule alias_module>
+    RedirectMatch 404 /\.git
+</IfModule>
+
+
+RewriteEngine On
+RewriteRule ^index.php/doku.php https://www.freifunk-bodensee.net/index.html [R=301,L]
+RewriteRule ^index.php/home/doku.php https://www.freifunk-bodensee.net/index.html [R=301,L]
+RewriteRule ^router https://freifunk-bodensee.net/anleitung/router [R,L,NC]
+RewriteRule ^flashen https://freifunk-bodensee.net/anleitung/flashen [R,L,NC]
+RewriteRule ^news https://freifunk-bodensee.net/feed.xml [R.L.NC]
+
+RewriteRule ^camp https://mailingliste.ffbsee.net/doku.php?id=camp [R,L,NC]
+RewriteRule ^spende https://freifunk-bodensee.net/helfen [R,L,NC]
+
+
