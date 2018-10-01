@@ -1,10 +1,10 @@
-title: Router über die Webobverfläche Flashen
+title: Router über die Weboberfläche flashen
 ---
 preview: /anleitung/web/laptop.jpg
 ---
 body:
 
-Dein Router braucht eine spezielle Firmware um am Freifunk mit zu machen.
+Dein Router braucht eine spezielle Firmware, um am Freifunk teilzunehmen.
 Wie das genau geht, erfährst du hier
 ---
 relevanz: 24
@@ -21,7 +21,7 @@ code:
 ---
 content:
 
-Was du beim Flashender Router alles beachten musst und wo du die passende Firmware findest, erfährst du unter:
+Was du beim Flashen der Router alles beachten musst und wo du die passende Firmware findest, erfährst du unter:
 
 ---
 content2:
@@ -32,7 +32,7 @@ content2:
 <img src="/anleitung/web/hardware.jpg"/>
 </span>
 
-Schließe zuerst den Router mit dem Netzteil (1) an eine Steckdose an. Anschließend verbindest Du den Router mit dem LAN-Kabel (2) mit Deinem Computer über eine der gelben Buchsen.
+Schließe zuerst den Router mit dem Netzteil (1) an eine Steckdose an. Anschließend verbindest du den Router mit dem LAN-Kabel (2) mit deinem Computer über eine der gelben Buchsen.
 
 <span class="image fit">
 <img src="/anleitung/web/port.jpg"/>
@@ -45,11 +45,11 @@ Schließe zuerst den Router mit dem Netzteil (1) an eine Steckdose an. Anschlie�
 <img src="/anleitung/web/version.jpg"/>
 </span>
 
-Wir unterstützten aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
+Wir unterstützten aktuell verschiedene Routermodelle. Zunächst musst du prüfen, welche Firmware du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest du auf der Rückseite deines Geräts.
 
-Die entsprechende Firmware findest Du dann beim [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard).
+Die entsprechende Firmware findest du dann beim [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard).
 
-Schalte nun den Router ein und rufe nach ca. 2 Minuten die Adresse ``http://192.168.0.1`` in Deinem Browser auf. Es erscheint eine Anmeldemaske, die nach Benutzername und Passwort fragt. Hier gibst Du als Benutzername ``admin`` und als Passwort ebenfalls ``admin`` ein.
+Schalte nun den Router ein und rufe nach ca. 2 Minuten die Adresse ``http://192.168.0.1`` in deinem Browser auf. Es erscheint eine Anmeldemaske, die nach Benutzername und Passwort fragt. Hier gibst du als Benutzername ``admin`` und als Passwort ebenfalls ``admin`` ein.
 
 <span class="image fit">
 <img src="/anleitung/web/841.jpg"/>
@@ -61,19 +61,19 @@ Wähle auf der neuen Seite im linken Menü den Eintrag System Tools und anschlie
 <img src="/anleitung/web/flash.jpg"/>
 </span>
 
-Über die Schaltfläche “Browse…” kannst Du nun die Firmware auswählen, die Du eben heruntergeladen hast. Nachdem Du bestätigt hast, dass die Firmware installiert werden soll, startet der Prozess. Trenne ab jetzt auf keinen Fall die Stromversorgung des Routers. Sonst schlägt die Installation fehl.
+Über die Schaltfläche “Browse…” kannst du nun die Firmware auswählen, die du eben heruntergeladen hast. Nachdem du bestätigt hast, dass die Firmware installiert werden soll, startet der Prozess. Trenne ab jetzt auf keinen Fall die Stromversorgung des Routers. Sonst schlägt die Installation fehl.
 
 <span class="image fit">
 <img src="/anleitung/web/upload.jpg"/>
 </span>
 
-Nachdem die Firmware fertig eingespielt ist, startet der Router neu. Dass der Router neu startet, erkennst Du auch am Blinken der Lämpchen an Deinem Router. Zuerst blinken alle Lämpchen wild, dann gehen sie aus.
+Nachdem die Firmware fertig eingespielt ist, startet der Router neu. Dass der Router neu startet, erkennst du auch am Blinken der Lämpchen an deinem Router. Zuerst blinken alle Lämpchen wild, dann gehen sie aus.
 
 <span class="image fit">
 <img src="/anleitung/web/wait.jpg"/>
 </span>
 
-Ziehe nach ein paar Minuten das Ethernet Kabel aus deinem Computer und schließe es erneut an. Du bekommst nun eine neue Adresse die mit "192.168.133" anfängt.
+Ziehe nach ein paar Minuten das Ethernet Kabel aus deinem Computer und schließe es erneut an. du bekommst nun eine neue Adresse die mit "192.168.133" anfängt.
 Du kannst nun über die Adresse ``http://192.169.133.1`` deinen Router konfigurieren und zum Beisppiel einen Namen und Koordinaten geben.
 Ab jetzt ist der Freifunk Router aber einsatzbereit und du kannst ihn über den blauen WAN-Port mit dem Internet Verbinden.
 
