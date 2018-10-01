@@ -32,7 +32,7 @@ content2:
 
  Wichtig:
 ===============
-Bei den Freifunk Routern ist die genaue Hardware-Version sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht Selbstverständlic, dass wenn ein Router mit dem Hardwaremodell v4.2 funktioniert, dass auch das Modell v4.3 oder v5 auch funktioniert.
+Bei den Freifunk Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn ein Router mit Hardwarerevision v4.2 funktioniert, dass auch die Revision v4.3 oder v5 auch funktioniert.
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router flashen</a>
 
