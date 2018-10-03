@@ -56,15 +56,15 @@ mainimg: /images/FFBSee.svg
 ---
 main1: Freifunk Firmware
 ---
-main1m: Du brauchst eine spezielle Freifunk Firmware für deinen Router, um diesen in einen Freifunk Router um zu flashen.
+main1m: Du brauchst eine spezielle Freifunk Firmware für deinen Router, um diesen in einen Freifunk Router zu verwandeln.
 ---
 main2: Meshviewer
 ---
-mainimgt: Router Flashen
+mainimgt: Router flashen
 ---
 mainm:
 
-Freifunk ist eine dezentrales, unabhängiges Bürgernetz mit Zugang zum Internet. Freifunk bedeutet offene, uneingeschränkte und freie digitale Kommunikation. Jeder kann sich kostenlos über WLAN verbinden, ohne Passwort, ohne Registrierung. Jeder darf Freifunk nutzen, mitmachen und Freifunk erweitern. Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke. 
+Freifunk ist ein dezentrales, unabhängiges Bürgernetz mit Zugang zum Internet. Freifunk bedeutet offene, uneingeschränkte und freie digitale Kommunikation. Jeder kann sich kostenlos über WLAN verbinden, ohne Passwort, ohne Registrierung. Jeder darf Freifunk nutzen, mitmachen und Freifunk erweitern. Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke.
 ---
 main2m: Auf dem Meshviewer siehst du alle Freifunk Router, die zu Freifunk Bodensee gehören.
 ---
@@ -74,7 +74,7 @@ untenm: In 87 Sekunden erklärt Lisa in diesem Video, was Freifunk ist und wie e
 ---
 untenl: /anleitung/
 ---
-untent: Wie Freifunk Funktioniert
+untent: Wie Freifunk funktioniert
 ---
 main1l: https://firmware.ffbsee.de/fw-wizard/
 ---

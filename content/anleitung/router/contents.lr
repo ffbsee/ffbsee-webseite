@@ -18,7 +18,7 @@ code:
 <center>
 <a href="#teuer" class="button primary">Schnell aber teuer</a><br/><br/>
 <a href="#komplex" class="button primary">Schnell und günstig, aber technisch aufwendig</a><br/><br/>
-<a href="#schrott" class="button">Sehr langsam, aber imerhin günstig</a>
+<a href="#schrott" class="button">Sehr langsam, aber immerhin günstig</a>
 </center>
 <br/><br/>
 ---
@@ -26,29 +26,29 @@ content:
 
 Unsere Freifunk [Firmware](https://github.com/ffbsee/firmware) funktioniert mit einer angepassten Version von [OpenWRT](https://openwrt.org).
 
-Wer einen mit Freifunk kompatibeln Router haben möchte, muss sich zwischen drei Optionen Entscheiden:
+Wer einen mit Freifunk kompatiblen Router haben möchte, muss sich zwischen drei Optionen entscheiden:
 ---
 content2:
 
  Wichtig:
 ===============
-Bei den Freifunk Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn ein Router mit Hardwarerevision v4.2 funktioniert, dass auch die Revision v4.3 oder v5 auch funktioniert.
+Bei den Freifunk Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn ein Router mit Hardware Revision v4.2 funktioniert, dass auch die Revision v4.3 oder v5 funktioniert.
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router flashen</a>
 
 <h2 id="teuer">Gute Freifunk Router<h2>
 <h4>Leider etwas teuer</h4>
 
- Arcer C7
+ Archer C7
 --------------
 ```
-Der Archer C7 ist einer der aktuell besten einfach einzurichtenden Freifunk Router.
+Der Archer C7 ist einer der aktuell am einfachsten einzurichtenden Freifunk Router.
 Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
 Unterstützt werden nur die Modelle v2 und v4.
 Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
 Leider ist der Router mit 70€-100€ relativ teuer.
 
-Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf mittlerer bis hoher Qualität
 ```
 <a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a>
@@ -59,12 +59,12 @@ Videos schauen auf mittlerer bis hoher Qualität
 TP-Link WDR 4300 und WDR 3600
 --------------
 ```
-Der TP-Link WDR 4300 und der WDR 3600 war ein sehr guten Modell für Freifunk
-Als der Router noch Hergestellt wurde, hatte er ~25€ gekostet.
-Er ist einer der ersten Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
-Leider ist der Router nicht mehr zu Kaufen und taucht auf dem Gebrauchtmarkt meistens für über 100€ auf.
+Der TP-Link WDR 4300 und der WDR 3600 waren sehr gute Modelle für Freifunk.
+Als die Router noch hergestellt wurden, kosteten sie ~25€.
+Sie sind eine der ersten Modelle, die sowohl auf 2.4GHz und auf 5GHz ein WLAN senden.
+Leider gibt es die Router nicht mehr zu kaufen und tauchen auf dem Gebrauchtmarkt meistens für über 100€ auf.
 
-Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf mittlerer Qualität.
 ```
 <a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware Informationen WDR 4300</a>
@@ -81,7 +81,7 @@ Unterstützt werden nur die Modelle v2 bis v5.
 Die Version v1 ist zu schwach und hat sich leider als nicht kompatibel herausgestellt.
 Leider ist der Router mit 40€-80€ immer noch relativ teuer.
 
-Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf niedriger bis mittlerer Qualität.
 ```
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a>
@@ -93,12 +93,11 @@ Ubiquity Nanostation
 ```
 Die Ubiquity Nanostation eignet sich auch als mittelwertiger Freifunk Router.
 Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
-Leider sendet er nur auf jeweil 2.4 GHz oder 5GHz je nach Hardwaremodell, aber das ist ja schon mal etwas.
+Leider sendet er nur entweder 2.4 GHz oder 5GHz je nach Hardwaremodell, aber das ist ja schon mal etwas.
 Das Modell Nanostation M2 sendet auf 2.4 GHz, das Modell Nanostation M5 auf 5GHz.
-Leider ist der Router mit 40€-80€ immer noch relativ teuer,
-er eignet sich aber dafür auch bei der richtigen Konfiguration für Richtfunkverbindungen.
+Leider ist der Router mit 40€-80€ immer noch relativ teuer, er eignet sich aber dafür auch bei der richtigen Konfiguration für Richtfunkverbindungen.
 
-Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
+Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf niedriger bis mittlerer Qualität.
 ```
 <a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a>
@@ -120,13 +119,13 @@ Damit lässt sich eine deutlich bessere Verbindung ins Freifunk Netz erzielen,
 mit einer Bandbreite von meistens 80MBit bis 120MBit.
 
 Beliebte Hardware für einen Offloader ist eine Siemens Futro S550.
-Diese gibt es Gebraucht für 5€-20€ zu kaufen.
+Diese gibt es gebraucht für 5€-20€ zu kaufen.
 
-Mit einem Offloader empfiehlt es sich sich auch professionelle Freifunk Installationen
-wie Richtfunk Installationen oder geößere WLAN Abdeckungen zu realisieren.
+Mit einem Offloader empfiehlt es sich, auch professionelle Freifunk Installationen
+wie Richtfunk Installationen oder größere WLAN Abdeckungen zu realisieren.
 
-Das Freifunk eignet sich für alle möglichen Internetverkehr inklusive 
-mehrfach gleichzeitig Videos schauen auf sehr guter Qualität.
+Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
+mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 ```
 <a href="https://www.ebay.de/sch/i.html?_nkw=futro+s550" class="button">Preisvergleich</a>
 <a href="https://ffmuc.net/wiki/p/VPN_Offloader#Offloader_mit_Siemens_Futro_S550" class="button primary">Freifunk Offloader</a>
@@ -138,7 +137,7 @@ mehrfach gleichzeitig Videos schauen auf sehr guter Qualität.
 <h4>Es funktioniert auch, ist aber sehr langsam!</h4>
 
 Auch mit nicht so teurer Hardware lässt sich Freifunk machen. Allerdings darf man dann nicht erwarten, ein Freifunk mit großer Bandbreite zu haben.
-Das WLAN eignet sich meist nur noch um emails zu schreiben oder Textnachrichten zu senden. Videos anschauen oder Bilder teilen ist oft mit höheren Wartezeiten verbunden oder die Bandbreite reicht gar nicht mehr aus.
+Das WLAN eignet sich meist nur noch um E-Mails zu schreiben oder Textnachrichten zu senden. Videos anschauen oder Bilder teilen ist oft mit höheren Wartezeiten verbunden oder die Bandbreite reicht gar nicht mehr aus.
 
 TP-Link CPE210 / CPE510
 --------------
@@ -151,7 +150,7 @@ Der CPE 210 sendet auf 2.4 GHz, der CPE 510 auf 5 GHz.
 Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
 Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und 
 seiner hohen Störanfälligkeit gerne als Briefbeschwerer.
-Mit Freifunk ist nur der Version v1.x kompatibel.
+Mit Freifunk ist nur das Modell v1.x kompatibel.
 Die Kosten für den Router liegen bei 25€-50€.
 
 Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive 
