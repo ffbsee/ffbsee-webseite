@@ -5,7 +5,9 @@ preview: /anleitung/flashen/router.jpg
 body:
 
 Hier erfahrt ihr, wie die Freifunk Firmware auf den Router kommt.<br/>
-Dieser Vorgang wird "Router flashen" genannt.
+
+Dieser Vorgang wird "Router Flashen" genannt.
+
 ---
 relevanz: 32
 ---
@@ -21,6 +23,7 @@ code:
 
 <div class="box" style="color: red;">
 <p>Achtung, beim Flashen des Routers mit der falschen Firmware oder bei einem Stromausfall während dem Flashen kann das Betriebssystem des Routers irreparabel beschädigt werden. Meistens lässt sich das mit serieller Konsole beheben, aber eben nicht immer. Daher sollte man hierbei besonders vorsichtig sein und nicht achtlos den Router vom Strom nehmen, während er gerade eine neue Firmware in seinen Speicher kopiert.</p>
+
 </div>
 ---
 content2:
@@ -38,8 +41,9 @@ Für jeden Router gibt es unterschiedliche Firmware Dateien. Diese werden unters
 ---------------
 
 Um die passende Firmware für deinen Router zu finden gibt es sowohl den <a href="https://firmware.ffbsee.de/fw-wizard/" class="button primary">Firmware Wizard</a> als auch eine <a href="https://firmware.ffbsee.de/firmware/" class="button">Liste aller Firmware Dateien</a>.
-Hierbei ist es besonders wichtig, die genaue Version eures Freifunk Routers zu kennen. Diese steht *(wie auch unten bei den Bildern beschrieben)* auf der Rückseite des Routers. Da die meisten Router von einer Versionsnummer zu einer anderen komplett unterschiedlich sein können, ist es wichtig, dass die Versionsnummer **genau** übereinstimmt.
-Bei Modellen mit vielen verschiedenen Versionen sind diese im Firmware Wizard nicht immer gut sortiert und so kann es sein, dass die neueste Version in der Mitte der Liste auftaucht und nicht am Anfang oder Ende.
+Hierbei ist es besonders wichtig, die genaue Version eures Freifunk Routers zu kennen. Diese steht *(wie auch unten bei den Bildern beschrieben)* auf der Rückseite des Routers. Da die meisten Router von einer Versionsnummer zu einer anderen komplett unterschiedlich sein können, ist es wichtig, dass die Versionsnummer **genau** überein stimmt.
+Bei Modellen mit vielen Verschiedenen Versionen sind diese im Firmware Wizard nicht immer gut sortiert und so kann es sein, dass die neuste Version in der Mitte der Liste auftaucht und nicht am Anfang oder Ende.
+
 
  Firmware selber bauen
 ---------------------------
@@ -50,9 +54,11 @@ Die Firmware inklusive einer kleinen Anleitung zum selber kompilieren findest du
 
  Router flashen
 =================
+
 Um einen Router mit einer Freifunk Firmware auszustatten, gibt es meistens zwei Möglichkeiten: Der einfache Weg ist, eine Datei über die Weboberfläche beim Router hochzuladen und darauf zu warten, dass der Router diese Datei selbstständig installiert. Der andere Weg ist, die Firmware über einen TFTP Server bereit zu stellen und den Router dazu zu bringen, diese Firmware runterzuladen und zu installieren.
 
 Es gibt einige Router Modelle, bei denen die Installation über die Weboberfläche bei der originalen Firmware vom Hersteller deaktiviert ist und somit die Firmware nur noch über den TFTP Server installiert werden kann. Solltest du also Probleme beim Installieren über die Weboberfläche haben, dann versuch es doch mal mit der TFTP Server Methode. Oft lässt sich mit Hilfe des TFTP Servers auch ein vermeintlich kaputter Freifunk Router wieder zu neuem Leben erwecken.
+
 
 <center>
 <a href="/anleitung/tftp" class="button primary">Router mit TFTP flashen</a>
