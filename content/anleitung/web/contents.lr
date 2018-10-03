@@ -77,5 +77,6 @@ Ziehe nach ein paar Minuten das Ethernet Kabel aus deinem Computer und schließe
 Du kannst nun über die Adresse ``http://192.169.133.1`` deinen Router konfigurieren und zum Beispiel einen Namen und Koordinaten geben.
 Ab jetzt ist der Freifunk Router aber einsatzbereit und du kannst ihn über den blauen WAN-Port mit dem Internet verbinden.
 
+<a href="/anleitung/config/" class="button">Router Konfigurieren</a>
 
 Quelle: [Freifunk München](https://ffmuc.net/router-flashen/)

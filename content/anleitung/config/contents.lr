@@ -1,0 +1,49 @@
+title: Freifunk Router Konfigurieren
+---
+relevanz: 30
+---
+preview: /anleitung/config/example.png
+---
+body:
+
+Nach dem Flashen des Routers ist dieser sofort einsatzbereit und kann verwendet werden. <br/>
+Trotzdem lässt sich der Router noch Konfigurieren und man kann den Router zum Beispiel einen Namen geben und auf der Karte beim [Meshviewer](https://meta.ffbsee.net/meshviewer) auftauchen lassen.
+---
+subtitle: Gib deinen Router einen Namen
+---
+content:
+
+Nachdem der Freifunk Router mit der passenden Firmware [geflasht](/anleitung/flashen) wurde, ist dieser sofort Einsatzbereit.
+
+Sollte ein anderer Freifunk Bodensee Router in Reichweite sein, baut dein Router eine Mesh Verbindung mit dem anderen Router auf und verbreitet selber ein Freies WLAN. Oder du teilst deine Internetverbindung und steckst ein LAN-Kabel von deinem Router deines Internetanbieters in den blauen "WAN-Port" des Freifunk Routers. Dein Freifunk Router baut dann eine verschlüsselte Fastd-VPN-Verbindung zu einem der Freifunk Gateways auf und leitet alle Daten in dem Freifunk WLAN dorthin weiter.
+
+Auf dem [Meshviewer](https://meta.ffbsee.net/meshviewer) werden alle Freifunk Router im Freifunk Bodensee Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihm mit Geo-Koordinaten an der richtigen Position aufauchen zu lassen, kann man seinen Freifunk Router noch Konfigurieren.
+
+ Konfigurationsoberfläche erreichen
+--------------------------------------------------
+Die Konfigurationsoberfläche ist Standardmäßig nur über die Gelben "LAN-Ports" erreichbar. Verbindest du deinen Computer mit einem der LAN Ports, solltest du über DHCP eine IPv4 Adresse aus dem Bereich ``192.168.133.0/24`` bekommen. Dort erreichst du deinen Freifunk Router über die Adresse ``192.168.133.1``.
+Die Administratons-Oberfläche ist mit HTTPS erreichbar. Der Benutzername ist immer "root". Als Passwort ist erstmal nichts gesetzt.
+```
+Router: 192.168.133.1
+User: root
+Passwort: 
+```
+Beim Anmelden warnt dich dein Browser, dass das TLS Zertifikat Selber Signiert ist und er dem Zertifikat daher nicht Vertrauen kann.
+Das ist beabsichtigt und du musst deinem Browser bestätigen, dass das trotzdem okay ist.
+
+ Konfigurations Optionen
+--------------------------------
+Als erstes empfielt es sich, ein neues Passwort zu setzen. Hierzu gibt es den Menüpunkt "Passwort" in der Navigationsleiste auf dem Router.
+In dem Video gibt es ein paar Tipps zum Thema Passwortsicherheit:
+---
+code:
+
+<center>
+<video poster="/anleitung/config/pwd.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/passwort.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="http://www.alexanderlehmann.net/Verschluesselung/" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Alexander Lehmann, Lena Schall und Florian Maerlender</i></p>
+</center>
