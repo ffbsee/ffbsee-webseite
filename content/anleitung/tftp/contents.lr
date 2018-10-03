@@ -1,8 +1,8 @@
 title: Router flashen mit einem TFTP Server
 ---
-body: Hier erfährst du, wie du einen Router mit Hilfe eines TFTP Servers zu einen Freifunk Router flashen kannst.
+body: Hier erfährst du, wie du einen Router mit Hilfe eines TFTP Servers zu einem Freifunk Router flashen kannst.
 ---
-subtitle: Router Flashen, aber ohne Webbrowser
+subtitle: Router flashen, aber ohne Webbrowser
 ---
 preview: /anleitung/tftp/easy.jpg
 ---
@@ -22,7 +22,7 @@ code:
 ---
 content:
 
-Es gibt zwei Methoden einen Router mit der Freifunk Firmware auszustatten: Über den Firmware Aktualisieren Bereich im Webmenü des Routers oder mit Hilfe eines TFTP Servers. Einige Router verhindern auch das Flashen über die Weboberfläche und da ist die Variante mit dem TFTP Server die einzig verbleibende Möglichkeit. 
+Es gibt zwei Methoden einen Router mit der Freifunk Firmware auszustatten: Über den Firmware aktualisieren Bereich im Webmenü des Routers oder mit Hilfe eines TFTP Servers. Einige Router verhindern auch das Flashen über die Weboberfläche und somit ist die Variante mit dem TFTP Server die einzig verbleibende Möglichkeit.
 
  Vorbereitung:
 -------------------
@@ -32,7 +32,7 @@ Dies ist folgende Adresse:
 IPv4 Adresse: 192.168.0.66
 Subnetzmaske: 255.255.255.0 
 ```
-Außerdem sollte man einen kleinen Switch parat haben, an dem man nur seinen Computer und den Router ansteckt, der Freifunk bekommen soll.
+Außerdem sollte man einen kleinen Switch parat haben, an dem man nur seinen Computer und den Router, der Freifunk bekommen soll, ansteckt.
 
  TFTP Server unter Windows:
 ------------------------
@@ -41,7 +41,7 @@ Sofern man auf seinem Windows PC noch keinen TFTP-Server hat, muss einer install
 
 Ein möglicher TFTP Server ist das Programm [openTFTP](https://sourceforge.net/projects/tftp-server/).
 
-Nach Installation findet sich ein Verzeichnis ``C:\OpenTFTPServer``. In diesem Verzeichnis ist eine Datei OpenTFTPServerMT.ini. In dieser Datei muss nun die IP-Adresse eingetragen werden, auf der der Server nachsieht, ob ein Router anfrägt. Für die meisten Router ist dies 192.168.0.66.
+Nach Installation findet sich in dem Verzeichnis ``C:\OpenTFTPServer`` die Datei OpenTFTPServerMT.ini. In dieser Datei muss nun die IP-Adresse eingetragen werden, auf der der Server nachsieht, ob ein Router anfrägt. Für die meisten Router ist dies 192.168.0.66.
 
 In der Datei OpenTFTPServerMT.ini wird daher im Abschnitt LISTEN-ON die Zeile
 ```
@@ -49,7 +49,7 @@ In der Datei OpenTFTPServerMT.ini wird daher im Abschnitt LISTEN-ON die Zeile
 ```
 ergänzt.
 
-Die Firmware Dateien müssen nun in das Verzeichnis ``C:\OpenTFTPServer\`` unter dem korrekten Namen kopiert werden.
+Die Firmware Dateien müssen nun in das Verzeichnis ``C:\OpenTFTPServer\`` unter den korrekten Namen kopiert werden.
 Es wird die Firmware für die Erstinstallation (``FACTORY``) benötigt. Diese findet man im [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard/).
 
 Starte per Doppelklick RunStandAloneMT.bat
@@ -64,13 +64,13 @@ Den Router von einer gelben Buchse per LAN-Kabel an einen kleinen Switch anschli
 
 Den Reset-Knopf am Router festhalten. Bei festgehaltenem Reset-Knopf den Router einschalten. Den Reset-Knopf so lange festhalten, bis nur noch die Schloss-LED (bzw. bei v8 ggf. die Zahnrad-LED) leuchtet. Den Reset-Knopf noch einige Sekunden länger festhalten, danach kann dieser losgelassen werden.
 
-Auf dem Computer in der Dos Box beim OpenTFTP Server sollte nun stehen, welchen Namen die Firmware haben sollte. Die Firmware Datei dementsprechend umbenennen und wieder mit gedrückter Reset Taste den Router Neu starten.
+Auf dem Computer in der Dos Box beim OpenTFTP Server sollte nun stehen, welchen Namen die Firmware haben sollte. Die Firmware Datei dementsprechend umbenennen und wieder mit gedrückter Reset Taste den Router neu starten.
 
-In der DOS Box kann man den Fortschritt beim kopieren der Firmware Datei beobachten. Wenn der Vorgang abgeschlossen ist, sollte der Router nach ein paar Minuten wieder Neu starten und wieder für Freifunk bereit stehen.
+In der DOS Box kann man den Fortschritt beim Kopieren der Firmware Datei beobachten. Wenn der Vorgang abgeschlossen ist, sollte der Router nach ein paar Minuten wieder neu starten und wieder für Freifunk bereit stehen.
 
 Am Ende sollte nicht vergessen werden, die IP Adresse des Computer wieder auf DHCP zu stellen.
 
-Das ganze gibt es hier auch als Video Anleitung:
+Das Ganze gibt es hier auch als Video Anleitung:
 -------------------------------------------------------- 
 ---
 content2:
@@ -85,11 +85,11 @@ sudo systemctl start tftpd
 systemctl status tftpd
 ```
 Mit dem Status Befehl kann das Verzeichnis für die Firmware Images ermittelt werden.
-Natürlich braucht auch der Linux Computer die IP Adresse ```192.168.0.66/24`` .
+Natürlich braucht auch der Linux Computer die IP Adresse ``192.168.0.66/24`` .
 
-Leider hat man keine so übersichtlichen Log, das man weiß welchen Namen die Images haben sollten. Hierfür muss man dann eben im OpenWRT Wiki nachschauen.
+Leider hat man hier keine so übersichtliche Log Ansicht, damit man weiß welchen Namen die Images haben sollten. Hierfür muss man dann eben im OpenWRT Wiki nachschauen.
 
  Weitere Informationen zu den Geräten:
 -----------------
 
-Die genauen Angaben wie die IP Adresse oder der Name der Firmware findet man im OpenWRT wiki: <a href="https://openwrt.org/toh/start" class="button primary">OpenWRT Wiki</a>
+Die genauen Angaben, wie die IP Adresse oder der Name der Firmware, findet man im <a href="https://openwrt.org/toh/start" class="button primary">OpenWRT Wiki</a>.
