@@ -3,15 +3,62 @@
     RedirectMatch 404 /\.git
 </IfModule>
 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
 
-RewriteEngine On
-RewriteRule ^index.php/doku.php https://www.freifunk-bodensee.net/index.html 
-RewriteRule ^index.php/home/doku.php https://www.freifunk-bodensee.net/index.html 
-RewriteRule ^router https://freifunk-bodensee.net/anleitung/router 
-RewriteRule ^flashen https://freifunk-bodensee.net/anleitung/flashen 
-RewriteRule ^news https://freifunk-bodensee.net/feed.xml 
+    RewriteRule ^index.php/doku.php https://ffbsee.net
+    RewriteRule ^index.php/home/doku.php https://ffbsee.net
+    RewriteRule ^router https://ffbsee.net/anleitung/router/
+    RewriteRule ^flashen https://ffbsee.net/anleitung/flashen/
+    RewriteRule ^news https://ffbsee.net/feed.xml
+    RewriteRule ^camp https://mailingliste.ffbsee.net/doku.php?id=camp
+    RewriteRule ^spende https://ffbsee.net/helfen/
 
-RewriteRule ^camp https://mailingliste.ffbsee.net/doku.php?id=camp 
-RewriteRule ^spende https://freifunk-bodensee.net/helfen 
+    ### Redirect certain domains to ffbsee.net
+    RewriteCond %{HTTP_HOST} ^www\.ffbsee\.net [NC,OR]
+    RewriteCond %{HTTP_HOST} ^freifunk-bodensee\.net [NC,OR]
+    RewriteCond %{HTTP_HOST} ^www\.freifunk-bodensee\.net [NC]
+    RewriteRule (.*) https://ffbsee.net/$1 [R=301,L]
+</IfModule>
 
+# COMPRESSION WITH MOD_DEFLATE
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/atom_xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/x-shockwave-flash
+</IfModule>
+
+# CACHE-DURATIONS
+# turns cache on for 1 month
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 month"
+    ExpiresByType application/x-font-woff "access plus 1 month"
+</IfModule>
+<IfModule mod_headers.c>
+    <filesmatch "\\.(ico|jpe?g|png|gif|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+    </filesmatch>
+    <filesmatch "\\.(css|js|woff)$">
+    Header set Cache-Control "max-age=604800, public"
+    </filesmatch>
+</IfModule>
 
