@@ -32,7 +32,7 @@ Beim Anmelden warnt dich dein Browser, dass das TLS Zertifikat Selber Signiert i
 Das ist beabsichtigt und du musst deinem Browser bestätigen, dass das trotzdem okay ist.
 
  Konfigurations Optionen
---------------------------------
+==============================
 Als erstes empfielt es sich, ein neues Passwort zu setzen. Hierzu gibt es den Menüpunkt "Passwort" in der Navigationsleiste auf dem Router.
 In dem Video gibt es ein paar Tipps zum Thema Passwortsicherheit:
 ---
@@ -47,3 +47,13 @@ code:
     <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
     <p><i>Alexander Lehmann, Lena Schall und Florian Maerlender</i></p>
 </center>
+
+
+---
+content2:
+
+ "Einstellungen"
+-------------------------
+Im Bereich Einstellungen lassen sich Grundlegende Dinge Einstellen, wie sich der Freifunk Router verhalten soll.
+So kann man dort dem Router einen Namen geben, mit dem er Beispielsweise im Meshviewer auftaucht. Auserdem einen Standort, wo er auf der Karte im Meshviewer erscheinen soll.
+<center><a href="https://meta.ffbsee.net/meshviewer/" class="button primary">Meshviewer</a></button>
