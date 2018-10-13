@@ -51,9 +51,11 @@ Leider ist der Router mit 70€-100€ relativ teuer.
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf mittlerer bis hoher Qualität
 ```
-<a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a>
-<a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware Informationen</a>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a>
+<span class="image right"><img src="/anleitung/router/archer-c7.jpg" alt="Archer C7"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware Informationen</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a><br/><br/>
+<br/><br/>
 
 
 TP-Link WDR 4300 und WDR 3600
@@ -67,9 +69,11 @@ Leider gibt es die Router nicht mehr zu kaufen und tauchen auf dem Gebrauchtmark
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf mittlerer Qualität.
 ```
-<a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware Informationen WDR 4300</a>
-<a href="https://openwrt.org/toh/tp-link/tl-wdr3600" class="button">Hardware Informationen WDR 3600</a>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a>
+<span class="image right"><img src="/anleitung/router/wdr4300.jpg" alt="WDR 4300"></span><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware Informationen WDR 4300</a><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/tl-wdr3600" class="button">Hardware Informationen WDR 3600</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a><br/><br/><br/><br/>
+
 
 
 TP-Link WDR 1043ND
@@ -79,14 +83,17 @@ Der TP-Link WDR 1043 ist auch noch einer der besseren Freifunk Router.
 Leider sendet er nur auf dem 2.4 GHz Band, aber das ist ja schon mal etwas.
 Unterstützt werden nur die Modelle v2 bis v5.
 Die Version v1 ist zu schwach und hat sich leider als nicht kompatibel herausgestellt.
+Die Version 5 muss leider über tftp geflashed werden.
 Leider ist der Router mit 40€-80€ immer noch relativ teuer.
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf niedriger bis mittlerer Qualität.
 ```
-<a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a>
-<a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware Informationen</a>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a>
+<span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware Informationen</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a><br/><br>
+<a href="/anleitung/tftp" class="button">Router mit TFTP Flashen</a><br/><br/><br/><br/>
 
 Ubiquity Nanostation
 --------------
@@ -100,9 +107,10 @@ Leider ist der Router mit 40€-80€ immer noch relativ teuer, er eignet sich a
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf niedriger bis mittlerer Qualität.
 ```
-<a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a>
-<a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware Informationen</a>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a>
+<span class="image right"><img src="/anleitung/router/nanostation.jpg" alt="Ubiquity Nanostation"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a><br/><br/>
+<a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware Informationen</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
 
 
 
@@ -111,18 +119,25 @@ Videos schauen auf niedriger bis mittlerer Qualität.
 <h4>Recht kompliziert, dafür aber sehr gut!</h4>
 
 Freifunk Offloader
---------------
-```
+================
+
 Ein Freifunk Offloader ist ein kleiner Computer mit deutlich besseren Resourcen
 als ein Freifunk Router, der die Verbindung zu den Freifunk Gateways herstellt.
 Damit lässt sich eine deutlich bessere Verbindung ins Freifunk Netz erzielen,
 mit einer Bandbreite von meistens 80MBit bis 120MBit.
 
+
+ Siemens Futro S550
+-----------------
+```
 Beliebte Hardware für einen Offloader ist eine Siemens Futro S550.
 Diese gibt es gebraucht für 5€-20€ zu kaufen.
 
 Mit einem Offloader empfiehlt es sich, auch professionelle Freifunk Installationen
 wie Richtfunk Installationen oder größere WLAN Abdeckungen zu realisieren.
+Das einrichten des Freifunk Offloaders ist etwas aufwendiger, 
+da diese bei der meisten Hardware über die Serielle Konsole und
+einen USB Stick installiert wird.
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
@@ -131,6 +146,40 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 <a href="https://ffmuc.net/wiki/p/VPN_Offloader#Offloader_mit_Siemens_Futro_S550" class="button primary">Freifunk Offloader</a>
 <a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a>
 
+PC-Engine APU
+-----------------
+```
+Die PC-Engine APU ist eher das Profi-Equipment eines Netzwerk Administrators.
+Die APU kommt mit starker Hardware und ist schon fast zu schade um "nur" für einen
+Freifunk Offloader eingesetzt zu werden.
+
+Bei der Installation gibt es mehrere Möglichkeiten. Entweder man installiert
+ein normales auf Debian basierendes Betriebssystem und installiert 
+die einzelnen komponenten von Freifunk von Hand. 
+Derzeit haben wir leider noch kein fertiges Script dafür, dass das erledigt. 
+Aber mit etwas Nachfrage und Motivation von euch haben wir bestimmt Lust,
+das gerne nachzuliefern.
+
+Natürlich funktionieren die x86 images unserer Firmware auch für die APU.
+
+
+Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
+mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
+```
+<span class="image right"><img src="/anleitung/router/apu.jpg" alt="PC-Engines APU"></span><br/><br/>
+<a href="https://www.apu-board.de/" class="button">APU kaufen</a><br/><br/>
+<a href="https://github.com/ffbsee/ansible" class="button primary">Freifunk komponenten</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a><br/><br/>
+
+ WLAN Access Point
+--------------------------------
+```
+Für die Freifunk Installation mit einem Offloader lässt sich als WLAN Access Point 
+im prinzip jeder beliebiger WLAN Router verwenden.
+Besonders gute Erfahrungen haben wir mit der Ubiquity Unify AP-AC-Pro gemacht.
+Dieser lässt sich über einen Controller managen. 
+Gerne helfen wir hier bei der Installation weiter und stellen auch den WLAN Controller zur verfügung.
+```
 
 <br/><br/><br/>
 <h2 id="schrott">Günstigere Hardware für langsames Freifunk<h2>
@@ -157,11 +206,12 @@ Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive
 E-Mails schreiben und Textnachrichten senden. Videos und Bilder
 in niedriger Qualität haben meistens eine relativ lange Ladezeit.
 ```
-<a href="https://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html" class="button">Preisvergleich CPE210</a>
-<a href="https://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html" class="button">Preisvergleich CPE510</a>
-<a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware Informationen CPE210</a>
-<a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware Informationen CPE510</a>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a>
+<span class="image right"><img src="/anleitung/router/cpe510.jpg" alt="Ubiquity Nanostation"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html" class="button">Preisvergleich CPE210</a><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html" class="button">Preisvergleich CPE510</a><br/><br/>
+<a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware Informationen CPE210</a><br/><br/>
+<a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware Informationen CPE510</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a><br/><br/>
 
 TP-Link WR841N
 --------------
@@ -183,4 +233,5 @@ in niedriger Qualität haben meistens eine relativ lange Ladezeit.
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr841n-a340658.html" class="button">Preisvergleich</a>
 <a href="https://openwrt.org/toh/tp-link/tl-wr841nd" class="button">Hardware Informationen</a>
 <a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR841N%2FND%E2%81%A3" class="button primary">Firmware</a>
+<a href="/anleitung/tftp" class="button">Router mit TFTP Flashen</a><br/><br/>
 
