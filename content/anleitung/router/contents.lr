@@ -167,7 +167,8 @@ Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 ```
 <span class="image right"><img src="/anleitung/router/apu.jpg" alt="PC-Engines APU"></span><br/><br/>
-<a href="https://www.apu-board.de/" class="button">APU kaufen</a><br/><br/>
+<a href="https://www.apu-board.de/" class="button">Details</a><br/><br/>
+<a href="https://www.heise.de/preisvergleich/pc-engines-apu2c4-a1511653.html" class="button">APU kaufen</a><br/><br/>
 <a href="https://github.com/ffbsee/ansible" class="button primary">Freifunk komponenten</a><br/><br/>
 <a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a><br/><br/>
 
@@ -178,8 +179,13 @@ Für die Freifunk Installation mit einem Offloader lässt sich als WLAN Access P
 im prinzip jeder beliebiger WLAN Router verwenden.
 Besonders gute Erfahrungen haben wir mit der Ubiquity Unify AP-AC-Pro gemacht.
 Dieser lässt sich über einen Controller managen. 
-Gerne helfen wir hier bei der Installation weiter und stellen auch den WLAN Controller zur verfügung.
+Gerne helfen wir hier bei der Installation weiter.
+Außerdem betreiben wir einen Unify Controller auf einem der Gateway Server
+und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware managen könnt.
 ```
+<b>Empfohlene Unify APs  für die Installation mit einem Offloader, die über den WLAN Controller betrieben werden:</b><br/><br/>
+<a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unify AP-AC-Pro</a>
+<a href="https://unifi-mesh.ubnt.com" class="button">Unify AC-Mesh</a><br/><br/>
 
 <br/><br/><br/>
 <h2 id="schrott">Günstigere Hardware für langsames Freifunk<h2>
