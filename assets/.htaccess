@@ -6,19 +6,19 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule ^index.php/doku.php https://ffbsee.net
-    RewriteRule ^index.php/home/doku.php https://ffbsee.net
-    RewriteRule ^router https://ffbsee.net/anleitung/router/
-    RewriteRule ^flashen https://ffbsee.net/anleitung/flashen/
-    RewriteRule ^news https://ffbsee.net/feed.xml
+    RewriteRule ^index.php/doku.php https://freifunk-bodensee.net
+    RewriteRule ^index.php/home/doku.php https://freifunk-bodensee.net
+    RewriteRule ^router https://freifunk-bodensee.net/anleitung/router/
+    RewriteRule ^flashen https://freifunk-bodensee.net/anleitung/flashen/
+    RewriteRule ^news https://freifunk-bodensee.net/feed.xml
     RewriteRule ^camp https://mailingliste.ffbsee.net/doku.php?id=camp
-    RewriteRule ^spende https://ffbsee.net/helfen/
+    RewriteRule ^spende https://freifunk-bodensee.net/helfen/
 
     ### Redirect certain domains to ffbsee.net
     RewriteCond %{HTTP_HOST} ^www\.ffbsee\.net [NC,OR]
-    RewriteCond %{HTTP_HOST} ^freifunk-bodensee\.net [NC,OR]
+    RewriteCond %{HTTP_HOST} ^ffbsee\.net [NC,OR]
     RewriteCond %{HTTP_HOST} ^www\.freifunk-bodensee\.net [NC]
-    RewriteRule (.*) https://ffbsee.net/$1 [R=301,L]
+    RewriteRule (.*) https://freifunk-bodensee.net/$1 [R=301,L]
 </IfModule>
 
 # COMPRESSION WITH MOD_DEFLATE
