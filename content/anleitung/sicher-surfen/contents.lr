@@ -19,8 +19,8 @@ code:
 
 <center>
 <video poster="/anleitung/sicher-surfen/sichersurfen.jpg" class="image fit" preload="none" controls="">
-        <source src="/video/Sicher-surfen.mp4" type="video/mp4">
         <source src="/video/Sicher-surfen.ogv" type="video/ogg">
+        <source src="/video/Sicher-surfen.mp4" type="video/mp4">
         Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
 </video>
 <a rel="license" href="http://www.alexanderlehmann.net/Verschluesselung/" target="_blank">
