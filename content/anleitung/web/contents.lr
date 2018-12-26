@@ -74,7 +74,7 @@ Nachdem die Firmware fertig eingespielt ist, startet der Router neu. Dass der Ro
 </span>
 
 Ziehe nach ein paar Minuten das Ethernet Kabel aus deinem Computer und schließe es erneut an. du bekommst nun eine neue Adresse die mit "192.168.133" anfängt.
-Du kannst nun über die Adresse ``http://192.169.133.1`` deinen Router konfigurieren und zum Beispiel einen Namen und Koordinaten geben.
+Du kannst nun über die Adresse ``http://192.168.133.1`` deinen Router konfigurieren und zum Beispiel einen Namen und Koordinaten geben.
 Ab jetzt ist der Freifunk Router aber einsatzbereit und du kannst ihn über den blauen WAN-Port mit dem Internet verbinden.
 
 <a href="/anleitung/config/" class="button">Router Konfigurieren</a>
