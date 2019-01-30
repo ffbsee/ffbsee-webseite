@@ -68,7 +68,7 @@
                 <div class="features">
                     <ul>
                         <li>
-                            {% if this.main1l %}<a href="{{ this.main1l }}" alt="{{ this.main1t }}">{%
+                            {% if this.main1l %}<a href="{{ this.main1l }}" title="{{ this.main1t }}">{%
                                 endif %}<span class="icon alt major {% if this.main1fa %}{{ this.main1fa }}{% else %}fas fa-download{% endif %}"></span>{%
                                 if this.main1l %}</a>{% endif %}
                             <h3>{{ this.main1 }}</h3>
@@ -77,7 +77,7 @@
                             {% if this.main1la %}<a href="{{ this.main1la }}" class="button" style="margin-top: 10px;">{{ this.main1ta }}</a>{%endif%}
                         </li>
                         <li>
-                             {% if this.main2l %}<a href="{{ this.main2l }}" alt="{{ this.main2t }}">{%
+                             {% if this.main2l %}<a href="{{ this.main2l }}" title="{{ this.main2t }}">{%
                                 endif %}<span class="icon alt major {% if this.main2fa %}{{ this.main2fa }}{% else %}fas fa-download{% endif %}"></span>{%
                                 if this.main2l %}</a>{% endif %}
                             <h3>{{ this.main2 }}</h3>
@@ -85,7 +85,7 @@
                             {% if this.main2l %}<a href="{{ this.main2l }}" class="button primary">{{ this.main2t }}</a>{%endif%}
                         </li>
                     </ul>{% if this.mainimg %}
-                    <span class="image"><img src="{{ this.mainimg }}" alt="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>{% endif %}
+                    <span class="image"><img src="{{ this.mainimg }}" title="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>{% endif %}
                      <ul>
                         <li>
                             {% if this.mainal %}<a href="{{ this.mainal }}" alt="{{ this.mainat }}">{%
@@ -97,7 +97,7 @@
                             {% if this.mainala %}<a href="{{ this.mainala }}" class="button" style="margin-top: 10px;">{{ this.mainata }}</a>{%endif%}
                         </li>
                         <li>
-                            {% if this.mainbl %}<a href="{{ this.mainbl }}" alt="{{ this.mainbt }}">{%
+                            {% if this.mainbl %}<a href="{{ this.mainbl }}" title="{{ this.mainbt }}">{%
                                 endif %}<span class="icon alt major {% if this.mainbfa %}{{ this.mainbfa }}{% else %}fas fa-download{% endif %}"></span>{%
                                 if this.mainbl %}</a>{% endif %}
                           <h3>{{ this.mainb }}</h3>

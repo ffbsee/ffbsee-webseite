@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <title>{% block title %}Freifunk Bodensee{% endblock %} — ffbsee.net</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <meta name="description" content="Freifunk Bodensee - Freies Netz, überall und für alle!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Freifunk Bodensee - {% block description %}Freies Netz, überall und für alle!{% endblock %}" />
         <meta name="keywords" content="freifunk, Bodensee, FFBSee, Vernetzen, Netz, Internet, WLAN, Wifi, Überlingen, Friedrichshafen, Markdorf, Bodman, Ludwigshafen, Konstanz, Flüchtlingshilfe, frei, kostenlos" />
         <link rel="stylesheet" href="{{ '/css/main.css'|url }}" />{%
         block meta %}
@@ -38,8 +38,25 @@
                             {% elif title == 'Neuigkeiten' %}
                                 <ul>
                                     <li><a href="{{ '/blog'|url }}">Nachrichten</a></li>
+                                    {% set root = site.get('/blog/', alt=this.alt) %}{%
+                                    for child in root.children recursive %}{% if loop.index <= 5 %}
+                                    <li{%
+                                         if this._path == child._path %} class="active"{% endif
+                                         %}><a href="{{ child|url }}">Blog -> {{ child.title }}</a></li>{%
+                                    endif %}{%endfor %}
+                                    <li><a href="{{ '/feed.xml'|url }}">RSS Feed</a></li>
+
                                     <li><a href="{{ '/kalender'|url }}">Kalender</a></li>
                                 </ul>
+
+                            {% elif title == 'Anleitung' %}
+                                <ul>{% set root = site.get('/anleitung/', alt=this.alt) %}{%
+                                    for child in root.children recursive %}
+                                    <li{%
+                                        if this._path == child._path %} class="active"{% endif
+                                        %}><a href="{{ child|url }}">{{ child.title }}</a></li>{%
+                                    endfor %}
+                               </ul>
                             {% endif %}</li>
                         {% endfor %}
                     </ul>

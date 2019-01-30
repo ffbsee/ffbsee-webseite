@@ -26,8 +26,8 @@ bearbeiten, bevor diese Veröffentlicht werden!
  Zur neuen Webseite Beitragen:
 ------------------------
  1. Dieses Repository Forken oder einen neuen Branch machen (übers GitHub Interface)
- 2. Geforktes Repository Clonen (``git clone https://github.com/<Your_Name>/webseite.git``)
- 3. Öffne deine Komandozeile im geklonten Repository-Fork (``cd webseite``)
+ 2. Geforktes Repository Clonen (``git lfs clone https://github.com/<Your_Name>/webseite.git ffbsee-webseite``)
+ 3. Öffne deine Komandozeile im geklonten Repository-Fork (``cd ffbsee-webseite``)
  4. Lektor starten (``python2 -m lektor server`` oder ``lektor server``)
  5. Webseite updaten... (``http://localhost:5000/``)
  6. Lektor Beenden (``Strg. + C``)
@@ -36,6 +36,22 @@ bearbeiten, bevor diese Veröffentlicht werden!
  9. Pull-Request Stellen (übers GitHub Interface)
 
 
+ Bilder und große Dateien
+---------------------------
+Für große Dateien haben wir angefangen auf [git-lfs](https://git-lfs.github.com/) zu setzen. Hierbei werden große Dateien nicht mehr ganz so schlimm in die History des git eingebaut.
+Das war mit mehreren MB großen Bildern schon schlimm, aber noch verkraftbar. Mit größeren Videos aber... Sollte man das halt echt nicht direkt ins git werden!
+
+Zur verwendung von git-lfs muss die git-lfs command line extention installiert sein!
+Die geschieht auf den gängigsten Platformen zB. mit:
+
+```bash
+sudo apt install git-lfs
+```
+oder
+```bash
+sudo pacman -S git-lfs
+```
+ 
  Design:
 ----------
 Design based on [pixelarity.com](https://pixelarity.com/?ref=9477955687)
