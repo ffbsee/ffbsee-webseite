@@ -2,10 +2,6 @@
 python: 3.6
 git:
   lfs_skip_smudge: true
-cache:
-  directories:
-    - $HOME/.cache/pip
-    - $HOME/.cache/lektor/builds
 before_install:
   - git lfs pull
 install: "pip install Lektor"
