@@ -74,6 +74,18 @@ Zensire das Freifunk nicht. Freifunk ist ein offenes für alle zugängliches fre
 
 Auch wäre es schön, wenn du anderen Menschen von Freifunk erzählst. Aber das ist natürlich nur Freiwillig und wenn du darauf Lust hast. 
 #### faq ####
+ask: Wann ist euer nächstes Treffen?
+----
+text:
+
+Sobald jemand dazu einlädt, findet auch ein Freifunk Bodensee treffen statt.
+
+Wenn du also gerne ein Freifunk treffen, am besten noch bei dir in der nähe, haben möchtest, dann lade dazu doch am besten selber ein!
+
+Wenn du keine dafür geeigneten Räumlichkeiten zur verfügung hast, können wir auch in das Vereinsheim der [Toolbox Bodensee e.V.](https://toolbox-bodensee.de).
+
+Einladungen zum Freifunk treffen sollten auf jeden Fall an die Mailingliste gesendet werden.
+#### faq ####
 ask: Meine Frage wurde nicht beantwortet?
 ----
 text: Stelle uns deine Frage nochmal. Am besten auf der Mailingliste oder im IRC. Sobald du eine Antwort bekommen hast, wäre es echt cool, wenn du diese hier Eintragen könntest. Den Quellcode der Webseite findest du auf [GitHub](https://github.com/ffbsee/webseite).
