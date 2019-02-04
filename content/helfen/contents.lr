@@ -4,52 +4,60 @@ title: Unterstützung
 ---
 body:
 
-Freifunk Bodensee ist eine Initiative für Freies WLAN und unzensierten Internetzugang. Wir betreiben die Freifunk Infrastruktur in unserer Freizeit, wel wir von dem Gedanken des freien Internetzugangs für jeden überzeugt sind.
+Freifunk Bodensee ist eine Initiative für Freies WLAN und unzensierten Internetzugang.
+Wir betreiben die Freifunk Infrastruktur in unserer Freizeit, weil wir vom Gedanken des freien Internetzugangs für jeden überzeugt sind.
 
 Wenn du die Idee auch gut findest, würden wir uns sehr über deine Unterstützung freuen!
 
-Das motivierenste ist aber, einfach ein Dankeschön zu hören oder auf ein Freifunk treffen einzuladen. Denn leider geschah das 2018 so gut wie garnicht.
+Das Motivierendste ist für uns ist aber, einfach ein Dankeschön zu hören oder auf ein Freifunk-Treffen einzuladen.
+Das geschah das 2018 kaum und wird 2019 hoffentlich besser.
 
 
  Was kann ich machen?
 ============================
 <center>
 <a href="#share" class="button primary">Erzähle anderen von Freifunk</a><br/><br/>
-<a href="#help" class="button primary">Hilf  anderen beim Router aufbauen</a><br/><br/>
+<a href="#help" class="button primary">Hilf anderen beim Routeraufbau</a><br/><br/>
 <a href="#code" class="button primary">Beteilige dich bei der Freifunk Firmware</a><br/><br/>
 <a href="#give" class="button primary">Spenden</a><br/>
 </center><br/>
 
 <h3 id="share">Erzähle anderen von Freifunk</h3>
 
-Viele Menschen kennen Freifunk nicht und wissen daher auch nicht, wie einfach es sein kann ein offenes WLAN für jeden anzubieten.
+Viele Menschen kennen Freifunk nicht und wissen daher auch nicht, wie einfach es sein kann, ein offenes WLAN für jeden anzubieten.
 
-Erzähle anderen Menschen von Freifunk und ermuntere Sie, auch einen Freifunk Router aufzubauen. Es wäre echt schön, wenn man irgendwann überall einen offenen Internetzugang hat, auch wenn man gerade kein LTE empfängt oder sein Datenvolumen schon wieder aufgebraucht ist.
+Erzähle anderen Menschen von Freifunk und ermuntere Sie, auch einen Freifunk Router aufzubauen. Es wäre echt schön, wenn man irgendwann überall einen offenen Internetzugang hat, auch wenn man gerade kein LTE empfängt oder das Datenvolumen schon wieder aufgebraucht ist.
 
-Auf [GitHub](https://github.com/ffbsee/Grafik) gibt es Vorlagen für Aufkleber und Flyer. Wir haben aber auch eine große Zahl an Flyern und Aufklebern fertig gedruckt, die wir gerne mit dir teilen können.
+Auf [GitHub](https://github.com/ffbsee/Grafik) gibt es Vorlagen für Aufkleber und Flyer. Wir haben aber auch eine große Zahl an Flyern und Aufklebern fertig gedruckt, die wir gerne mit dir teilen.
 
 <h3 id="help">Helfe anderen beim Freifunker werden</h3>
 
-Nachdem Menschen von Freifunk erfahren haben, geht es darum auch mit zu machen und seinen ersten Freifunk Router aufzubauen. Hierfür gibt es zwar auf unserer Webseite viele Hilfen und Anleitungen, aber am besten Versteht man das, wenn man beim Router flashen nicht alleine ist.
+Nachdem Menschen von Freifunk erfahren haben, geht es darum, auch mit zu machen und seinen ersten Freifunk Router aufzubauen. Hierfür gibt es zwar auf unserer Webseite viele Hilfen und Anleitungen, aber am besten versteht man das, wenn man beim Routerflashen nicht alleine ist.
 
-Wir würden uns riesig darüber freuen, wenn du anderen Menschen dabei hilfst ihren passenden Freifunk Router zu finden und diesen mit der richtigen Firmware auszustatten. 
+Wir würden uns riesig darüber freuen, wenn du anderen Menschen dabei hilfst, ihren passenden Freifunk Router zu finden und diesen mit der richtigen Firmware auszustatten.
 
 Gerne helfen wir auch bei Freifunk Treffen bei Fragen und Problemen weiter oder geben Tipps über die Mailingliste und im IRC.
 
 <h3 id="code">Entwickle an der Freifunk Bodensee Firmware</h3>
 
- Die Freifunk Firmware liegt auf [GitHub](https://github.com/ffbsee/firmware) und kann von jedem verbessert, modifiziert und nachgebaut werden. Die Erfahrung zeigt aber, das kaum jemand sich dort an der Firmware entwicklung beteiligt. Die Freifunk Bodensee Firmware basiert auf [OpenWRT](https://openwrt.org) und wird von uns angepasst, um mit euren Router Freifunk zu machen.
+Die Freifunk Firmware liegt auf [GitHub](https://github.com/ffbsee/firmware) und kann von jedem verbessert, modifiziert und nachgebaut werden.
+Es sind erfahrungsgemäß nur sehr wenige, die sich an der Firmwareentwicklung beteiligen. Die Freifunk Bodensee Firmware basiert aber auf [OpenWRT](https://openwrt.org) und wird von uns dafür regelmäßig angepasst, um mit euren Routern Freifunk zu machen.
 
-Hier gilt es die aktuelle Entwicklung an OpenWRT im Auge zu behalten um weiter mit neuer Hardware kompatibel zu sein und  mögliche Sicherheitslücken zeitnah zu schließen. Außerdem entwickeln sich die von Freifunk verwendeten Pakete weiter und auch hier muss sichergestellt werden, dass diese weiterhin mit unserer Firmware kompatibel sind.
+Hier gilt es die aktuelle Entwicklung an OpenWRT im Auge zu behalten, um weiter mit neuer Hardware kompatibel zu sein und mögliche Sicherheitslücken zeitnah zu schließen. Außerdem entwickeln sich die von Freifunk verwendeten Pakete weiter und auch hier muss sichergestellt werden, dass diese weiterhin mit unserer Firmware kompatibel sind.
 
-Auch die Wünsche und Anforderungen, die Menschen an die Firmware haben, entwickeln sich laufend weiter und sollten umgesetzt werden. Das ist für ein Projekt, das man in seiner Freizeit betreibt relativ viel Arbeit und wir freuen uns über jeden, der sich hier beteiligen will.
+Auch die Wünsche und Anforderungen, die Menschen an die Firmware haben, entwickeln sich laufend weiter und manche davon sollten umgesetzt werden. 
+Da steckt jede Menge zeitaufwändige ehrenamtliche Arbeit drin und wir freuen uns über jeden, der sich hier beteiligen will.
 
 <h3 id="give">Spenden</h3>
 
-<a href="https://www.betterplace.me/ffbsee-2019" class="special button">Spenden Kampange</a>
+Die größten Kosten die regelmäßig bei Freifunk Bodensee anfallen, entstehen durch das Betreiben der Freifunk Gateways.
+Wenn du Freifunk verwendest oder anbietest, und dich an den Kosten beteiligen oder uns in Form einer Spende ein kleines Dankeschön zukommen lassen magst, dann kannst du das gerne über den Link zur Spenden-Kampagne für die Betriebskosten tun.
 
-Wenn du Freifunk selber verwendest, hast du vielleicht auch Lust, dich an den Kosten zu Beteiligen oder ein kleines Dankeschön zu spenden.
-Die größten Kosten die regelmäßig bei Freifunk Bodensee entstehen ist das Betreiben der Freifunk Gateways. Vielleicht wärst du ja Bereit die Finanzierung oder ein Teil der Finanzierung für einen unserer Server zu übernehmen. Oder du hast einen schnellen Internetanschluss und ein gutes Konzept zum bearbeiten von Abuse Anfragen und bist Bereit, einen Freifunk Gateway bei dir zu Betreiben und den Traffic direkt auszuleiten.
+<a href="https://www.betterplace.me/ffbsee-2019" class="special button">Spenden-Kampagne Betriebskosten</a>
+
+Wenn du die Finanzierung oder ein Sponsoring für einen ganzen Server übernehmen magst oder jemanden kennst, der gerne so etwas macht, dann sprich uns doch darauf an. 
+
+Oder du hast einen schnellen Internetanschluss und gleichzeitig ein gutes Konzept zum Bearbeiten von Abuse-Anfragen und bist bereit, einen Freifunk Gateway bei dir zu betreiben und den Traffic direkt auszuleiten.
 
 Wir freuen uns natürlich auch über Hardwarespenden. So bieten sich zum Beispiel das Spenden von Freifunk Routern an, die dann an Interessierten Freifunk-Einsteigern gegeben werden um mehr Freifunk zu machen.
 
