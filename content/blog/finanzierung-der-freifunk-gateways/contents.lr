@@ -1,0 +1,42 @@
+title: Finanzierung der Freifunk Gateways
+---
+author: L3D
+---
+body:
+
+Im Freifunk Bodensee Netz gibt es fünf Server. Vier davon sind so genannte Freifunk Gateways.
+
+Diese Gateways stehen an unterschiedlichen orten und sorgen dafür, dass Freifunk funktioniert. 
+Aber wer bezahlt das ganze?
+---
+content:
+
+Bei Freifunk Bodensee gibt es vier Gateway Server, die für die Funktion des Freifunk Bodensee Netz elementar wichtig sind.
+Auf diesen gateways läuft alles, was wichtig ist um ein funktionierendes Netz zu haben. So läuft nicht nur ein DHCP Server, der IPv4 Adressen verteilt, sondern es werden dort auch DNS Adressen aufgelöst, Router Advertisements verteilt und natürlich auch traffic geroutet. Je nach Ziel raus ins große Internet oder weiter in das ICVPN zu einer anderen Freifunk Community.
+
+ Wer bezahlt das?
+--------------------------
+
+Zwei der vier Gateway Server wurden Freifunk Bodensee von Menschen geschenkt, die nicht nur Freifunk für eine tolle Idee halten, sondern auch einen dicken Internetanschluss hatten, bei dem noch Platz frei ist.
+
+Hierbei handelt es sich um die Server [gw02.ffbsee.net](https://github.com/ffbsee/ansible/#freifunk-bodensee-network) und [gw04.ffbsee.net](https://github.com/ffbsee/ansible/#freifunk-bodensee-network).
+
+Der gw02 steht in der Schweiz beim Chaos Computer Club Zürich. Der gw04 steht in der Bodenseeregion in Deutschland.
+
+Außerdem gibt es noch zwei Gateways, die bei kommerziellen Rechenzentren stehen. So steht der [gw01.ffbsee.net](https://github.com/ffbsee/ansible/#freifunk-bodensee-network) bei Hetzner und der [gw03.ffbsee.net](https://github.com/ffbsee/ansible/#freifunk-bodensee-network) bei Webtropia im Rack.
+
+Diese beiden Server wurden uns leider nicht geschenkt, sondern müssen durch Spenden an Freifunk Bodensee finanziert werden.
+
+Für den gw01 hatte sich recht schnell ein "Pate" gefunden, der den kompletten Server zahlen wollte.
+
+Der gw03 wurde 2018 von L3D und erolfr bezahlt. Für 2019 gibt es nun eine [Spenden-kampange](https://www.betterplace.me/ffbsee-2019) den Server für 2019 zu finanzieren. 
+
+Außerdem gibt es noch einen fündten Server, den [meta.ffbsee.net](htttps://meta.ffbsee.net). Dieser Server steht auch bei Hetzner und übernimmt das anzeigen der Freifunk Router im [Meshviewer](https://meta.ffbsee.net/meshviewer) sowie etwas Monitoring der vier anderen Server.
+
+Dieser Server wird von Mart finanziert.
+---
+pub_date: 2019-02-06
+---
+subtitle: Wer bezahlt eigentlich die Server?
+---
+twitter_handle: L3D
