@@ -20,6 +20,19 @@ Um also bei Freifunk Bodensee mitzumachen ist das Abonnieren der Mailingliste un
 <a href="https://mailingliste.ffbsee.net/cgi-bin/mailman/listinfo/freifunk-bodensee" class="button primary">Mailingliste Abonnieren</a>
 </center><br/>
 
+ Freifunk Chat
+-------------------------
+Als Chat bei Freifunk Bodensee verwenden wir <a href="https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)">Matrix</a>. Dort findet eine Gruppenchat-artige Kommunikation statt. So wird dort über Ideen und Freifunk haltige Ideen geredet, es werden neue Freifunk treffen geplant oder der Aufbau von Freifunk Installationen. Und natürlich wird bei Router Problemen weiter geholfen.
+
+Das Verbinden mit Matrix ist sehr einfach, sobald man sich erstmal ein Client installiert hat.
+Hierfür gibt es aber natürlich eine Anleitung.
+
+<center>
+<a href="/anleitung/matrix/" class="button">Matrix Anleitung</a>
+<a href="https://matrix.to/#/#ffbsee:matrix.bodensee.space" class="button primary">Matrix Channel</a>
+</center><br/>
+
+
 Direkter Kontakt
 --------------------------------
 Um dich direkt bei den Administratoren von Freifunk Bodensee zu melden, schau doch mal unter [Störung melden](/stoerung-melden/) nach. Dort findest du einen direkten Ansprechpartner, der dir meistens weiter helfen kann. Dennoch würden wir eine Mail an die Mailingliste bevorzugen, da dies auch anderen Menschen die Möglichkeit gibt, auf Fragen die sie selber hatten zu antworten und so Wissen zu verteilen. Außerdem entlastet das die Betreiber von Freifunk Bodensee, die das auch nur in ihrer Freizeit machen und nicht immer viel Zeit haben komplexe Nachrichten zu beantworten.
