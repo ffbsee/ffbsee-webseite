@@ -7,6 +7,20 @@ title: Termine Freifunk Bodensee
 termine:
 
 #### termine ####
+start: 2018-12-27 13:37:23 Europe/Berlin
+----
+ende: 2018-12-30 23:42:23 Europe/Berlin
+----
+event: Open Infrastructure Orbit
+----
+ort: 35. Chaos Communication Congress, Leipzig
+----
+url: https://wiki.freifunk.net/35c3
+----
+description: Es ist Congress. Kommt nach Leipzig!
+----
+confirmed: yes
+#### termine ####
 start: 2018-03-07 18:30:00 Europe/Berlin
 ----
 ende: 2018-03-07 20:30:00 Europe/Berlin
@@ -18,5 +32,369 @@ ort: Hotel City Krone, Friedrichshafen
 url: https://freifunk-bodensee.net/blog/das-stadtforum-friedrichshafen-informiert-ueber-freifunk/
 ----
 description: Die Schulungsreihe „STADTforum schafft Wissen“ informiert am Mittwochabend, den 7. März 2018, über das Thema „Mit Freifunk zu freiem W-LAN für meine Kunden und Gäste“. Im Hotel City Krone wird David Riedl von Freifunk Bodensee allen Interessierten erklären, wie das dezentrale, unabhängige und nicht-kommerzielle Bürgernetz einen komfortablen Zugang zum Internet eröffnet. || Die Anmeldung erfolgt über die Webseite des STADTForum Friedrichshafen.
+----
+confirmed: yes
+#### termine ####
+start: 2018-07-22 11:30:00 Europe/Berlin
+----
+ende: 2018-07-22 19:30:00 Europe/Berlin
+----
+event: Sommerfest Freifunk 3Ländereck
+----
+ort: Forsthof in Bad Säckingen
+----
+url: https://ff3l.net/
+----
+description: Hallo zusammen,|auch wenn der Termin noch weit weg liegt, bitte gleich reservieren! || Am 22. Juli 2018, nachmittags, wird die diesjährige Mitgliederversammlung in Kombination mit einem Sommerfest stattfinden.||Ort: Forsthof in Bad Säckingen||Alle weiteren Einzelheiten werden rechtzeitig mitgeteilt.
+----
+confirmed: yes
+#### termine ####
+start: 2018-10-17 13:37:23 Europe/Berlin
+----
+ende: 2018-10-17 23:42:23 Europe/Berlin
+----
+event: Freifunk Installation Haus der Katholischen Kirche Ravensburg besprechen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Wir planen und besprechen den Freifunk Aufbaus des Haus der Katholischen Kirche Ravensburg. Wenn ihr mitreden wollt oder öhnliche Fragen habt... kommt vorbei!
+----
+confirmed: yes
+#### termine ####
+start: 2018-05-10 13:37:23 Europe/Berlin
+----
+ende: 2018-05-14 23:42:23 Europe/Berlin
+----
+event: Freifunk Baden-Württemberg Treffen
+----
+ort: HFG nd ZKM in karlsruhe
+----
+url: 
+----
+description: Auf der GPN(  http://gulas.ch ) findet man eineige Freifunker ausdem Baden-Württembergischen Bereich...
+----
+confirmed: yes
+#### termine ####
+start: 2018-01-24 18:23:42 Europe/Berlin
+----
+ende: 2018-01-24 23:42:23 Europe/Berlin
+----
+event: Beta Firmware testen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: :Um unsere Freifunk Firmware weiter zu entwickeln braucht es am Schluss auch Leute, die kontrollieren ob die Firmware auch auf den unterschiedlichen Routern läuft. || Nächsten Mittwoch gibt es dafür die Gelegenheit mitzuhelfen und zu kontrollieren ob die neue Firmware nun einsatzfähig ist.
+----
+confirmed: yes
+#### termine ####
+start: 2017-12-27 13:37:23 Europe/Berlin
+----
+ende: 2017-12-30 23:42:23 Europe/Berlin
+----
+event: Free Networks Orbit
+----
+ort: 34. Chaos Communication Congress, Leipzig
+----
+url: https://wiki.freifunk.net/34c3
+----
+description: A lot of Freifunk and Free Networks people will be at 34c3. We host a Joint Community Space for everybody who feels conected to infratructure topics.|
+----
+confirmed: yes
+#### termine ####
+start: 2018-03-06 19:00:00 Europe/Berlin
+----
+ende: 2018-03-06 23:42:23 Europe/Berlin
+----
+event: Freifunk Bodensee Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Wir treffen uns und machen Freifunk! Kommt vorbei!
+----
+confirmed: yes
+#### termine ####
+start: 2018-06-02 09:00:23 Europe/Berlin
+----
+ende: 2018-06-03 23:42:23 Europe/Berlin
+----
+event: Maker Faire Bodensee Friedrichshafen
+----
+ort: Messe Friedrichshafen
+----
+url: 
+----
+description: Freifunk Bodensee informaiert an einem Stand auf der Maker Faire Bodensee über das Projekt und die Fortschritte. Außerdem können livevor Ort router geflasht werden und wir organisieren das Besucher-WLAN der Maker Faire Bodensee.
+----
+confirmed: yes
+#### termine ####
+start: 2018-08-09 09:00:23 Europe/Berlin
+----
+ende: 2018-08-12 23:42:23 Europe/Berlin
+----
+event: Freifunk Bodensee Camp
+----
+ort: Campus der Waldorfschule Überlingen
+----
+url: 
+----
+description: Das Freifunk Camp am Bodensee findet statt.
+----
+confirmed: yes
+#### termine ####
+start: 2019-02-09 19:00:00 Europe/Berlin
+----
+ende: 2019-02-09 23:42:23 Europe/Berlin
+----
+event: Freifunk Bodensee Treffen
+----
+ort: Toolbox bodensee e.V.
+----
+url: 
+----
+description: Freifunk Bodensee trifft sich seit langer Pause wieder zu einem Freifunk treffen.|Diesesmal sind wir in der https://toolbox-bodensee.de in Markdorf
+----
+confirmed: yes
+#### termine ####
+start: 2018-05-23 19:00:00 Europe/Berlin
+----
+ende: 2018-05-23 23:42:23 Europe/Berlin
+----
+event: Freifunk Treffen Toolbox
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Im Vereinsheim des Toolbox Bodensee e.V. gibt es mal wieder ein Treffen von Freifunk-Bodensee. Das Treffen ist für alle Interessierten offen.
+----
+confirmed: yes
+#### termine ####
+start: 2017-05-03 19:00:00 Europe/Berlin
+----
+ende: 2017-05-03 23:42:23 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Es geht u.a. um die Planung des Freifunk Camp!
+----
+confirmed: yes
+#### termine ####
+start: 2017-03-24 19:00:00 Europe/Berlin
+----
+ende: 2017-03-24 23:42:23 Europe/Berlin
+----
+event: FFBW::sued Treffen
+----
+ort: „Engel“, Obere Hauptstraße 4, 78532 Tuttlingen
+----
+url: 
+----
+description: Wir treffen uns zu einem Communityübergreifenden treffen in Tuttlingen.
+----
+confirmed: yes
+#### termine ####
+start: 2017-04-30 10:00:00 Europe/Berlin
+----
+ende: 2017-04-30 23:00:00 Europe/Berlin
+----
+event: Flash in den Mai [FFS]
+----
+ort: Göppingen
+----
+url: 
+----
+description: Flash in den Mai - von Freifunk Stuttgart
+----
+confirmed: yes
+#### termine ####
+start: 2017-04-22 10:00:00 Europe/Berlin
+----
+ende: 2017-04-23 13:00:00 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Owingen
+----
+url: 
+----
+description: Freifunk-Bodensee Treffen | mit Fokus auf “überregionale Vernetzung” aber auch “alternative Dienste, wofür ist das Netz gut\, not only free-wifi”.
+----
+confirmed: yes
+#### termine ####
+start: 2017-11-18 18:00:00 Europe/Berlin
+----
+ende: 2017-11-18 12:00:00 Europe/Berlin
+----
+event: Wir stellen Freifunk vor
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Was ist Freifunk? Wir erklären es!
+----
+confirmed: yes
+#### termine ####
+start: 2018-05-07 10:00:00 Europe/Berlin
+----
+ende: 2018-05-14 10:00:00 Europe/Berlin
+----
+event: Wireless Community Weekend 2018
+----
+ort: c-base, Berlin
+----
+url: 
+----
+description: https://wireless-meshup.org/
+----
+confirmed: yes
+#### termine ####
+start: 2017-08-25 10:00:00 Europe/Berlin
+----
+ende: 2017-08-28 23:00:00 Europe/Berlin
+----
+event: Freifunk Camp
+----
+ort: Fallenbunnen, Friedrichshafen
+----
+url: 
+----
+description: Wir wollen die FFBW::con am Bodensee haben. Mit Vorträgen, Baden, Workshops, Grillen und Freifunk.
+----
+confirmed: yes
+#### termine ####
+start: 2017-11-18 09:00:00 Europe/Berlin
+----
+ende: 2017-11-18 23:00:00 Europe/Berlin
+----
+event: Freifunk-Flash-Workshop
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Am Tage der offenen Tür der Toolbox, findet unser FF-Workshop dort statt.
+----
+confirmed: yes
+#### termine ####
+start: 2017-12-07 19:00:00 Europe/Berlin
+----
+ende: 2017-12-07 13:00:00 Europe/Berlin
+----
+event: unser (un-)regelmäßiges Community-Meeting
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: 
+----
+confirmed: yes
+#### termine ####
+start: 2018-03-23 09:00:00 Europe/Berlin
+----
+ende: 2018-03-25 19:00:00 Europe/Berlin
+----
+event: FFBW Treffen
+----
+ort: Lörrach
+----
+url: 
+----
+description: vom 23.3-25.3 lädt Freifunk Dreiländereck zum FFBW Treffen nach Lörrach ein. Kommt alle vorbei!
+----
+confirmed: yes
+#### termine ####
+start: 2018-10-14 08:00:00 Europe/Berlin
+----
+ende: 2018-10-14 22:00:00 Europe/Berlin
+----
+event: Linuxday
+----
+ort: Dornbirn
+----
+url: https://linuxday.at
+----
+description: Der Linuxtag zieht uns nach Dornbirn. Dort zeigen wir denen, was dieses Freifunk ist.
+----
+confirmed: yes
+#### termine ####
+start: 2018-01-17 19:00:00 Europe/Berlin
+----
+ende: 2018-01-17 23:00:00 Europe/Berlin
+----
+event: Freifunk Gateway aufsetzen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Wir setzen einen Freifunk Gateway auf||Wen das interessiert und wer mitmachen will oder dabei gerne etwas lernen will... Kommt vorbei.
+----
+confirmed: yes
+#### termine ####
+start: 2017-06-09 17:00:00 Europe/Berlin
+----
+ende: 2017-06-09 23:00:00 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: 
+----
+confirmed: yes
+#### termine ####
+start: 2017-09-13 17:00:00 Europe/Berlin
+----
+ende: 2017-09-13 23:00:00 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: 
+----
+confirmed: yes
+#### termine ####
+start: 2018-07-20 08:00:00 Europe/Berlin
+----
+ende: 2018-07-22 18:00:00 Europe/Berlin
+----
+event: Hack To The Future
+----
+ort: Löwentalerstr. 20, 88046 Friedrichshafen
+----
+url: 
+----
+description: Wir sind dabei. Beim Junghackerthon in Friedrichshafen.
+----
+confirmed: yes
+#### termine ####
+start: 2019-03-03 18:00:00 Europe/Berlin
+----
+ende: 2019-03-03 23:42:23 Europe/Berlin
+----
+event: Vereinsgründung Freifunk Bodensee
+----
+ort: Toolbox Bodensee e.V.
+----
+url: https://freifunk-bodensee.net/blog/verein-gruenden/
+----
+description: Wir gründen einen Verein, der hinter Freifunk Bodensee steht.
 ----
 confirmed: yes
