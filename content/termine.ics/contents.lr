@@ -1,0 +1,24 @@
+_template: kalender.ics
+---
+_model: kalender
+---
+title: Termine Freifunk Bodensee
+---
+termine:
+
+#### termine ####
+start: 1970-01-23 13:37:23 Europe/Berlin
+----
+ende: 1970-01-23 13:37:23 Europe/Berlin
+----
+event: foo
+----
+ort:
+
+bar 
+----
+url: 
+----
+description: 
+----
+confirmed: 
