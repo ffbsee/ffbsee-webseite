@@ -7,18 +7,16 @@ title: Termine Freifunk Bodensee
 termine:
 
 #### termine ####
-start: 1970-01-23 13:37:23 Europe/Berlin
+start: 2018-03-07 18:30:00 Europe/Berlin
 ----
-ende: 1970-01-23 13:37:23 Europe/Berlin
+ende: 2018-03-07 20:30:00 Europe/Berlin
 ----
-event: foo
+event: Das STADTforum Friedrichshafen informiert über Freifunk!
 ----
-ort:
-
-bar 
+ort: Hotel City Krone, Friedrichshafen
 ----
-url: 
+url: https://freifunk-bodensee.net/blog/das-stadtforum-friedrichshafen-informiert-ueber-freifunk/
 ----
-description: 
+description: Die Schulungsreihe „STADTforum schafft Wissen“ informiert am Mittwochabend, den 7. März 2018, über das Thema „Mit Freifunk zu freiem W-LAN für meine Kunden und Gäste“. Im Hotel City Krone wird David Riedl von Freifunk Bodensee allen Interessierten erklären, wie das dezentrale, unabhängige und nicht-kommerzielle Bürgernetz einen komfortablen Zugang zum Internet eröffnet. || Die Anmeldung erfolgt über die Webseite des STADTForum Friedrichshafen.
 ----
-confirmed: 
+confirmed: yes
