@@ -34,3 +34,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 assets/hyperbolic/
+assets/css/main.min.css
+assets/css/main.css
