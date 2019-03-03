@@ -1,4 +1,6 @@
-_model: kalender
+template: events.html
+---
+_model: events
 ---
 title: Kalender
 ---
