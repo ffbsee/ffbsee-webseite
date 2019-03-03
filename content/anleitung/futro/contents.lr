@@ -1,0 +1,49 @@
+title: Eine Futro flashen
+---
+body: Um einen Freifunk Offloader wie die Siemens Futro zu installieren, musst du dir einen Stick präperieren und mit einem bestimmten Freifunk Image bespielen. Und das dann auf der Futro installieren
+---
+content:
+
+Leider ist das flashen einer Futro nicht ganz so easy, wie das flashen eines normalen Freifunk Routers.<br/>
+Dennoch ist das mit vertretbar wenig Aufwand und ein kleinen wenig technische Verständnis machbar.
+
+ Was muss man machen?
+------------------------------
+Um die Freifunk Bodensee Firmware auf einen Futro Offloader zu bekommen, braucht man einen speziell präperierten USB Stick.<br/>
+Auf diesen USB Stick kopiert man dann zusätzlich ein genau dafür vorbereitetes Image der Freifunk Firmware.<br/>
+Dann schließt man den Stick an die Futro an und bootet von dem Stick.
+Dabei installiert sich die Firmware automatisch auf die Festplatte des Futro.
+
+Und schon hat man einen funktionierenden Freifunk Offloader.
+Dieser ist ganz normal wie jeder Freifunk Router auch über seinen LAN port erreichbar.
+
+ Den USB Stick vorbereiten:
+---------------------------
+Von klugen Freifunk Firmware entwicklern gibt es dazu eine eigene Anleitung.<br/>
+Diese findet man auf [github.com/oszilloskop/Gluon2Futro](https://github.com/oszilloskop/Gluon2Futro#%C3%9Cbertragen-des-gluon2futro-images-auf-einen-usb-stick).<br/>
+Dieses sollte man ausfürlich lesen und dann wie dort beschrieben durchführen!
+
+### Kurzfassung:
+1. Dieses [gluon2futro.img](https://raw.githubusercontent.com/oszilloskop/Gluon2Futro/master/gluon2futro.img) auf den USB Stick schreiben. Zum Beispiel mit ``dd`` oder `` Win32 Disk Imager``.
+2. Den frisch erstellten Stick in deinen Computer als Laufwerk mit deinem Datei Explorer öffnen und die [GLUON2FUTRO.img.gz](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz) in das Wurzelverzeihnis des USB Stick kopieren.
+3. USB Stick auswerfen und die Futro vom USB Stick booten.
+
+
+ Welches Image muss da drauf kopiert werden?
+----------------------------------------------------------
+Um das passende Image zu finden, musst du selber in dem [Verzeichnis mit allen Freifunk Bodensee Images](https://firmware.ffbsee.de/firmware/) selber heraussuchen.<br/>
+Es sollte dort in der neusten stable Firmware Ordner im Unterordner ``x86`` in dessen Unterordner ``geode`` eine Datei geben, die ``combined-squashfs_for-GLUON2FUTRO.img.gz`` oder so ähnlich heißt. 
+
+Im Februar 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz).
+---
+relevanz: 19
+---
+subtitle: Wie man einen Freifunk Offloader installiert
+---
+content2:
+
+ Mehrere Ports an der Futro?
+-------------------------
+Leider kommt die Futro standardmäßig nur mit einem Ethernet Port.
+Dieser ist jedoch relativ einfach durch einen Mini-PCI-Express Ethernet Anschluss oder einen USB-Ethernet-Adapter erweiterbar.
+

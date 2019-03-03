@@ -2365,7 +2365,8 @@ body {
     #header > .navPanelToggle {
       display: block; }
     #header.alt > .navPanelToggle {
-      padding: 0 1.75rem; } }
+      padding: 0 1.75rem;
+      display: block;} }
   @media screen and (max-width: 736px) {
     #header {
       height: 3rem;
