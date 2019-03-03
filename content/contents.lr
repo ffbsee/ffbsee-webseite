@@ -115,3 +115,5 @@ mainafa: fas fa-mail-bulk
 mainbfa: fab fa-github
 ---
 body1l: /anleitung/
+---
+kalender: yes
