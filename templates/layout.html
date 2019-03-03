@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html>{% 
+set fqdn = 'freifunk-bodensee.net' %}
 <html lang="de">
     <head>
         <meta charset="utf-8" />
@@ -6,9 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Freifunk Bodensee - {% block description %}Freies Netz, überall und für alle!{% endblock %}" />
         <meta name="keywords" content="freifunk, Bodensee, FFBSee, Vernetzen, Netz, Internet, WLAN, Wifi, Überlingen, Friedrichshafen, Markdorf, Bodman, Ludwigshafen, Konstanz, Flüchtlingshilfe, frei, kostenlos" />
-        <link rel="stylesheet" href="{{ '/css/main.min.css'|url }}" />{%
-        block meta %}
-        <script src="{{ '/js/jquery-3.3.1.min.js'|url }}"></script>{% endblock %}
+        <link rel="stylesheet" href={%
+            if '/css/main.min.css'|asseturl == empty %}{%
+                if '/css/main.css'|asseturl == empty %}"https://{{ fqdn }}/css/main.min.css"{%
+                else %}"{{ '/css/main.css'|asseturl }}"{%
+                endif %}{%
+            else %}"{{ '/css/main.min.css'|asseturl }}"{%
+            endif %} /> 
+        {% block meta %}
+        <script src="{{ '/js/jquery-3.3.1.min.js'|asseturl }}"></script>{% endblock %}
     </head>
     <body class="is-preload">
         <div id="wrapper">
