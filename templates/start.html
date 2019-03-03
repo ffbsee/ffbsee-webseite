@@ -38,22 +38,29 @@
                             </tr>
                         </thead>
                         <tbody>{% 
-                        set pages = site.query('/').include_undiscoverable(true).all() %}{% 
+                        set pages = site.query('/').include_undiscoverable(true).all() %}{% set noevents = True %}{% 
                         for page in pages %}{%
                             if page._model == 'kalender' and page._path == '/termine.ics' %}{%
                                 for blk in page.termine.blocks|sort(attribute='start', reverse = False) %}{%
-                                    if blk.start.strftime('%Y%m%d%H%M') > none|datetimeformat('yyyyMMddhhmm') %}
+                                    if blk.start.strftime('%Y%m%d%H%M') > none|datetimeformat('yyyyMMddhhmm') %}{%
+                                        set noevents = False %}
                         <tr>
                             <th>{%
-                                    if  blk.start.strftime('%d.%m') ==  blk.ende.strftime('%d.%m') %}{{ blk.start.strftime('%d.%m.%y %H') }} - {{  
-blk.ende.strftime('%H') }} Uhr{%
+                                    if  blk.start.strftime('%d.%m') ==  blk.ende.strftime('%d.%m') %}{{ blk.start.strftime('%d.%m.%y %H:%M') }} - {{  
+blk.ende.strftime('%H:%M') }} Uhr{%
                                     else %}{{ blk.start.strftime('%d.%m') }} - {{ blk.ende.strftime('%d.%m.%Y') }}{%
                                     endif %}</th>
                             <th><a href="{{ blk.url }}" title="{{ blk.description|replace("|", " ") }}">{{ blk.event }}</a></th>
                             <th>{{ blk.ort }}</th>
                         </tr>{%
                                     endif %}{%
-                                endfor %}
+                                endfor %}{%
+                                if noevents %}
+                         <tr>
+                            <th>Stand {{ none|datetimeformat('MMMM YYYY') }}</th>
+                            <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk Treffen ein!</th>
+                            <th><a href="/anleitung/treffen/">Hier erfährst du</a>, wie das geht.</th>
+                         </tr>{% endif %}
                          </tbody>
                     </table><br/>
                 </div>{%

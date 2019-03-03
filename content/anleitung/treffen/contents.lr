@@ -1,0 +1,58 @@
+title: Zu einem Freifunk treffen einladen
+---
+body:
+
+Hier erfährst du, wie DU selber zu einem Freifunk treffen einladen kannst.
+
+Du suchst dir einfach ein Termin aus, an dem du gut kannst. Und dann lädst du dazu ein.
+---
+subtitle: Wie kann ich zu einem Freifunk treffen einladen
+---
+relevanz: 3
+---
+content:
+
+Zu einem Freifunk treffen Einladen ist grundlegend relativ simpel.
+
+ Vorbereitung
+--------------
+Der erste Schritt ist, du suchst dir einen Termin raus, von dem du meinst, dass nicht nur du da besonders gut kannst, sondern vermutlich auch viele andere.<br/>
+Das ist meistens ein Abend unter der Woche oder der Nachmittag am Wochenende.
+
+Als nächstes organisierst du einen Ort, an dem dieses Treffen statt finden kann.<br/>
+Gute Erfahrungen haben wir hier mit Schulen und Universitäten gemacht. Wenn du dort Menschen kennst sollte es kein Problem sein einen freien Raum am Abend oder Nachmittag zu finden. Auch die Vereinsräume von lokalen Vereinen haben sich als echt gut geeignet herausgestellt.<br/>
+Was eher weniger gut funktioniert ist ein reservierter Tisch in einem Lokal oder Gasthaus. Die vergangenen Treffen hier waren nie gemütlich und hatten immer eine sehr unsympatische Atmosphäre.
+
+Wenn du selber keinen Ort findest oder einen in Markdorf suchst, dann bietet sich das Vereinsheim der [Toolbox Bodensee e.V.](https://toolbox-bodensee.de) an. Dort haben wir schon viele Freifunk Treffen gehabt. Um dort ein Treffen zu organisieren ist es nie falsch, vorher mal in [deren Kalender](https://toolbox-bodensee.de/termine/) zu schauen ob der Tag noch frei ist. Außerdem musst du ein Mitglied der Toolbox finden, das bereit ist für das Treffen den Verein aufzuschließen und hinterher wieder abzuschließen. Komm hierfür am besten Donnserstags am offenen Tag der Toolbox vorbei und Frag, ob jemand das machen kann. Einige der Freifunker hier sind sogar selber bei Freifunk dabei und würden das bestimmt gerne machen.
+---
+code: <br/>
+---
+content2:
+
+ Einladung
+-------------------
+Nun da ein Ort gefunden ist und ein Datum feststeht, müssen andere Menschen noch davon erfahre.<br/>
+Hier gibt es zwei ganz wichtige Kanäle, über die diese Information auf jeden Fall verbreitet werden sollte.
+
+Die [Mailingliste](/kontakt/) ``freifunk-bodensee@list.ffbsee.de``
+
+Und der [Kalender](/kalender/) auf dieser Webseite.
+
+An die Mailingliste kannst du am einfachsten schreiben, wenn du sie aboniert hast. Aber das hast du ja vermutlich schon längst getan.<br/>
+Die Webseite wird über [GitHub](https://github.com/ffbsee/ffbsee-webseite.git) gepflegt.
+Es wäre schön zu sehen, wenn du versuchst, die Seite selber zu bearbeiten und die änderungen als Pull-Request einzureichen.<br/>
+Wenn du da aber nicht weiter kommst, helfen wir dir natürlich gerne.
+
+Weitere gute Kanäle zur Ankündigung sind der [Matrix Chat](/anleitung/matrix/) sowie Twitter, Facebook, Mastodon und Telegram.
+
+ Das Treffen
+----------------
+
+Wenn du zu einem Treffen einlädst, gehört es ein wenig dazu die auftretenden Gespräche ein wenig zu moderieren.
+
+mach dir am besten vorher Gedanken was bei dem Treffen stattfinden soll. Ist das eher als Informations- und Erklärungsveranstaltung gedacht in der interessierten Menschen erklärt werden soll was Freifunk ist und wie es funktioniert. Und wie man einen Router flashed.
+
+Oder ist es als Besprechungs- und Diskussionsrunde geplant um zu bereden was es neues bei Freifunk gibt, wie alles läuft. Um Projekte zu organisieren und zu Planen.
+
+Oder hast du eine noch viel bessere Idee?
+
