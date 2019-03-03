@@ -153,7 +153,7 @@ ende: 2019-02-09 23:42:23 Europe/Berlin
 ----
 event: Freifunk Bodensee Treffen
 ----
-ort: Toolbox bodensee e.V.
+ort: Toolbox Bodensee e.V.
 ----
 url: 
 ----
@@ -396,5 +396,151 @@ ort: Toolbox Bodensee e.V.
 url: https://freifunk-bodensee.net/blog/verein-gruenden/
 ----
 description: Wir gründen einen Verein, der hinter Freifunk Bodensee steht.
+----
+confirmed: yes
+#### termine ####
+start: 2017-02-15 19:00:23 Europe/Berlin
+----
+ende: 2017-02-15 23:42:23 Europe/Berlin
+----
+event: Friedrichshafener Freifunk Treffen
+----
+ort:
+
+Segel-Motorboot-Club Friedrichshafen 
+----
+url: https://freifunk-bodensee.net/blog/fffn/
+----
+description: Am Mittwoch, 15. Februar 2017, ab 19.00Uhr werden wir unser nächstes Freifunk Treffen in Friedrichshafen in den Räumen des Segel-Motorboot-Club Friedrichshafen haben. Ab 19Uhr werden wir - für alle Interessierten - die lokale Freifunkinstallation im Schussen „begutachten“.
+----
+confirmed: yes
+#### termine ####
+start: 2017-01-19 19:00:23 Europe/Berlin
+----
+ende: 2017-01-19 23:42:23 Europe/Berlin
+----
+event: Neujahrstreffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: https://freifunk-bodensee.net/blog/neujahr-17/
+----
+description: Wir treffen uns am Donnerstag, 19. Januar 2017, 19:00 Uhr in der Toolbox Bodensee.
+----
+confirmed: yes
+#### termine ####
+start: 2016-12-03 10:00:23 Europe/Berlin
+----
+ende: 2016-12-03 23:42:23 Europe/Berlin
+----
+event: Technik Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: https://freifunk-bodensee.net/blog/technik-16/
+----
+description:
+
+Am 3. Dezember 2016 haben wir das erste Freifunk Bodensee-Techniktreffen veranstaltet. Dabei haben wir Themen, wie die Grundlagen der Netzwerktechnik, unsere Firmware und deren Entwicklung sowie den Aufbau der Serverinfrastruktur und des Freifunk Backbone behandelt. 
+----
+confirmed: yes
+#### termine ####
+start: 2016-11-21 19:00:42 Europe/Berlin
+----
+ende: 2016-11-21 23:42:23 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Fallenbrunnen, Friedrichshafen
+----
+url: https://freifunk-bodensee.net/blog/fffn-16/
+----
+description: Freifunk in FN
+----
+confirmed: yes
+#### termine ####
+start: 2016-10-20 19:00:42 Europe/Berlin
+----
+ende: 2016-10-20 23:42:23 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: 
+----
+confirmed: yes
+#### termine ####
+start: 2016-11-05 09:00:42 Europe/Berlin
+----
+ende: 2016-1-05 19:00:42 Europe/Berlin
+----
+event:
+
+FFBW::con 
+----
+ort: Stuttgart
+----
+url: https://freifunk-bodensee.net/blog/spetemberfunk-16/
+----
+description: FFBW::con bei Freifunk Stuttgart
+----
+confirmed: yes
+#### termine ####
+start: 2016-07-21 18:00:42 Europe/Berlin
+----
+ende: 2016-07-21 22:00:42 Europe/Berlin
+----
+event: Tettnager Freifunk Treffen
+----
+ort: Elektonikschule Tettnang
+----
+url: https://freifunk-bodensee.net/blog/freifunk-tettnang/
+----
+description: Freifunk Treffen in Tettnang
+----
+confirmed: yes
+#### termine ####
+start: 2016-06-01 18:00:42 Europe/Berlin
+----
+ende: 2016-06-01 23:42:42 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: https://freifunk-bodensee.net/blog/juni-16/
+----
+description: 
+----
+confirmed: yes
+#### termine ####
+start: 2016-05-29 13:37:42 Europe/Berlin
+----
+ende: 2016-05-26 23:42:42 Europe/Berlin
+----
+event: FFBW::con
+----
+ort: HFG und ZKM in Karlsruhe
+----
+url: https://freifunk-bodensee.net/blog/ffbwcon/
+----
+description: Freifunk auf der GPN
+----
+confirmed: yes
+#### termine ####
+start: 2016-05-19 19:00:42 Europe/Berlin
+----
+ende: 2016-05-19 23:42:42 Europe/Berlin
+----
+event: Freifunk Treffen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: wir haben eine neue Firmware...
 ----
 confirmed: yes

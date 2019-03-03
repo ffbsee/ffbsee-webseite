@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+        <!-- Section -->
+	    <section class="wrapper style1">
+            <div class="inner">
+                <header class="major special">
+                    <h1>{{ this.title }}</h1>
+                    {{ this.subtitle }}
+                </header>
+{% if this.kalender %}
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Veranstaltung</th>
+                                <th>Ort</th>
+                            </tr>
+                        </thead>
+                        <tbody>{% 
+                        set pages = site.query('/').include_undiscoverable(true).all() %}{% 
+                        for page in pages %}{%
+                            if page._model == 'kalender' and page._path == '/termine.ics' %}{%
+                                for blk in page.termine.blocks|sort(attribute='start', reverse = True) %}{#
+                                    {%
+                                    if blk.start.strftime('%Y%m%d%H%M') > none|datetimeformat('yyyyMMddhhmm') %} #}
+                        <tr>
+                            <th>{%
+                                    if  blk.start.strftime('%d.%m') ==  blk.ende.strftime('%d.%m') 
+                                        %}{{ blk.start.strftime('%d.%m.%y %H:%M') }}-{{ blk.ende.strftime('%H:%M') }}{%
+                                    else %}{{ blk.start.strftime('%d.%m') }} - {{ blk.ende.strftime('%d.%m.%Y') }}{%
+                                    endif %}</th>
+                            <th><a href="{{ blk.url }}" title="{{ blk.description|replace("|", " ") }}">{{ blk.event }}</a></th>
+                            <th>{{ blk.ort }}</th>
+                        </tr>{# {%
+                                     endif %} #}{%
+                                endfor %}
+                         </tbody>
+                    </table><br/>
+                </div>{%
+                            endif %}{% 
+                        endfor %}
+                <center>
+                    <a href="/kalender/" class="button">Alle Termine</a>
+                    <a href="/termine.ics" class="button primary">Termine Abonieren</a>
+                </center><br/><br/><br/>{% 
+endif %}
+ 
+
+                {{ this.body }}
+            </div>
+        </section>
+
+{% endblock %}
