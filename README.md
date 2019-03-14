@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ffbsee/webseite.svg?branch=master)](https://travis-ci.org/ffbsee/webseite)
+[![Build Status](https://travis-ci.org/ffbsee/ffbsee-webseite.svg?branch=master)](https://travis-ci.org/ffbsee/ffbsee-webseite)
 ![Freifunk Bodensee](https://freifunk-bodensee.net/images/see.svg "FFBSee")
 
  Freifunk Bodensee - Webseite
@@ -11,6 +11,7 @@ Das CMS für diese Webseite ist [Lektor](https://www.getlektor.com/).
 Die Installationsanleitung gibt es [hier](https://www.getlektor.com/downloads/).
 Lektor ist auch als Python Modul verfügbar und kann mit ``python2 -m lektor`` verwendet werden.
 Auch die Installation über pip ist möglich:
+
 ```bash
 virtualenv venv
 . venv/bin/activate
@@ -22,6 +23,11 @@ und dort mit dem Befehl ``lektor server`` startet man Lektor und öffnen auf 127
 bearbeitbar ist. Die Versionskontrolle der Webseite findet über Git statt. Daher wenn möglich Bilder erst
 bearbeiten, bevor diese Veröffentlicht werden!
 
+You can use ``make`` to install all needed packages:
+
+```bash
+make install
+```
 
  Zur neuen Webseite Beitragen:
 ------------------------
