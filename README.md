@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ffbsee/webseite.svg?branch=master)](https://travis-ci.org/ffbsee/webseite)
+[![Build Status](https://travis-ci.org/ffbsee/ffbsee-webseite.svg?branch=master)](https://travis-ci.org/ffbsee/ffbsee-webseite)
 ![Freifunk Bodensee](https://freifunk-bodensee.net/images/see.svg "FFBSee")
 
  Freifunk Bodensee - Webseite
