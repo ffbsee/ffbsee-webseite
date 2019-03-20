@@ -1,8 +1,5 @@
 ﻿language: python
-matrix:
-  include:
-    - python: 3.6
-      sudo: true
+python: 3.6
 git:
   lfs_skip_smudge: true
 cache:

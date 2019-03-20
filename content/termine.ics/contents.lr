@@ -544,3 +544,31 @@ url:
 description: wir haben eine neue Firmware...
 ----
 confirmed: yes
+#### termine ####
+start: 2019-03-23 13:00:23 Europe/Berlin
+----
+ende: 2019-03-23 16:30:42 Europe/Berlin
+----
+event: Demonstation für ein freies Internet
+----
+ort: Ravensburg - Marienplatz
+----
+url: https://freifunk-bodensee.net/blog/artickel-13/
+----
+description: Freifunk steht für freies, unzensiertes, offenes Internet. Ohne zensur oder Uploadfiltern. Dezentral. Und alle dürfen mitmachen.  |Genau das ist in Gefahr!!!|Komm am 23.3. mit uns nach Ravensburg zum Demonstrieren.|Gegen Artickel 11,12 und 13 der kommenden europäischen Datenschutzverordnung.|Aber für ein Internet, in dem wir den kreativ sein können und uns frei entfalten können. Im einklang mit dem Urheberrecht, Datenschutz und der privatsphäte. Und nicht davon erdrückt und erschlagen.
+----
+confirmed: yes
+#### termine ####
+start: 2019-03-27 19:23:23 Europe/Berlin
+----
+ende: 2019-03-27 20:42:23 Europe/Berlin
+----
+event: Infoabend zu Freifunk Holzwinkel
+----
+ort: Welden (Landkreis Augsburg)
+----
+url: https://freifunk-holzwinkel.frama.io/plakat-fhd.png
+----
+description: Am Mittwoch, den 27. März 2019 findet bei unserer Nachbarcommunity Freifunk Holzwinkel im Haus der Vereine in Welden (Ganghoferstraße 7, 86465 Welden) ein Infoabend zu Freifunk Holzwinkel statt. Dort erwartet Euch eine kurze Einführung in die Freifunk-Welt. Anschließend besteht noch die Möglichkeit, Fragen zu stellen und zu diskutieren.
+----
+confirmed: yes
