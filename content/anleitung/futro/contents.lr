@@ -4,8 +4,8 @@ body: Um einen Freifunk Offloader wie die Siemens Futro zu installieren, musst d
 ---
 content:
 
-Leider ist das flashen einer Futro nicht ganz so easy, wie das flashen eines normalen Freifunk Routers.<br/>
-Dennoch ist das mit vertretbar wenig Aufwand und ein kleinen wenig technische Verständnis machbar.
+Leider ist das flashen eines Futros nicht ganz so easy, wie das flashen eines normalen Freifunk Routers.<br/>
+Dennoch ist das mit vertretbarem Aufwand und ein kleinen wenig technischem Verständnis machbar.
 
  Was muss man machen?
 ------------------------------
@@ -19,7 +19,7 @@ Dieser ist ganz normal wie jeder Freifunk Router auch über seinen LAN port erre
 
  Den USB Stick vorbereiten:
 ---------------------------
-Von klugen Freifunk Firmware entwicklern gibt es dazu eine eigene Anleitung.<br/>
+Von klugen Freifunk-Firmware-Entwicklern gibt es dazu eine eigene Anleitung.<br/>
 Diese findet man auf [github.com/oszilloskop/Gluon2Futro](https://github.com/oszilloskop/Gluon2Futro#%C3%9Cbertragen-des-gluon2futro-images-auf-einen-usb-stick).<br/>
 Dieses sollte man ausfürlich lesen und dann wie dort beschrieben durchführen!
 
@@ -34,7 +34,7 @@ Dieses sollte man ausfürlich lesen und dann wie dort beschrieben durchführen!
 Um das passende Image zu finden, musst du selber in dem [Verzeichnis mit allen Freifunk Bodensee Images](https://firmware.ffbsee.de/firmware/) selber heraussuchen.<br/>
 Es sollte dort in der neusten stable Firmware Ordner im Unterordner ``x86`` in dessen Unterordner ``geode`` eine Datei geben, die ``combined-squashfs_for-GLUON2FUTRO.img.gz`` oder so ähnlich heißt. 
 
-Im Februar 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz).
+Im März 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz).
 ---
 relevanz: 19
 ---
