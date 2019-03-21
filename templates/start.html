@@ -37,13 +37,13 @@
                                 <th>Ort</th>
                             </tr>
                         </thead>
-                        <tbody>{% 
-                        set pages = site.query('/').include_undiscoverable(true).all() %}{% set noevents = True %}{% 
+                        <tbody>{% set counter = ['1'] %} {%
+                        set pages = site.query('/').include_undiscoverable(true).all() %}{% 
                         for page in pages %}{%
                             if page._model == 'kalender' and page._path == '/termine.ics' %}{%
                                 for blk in page.termine.blocks|sort(attribute='start', reverse = False) %}{%
                                     if blk.start.strftime('%Y%m%d%H%M') > none|datetimeformat('yyyyMMddhhmm') %}{%
-                                        set noevents = False %}
+                                    if counter.append('1') %}{% endif %}
                         <tr>
                             <th>{%
                                     if  blk.start.strftime('%d.%m') ==  blk.ende.strftime('%d.%m') %}{{ blk.start.strftime('%d.%m.%y %H:%M') }} - {{  
@@ -55,8 +55,7 @@ blk.ende.strftime('%H:%M') }} Uhr{%
                         </tr>{%
                                     endif %}{%
                                 endfor %}{%
-                                if noevents %}
-                         <tr>
+                                if counter|length < 2 %}    <tr>
                             <th>Stand {{ none|datetimeformat('MMMM YYYY') }}</th>
                             <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk Treffen ein!</th>
                             <th><a href="/anleitung/treffen/">Hier erfährst du</a>, wie das geht.</th>
