@@ -13,6 +13,7 @@
     RewriteRule ^news https://freifunk-bodensee.net/feed.xml
     RewriteRule ^camp https://mailingliste.ffbsee.net/doku.php?id=camp
     RewriteRule ^spende https://freifunk-bodensee.net/helfen/
+    RewriteRule ^blog/artikel-13 https://freifunk-bodensee.net/blog/eu-urheberrechtsreform
 
     ### Redirect certain domains to ffbsee.net
     RewriteCond %{HTTP_HOST} ^www\.ffbsee\.net [NC,OR]
