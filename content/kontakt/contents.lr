@@ -11,9 +11,9 @@ Es gibt viele Wege, etwas von Freifunk Bodensee mitzubekommen. Doch welche genau
  Mailingliste
 -----------------------
 
-Auf der Mailingliste werden wichtge und spannende Themen rund um Freifunk besprochen. Außerdem wird dort zu neuen Terminen wie einem lokalen Freifunk Treffen eingeladen. Außerdem werden große neuerungen in der Firmware dort bekanntgegeben und einige Themen Diskuttiert, die sich in der Firmware ändern, bei denen das Firmware Team die Meinung anderer Leute berücksichtigen möchte. Außerdem ist die Mailingliste ein guter Ort, um nach Unterstützung zu Fragen. Hier wird versucht jedem weiterzuhelfen. Begonnen mit: "Wie lade ich denn die Firmware runter" bis hin zu komplexen Themen wie: "Kann mir jemand beim aufbauen einer Richtfunkverbindung helfen" und vielen vielen Themen mehr.
+Auf der Mailingliste werden wichtge und spannende Themen rund um Freifunk besprochen. Außerdem wird dort zu neuen Terminen wie einem lokalen Freifunk Treffen eingeladen. Außerdem werden große Neuerungen in der Firmware dort bekanntgegeben und einige Themen diskutiert, die sich in der Firmware ändern, bei denen das Firmware Team die Meinung anderer Leute berücksichtigen möchte. Außerdem ist die Mailingliste ein guter Ort, um nach Unterstützung zu Fragen. Hier wird versucht jedem weiterzuhelfen. Begonnen mit: "Wie lade ich denn die Firmware runter" bis hin zu komplexen Themen wie: "Kann mir jemand beim Aufbauen einer Richtfunkverbindung helfen" und vielen vielen Themen mehr.
 
-Um also bei Freifunk Bodensee mitzumachen ist das Abonnieren der Mailingliste und vielleicht eine freundliche "Hallo, ich möchte Mitmachen"- EMail ein guter schritt!
+Um also bei Freifunk Bodensee mitzumachen ist das Abonnieren der Mailingliste und vielleicht eine freundliche "Hallo, ich möchte Mitmachen"- EMail ein guter Schritt!
 
 <center>
 <a href="mailto:freifunk-bodensee@list.ffbsee.de" class="button primary">An die Mailingliste schreiben</a>
@@ -24,7 +24,7 @@ Um also bei Freifunk Bodensee mitzumachen ist das Abonnieren der Mailingliste un
 -------------------------
 Als Chat bei Freifunk Bodensee verwenden wir <a href="https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)">Matrix</a>. Dort findet eine Gruppenchat-artige Kommunikation statt. So wird dort über Ideen und Freifunk haltige Ideen geredet, es werden neue Freifunk treffen geplant oder der Aufbau von Freifunk Installationen. Und natürlich wird bei Router Problemen weiter geholfen.
 
-Das Verbinden mit Matrix ist sehr einfach, sobald man sich erstmal ein Client installiert hat.
+Das Verbinden mit Matrix ist sehr einfach, sobald man sich erstmal einen Client installiert hat.
 Hierfür gibt es aber natürlich eine Anleitung.
 
 <center>
@@ -82,7 +82,7 @@ Sowohl unsere Firmware, als auch das Setup unserer Gateways gibt es öffentlich 
 
  Freifunk Nodes
 -----------------------
-Bei den Routern im Freifunk Bodensee Netz, gibt es eine große Zahl an freiwilliger Angaben. Diese werden u.a. im Meshviewer und ind er Nodelist dargestellt:
+Bei den Routern im Freifunk Bodensee Netz, gibt es eine große Zahl an freiwilliger Angaben. Diese werden u.a. im Meshviewer und in der Nodelist dargestellt:
 Außerdem gibt es ein Grafana mit vielen bunten Graphen zu den Freifunk Routern:
 
 <center>
