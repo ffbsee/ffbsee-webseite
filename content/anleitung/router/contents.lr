@@ -4,19 +4,18 @@ preview: /images/mitmachen.png
 ---
 relevanz: 42
 ---
-subtitle: Welchen Router brauche ich?
+subtitle: Welchen Router könnt ihr empfehlen?
 ---
 body:
 
-Es gibt viele Geräte, die ein WLAN machen können.
-Einige sind auch mit Freifunk kompatibel.
+Es gibt viele Geräte, die sich als WLAN AccesPoint eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
 
-Hier erfährst du, welche Router wir empfehlen und welche Router eher weniger Spaß machen.
+Hier erfährst du, welche Router wir dir empfehlen können und von welche Router du deine Finger lassen solltest.
 ---
 code:
 
 <center>
-<a href="#teuer" class="button primary">Schnell aber teuer</a><br/><br/>
+<a href="#teuer" class="button primary">Mittelmäßig gut aber richtig teuer</a><br/><br/>
 <a href="#komplex" class="button primary">Schnell und günstig, aber technisch aufwendig</a><br/><br/>
 <a href="#schrott" class="button">Sehr langsam, aber immerhin günstig</a>
 </center>
@@ -44,8 +43,9 @@ Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" cla
 ```
 Der Archer C7 ist einer der aktuell am einfachsten einzurichtenden Freifunk Router.
 Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
-Unterstützt werden nur die Modelle v2 und v4.
+Unterstützt werden nur die Modelle v2 und v4 in unserem stable Release. 
 Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
+Für die aktuell (April 2019) erhältliche Version 5 gibt es ein beta Release. Das kann funktionieren, ist aber etwas Fehleranfällig.
 Leider ist der Router mit 70€-100€ relativ teuer.
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
@@ -223,7 +223,7 @@ TP-Link WR841N
 --------------
 ```
 KEINE KAUFEMPFEHLUNG
-ACHTUNG v14 IST NICHT KOMPATIBEL
+ACHTUNG ab v14 IST NICHTS KOMPATIBEL
 
 Der TP-Link WR841N ist einer der günstigsten Freifunk Router.
 Leider sendet er sein WLAN nur auf 2.4 GHz,.
