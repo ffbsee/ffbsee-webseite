@@ -13,9 +13,9 @@ preview: /images/recovery.jpg
 ---
 content:
 
-Sollte man mal sein Passwort vergessen haben oder man hat sich beim Konfigurieren aus dem Router ausgespeert, gibt es einen Recoverymodus.
+Sollte man mal sein Passwort vergessen haben oder man hat sich beim Konfigurieren aus dem Router ausgesperrt, gibt es einen Recoverymodus.
 
-Dieser ist ausführlich auf [openwrt.org/de/doc/howto/generic.failsafe](https://openwrt.org/de/doc/howto/generic.failsafe) Dokumentiert.
+Dieser ist ausführlich auf [openwrt.org/de/doc/howto/generic.failsafe](https://openwrt.org/de/doc/howto/generic.failsafe) dokumentiert.
 
 
  Recovery Modus Auslösen via Hardware Taster
@@ -72,7 +72,7 @@ reboot -f
 
 Sollte es Probleme beim erreichen des Routers über die IPv4 Addresse geben (``192.168.1.1``) so kann man das auch über IPv6 versuchen.
 
-Jedes Gerät, das IPv6 spricht denkt siuch ganz von alleine eine ``fe80::/64`` Adresse aus. So können zwei Geräte über diese fe90-Adresse kommunizieren, ohne dass sich jemand mit dem Einstellen der IP Adressen kümmern musste.
+Jedes Gerät, das IPv6 spricht denkt sich ganz von alleine eine ``fe80::/64`` Adresse aus. So können zwei Geräte über diese fe80-Adresse kommunizieren, ohne dass sich jemand um das Einstellen der IP Adressen kümmern musste.
 
 Wenn ihr per Ethernet also direkt mit dem Freifunk Router verbunden seid, könnt ihr seine IPv6 Adresse mit folgenden Befehl herausfinden:
 ````bash
@@ -80,11 +80,11 @@ ping ff02::1%eth0
 ````
 Dies ist ein Ping auf alle Geräte im lokalen Netz, das bei  euch am Interface ``eth0`` angeschlossen ist. Heißt euer Netzwerkinterface anders, müsst ihr eth0 natürlich durch diesen Namen ersetzen.
 
-Ihr solltet nun eine Antwort von zwei verschiedenen fe80:: Adressen bekommen. Die eine Adresse habt ihr selber. Die andere Adresse ist der Dreifunk Router, mit dem ihr verbunden seid.
+Ihr solltet nun eine Antwort von zwei verschiedenen fe80:: Adressen bekommen. Die eine Adresse habt ihr selber. Die andere Adresse ist der Freifunk Router, mit dem ihr verbunden seid.
 
-Nun könnt ihr euch ganz normal mit ``ssh  -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null root@fe80::aaaa:bbbb:cccc:dddd%eth0`` mit dem Router verbinden. *aaaa:bbbb:ccccc:ddddd sollte natürlich die Adresse eures Routers sein!*
+Nun könnt ihr euch ganz normal mit ``ssh  -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null root@fe80::aaaa:bbbb:cccc:dddd%eth0`` mit dem Router verbinden. *aaaa:bbbb:cccc:dddd sollte natürlich die Adresse eures Routers sein!*
 
-Auch über den Webbrowser kann man sich auf diese Adresse verbinden. Allerdings bietet der Recovery Modus keinen Webbrowser an. Wenn ihr aber die Adresse eures Routers nicht kennt, kann das auch helfen.
+Auch über den Webbrowser kann man sich mit dieser Adresse verbinden. Allerdings bietet der Recovery Modus keinen Webbrowser an. Wenn ihr aber die Adresse eures Routers nicht kennt, kann das auch helfen.
 
 ````bash
 http://[fe80::aaaa:bbbb:cccc:dddd]/
