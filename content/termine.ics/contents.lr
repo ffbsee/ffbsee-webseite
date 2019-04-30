@@ -572,3 +572,31 @@ url: https://freifunk-holzwinkel.frama.io/plakat-fhd.png
 description: Am Mittwoch, den 27. März 2019 findet bei unserer Nachbarcommunity Freifunk Holzwinkel im Haus der Vereine in Welden (Ganghoferstraße 7, 86465 Welden) ein Infoabend zu Freifunk Holzwinkel statt. Dort erwartet Euch eine kurze Einführung in die Freifunk-Welt. Anschließend besteht noch die Möglichkeit, Fragen zu stellen und zu diskutieren.
 ----
 confirmed: yes
+#### termine ####
+start: 2019-05-01 13:00:00 Europe/Berlin
+----
+ende: 2019-05-01 18:00:00 Europe/Berlin
+----
+event: Wiederbeleben von Freifunk (abgesagt wegen fehlenden Teilnehmern)
+----
+ort: Toolbox Bodensee e.V.
+----
+url: 
+----
+description: Unser Freifunk Netz befindet sich nicht in einem wirklich guten Zustand und bedarf an vielen Stellen etwas liebe, zuneigung und wartung. Da es alleine nur wenig spaß macht Freifunk zu reparieren können wir uns am 1. Mai mit 2-5 Menschen in der Toolbox treffen um da endlich mal vorran zu kommen.||Ziel ist es bald wieder ein Freifunk Netz zu haben, auf das man stolz sein kann.||Je nachdem wer Lust hat zu helfen gibt es drei Themen, die man machen kann:||- Aufbau eines wieder funktionalen Freifunk Netzes mit BATMAN V: https://github.com/ffbsee/ansible.git||- Weiter entwickeln an einer wieder funktionierenden Freifunk Firmware, die man als 'stable' Releasen kann: https://github.com/ffbsee/firmware.git||- Gestalten einer aktuellen Freifunk Präsentation mit modernen Werkzeugen - die alte ist mehr als in die Jahre gekommen: https://github.com/ffbsee/praesentation  (Und bei der gelegenheit auch Hexagoale Freifunk aufkleber entwerfen. sechseckig ist das neue quadratisch!)||Das alles sind Themen, die dringenst erledigt werden müssten.|Also lass uns gemeinsam loslegen||Natürlich müsst ihr keine spezialexperten sein um mithelfen zu können.|Es geht viel eher darum wieder etwas mehr zusammen zu kommen und gemeinsam an Freifunk zu arbeiten.. |||Denn was alleine langweilig ist, das kann zusammen echt spaß machen!|L3D würde sich über anmeldungen über die Mailingliste freuen.
+----
+confirmed: 
+#### termine ####
+start: 2019-05-01 17:00:00 Europe/Berlin
+----
+ende: 2019-05-01 20:00:00 Europe/Berlin
+----
+event: Freifunk 3-Ländereck Firmware Flashen
+----
+ort: Toolbox Bodensee e.V.
+----
+url: https://freifunk-firmware.de/
+----
+description: Die Freifunk Firmware beim Bodensee hat lange keine stable updates mehr gesehen.|Bei unserer Nachbarcommunity ist das anders.||L3D hilft euch beim Flashen der Freifunk 3-Ländereck Firmware. Dies ist zwar ein Trollversuch um Leute wach zu rütteln und dazu zu bewegen wirklich mal etwas zu machen. Aber Freifunk 3-LänderEck macht tatsächlich derzeit bessere Firmware wie wir am Bodensee. Umflashen ist also gar nicht so verkehrt. Besonders bei neuer nicht unterstützter Hardware!
+----
+confirmed: yes
