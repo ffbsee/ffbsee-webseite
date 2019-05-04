@@ -600,3 +600,17 @@ url: https://freifunk-firmware.de/
 description: Die Freifunk Firmware beim Bodensee hat lange keine stable updates mehr gesehen.|Bei unserer Nachbarcommunity ist das anders.||L3D hilft euch beim Flashen der Freifunk 3-Ländereck Firmware.|||Freifunk 3-LänderEck macht tatsächlich derzeit bessere Firmware wie wir am Bodensee. Umflashen ist also gar nicht so verkehrt. Besonders bei neuer (noch) nicht von uns unterstützter Hardware!
 ----
 confirmed: yes
+#### termine ####
+start: 2019-08-01 10:00:00 Europe/Berlin
+----
+ende: 2019-08-04 10:00:00 Europe/Berlin
+----
+event: Technik Camp
+----
+ort: Campus Waldorfschule Überlingen
+----
+url: https://ffbsee.net/camp/
+----
+description: Technik Camp am Bodensee
+----
+confirmed: yes
