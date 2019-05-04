@@ -11,7 +11,7 @@
     RewriteRule ^router https://freifunk-bodensee.net/anleitung/router/
     RewriteRule ^flashen https://freifunk-bodensee.net/anleitung/flashen/
     RewriteRule ^news https://freifunk-bodensee.net/feed.xml
-    RewriteRule ^camp https://mailingliste.ffbsee.net/doku.php?id=camp
+    RewriteRule ^doku.php?id=camp https://ffbsee.net/camp/
     RewriteRule ^spende https://freifunk-bodensee.net/helfen/
     RewriteRule ^blog/artikel-13 https://freifunk-bodensee.net/blog/eu-urheberrechtsreform
 
@@ -21,7 +21,7 @@
     RewriteCond %{HTTP_HOST} ^www\.ffbsee\.de [NC,OR]
     RewriteCond %{HTTP_HOST} ^ffbsee\.de [NC,OR]
     RewriteCond %{HTTP_HOST} ^www\.freifunk-bodensee\.net [NC]
-    RewriteRule (.*) https://freifunk-bodensee.net/$1 [R=301,L]
+    RewriteRule (.*) https://freifunk-bodensee.net/$1 [R=302,L]
 </IfModule>
 
 # COMPRESSION WITH MOD_DEFLATE
