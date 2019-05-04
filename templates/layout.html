@@ -31,6 +31,7 @@ set ausnahmezustand = False %}
                             ['/blog', 'Neuigkeiten'],
                             ['/anleitung', 'Anleitung'],
                             ['/faq', 'Fragen'],
+                            ['/faq', 'Camp'],
                             ['/kontakt', 'Kontakt'],
                             ['/helfen', 'Unterstützen']
                             ] %}<li{%
@@ -61,6 +62,17 @@ set ausnahmezustand = False %}
 
                                     <li><a href="{{ '/kalender'|url }}">Kalender</a></li>
                                 </ul>
+                            {% elif title == 'Camp' %}
+                                <ul>
+                                    <li><a href="{{ '/camp'|url }}">Camp</a></li>
+                                    {% set root = site.get('/camp/', alt=this.alt) %}{%
+                                    for child in root.children recursive %}{% if loop.index <= 5 %}
+                                    <li{%
+                                         if this._path == child._path %} class="active"{% endif
+                                         %}><a href="{{ child|url }}"> -> {{ child.title }}</a></li>{%
+                                    endif %}{%endfor %}
+                                </ul>
+
 
                             {% elif title == 'Anleitung' %}
                                 <ul>{% set root = site.get('/anleitung/', alt=this.alt) %}{%
