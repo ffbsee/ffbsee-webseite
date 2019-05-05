@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 {% from "macros/help.html" import render_help_post %}
 {% block title %}{{ this.title }}{% endblock %}
+{% block expand_ogg_image %}"{% if this.preview %}{{ this.preview|url }}{% else %}{{ '/images/fragen.png'|asseturl }}{% endif %}"{% endblock %}
 {% block body %}
         <!-- Section -->
 	    <section class="wrapper style1">
