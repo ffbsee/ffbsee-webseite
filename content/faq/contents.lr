@@ -33,8 +33,8 @@ text:
 
 Der erste Schritt ist, selber einen Freifunk Router aufzustellen. Hierfür findest du eine Anleitung auf unserer Webseite. Weiter geht es damit, anderen Menschen von Freifunk zu erzählen und beim Aufstellen von Freifunk Routern zu helfen.
 
-Wenn du Lust hast, bei der Firmware mit zu helfen, dann schau doch mal auf GitHub vorbei. 
-Melde dich doch mal auf der [Mailingliste](/kontakt) und komm bei [einem Treffen](/kalender) vorbei. Außerdem schau mal bei der Seite [Unterstützung](/helfen) vorbei.
+Wenn du Lust hast, bei der Firmware mitzuhelfen, dann schau doch mal auf GitHub vorbei. 
+Melde dich doch mal auf der [Mailingliste](/kontakt) und komm bei [einem Treffen](/kalender) vorbei. Außerdem Schau mal bei der Seite [Unterstützung](/helfen) vorbei.
 #### faq ####
 ask: Ist mein Router mit Freifunk kompatibel?
 ----
@@ -49,8 +49,8 @@ ask: Ich bekomme keine IPv4 Adresse?
 text:
 
 Dann ist dein Router vermutlich nicht korrekt mit dem Internet verbunden.
-Die Freifunk Bodensee Router verteilen standardmäßig ein offenes WLAN mit der SSID ``Freifunk``. In diesem WLAN werden direkt vom Router IPv6 Adresse vergeben, so dass Geräte sich auch untereinander erreichen können.<br/>
-Außerdem versuchen sich die Router mit der SSID ``ffbsee_mesh`` untereinander zu finden um eine große Mesh-Wolke aufzubauen.
+Der Freifunk Bodensee Router verteilen standardmäßig ein offenes WLAN mit der SSID ``Freifunk``. In diesem WLAN werden direkt vom Router IPv6 Adresse vergeben, so dass Geräte sich auch untereinander erreichen können.<br/>
+Außerdem versuchen sich die Router mit der SSID ``ffbsee_mesh`` untereinander zu finden, um eine große Mesh-Wolke aufzubauen.
 <br/><br/>Die IPv4 Adressen werden von den Freifunk Gateways vergeben. Daher bekommst du nur eine solche Adresse, wenn dein Router (oder ein Router mit dem dein Router meshed) mit dem Internet verbunden ist.
 <br/>Dies geschieht in der Regel so, dass du den blauen ``WAN``-Port des Freifunk Routers in einen der gelben Ports des Routers deines Internet-Anbieters steckst.
 #### faq ####
@@ -72,7 +72,7 @@ text:
 
 Wenn du bei uns mitmachst und Freifunk über unsere Server-Infrastruktur anbietest, haben wir zwei bitten an dich:
 
-Verwende bitte die SSID ``Freifunk``. Dann kommt jeder der schonmal im Freifunk war einfach wieder ins WLAN rein, ohne lange suchen zu müssen wie das Freifunk hier jetzt heißt. Gerne darfst du aber eine weitere SSID aussenden die einen beliebig anderen Namen hat.
+Verwende bitte die SSID ``Freifunk``. Dann kommt jeder, der schonmal im Freifunk war einfach wieder ins WLAN rein, ohne lange suchen zu müssen, wie das Freifunk hier jetzt heißt. Gerne darfst du aber eine weitere SSID aussenden die einen beliebig anderen Namen hat.
 
 Zensiere das Freifunk nicht. Freifunk ist ein offenes, für alle zugängliches freies Netzwerk mit einem möglichst offenen Zugang ins Internet. Wenn du jetzt aber der Meinung bist, etwas im Internet darf nicht für jeden sichtbar sein und deswegen Netzsperren bei deinem Freifunk errichtest, dann bist du hier leider fehl am Platz. Zensur des Internets (sei es auch aus noch so guter Absicht) finden wir nicht gut. Mach das nicht. Zumindest nicht bei unserem Freifunk.
 
@@ -96,7 +96,7 @@ text:
 
 Nein!
 
-Wir arbeiten mit Freifunk 3-Ländereck zusammen, die sind anderen Telekommunikationsdiensteanbietern (ISP) rechtlich praktisch gleichgestellt und Sie können sich in Bezug der Störerhaftung auf das “Providerprivileg” berufen. Unabhängig von der rechtlichen Situation als Telekommunikationsdiensteanbieter, sorgen wir mit technischen Maßnahmen dafür, dass die Störerhaftung nicht auf den eigentlichen Betreiber des Routers zurückfällt.
+Wir arbeiten mit Freifunk 3-Ländereck zusammen, die sind anderen Telekommunikationsdiensteanbietern (ISP) rechtlich praktisch gleichgestellt und Sie können sich in Bezug der Störerhaftung auf das "Provider Privileg” berufen. Unabhängig von der rechtlichen Situation als Telekommunikationsdiensteanbieter, sorgen wir mit technischen Maßnahmen dafür, dass die Störerhaftung nicht auf den eigentlichen Betreiber des Routers zurückfällt.
 #### faq ####
 ask: Meine Frage wurde nicht beantwortet?
 ----

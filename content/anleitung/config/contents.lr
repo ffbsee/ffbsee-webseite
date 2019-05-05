@@ -54,6 +54,6 @@ content2:
 
  "Einstellungen"
 -------------------------
-Im Bereich Einstellungen lassen sich Grundlegende Dinge Einstellen, wie sich der Freifunk Router verhalten soll.
+Im Bereich Einstellungen lassen sich grundlegende Dinge Einstellen, wie sich der Freifunk Router verhalten soll.
 So kann man dort dem Router einen Namen geben, mit dem er Beispielsweise im Meshviewer auftaucht. Auserdem einen Standort, wo er auf der Karte im Meshviewer erscheinen soll.
 <center><a href="https://meta.ffbsee.net/meshviewer/" class="button primary">Meshviewer</a></center>
