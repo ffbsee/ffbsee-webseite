@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
+{% if this.description %}{% block description %}{{ this.description }}{% endblock %}{% endif %}
 {% block body %}
         <!-- Section -->
 	    <section class="wrapper style1">
