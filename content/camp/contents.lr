@@ -1,16 +1,19 @@
 _model: page
 ---
-title: Camp
+title: Technik Camp 2019
 ---
 body:
 
-Das Technik Camp wird veranstaltet von der [Toolbox Bodensee e.V.](https://toolbox-bodensee.de) zusammen mit dem Hackerspace [see-base](https://see-base.de), dem Verein [Förderverein Freie Netze Bodensee e.V. (in Gründung)](https://ffnbsee.org) und [Freifunk Bodensee](https://ffbsee.net).
+Das Technik Camp 2019 wird veranstaltet von der [Toolbox Bodensee e.V.](https://toolbox-bodensee.de) zusammen mit dem Hackerspace [see-base](https://see-base.de), dem Verein [Förderverein Freie Netze Bodensee e.V. (in Gründung)](https://ffnbsee.org) und [Freifunk Bodensee](https://ffbsee.net).
 Es ist der Nachfolger des "Freifunk Camp", das sich nun einer größeren Gruppe an Menschen und Themen öffnet.
 
 <center>
 <a href="https://anmeldung.ffbsee.de/ffbsee/camp19" class="button special primary">Anmeldung für das Technik Camp</a>
 <a href="https://pretalx.ffbsee.de/camp19/cfp" class="button special primary">Vortrag oder Workshop einreichen</a>
 </center><br/>
+
+<center><img src="technikcamp2019.png" style="width:90%; max-width:480px"></center>
+<br>
 
 ```
 Datum: 1. - 4. August 2019
@@ -26,46 +29,50 @@ Links: [Karte (Experimentell und unfertig)](/map/) - [OSM](https://www.openstree
  Kommunikation
 --------------------------
 
-Wer sich an der Planung und Organisation des Camps beteiligen möchte, der darf gerne dem Matrix Channel dazu betreten: [Camp Planung](https://matrix.to/#/#eventorga:matrix.bodensee.space)
+Wer sich an der Planung und Organisation des Camps beteiligen möchte, der darf gerne dem entsprechenden Matrix-Channel beitreten! Für alle anderen Anliegen gibt es den Gruppen-Chat:
 
-Wer in einen Gruppenchat zum Camp möchte, der darf gerne bei [#camp:matrix.bodensee.space](https://matrix.to/#/#camp:matrix.bodensee.space) vorbeischauen!
+* Planungs-Chat: [#eventorga:matrix.bodensee.space](https://matrix.to/#/#eventorga:matrix.bodensee.space)
+* Gruppen-Chat: [#camp:matrix.bodensee.space](https://matrix.to/#/#camp:matrix.bodensee.space)
+
 
  Anreise
 ---------------
 
-<b>Mit dem Zug:</b>
-Die nächste Haltestelle für den Zug ist "ÜBERLINGEN"[OSM](https://www.openstreetmap.org/node/51990845) oder "Überlingen-Nußdorf"[OSM](https://www.openstreetmap.org/node/99996445). Von dort gibt es meistens Busse, die in die nähe des Freifunk Camps fahren.
+**Mit dem Zug:**
+Die nächste Haltestelle für den Zug ist "Überlingen" [OSM](https://www.openstreetmap.org/node/51990845) oder "Überlingen-Nußdorf" [OSM](https://www.openstreetmap.org/node/99996445). Von dort gibt es meistens Busse, die in die Nähe des Camps fahren.
 
-<b>Mit dem Bus</b>
-Die Möglichen Haltestellen sind: 
- - Überlingen Rengoldshausen Waldorfschule  [OSM](https://www.openstreetmap.org/node/4328247781)
+**Mit dem Bus:**
+Die möglichen Haltestellen sind: 
+ - Überlingen Rengoldshausen Waldorfschule [OSM](https://www.openstreetmap.org/node/4328247781)
  - Überlingen Haus Rengold / L200 A [OSM](https://www.openstreetmap.org/node/4612658392)
  - Überlingen Haus Rengold  [OSM](https://www.openstreetmap.org/node/3705565539)
  - Überlingen Bregenzer Zentrum [OSM](https://www.openstreetmap.org/node/4610438415)
  - Überlingen Gewerbegebiet [OSM](https://www.openstreetmap.org/node/4558539160)
- - Alternativ gibt es vielleicht Teilnehmer, die bereit sind Menschen vom Bahnhof abzuholen. Fragt hierfür am besten rechtzeitig im Gruppenchat an
+ - Alternativ gibt es vielleicht Teilnehmer, die bereit sind Menschen vom Bahnhof abzuholen. Fragt hierfür am besten rechtzeitig im [Gruppenchat](https://matrix.to/#/#camp:matrix.bodensee.space) an
 
-<b>Mit dem Schiff:</b>
-In Überlingen am Landungsplatz[OSM](https://www.openstreetmap.org/way/123617910) gibt es einige Schiffe, die dort anlegen. Gerade für Teilnehmer aus den benachbarten Ländern könnte das eine attraktive Reisemöglichkeit sein. Außerdem gibt es dort in der Nähe der Eisdiele Freifunk.
+**Mit dem Schiff:**
+In Überlingen am Landungsplatz [OSM](https://www.openstreetmap.org/way/123617910) gibt es einige Schiffe, die dort anlegen. Gerade für Teilnehmer aus den benachbarten Ländern könnte das eine attraktive Reisemöglichkeit sein. Außerdem gibt es dort in der Nähe der Eisdiele Freifunk.
 
-<b>Mit dem Auto:</b>
-Zum Parken empfehlen wir den Parkplatz der Waldorfschule
+**Mit dem Auto:**
+Zum Parken empfehlen wir den Parkplatz der Waldorfschule.
 
-<b>Mit dem Flugzeug:</b>
-Der nächste größere Flughafen ist in Friedrichshafen. Solltet ihr wirklich der meinung sein das zu verwenden, bitten wir euch mindestens euren CO2 verbrauch bei zB [atmosfaire](https://www.atmosfair.de/de/) auszugleichen.
+**Mit dem Flugzeug:**
+Der nächste größere Flughafen ist in Friedrichshafen. Solltet ihr wirklich der Meinung sein, dieses Verkehrsmittel zu verwenden, bitten wir euch mindestens euren CO2-Verbrauch bei z.B. [atmosfair](https://www.atmosfair.de/de/) auszugleichen.
 
 
- Verpflegung:
+ Verpflegung
 ------------
-Während dem Camp gibt es Nahrung, die von den nahegelegenen Geschäften eingekauft wurde.
-Wir bitten euch, euch bei den ausgaben und dem Kochen zu beteiligen.
-Außerdem gibt es frisches Gemüse aus dem Gewächshaus des Gartenbaues.
-Außerdem hat das [C3WOC](https://c3woc.de/#tourdaten) die Teilnahme an der Veranstaltung zugesagt.
+Während des Camps gibt es Nahrung, die von den nahegelegenen Geschäften eingekauft wurde.
+Wir bitten euch, euch bei den Ausgaben und dem Kochen zu beteiligen.
+Außerdem gibt es frisches Gemüse aus dem Gewächshaus des Gartenbaus.
+Zudem hat das [C3WOC](https://c3woc.de/#tourdaten) die Teilnahme an der Veranstaltung zugesagt.
 
- Bilder von letzten Jahr
+ Bilder vom letzten Jahr
 -------------------------------
-Letztes Jahr hatte das Technik Camp den namen "Freifunk Camp". 
+Letztes Jahr hatte das Technik Camp den namen "Freifunk Camp". Auf der folgenden Seite könnt ihr weitere Infos und Fotos dazu finden:
 [Freifunk Camp 2018](/camp/camp18/)
+
+<p><span class="image fit"><img src="camp18nachts.jpg"/></span></p>
 ---
 subtitle: Technik Camp am Bodensee
 ---
@@ -75,4 +82,4 @@ Das Technik Camp findet vom 1. - 4. August 2019 in Überlingen am Bodensee statt
 
 Euch erwarten dort spannende Vorträge und Workshops. Zusammen mit Menschen aus den Hacker- und Makerspacen der Region.
 
-Zusammen tauschen wir uns aus, Grillen, Löten, basteln, Hackern, Freifunken programmieren Spiel und haben vor allen spaß am Gerät.
+Zusammen tauschen wir uns aus, grillen, löten, basteln, hackern, freifunken, programmieren, spielen und haben vor allem Spaß am Gerät.
