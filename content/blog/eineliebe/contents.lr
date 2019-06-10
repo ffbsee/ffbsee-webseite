@@ -1,16 +1,16 @@
-title: Eine liebe Festival - mit Freifunk
+title: Eine Liebe Festival - mit Freifunk
 ---
 author: L3D
 ---
 body:
 
-Schon seit Entstehen des eine Liebe Festival wurden wir gefragt, ob wir uns nicht um etwas WLAN Kümmern könnten.
+Schon seit Entstehen des Eine Liebe Festival wurden wir gefragt, ob wir uns nicht um etwas WLAN Kümmern könnten.
 
 Und so gibt es seit dem Freifunk am Festival
 ---
 pub_date: 2019-06-09
 ---
-subtitle: Das eine Liebe Festival hat auch dieses Jahr Freifunk bekommen
+subtitle: Das Eine Liebe Festival hat auch dieses Jahr Freifunk bekommen
 ---
 twitter_handle: L3D
 ---
@@ -18,7 +18,7 @@ content:
 
 Die Bodenseeregion ist bekannt für ihre schöne Natur, das gute Obst vom Bauern, die Urlaubsatmosphäre. Das haben auch die Funklöcher aller deutscher Provider mitbekommen, weshalb sie in der Region prächtig gedeihen und wachsen.
 
-So ist das auch auf dem [eine liebe Festival](https://eineliebe.de/) bei Herdwangen-Schönach.
+So ist das auch auf dem [Eine Liebe Festival](https://eineliebe.de/) bei Herdwangen-Schönach.
 
 Hier gibt es ein wunderbares Gelände mit einem für die Bodenseeregion großen Festival. Und die allseits beliebten Funklöcher, die auf dem Festivalgelände ungebetener Dauergast zu sein scheinen.
 
@@ -38,7 +38,7 @@ Auf dem Festivalgelände haben wir acht Unify AP-AC Pro verteilt. Diese haben wi
 Der Unify Controller lief lokal auf einer PC-Engine APU.
 Diese und zwei Fritzbox 4040 haben unsere Freifunk Offloader gespielt.
 
-Wir hatten drei separate Netze. Eines für die Orga die unbedingt Internet braucht um mit der Außenwelt und Künstler zu kommunizieren. Eines für den Eingang über das Tickets Eingescannt wurden.
+Wir hatten drei separate Netze. Eines für die Orga die unbedingt Internet braucht um mit der Außenwelt und Künstler zu kommunizieren. Eines für den Eingang über das Tickets eingescannt wurden.
 
 Und ein offenes Freifunk Netz. Offen für alle. So wie es sich für Freifunk gehört.
 
@@ -47,12 +47,12 @@ So sah unser Setup im Management Zelt aus:
 
 <p><span class="image fit"><img src="/blog/eineliebe/techn1k.jpg"/></p>
 
-Insgesamt haben wir alles rausgeholt, was aus der Luft zu bekommen war - und so über drei Tage hinweg nahezu 150GB Verbraucht.
+Insgesamt haben wir alles rausgeholt, was aus der Luft zu bekommen war - und so über drei Tage hinweg nahezu 150GB verbraucht.
 
-Vom Netz haben wr beim Speedtest mit Vaderphone Ergebnisse zwischen 5MBit/s und 30MBit/s bekommen. Allerdings war das Freifunk hiermit sehr langsam und wäre mit der normalen MTU auch nicht möglich gewesen.
+Vom Netz haben wir beim Speedtest mit Vaderphone Ergebnisse zwischen 5MBit/s und 30MBit/s bekommen. Allerdings war das Freifunk hiermit sehr langsam und wäre mit der normalen MTU auch nicht möglich gewesen.
 
-Mit der Telekom (2 Router) haben wir zwar nur ergebnisse zwischen 7MBit/s und 10MBit/s erzielt, aber die Qualität war durchgehend stabil und gut.
-Auch das Freifunk hierrüber hatte kaum schlechtere Werte.
+Mit der Telekom (2 Router) haben wir zwar nur Ergebnisse zwischen 7MBit/s und 10MBit/s erzielt, aber die Qualität war durchgehend stabil und gut.
+Auch das Freifunk hierüber hatte kaum schlechtere Werte.
 
 **Weitere Bilder:**
 <p><span class="image fit"><img src="/blog/eineliebe/eineliebe.jpg"/></p>
