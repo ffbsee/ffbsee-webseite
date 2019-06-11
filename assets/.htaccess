@@ -17,11 +17,11 @@
 
     ### Redirect certain domains to ffbsee.net
     RewriteCond %{HTTP_HOST} ^www\.ffbsee\.net [NC,OR]
-    RewriteCond %{HTTP_HOST} ^ffbsee\.net [NC,OR]
+    RewriteCond %{HTTP_HOST} ^freifunk-bodensee\.net [NC,OR]
     RewriteCond %{HTTP_HOST} ^www\.ffbsee\.de [NC,OR]
     RewriteCond %{HTTP_HOST} ^ffbsee\.de [NC,OR]
     RewriteCond %{HTTP_HOST} ^www\.freifunk-bodensee\.net [NC]
-    RewriteRule (.*) https://freifunk-bodensee.net/$1 [R=302,L]
+    RewriteRule (.*) https://ffbsee.net/$1 [R=302,L]
 </IfModule>
 
 # COMPRESSION WITH MOD_DEFLATE
