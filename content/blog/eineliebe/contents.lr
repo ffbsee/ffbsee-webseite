@@ -1,0 +1,70 @@
+title: Eine Liebe Festival - mit Freifunk
+---
+author: L3D
+---
+body:
+
+Schon seit Entstehen des Eine Liebe Festival wurden wir gefragt, ob wir uns nicht um etwas WLAN Kümmern könnten.
+
+Und so gibt es seit dem Freifunk am Festival
+---
+pub_date: 2019-06-09
+---
+subtitle: Das Eine Liebe Festival hat auch dieses Jahr Freifunk bekommen
+---
+twitter_handle: L3D
+---
+content:
+
+Die Bodenseeregion ist bekannt für ihre schöne Natur, das gute Obst vom Bauern, die Urlaubsatmosphäre. Das haben auch die Funklöcher aller deutscher Provider mitbekommen, weshalb sie in der Region prächtig gedeihen und wachsen.
+
+So ist das auch auf dem [Eine Liebe Festival](https://eineliebe.de/) bei Herdwangen-Schönach.
+
+Hier gibt es ein wunderbares Gelände mit einem für die Bodenseeregion großen Festival. Und die allseits beliebten Funklöcher, die auf dem Festivalgelände ungebetener Dauergast zu sein scheinen.
+
+Wenn wir von Freifunk Bodensee aber gefragt werden, dann helfen wir gerne die Situation zu ändern.
+
+Dieses Jahr haben wir mit über drei LTE Router und eine große Antenne das Internet aus dem nichts geholt:
+
+<p><span class="image fit"><img src="/blog/eineliebe/antenne_natur.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/antenne.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/antenne_vom_zelt_ohne_zelt.jpg"/></p>
+<br/>
+
+Auf der Antenne haben wir mehrere LTE Antennen befestigt eine zum nächsten Sendemasten von Vaderphone und die anderen in Richtung des magentafarbenen LTE Masten ausgerichtet.
+
+Auf dem Festivalgelände haben wir acht Unify AP-AC Pro verteilt. Diese haben wir teilweise per Mesh aber größtenteils per Ethernetkabel miteinander verbunden.
+
+Der Unify Controller lief lokal auf einer PC-Engine APU.
+Diese und zwei Fritzbox 4040 haben unsere Freifunk Offloader gespielt.
+
+Wir hatten drei separate Netze. Eines für die Orga die unbedingt Internet braucht um mit der Außenwelt und Künstler zu kommunizieren. Eines für den Eingang über das Tickets eingescannt wurden.
+
+Und ein offenes Freifunk Netz. Offen für alle. So wie es sich für Freifunk gehört.
+
+<br/>
+So sah unser Setup im Management Zelt aus:
+
+<p><span class="image fit"><img src="/blog/eineliebe/techn1k.jpg"/></p>
+
+Insgesamt haben wir alles rausgeholt, was aus der Luft zu bekommen war - und so über drei Tage hinweg nahezu 150GB verbraucht.
+
+Vom Netz haben wir beim Speedtest mit Vaderphone Ergebnisse zwischen 5MBit/s und 30MBit/s bekommen. Allerdings war das Freifunk hiermit sehr langsam und wäre mit der normalen MTU auch nicht möglich gewesen.
+
+Mit der Telekom (2 Router) haben wir zwar nur Ergebnisse zwischen 7MBit/s und 10MBit/s erzielt, aber die Qualität war durchgehend stabil und gut.
+Auch das Freifunk hierüber hatte kaum schlechtere Werte.
+
+**Weitere Bilder:**
+<p><span class="image fit"><img src="/blog/eineliebe/eineliebe.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/technik.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/zelt_und_kabel.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/outdoow-switch.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/kabelfuehrung.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/disko.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/buehne.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/buehne_red.jpg"/></p>
+
+```
+Alle Bilder stammen von L3D und stehen unter der MIT Lizenz:
+https://github.com/ffbsee/ffbsee-webseite/blob/master/LICENSE
+```
