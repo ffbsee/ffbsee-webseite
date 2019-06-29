@@ -9,7 +9,8 @@ Es ist der Nachfolger des "Freifunk Camp", das sich nun einer größeren Gruppe 
 
 <center>
 <a href="https://anmeldung.ffbsee.de/ffbsee/camp19" class="button special primary">Anmeldung für das Technik Camp</a>
-<a href="https://pretalx.ffbsee.de/camp19/cfp" class="button special primary">Vortrag oder Workshop einreichen</a>
+<a href="https://pretalx.ffbsee.de/camp19/cfp" class="button special primary">Vortrag oder Workshop einreichen</a><br/><br/>
+<a href="https://pretalx.ffbsee.de/camp19/schedule/" class="button">vorläufiges Vortragsprogramm</a>
 </center><br/>
 
 <center><img src="technikcamp2019.png" style="width:90%; max-width:480px"></center>
@@ -66,18 +67,30 @@ Der nächste größere Flughafen ist in Friedrichshafen. Solltet ihr wirklich de
 
  Verpflegung
 ------------
-Während des Camps gibt es Nahrung, die von den nahegelegenen Geschäften eingekauft wurde.
+Während des Camps gibt es eine Grundverpflegung durch uns. Es wird ein langes Früstück geben. Außerdem wird am Abend gemeinsam Gegrillt, Pizza gebacken oder etwas gekocht.
 Wir bitten euch, euch bei den Ausgaben und dem Kochen zu beteiligen.
 Außerdem gibt es frisches Gemüse aus dem Gewächshaus des Gartenbaus.
-Zudem hat das [C3WOC](https://c3woc.de/#tourdaten) die Teilnahme an der Veranstaltung zugesagt.
+Zudem hat das [C3WOC](https://c3woc.de/#tourdaten) ein Waffeleisen mit ans Frühstück gestellt.
+Details zur Essensplaung gibt es im Fahrplan. 
+
+Wir freuen uns natürlich sehr, wenn ihr eure kulinarischen Spezialitäten mitbringt und mit uns teilt.
 
  Unterkunft
 ---------------------
 Bei der [Anmeldung](https://anmeldung.ffbsee.de/ffbsee/camp19) habt ihr die Möglichkeit Interesse an einem Platz für euer Zelt oder einen Schlafplatz im Gebäude anzumelden. Hierfür solltet ihr auf jeden Fall eure eigene Isomatte und Schlafsack mitbringen.
 
-Es wird mindestens eine warme Dusche geben, die wir uns eben teilen müssen. <i>(Wir versuchen gerade Zugang zu weiteren Duschmöglichkeiten zu bekommen)</i>. Euer Handtuch habt ihr natürlich selber dabei!
+Es wird mindestens drei warme Duschen geben, die wir uns eben teilen müssen. Euer Handtuch habt ihr natürlich selber dabei!
 
 Alternativ gibt es auch das [Naturata Hotel](http://www.naturata-gmbh.de/hotel/) direkt neben an, was aber sehr schnell ausgebucht ist.
+
+ Vortragsprogramm
+--------------------
+Apps wie Giggity [Googele Pay](https://play.google.com/store/apps/details?id=net.gaast.giggity&hl=de) - [F-Droid](https://f-droid.org/de/packages/net.gaast.giggity/) ermöglichen es sehr gut, den Fahrplan auf dem Handy anzuschauen. 
+
+Die Shedule URL für die Giggity App lautet:
+```txt
+https://pretalx.ffbsee.de/camp19/schedule/export/schedule.xml
+```
 
  Bilder vom letzten Jahr
 -------------------------------
