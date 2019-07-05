@@ -25,7 +25,7 @@ Firmware Version 2.0 (stable)
 
 Mit den aktuellen Version von OpenWRT, mehr unterstützten Geräten und einen komplett neuen und besseren Routing Algorithmus.
 
-Die Firmware gibt es ab sofort zum <a href="https://firmware.ffbsee.de/firmware/2.0.0/ar71xx/generic/" class="button primary">Download</a>
+Die Firmware gibt es ab sofort zum <a href="https://firmware.ffbsee.de/firmware/2.0.0/" class="button primary">Download</a>
 
 Und zur Auswahl in diesem <a href="https://software.ffbsee.de/fw-wizard/" class="button">Firmware Selector</a>
 
@@ -35,7 +35,7 @@ Die neuen Nextnode IPs:
 IPv6: [fdef:1701:b5ee:23::] (die eckigen Klammern müssen im Web-Browser wirklich verwendet werden!)
 IPv4: 10.15.239.127
 
-Da wir die Firmware in unserer wenigen Freizeit erstellen und nicht jedes Router-Modell zu Hause zur Hand haben, ist zwar alles auf vielen Routern getestet, dennoch kann es aber zu Problemen kommen, z.B. auf Hardware, die wir einfach nicht testen konnten. Außerdem kann es sein, dass Ihr bei Knoten, die nur per Mesh Zugang zum Freifunk Biodensee Netz bekamen, von Hand mit dem Update nachhelfen müsst. Hilf' uns doch am besten mit, dass wir in Zukunft alles noch viel ausführlicher testen können, indem Du Dich beteiligst an der Firmware mit zu arbeiten, oder uns Hardware vorübergehend zur Verfügung stellst und am besten auch selber verschiedene Router durch testest. Bitte hilf' auch Betreibern von anderen Knoten, die ohne Deine Hilfe vielleicht nicht selber zurecht kommen. Melde Dich einfach per E-Mail oder in unserem Matrix Channel.
+Da wir die Firmware in unserer wenigen Freizeit erstellen und nicht jedes Router-Modell zu Hause zur Hand haben, ist zwar alles auf vielen Routern getestet, dennoch kann es aber zu Problemen kommen, z.B. auf Hardware, die wir einfach nicht testen konnten. Außerdem kann es sein, dass Ihr bei Knoten, die nur per Mesh Zugang zum Freifunk Bodensee Netz bekamen, von Hand mit dem Update nachhelfen müsst. Hilf' uns doch am besten mit, dass wir in Zukunft alles noch viel ausführlicher testen können, indem Du Dich beteiligst an der Firmware mit zu arbeiten, oder uns Hardware vorübergehend zur Verfügung stellst und am besten auch selber verschiedene Router durch testest. Bitte hilf' auch Betreibern von anderen Knoten, die ohne Deine Hilfe vielleicht nicht selber zurecht kommen. Melde Dich einfach per E-Mail oder in unserem Matrix Channel.
 
 Für alle mit deaktivierten Updater ist es zwingend erforderlich bald zu Updaten, da die Version gewisse inkompatiblen (wie den Routing Algorithmus) hat und vieles besser macht als zuvor.
 ---
