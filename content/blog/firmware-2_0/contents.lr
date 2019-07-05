@@ -1,0 +1,40 @@
+title: Neue Stable Firmware
+---
+author: L3D
+---
+body:
+
+Menschen, die aktiv das GitHub Repository zur Firmware Entwicklung verfolgen, haben es schon mitbekommen. [github.com/ffbsee/ffbsee-firmware](https://github.com/ffbsee/ffbsee-firmware.git)
+Es gibt eine neue Stable Version der Freifunk Bodensee Firmware:
+```
+Firmware Version 2.0 (stable)
+```
+
+---
+content:
+
+Menschen, die aktiv das GitHub Repository zur Firmware Entwicklung verfolgen, haben es schon mitbekommen. 
+
+<a href="https://github.com/ffbsee/ffbsee-firmware/releases/tag/v2.0" class="button">github.com/ffbsee/ffbsee-firmware</a>
+
+Es gibt eine neue Stable Version der Freifunk Bodensee Firmware:
+
+```
+Firmware Version 2.0 (stable)
+```
+
+Mit den aktuellen Version von OpenWRT, mehr Unterstützen Geräten und einen komplett neuen und besseren Routing Algorythmus.
+
+Die Firmware gibt es ab sofort zum <a href="https://firmware.ffbsee.de/firmware/2.0.0/ar71xx/generic/" class="button primary">Download</a>
+
+Und zur Auswahl in diesem <a href="https://software.ffbsee.de/fw-wizard/" class="button">Firmware Selector</a>
+
+Aufgrund von Personellen engpässen ist zwar nicht alles wirklich gründlich getestet, aber für ein Autoupdate sollte es in 80% der Fälle reichen.
+
+Für alle mit deaktivierten Updater ist es zwingend erforderlich bald zu Updaten, da die Version gewisse inkompatiblen (wie den Routing Algorythmus) hat und vieles besser macht als zuvor.
+---
+pub_date: 2019-07-05
+---
+subtitle: Freifunk Bodensee Firmware: Version 2.0 (stable)
+---
+twitter_handle: L3D
