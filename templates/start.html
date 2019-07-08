@@ -1,80 +1,92 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-<!--
-    <h2>{{ this.title }}</h2>
-  {{ this.body }}
--->				<!-- Banner -->
 
-        <!-- Banner -->
-        <section id="banner">
-            <div class="content">
-                <header class="major special"> 
-                    <h1>{% for item in this.welcome 
-                        %}{{ item }}<br/>{%
-                    endfor %}</h1>
-                </header>
-                <ul class="actions special">
-                    <li><a href="{{ this.head_link }}" class="button primary wide scrolly">{{ this.head }}</a></li>
-                </ul>
-            </div>
-        </section>
+  <!-- Banner -->
+  <section id="banner">
+    <div class="content">
+      <header class="major special"> 
+        <h1>
+          {%- for item in this.welcome -%}
+            {{ item }}<br/>
+          {%- endfor -%}
+        </h1>
+      </header>
+      <ul class="actions special">
+        <li>
+          <a href="{{ this.head_link }}" class="button primary wide scrolly">{{ this.head }}</a>
+        </li>
+      </ul>
+    </div>
+  </section>
         
-        <!-- Section -->
-        <section class="wrapper style1" id="first">
-            <div class="inner">
-{% if this.kalender %}
-                <header class="major special">
-                    <h2>kommende Termine</h2>
-                    <p>Was ist los bei Freifunk Bodensee?</p>
-                </header>
-                <div class="table-wrapper">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Datum</th>
-                                <th>nächste Veranstaltungen</th>
-                                <th>Ort</th>
-                            </tr>
-                        </thead>
-                        <tbody>{% set counter = ['1'] %} {%
-                        set pages = site.query('/').include_undiscoverable(true).all() %}{% 
-                        for page in pages %}{%
-                            if page._model == 'kalender' and page._path == '/termine.ics' %}{%
-                                for blk in page.termine.blocks|sort(attribute='start', reverse = False) %}{%
-                                    if blk.start.strftime('%Y%m%d%H%M') > none|datetimeformat('yyyyMMddhhmm') %}{%
-                                    if counter.append('1') %}{% endif %}
-                        <tr>
-                            <th>{%
-                                    if  blk.start.strftime('%d.%m') ==  blk.ende.strftime('%d.%m') %}{{ blk.start.strftime('%d.%m.%y %H:%M') }} - {{  
-blk.ende.strftime('%H:%M') }} Uhr{%
-                                    else %}{{ blk.start.strftime('%d.%m') }} - {{ blk.ende.strftime('%d.%m.%Y') }}{%
-                                    endif %}</th>
-                            <th><a href="{{ blk.url }}" title="{{ blk.description|replace("|", " ") }}">{{ blk.event }}</a></th>
-                            <th>{{ blk.ort }}</th>
-                        </tr>{%
-                                    endif %}{%
-                                endfor %}{%
-                                if counter|length < 2 %}    <tr>
-                            <th>Stand {{ none|datetimeformat('MMMM YYYY') }}</th>
-                            <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk Treffen ein!</th>
-                            <th><a href="/anleitung/treffen/">Hier erfährst du</a>, wie das geht.</th>
-                         </tr>{% endif %}
-                         </tbody>
-                    </table><br/>
-                </div>{%
-                            endif %}{% 
-                        endfor %}
-                <center>
-                    <a href="/kalender/" class="button">Alle Termine</a>
-                    <a href="/termine.ics" class="button primary">Termine Abonieren</a>
-                </center><br/><br/><br/>{% 
-                    endif %}
-                <header class="major special">
-                    <h2>{{ this.body1 }}</h2>
-                    {{ this.body1m }}{%
-                    if this.body1t %}
-                    <a href="{% if this.body1l %}{{ this.body1l }}{% else %}#{% endif %}" class="button">{{ this.body1t }}</a>{%
+  <!-- Section -->
+  <section class="wrapper style1" id="first">
+    <div class="inner">
+      {%- if this.kalender %}
+        <header class="major special">
+          <h2>kommende Termine</h2>
+          <p>Was ist los bei Freifunk Bodensee?</p>
+        </header>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Datum</th>
+                <th>nächste Veranstaltungen</th>
+                <th>Ort</th>
+              </tr>
+            </thead>
+          <tbody>
+          {%- set counter = ['1'] -%}
+          {%- set pages = site.query('/').include_undiscoverable(true).all() -%}
+          {%- for page in pages -%}
+            {%- if page._model == 'kalender' and page._path == '/termine.ics' -%}
+              {%- for blk in page.termine.blocks|sort(attribute='start', reverse = False) -%}
+                {%- if blk.start.strftime('%Y%m%d%H%M') > none|datetimeformat('yyyyMMddhhmm') -%}
+                  {%- if counter.append('1') -%}
+                  {%- endif -%}
+ {#    #}         <tr>
+ {#    #}           <th>
+                      {%- if  blk.start.strftime('%d.%m') ==  blk.ende.strftime('%d.%m') -%}
+                        {{ blk.start.strftime('%d.%m.%y %H:%M') }} - {{ blk.ende.strftime('%H:%M') }} Uhr
+                      {%- else -%}
+                        {{ blk.start.strftime('%d.%m') }} - {{ blk.ende.strftime('%d.%m.%Y') }}
+                      {%- endif -%}
+                    </th>
+ {#    #}           <th><a href="{{ blk.url }}" title="{{ blk.description|replace("|", " ") }}">{{ blk.event }}</a></th>
+ {#    #}           <th>{{ blk.ort }}</th>
+ {#    #}         </tr>
+                {%- endif -%}
+              {%- endfor %}
+            {%- if counter|length < 2 %}
+ {##}         <tr>
+ {##}           <th>Stand {{ none|datetimeformat('MMMM YYYY') }}</th>
+ {##}           <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk Treffen ein!</th>
+ {##}           <th><a href="/anleitung/treffen/">Hier erfährst du</a>, wie das geht.</th>
+ {##}         </tr>
+            {%- endif %}
+ {#    #}         </tbody>
+ {#    #}       </table>
+ {#    #}       <br/>
+ {#    #}     </div>
+            {%- endif %}
+          {%- endfor %}
+        <center>
+          <a href="/kalender/" class="button">Alle Termine</a>
+          <a href="/termine.ics" class="button primary">Termine Abonieren</a>
+        </center>
+        <br/><br/><br/>
+      {%- endif -%}
+
+
+      <header class="major special">
+        <h2>{{ this.body1 }}</h2>
+        {{ this.body1m }}
+        {%- if this.body1t -%}
+          <a href="
+            {%- if this.body1l -%}
+              {{ this.body1l }}{% else %}#{% endif %}" class="button">{{ this.body1t }}</a>{%
                     endif %}
                 </header>
                 <div class="spotlights">
