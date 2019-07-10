@@ -83,36 +83,80 @@
       <header class="major special">
         <h2>{{ this.body1 }}</h2>
         {{ this.body1m }}
-        {%- if this.body1t -%}
-          <a href="
+        {%- if this.body1t %}{{ '   ' -}}
+ {##}     <a href="
             {%- if this.body1l -%}
-              {{ this.body1l }}{% else %}#{% endif %}" class="button">{{ this.body1t }}</a>{%
-                    endif %}
-                </header>
-                <div class="spotlights">
-                    <section>
-                        <div class="image">{% if this.body2l %}<a href="{{ this.body2l }}">{%
-                            endif %}<img src="{{ this.body2img }}" alt="{% if this.body2t %}{{ this.body2t }}{% endif %}" />{%
-                        if this.body2l %}</a>{% endif %}</div>
-                        <div class="content">
-                            <header class="major">
-                                <h3>{{ this.body2 }}</h3>
-                            </header>
-                            {{ this.body2m }}{% if this.body2b %}
-                            <a class="button primary" href="{% if this.body2l %}{{ this.body2l }}{% else %}#{% endif %}">{{ this.body2b }}</a>{% endif %}
-                        </div>
-                    </section>
-                    <section>
-                        <div class="image">{% if this.body3l %}<a href="{{ this.body3l }}">{%
-                            endif %}<img src="{{ this.body3img }}" alt="{% if this.body3t %}{{ this.body3t }}{% endif %}" />{%
-                        if this.body3l %}</a>{% endif %}</div>
-                        <div class="content">
-                            <header class="major">
-                                <h3>{{ this.body3 }}</h3>
-                            </header>
-                            {{ this.body3m }}{% if this.body3b %}
-                            <a class="button primary" href="{% if this.body3l %}{{ this.body3l }}{% else %}#{% endif %}">{{ this.body3b }}</a>{% endif %}
-                        </div>
+              {{ this.body1l }}
+            {%- else -%}
+              #
+            {%- endif -%}
+          " class="button">{{ this.body1t }}</a>
+        {%- endif -%}
+      </header>
+      {# -#}
+
+      <div class="spotlights">
+        <section>
+          <div class="image">
+            {%- if this.body2l %}
+            <a href="{{ this.body2l }}">
+            {%- endif %}
+              <img src="{{ this.body2img }}" alt="
+            {%- if this.body2t -%}
+              {{ this.body2t }}
+            {%- endif -%}
+          " />
+            {%- if this.body2l %}
+            </a>
+            {%- endif %}
+          </div>
+  
+          <div class="content">
+            <header class="major">
+              <h3>{{ this.body2 }}</h3>
+            </header>
+            {{ this.body2m }}
+            {%- if this.body2b %}{{ '   ' -}}
+ {##}         <a class="button primary" href="
+                {%- if this.body2l -%}
+                  {{ this.body2l }}
+                {%- else -%}
+                  #
+                {%- endif -%}
+              ">{{ this.body2b }}</a>
+            {%- endif %}
+          </div>
+        </section>
+
+        <section>
+          <div class="image">
+          {%- if this.body3l %}
+            <a href="{{ this.body3l }}">
+          {%- endif %}
+              <img src="{{ this.body3img }}" alt="
+              {%- if this.body3t -%}
+                {{ this.body3t }}
+              {%- endif -%}
+            " />
+          {%- if this.body3l %}
+            </a>
+          {%- endif %}
+          </div>
+          <div class="content">
+            <header class="major">
+              <h3>{{ this.body3 }}</h3>
+            </header>
+            {{ this.body3m }}
+            {%- if this.body3b %}{{ '   ' -}}
+ {##}         <a class="button primary" href="
+                {%- if this.body3l -%}
+                  {{ this.body3l }}
+                {%- else -%}
+                  #
+                {%- endif -%}
+              ">{{ this.body3b }}</a>
+            {%- endif %}
+          </div>
                     </section>
                 </div>
             </div>
