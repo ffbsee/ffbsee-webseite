@@ -2,11 +2,6 @@ _model: start
 ---
 title: Freifunk Bodensee
 ---
-body:
-
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
----
 welcome:
 
 Freifunk Bodensee
@@ -21,8 +16,8 @@ body1: Was ist Freifunk?
 body1m:
 
 Freifunk ist ein dezentrales, freies WLAN-Funknetz das vor allen Computer und
-Mobligeräte miteinander verbindet - auch mit Anschluss ins große Internet.
-Das Netz entseht dadurch, das einfach jeder selbstständig einen Router ans
+Mobilgeräte miteinander verbindet - auch mit Anschluss ins große Internet.
+Das Netz entsteht dadurch, dass einfach jeder selbstständig einen Router ans
 Fensterbrett stellt und dort Freifunk verbreitet.
 
 Hier auf unserer Website erfährst du, welche Ziele wir mit Freifunk
@@ -72,7 +67,7 @@ mainimgt: Router flashen
 ---
 mainm:
 
-Freifunk steht für eine freie Kommunikation in digitalen Datennetzen
+Freifunk steht für eine freie Kommunikation in digitalen Datennetzen.
 Wir verstehen frei als öffentlich zugänglich, nicht kommerziell, im
 Besitz der Gemeinschaft und frei von Zensur oder Filter.
 
