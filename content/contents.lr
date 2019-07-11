@@ -18,7 +18,15 @@ head_link: #first
 ---
 body1: Was ist Freifunk?
 ---
-body1m: Freifunk ist ein dezentrales, freies Funknetz mit Anschluss ans Internet. Hier auf unserer Website erfährst du, welche Ziele wir mit Freifunk verfolgen und warum es eine gute Idee ist, sich uns anzuschließen :-)
+body1m:
+
+Freifunk ist ein dezentrales, freies Funknetz das vor allen Computer und
+Mobligeräte miteinander verbindet - auch mit Anschluss ins große Internet.
+Das Netz entseht dadurch, das einfach jeder selbstständig einen Router ans
+Fensterbrett stellt und dort Freifunk verbreitet.
+
+Hier auf unserer Website erfährst du, welche Ziele wir mit Freifunk
+verfolgen und warum es eine gute Idee ist, sich uns anzuschließen.
 ---
 body1t: Lerne Freifunk kennen
 ---
@@ -62,23 +70,37 @@ main2: Karte
 ---
 mainimgt: Router flashen
 ---
-mainm: Freifunk ist ein dezentrales, unabhängiges Bürgernetz mit Zugang zum Internet. Freifunk bedeutet offene, uneingeschränkte und freie digitale Kommunikation. Jeder kann sich kostenlos über WLAN verbinden, ohne Passwort, ohne Registrierung. Jeder darf Freifunk nutzen, mitmachen und Freifunk erweitern. Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke.
+mainm:
+
+Freifunk steht für eine freie Kommunikation in digitalen Datennetzen
+Wir verstehen frei als öffentlich zugänglich, nicht kommerziell, im
+Besitz der Gemeinschaft und frei von Zensur oder Filter.
+
+Freifunk ist ein dezentrales, unabhängiges Bürgernetz mit Zugang zum Internet. Jeder kann sich kostenlos über WLAN verbinden, ohne Passwort, ohne Registrierung. Jeder darf Freifunk nutzen, mitmachen und Freifunk erweitern.
+
+Freie Netze werden von euch und uns in Eigenregie aufgebaut und
+gewartet. Jeder stellt seinen WLAN-Router für den Datentransfer der
+anderen zur Verfügung. So entsteht eine freie Infrastruktur. Für alle.
+
+Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke.
+
+Mach mit. Und teile dein Netz mit deinen Mitmenschen.
 ---
-main2m: Auf der Karte (Meshviewer) siehst du alle Freifunk Router, die zu Freifunk Bodensee gehören.
+main2m: Auf der Karte (Meshviewer/Freifunk Map) siehst du viele Freifunk Router, die zu Freifunk Bodensee gehören.
 ---
-unten: Lisa erklärt Freifunk
+unten: Wie funktioniert Freifunk
 ---
-untenm: In 87 Sekunden erklärt Lisa in diesem Video, was Freifunk ist und wie es funktioniert.
+untenm: In 87 Sekunden erklärt dir Lisa in diesem Video, was Freifunk ist und wie es funktioniert.
 ---
 untenl: /anleitung/
 ---
 untent: Wie Freifunk funktioniert
 ---
-main1l: https://firmware.ffbsee.de/fw-wizard/
+main1l: https://firmware.ffbsee.de/firmware/
 ---
 main1t: Firmware Download
 ---
-main1la: #
+main1la: /anleitung/flashen/
 ---
 main1ta: Anleitung Router flashen
 ---
@@ -98,7 +120,7 @@ mainb: GitHub
 ---
 mainbm: Sowohl unsere Firmware, als auch die Konfiguration unserer Server ist Open Source und bei GitHub einsehbar:
 ---
-main2l: https://meta.ffbsee.net/meshviewer/
+main2l: https://mate.ffbsee.net/meshviewer/
 ---
 main2t: Karte
 ---

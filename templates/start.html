@@ -170,6 +170,29 @@
         <h2>{{ this.main }}</h2>
         {{ this.mainm }}
       </header>
+        <h2>{{ this.unten }}</h2>
+        {{ this.untenm }}{% if this.video %}
+         <video poster="{{ '/images/video-thumbnail.png' }}" class="image fit" preload="none" controls>
+           <source src="{{ '/video/Freifunk-verbindet.mp4' }}" type="video/mp4">
+           <source src="{{ '/video/Freifunk-verbindet.ogv' }}" type="video/ogg">
+           Video konnte nicht geladen werden. Du findest es auch auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
+        </video>
+        <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png' }}"></a>
+        <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
+      </header>{% if this.untenl %}
+      <ul class="actions special">
+        <li><a href="{{ this.untenl }}" class="button primary wide">{{ this.untent }}</a></li>
+       </ul>
+    {%- endif %}
+    </div>
+  </section>
+        
+  <!-- Section -->
+  <section class="wrapper style1">
+    <div class="inner">
+      <header class="major special alt">
+  
+
       <div class="features">
         <ul>
           <li>
@@ -270,27 +293,9 @@
           </li>
         </ul> 
       </div>
-    </div>
-  </section>
-        
-  <!-- Section -->
-  <section class="wrapper style1">
-    <div class="inner">
-      <header class="major special alt">
-        <h2>{{ this.unten }}</h2>
-        {{ this.untenm }}{% if this.video %}
-         <video poster="{{ '/images/video-thumbnail.png' }}" class="image fit" preload="none" controls>
-           <source src="{{ '/video/Freifunk-verbindet.mp4' }}" type="video/mp4">
-           <source src="{{ '/video/Freifunk-verbindet.ogv' }}" type="video/ogg">
-           Video konnte nicht geladen werden. Du findest es auch auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
-        </video>
-        <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png' }}"></a>
-        <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
-      </header>{% if this.untenl %}
-      <ul class="actions special">
-        <li><a href="{{ this.untenl }}" class="button primary wide">{{ this.untent }}</a></li>
-       </ul>
-    {%- endif %}
+  
+
+
     </div>
   </section>
 
