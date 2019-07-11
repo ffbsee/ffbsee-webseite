@@ -157,79 +157,141 @@
               ">{{ this.body3b }}</a>
             {%- endif %}
           </div>
-                    </section>
-                </div>
-            </div>
-        </section>          
-        <!-- Section -->
-        <section class="wrapper style2 alt">
-            <div class="inner">
-                <header class="major special">
-                    <h2>{{ this.main }}</h2>
-                    {{ this.mainm }}
-                </header>
-                <div class="features">
-                    <ul>
-                        <li>
-                            {% if this.main1l %}<a href="{{ this.main1l }}" title="{{ this.main1t }}">{%
-                                endif %}<span class="icon alt major {% if this.main1fa %}{{ this.main1fa }}{% else %}fas fa-download{% endif %}"></span>{%
-                                if this.main1l %}</a>{% endif %}
-                            <h3>{{ this.main1 }}</h3>
-                            {{ this.main1m }}
-                            {% if this.main1l %}<a href="{{ this.main1l }}" class="button primary" style="margin-top: 10px;">{{ this.main1t }}</a>{%endif%}
-                            {% if this.main1la %}<a href="{{ this.main1la }}" class="button" style="margin-top: 10px;">{{ this.main1ta }}</a>{%endif%}
-                        </li>
-                        <li>
-                             {% if this.main2l %}<a href="{{ this.main2l }}" title="{{ this.main2t }}">{%
-                                endif %}<span class="icon alt major {% if this.main2fa %}{{ this.main2fa }}{% else %}fas fa-download{% endif %}"></span>{%
-                                if this.main2l %}</a>{% endif %}
-                            <h3>{{ this.main2 }}</h3>
-                            {{ this.main2m }}
-                            {% if this.main2l %}<a href="{{ this.main2l }}" class="button primary">{{ this.main2t }}</a>{%endif%}
-                        </li>
-                    </ul>{% if this.mainimg %}
-                    <span class="image"><img src="{{ this.mainimg }}" title="{% if this.mainimgt %}{{ this.mainimgt }}{% endif %}" /></span>{% endif %}
-                     <ul>
-                        <li>
-                            {% if this.mainal %}<a href="{{ this.mainal }}" title="{{ this.mainat }}">{%
-                                endif %}<span class="icon alt major {% if this.mainafa %}{{ this.mainafa }}{% else %}fas fa-download{% endif %}"></span>{%
-                                if this.mainal %}</a>{% endif %}
-                            <h3>{{ this.maina }}</h3>
-                            {{ this.mainam }}
-                            {% if this.mainal %}<a href="{{ this.mainal }}" class="button primary" style="margin-top: 10px;">{{ this.mainat }}</a>{%endif%}
-                            {% if this.mainala %}<a href="{{ this.mainala }}" class="button" style="margin-top: 10px;">{{ this.mainata }}</a>{%endif%}
-                        </li>
-                        <li>
-                            {% if this.mainbl %}<a href="{{ this.mainbl }}" title="{{ this.mainbt }}">{%
-                                endif %}<span class="icon alt major {% if this.mainbfa %}{{ this.mainbfa }}{% else %}fas fa-download{% endif %}"></span>{%
-                                if this.mainbl %}</a>{% endif %}
-                          <h3>{{ this.mainb }}</h3>
-                            {{ this.mainbm }}
-                            {% if this.mainbl %}<a href="{{ this.mainbl }}" class="button primary">{{ this.mainbt }}</a>{%endif%}
-                        </li>
-                    </ul> 
-                </div>
-            </div>
         </section>
+      </div>
+    </div>
+  </section>          
+
+
+  <!-- Section -->
+  <section class="wrapper style2 alt">
+    <div class="inner">
+      <header class="major special">
+        <h2>{{ this.main }}</h2>
+        {{ this.mainm }}
+      </header>
+      <div class="features">
+        <ul>
+          <li>
+            {% if this.main1l -%}
+              <a href="{{ this.main1l }}" title="{{ this.main1t }}">
+            {% endif -%}
+              <span class="icon alt major 
+            {%- if this.main1fa -%}
+              {{ this.main1fa }}
+            {%- else -%}
+              fas fa-download
+            {%- endif -%}
+                "></span>
+            {%- if this.main1l -%}
+              </a>
+            {% endif -%}
+              <h3>{{ this.main1 }}</h3>
+              {{ this.main1m }}
+            {% if this.main1l -%}
+              <a href="{{ this.main1l }}" class="button primary" style="margin-top: 10px;">{{ this.main1t }}</a>
+            {%- endif -%}
+            {% if this.main1la -%}
+              <a href="{{ this.main1la }}" class="button" style="margin-top: 10px;">{{ this.main1ta }}</a>
+            {%- endif -%}
+          </li>
+          <li>
+          {% if this.main2l -%}
+            <a href="{{ this.main2l }}" title="{{ this.main2t }}">
+          {% endif -%}
+          <span class="icon alt major 
+            {%- if this.main2fa -%}
+              {{ this.main2fa }}
+            {%- else -%}
+              fas fa-download
+            {%- endif -%}
+          "></span>
+        {%- if this.main2l -%}
+          </a>
+        {%- endif -%}
+          <h3>{{ this.main2 }}</h3>
+          {{ this.main2m }}
+        {% if this.main2l -%}
+          <a href="{{ this.main2l }}" class="button primary">{{ this.main2t }}</a>
+        {% endif -%}
+        </li>
+        </ul>
+        {% if this.mainimg -%}
+          <span class="image">
+          <img src="{{ this.mainimg }}" title="
+            {%- if this.mainimgt -%}
+              {{ this.mainimgt }}
+            {%- endif -%}
+              " /></span>
+            {%- endif -%}
+        <ul>
+          <li>
+          {% if this.mainal -%}
+            <a href="{{ this.mainal }}" title="{{ this.mainat }}">
+          {% endif -%}
+            <span class="icon alt major 
+            {%- if this.mainafa -%}
+              {{ this.mainafa }}
+            {%- else -%}
+              fas fa-download
+            {%- endif -%}
+            "></span>
+            {% if this.mainal -%}
+              </a>
+            {%- endif -%}
+              <h3>{{ this.maina }}</h3>
+              {{ this.mainam }}
+            {% if this.mainal -%}
+              <a href="{{ this.mainal }}" class="button primary" style="margin-top: 10px;">{{ this.mainat }}</a>
+            {% endif -%}
+            {%- if this.mainala %}
+              <a href="{{ this.mainala }}" class="button" style="margin-top: 10px;">{{ this.mainata }}</a>
+            {%- endif -%}
+          </li>
+          <li>
+           {%- if this.mainbl %}
+            <a href="{{ this.mainbl }}" title="{{ this.mainbt }}">
+            {% endif -%}
+            <span class="icon alt major 
+            {%- if this.mainbfa -%}
+              {{ this.mainbfa }}
+            {%- else -%}
+              fas fa-download
+            {%- endif -%}
+              "></span>
+            {% if this.mainbl -%}
+              </a>
+            {%- endif %}
+              <h3>{{ this.mainb }}</h3>
+                {{ this.mainbm }}
+              {% if this.mainbl -%}
+                <a href="{{ this.mainbl }}" class="button primary">{{ this.mainbt }}</a>
+              {%- endif %}
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </section>
         
-        <!-- Section -->
-        <section class="wrapper style1">
-            <div class="inner">
-                <header class="major special alt">
-                    <h2>{{ this.unten }}</h2>
-                    {{ this.untenm }}{% if this.video %}
-                    <video poster="{{ '/images/video-thumbnail.png' }}" class="image fit" preload="none" controls>
-                        <source src="{{ '/video/Freifunk-verbindet.mp4' }}" type="video/mp4">
-                        <source src="{{ '/video/Freifunk-verbindet.ogv' }}" type="video/ogg">
-                        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
-                    </video>
-                    <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png' }}"></a>
-                    <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
-                </header>{% if this.untenl %}
-                <ul class="actions special">
-                    <li><a href="{{ this.untenl }}" class="button primary wide">{{ this.untent }}</a></li>
-                </ul>{% endif %}
-            </div>
-        </section>
+  <!-- Section -->
+  <section class="wrapper style1">
+    <div class="inner">
+      <header class="major special alt">
+        <h2>{{ this.unten }}</h2>
+        {{ this.untenm }}{% if this.video %}
+         <video poster="{{ '/images/video-thumbnail.png' }}" class="image fit" preload="none" controls>
+           <source src="{{ '/video/Freifunk-verbindet.mp4' }}" type="video/mp4">
+           <source src="{{ '/video/Freifunk-verbindet.ogv' }}" type="video/ogg">
+           Video konnte nicht geladen werden. Du findest es auch auf <a href="https://player.vimeo.com/video/64814620">vimeo.com</a>.
+        </video>
+        <a rel="license" href="http://www.kosmonautensofa.de/animation/freifunk-verbindet" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="{{ '/images/cc.png' }}"></a>
+        <p><i>Philipp Seefeldt, Silke Meyer, Sven Heinze, Jürgen Neumann, Anne Helm, Thomas Deitterti</i></p>{% endif %}
+      </header>{% if this.untenl %}
+      <ul class="actions special">
+        <li><a href="{{ this.untenl }}" class="button primary wide">{{ this.untent }}</a></li>
+       </ul>
+    {%- endif %}
+    </div>
+  </section>
 
 {% endblock %}
