@@ -33,6 +33,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Assets
+assets/js/*.min.js
 assets/hyperbolic/
 assets/css/main.min.css
 assets/css/main.css

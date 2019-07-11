@@ -1,30 +1,34 @@
 LEKTOR_SERVER_FLAGS=-h 127.0.0.1
+# minify javascript assets, compile scss assets
+LEKTOR_PLUGIN_FLAGS=-f jsminify -f scsscompile
 
 all: build
 
-sass:
-	sass -t compressed ./assets/sass/main.scss ./assets/css/main.min.css
-	rm ./assets/css/main.min.css.map
-	lektor clean --yes
-	lektor build
-
-sass-uncompressed:
-	sass ./assets/sass/main.scss ./assets/css/main.css
-	rm ./assets/css/main.css.map
-	lektor clean --yes
-	lektor build
-
+.ONESHELL:
 install:
-	if ! hash pip 2>/dev/null; then echo "Try to install python-pip"; if hash apt 2>/dev/null; then sudo apt update; sudo apt install python-pip -y; elif hash pacman 2>/dev/null; then sudo pacman -Sy python-pip --noconfirm; elif hash dnf 2>/dev/null; then sudo dnf install -y python-pip; else echo -e "Please install python-pip"; fi; fi
-	pip install lektor --user
-	if ! hash gem 2>/dev/null; then echo "Try to install rubygems"; if hash apt 2>/dev/null; then sudo apt update; sudo apt install rubygems -y; elif hash pacman 2>/dev/null; then sudo pacman -Sy rubygems --noconfirm; elif hash dnf 2>/dev/null; then sudo dnf install -y rubygems; else echo -e "Please install rubygems"; fi; fi
-	gem install sass
-	if hash apt 2>/dev/null; then sudo apt update; sudo apt install imagemagick -y; elif hash pacman 2>/dev/null; then sudo pacman -Sy imagemagick --noconfirm; elif hash dnf 2>/dev/null; then sudo dnf install -y imagemagick; else echo -e "Please install Imagemagick"; fi
+	if hash apt-get 2>/dev/null; then
+	  sudo apt-get update -qq >/dev/null && sudo apt-get install -qq apt-utils imagemagick python3-pip python3-setuptools gcc
+	elif hash pacman 2>/dev/null; then
+	  sudo pacman -Syu imagemagick python-pip glibc lib32-glibc gcc --noconfirm
+	elif hash dnf 2>/dev/null; then
+	  sudo dnf install -y ImageMagick python3-pip gcc
+	else 
+	  echo -e "Please install Imagemagick, python3-pip and gcc"
+	fi
+	pip3 install wheel --user
+	pip3 install lektor --user
 
-build: sass
+
+build:
 	lektor clean --yes
-	lektor build
+	lektor plugin flush-cache 
+	lektor build $(LEKTOR_PLUGIN_FLAGS)
 
 server:
 	lektor server $(LEKTOR_SERVER_FLAGS)
+	
+server-all:
+	lektor clean --yes
+	lektor plugin flush-cache
+	lektor server $(LEKTOR_PLUGIN_FLAGS) $(LEKTOR_SERVER_FLAGS)
 
