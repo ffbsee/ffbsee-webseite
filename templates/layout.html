@@ -167,12 +167,24 @@ Wenn Sie unsere Kritik an der geplanten Urheberrechtsreform teilen, werden Sie a
         </div>
 
 		<!-- Scripts -->
-        <script src="{{ '/js/jquery.dropotron.min.js'|url }}"></script>
-        <script src="{{ '/js/jquery.scrollex.min.js'|url }}"></script>
-        <script src="{{ '/js/jquery.scrolly.min.js'|url }}"></script>
-        <script src="{{ '/js/browser.min.js'|url }}"></script>
-        <script src="{{ '/js/breakpoints.min.js'|url }}"></script>
-        <script src="{{ '/js/util.js'|url }}"></script>
-        <script src="{{ '/js/main.js'|url }}"></script>
+        <script src="{{ '/js/jquery.dropotron.min.js'|asseturl }}"></script>
+        <script src="{{ '/js/jquery.scrollex.min.js'|asseturl }}"></script>
+        <script src="{{ '/js/jquery.scrolly.min.js'|asseturl }}"></script>
+        <script src="{{ '/js/browser.min.js'|asseturl }}"></script>
+        <script src="{{ '/js/breakpoints.min.js'|asseturl }}"></script>
+        <script src=
+          {%- if '/js/util.min.js'|asseturl == empty -%}
+            "{{ '/js/util.js'|asseturl }}"
+          {%- else -%}
+            "{{ '/js/util.min.js'|asseturl }}"
+          {%- endif -%}
+        ></script>
+        <script src=
+          {%- if '/js/main.min.js'|asseturl == empty -%}
+            "{{ '/js/main.js'|asseturl }}"
+          {%- else -%}
+            "{{ '/js/util.min.js'|asseturl }}"
+          {%- endif -%}
+        ></script>
 	</body>
 </html>
