@@ -14,4 +14,4 @@ target = rsync://web17@c3woc.de:/var/www/clients/client10/web17/web
 [packages]
 lektor-atom = 0.2
 lektor-scsscompile = 1.1
-lektor-jsminify = 1.1
+lektor-jsminify = 1.3
