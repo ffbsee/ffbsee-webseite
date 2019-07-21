@@ -34,7 +34,6 @@
                         <li{% if this._path == '/' %} class="current"{% endif
                             %}><a href="{{ '/'|url }}">Start</a></li>
                         {%  for href, title in [
-			    ['/start', 'Start'],
                             ['/blog', 'Neuigkeiten'],
                             ['/anleitung', 'Anleitung'],
                             ['/faq', 'Fragen'],
@@ -44,12 +43,7 @@
                             ] %}<li{%
                         if this.is_child_of(href) %} class="active"{% endif
                             %}><a href="{{ href|url }}">{{ title }}</a>{%
-			if title == 'Start' %}
-			        <ul>
-				    <li><a href="{{ '/start'|url }}">Startseite</a></li>
-				    <li><a href="https://mate.ffbsee.net/meshviewer/">Freifunk-Bodensee-Karte</a></li>
-			        </ul>
-                        {% elif title == 'Unterstützen' %}
+                        if title == 'Unterstützen' %}
                                 <ul>
                                     <li><a href="{{ '/helfen'|url }}">Wie kann ich Freifunk unterstützen?</a></li>
                                     <li><a href="https://www.betterplace.me/ffbsee-hardware/">Spendenkampagne Hardware Finanzieren</a></li>
