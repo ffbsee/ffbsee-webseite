@@ -81,6 +81,7 @@ icons[4] = new Array('icons/kuppel.png','32','32','0.5','0.5');
 icons[5] = new Array('icons/huette.png','24','24','0.5','0.5');
 icons[6] = new Array('icons/vortrag.png','24','24','0.5','0.5');
 icons[7] = new Array('icons/opening.png','32','32','0.5','0.5');
+icons[8] = new Array('icons/sleep.png','32','32','0.5','0.5');
 
 
 // Add markers
@@ -92,7 +93,8 @@ addMarker(layer_markers,9.2022622820684,47.772865206741,"<b>Gartenbaugebäude</b
 addMarker(layer_markers,9.2026058673874,47.772935509491,"<b>Geodätische Kuppel</b><p />Hier finden streng geheime Geheimtreffen statt",false,4);
 addMarker(layer_markers,9.19958,47.77254,"<b>großer Saal</b><p />der große Saal befindet sich in der Mitte des Schulgebäude - hier findet das 'Opening' statt",false,7);
 addMarker(layer_markers,9.2007050277439,47.772759035552,"<b>HBK-Gebäude</b><p />hier finden Vorträge und große Workshops statt",false,6);
-
+addMarker(layer_markers,9.19907,47.77300,"<b>Wohnungen</b><p />hier dürft ihr Schlafen",false,8);
+addMarker(layer_markers,9.20107,47.77279,"<b>Kindergarten</b><p />hier dürft ihr Schlafen",false,8);
 
 geometries = new Array();geometries.push(drawPolygon([[9.2020937204151,47.772843575125],[9.2018362283497,47.772785890723],[9.2015036344325,47.772717390411],[9.2013695239816,47.772955338474],[9.2019864320552,47.772969759534],[9.2021312713415,47.77305268055],[9.2023619413169,47.773027443733],[9.2023512124814,47.772953535841],[9.202187597731,47.772964351637],[9.2021849155215,47.772839969852]],{strokeColor:"#5EBA5E",strokeWidth: 3,fillColor: "#5EBA5E",fillOpacity: 0.1}));
 
@@ -108,8 +110,20 @@ geometries.push(drawPolygon([[9.2021871802156,47.772962548984],[9.2021764513802,
 // Weg zum Musiksaal
 // geometries.push(drawLine([[9.2001728412357,47.772973364778],[9.2002050277439,47.77294091739],[9.200497388527,47.772998601621],[9.2005322572429,47.773261785115],[9.2011169788172,47.77330685065],[9.2013610598376,47.773267192983],[9.2013986107631,47.773036456864],[9.201425432854,47.772980575306]],{strokeColor:"#AA0000",strokeWidth: 3,fillColor: "#0000FF",fillOpacity: 0.4}));
 
+// Weg zum großen Saal
+geometries.push(drawLine([[9.19957,47.77269],[9.19973,47.77285],[9.19991,47.77283],[9.2002050277439,47.77294091739],[9.200497388527,47.772998601621],[9.2005322572429,47.773261785115],[9.2011169788172,47.77330685065],[9.2013610598376,47.773267192983],[9.2013986107631,47.773036456864],[9.201425432854,47.772980575306]],{strokeColor:"#AA0000",strokeWidth: 3,fillColor: "#0000FF",fillOpacity: 0.4}));
+
+// großer Saal - ungenau
+geometries.push(drawPolygon([[9.19972,47.77250],[9.19980,47.77261],[9.19974,47.77267],[9.19964,47.77273],[9.19945,47.77273],[9.19938,47.77257],[9.19949,47.77245],[9.19962,47.77241]],{strokeColor:"#EE0000",strokeWidth: 3,fillColor: "#EE0000",fillOpacity: 0.2}));
+
+// HBK
 geometries.push(drawPolygon([[9.2004800277439,47.772669035552],[9.2004950277439,47.772476035552],[9.2008400277439,47.772494035552],[9.2007800277439,47.772914035552],[9.2007200277439,47.772915035552]],{strokeColor:"#FF0000",strokeWidth: 3,fillColor: "#FF0000",fillOpacity: 0.2}));
 
+// Kindergarten - ungenau
+geometries.push(drawPolygon([[9.20115,47.77300],[9.20097,47.77300],[9.20097,47.77261],[9.20115,47.77261]],{strokeColor:"#0000FF",strokeWidth: 3,fillColor: "#0000FF",fillOpacity: 0.2}));
+
+// Betten
+geometries.push(drawPolygon([[9.19921,47.77296],[9.19917,47.77287],[9.19895,47.77300],[9.19903,47.77307]],{strokeColor:"#0000FF",strokeWidth: 3,fillColor: "#0000FF",fillOpacity: 0.2}));
 
 // Nochmal was..
 jumpTo(lon, lat, zoom);
