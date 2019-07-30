@@ -218,26 +218,3 @@ in niedriger Qualität haben meistens eine relativ lange Ladezeit.
 <a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware Informationen CPE210</a><br/><br/>
 <a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware Informationen CPE510</a><br/><br/>
 <a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a><br/><br/>
-
-TP-Link WR841N
---------------
-```
-KEINE KAUFEMPFEHLUNG
-ACHTUNG ab v14 IST NICHTS KOMPATIBEL
-
-Der TP-Link WR841N ist einer der günstigsten Freifunk Router.
-Leider sendet er sein WLAN nur auf 2.4 GHz,.
-Durch seine extrem schwache Hardware raten wir vom Kauf dieses Modells ab. 
-Am besten eignet sich sonst noch das Modell v13. Das Modell v14 ist leider nicht mehr kompatibel.
-
-Achtung, die Sortierung der Router Modelle im Firmware Wizard kann verwirrend sein.
-
-Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive 
-E-Mails schreiben und Textnachrichten senden. Videos und Bilder
-in niedriger Qualität haben meistens eine relativ lange Ladezeit.
-```
-<a href="https://www.heise.de/preisvergleich/tp-link-tl-wr841n-a340658.html" class="button">Preisvergleich</a>
-<a href="https://openwrt.org/toh/tp-link/tl-wr841nd" class="button">Hardware Informationen</a>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR841N%2FND%E2%81%A3" class="button primary">Firmware</a>
-<a href="/anleitung/tftp" class="button">Router mit TFTP Flashen</a><br/><br/>
-
