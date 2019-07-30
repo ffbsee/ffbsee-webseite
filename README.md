@@ -15,7 +15,7 @@ Auch die Installation über pip ist möglich:
 ```bash
 virtualenv venv
 . venv/bin/activate
-pip install lektor
+pip3 install lektor
 ```
 
 Zum Starten von Lektor muss man mit der Komandozeile in das root Verzeichnis der Webseite gehen
