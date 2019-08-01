@@ -5,7 +5,7 @@ preview: /anleitung/web/laptop.jpg
 body:
 
 Dein Router braucht eine spezielle Firmware, um am Freifunk teilzunehmen.
-Wie das genau geht, erfährst du hier
+Wie du diese genau bekommst, erfährst du hier
 ---
 relevanz: 30
 ---
@@ -55,7 +55,7 @@ Schalte nun den Router ein und rufe nach ca. 2 Minuten die Adresse ``http://192.
 <img src="/anleitung/web/841.jpg"/>
 </span>
 
-Wähle auf der neuen Seite im linken Menü den Eintrag System Tools und anschließend Firmware Upgrade. Danach sollte die Seite ähnlich wie die nachfolgende Grafik aussehen.
+Wähle auf der neuen Seite im linken Menü den Eintrag "System Tools" und anschließend "Firmware Upgrade". Danach sollte die Seite ähnlich wie die nachfolgende Grafik aussehen.
 
 <span class="image fit">
 <img src="/anleitung/web/flash.jpg"/>
@@ -73,10 +73,10 @@ Nachdem die Firmware fertig eingespielt ist, startet der Router neu. Dass der Ro
 <img src="/anleitung/web/wait.jpg"/>
 </span>
 
-Ziehe nach ein paar Minuten das Ethernet Kabel aus deinem Computer und schließe es erneut an. du bekommst nun eine neue Adresse die mit "192.168.133" anfängt.
+Ziehe nach ein paar Minuten das Ethernet-Kabel aus deinem Computer und schließe es erneut an. Du bekommst nun eine neue Adresse die mit "192.168.133" anfängt.
 Du kannst nun über die Adresse ``http://192.168.133.1`` deinen Router konfigurieren und zum Beispiel einen Namen und Koordinaten geben.
-Ab jetzt ist der Freifunk Router aber einsatzbereit und du kannst ihn über den blauen WAN-Port mit dem Internet verbinden.
+Ab jetzt ist der Freifunk-Router aber einsatzbereit und du kannst ihn über den blauen WAN-Port mit dem Internet verbinden.
 
-<a href="/anleitung/config/" class="button">Router Konfigurieren</a>
+<a href="/anleitung/config/" class="button">Router konfigurieren</a>
 
 Quelle: [Freifunk München](https://ffmuc.net/router-flashen/)
