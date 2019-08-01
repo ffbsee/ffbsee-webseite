@@ -2,7 +2,7 @@ title: Mesh
 ---
 body:
 
-Ein Freifunk Router versorgt nicht nur die mit ihm direkt verbundenen Geräte mit Freifunk sondern versucht auch mit anderen Freifunk Routern direkt in Kontakt zu kommen und darüber Daten auszutauschen.
+Ein Freifunk-Router versorgt nicht nur die mit ihm direkt verbundenen Geräte mit Freifunk sondern versucht auch mit anderen Freifunk-Routern direkt in Kontakt zu kommen und darüber Daten auszutauschen.
 
 Diese Verbindung wird Mesh genannnt.
 ---
@@ -14,11 +14,11 @@ content:
 
 Im Gegensatz zum WLAN-typischen Client-Server-Betrieb (ein Access Point als Server, Endgeräte als Client - der sogenannte Infrastructure-Modus), bei dem Datenpakete sternförmig vom Server zu den Clients verteilt werden, tauschen bei Meshing die einzelnen Rechner/Netzknoten direkt Daten miteinander aus (Peer-to-Peer- oder Ad-Hoc-Modus).
 
-Die Routen, auf denen die Daten durch das Mesh-Netzwerk (das Mobile Ad-Hoc Network, MANET) geschleust werden, werden dynamisch auf Basis der Verfügbarkeit der Knoten und der Verbindungsqualität und -auslastung berechnet. Es existieren zahlreiche unterschiedliche Ansätze (Routingprotokolle), diese Routen zu berechnen. Hat die Routing-Software Kontakt zu anderen Knoten im Mesh aufgenommen, ruft sie Informationen darüber ab, wer noch im Netzwerk ist, und errechnet Pfade zu vorhandenen Knoten (ad-hoc routing). Hat man etwa einen Laptop mit WLAN und Meshing-Software und trifft auf Gleichgesinnte, baut sich das Netzwerk auf, und man kann Daten austauschen oder unter Umständen über mehrere Zwischenstationen ins Internet gelangen.
+Die Routen, auf denen die Daten durch das Mesh-Netzwerk (das Mobile Ad-Hoc Network, MANET) geschleust werden, werden dynamisch auf Basis der Verfügbarkeit der Knoten und der Verbindungsqualität und -auslastung berechnet. Es existieren zahlreiche unterschiedliche Ansätze (Routingprotokolle), diese Routen zu berechnen. Hat die Routing-Software Kontakt zu anderen Knoten im Mesh aufgenommen, ruft sie Informationen darüber ab, wer noch im Netzwerk ist, und errechnet Pfade zu vorhandenen Knoten (ad-hoc routing). Hat man etwa einen Laptop mit WLAN und Meshing-Software und trifft auf Gleichgesinnte, baut sich das Netzwerk auf und man kann Daten austauschen oder unter Umständen über mehrere Zwischenstationen ins Internet gelangen.
 
 Elektra hat zu der Idee der Mesh-Netzwerke, die technische Grundlage von Freifunk sind, einen [ausführlichen Beitrag im Podcast Chaosradio Express](https://cre.fm/cre016) gemacht, der sehr empfehlenswert ist. 
 
-Funktion vom Mesh Netzwerk
+Funktion vom Mesh-Netzwerk
 -----------------------------
 Neben dem Video auf unserer [Startseite](/#footer) gibt es auch ein weiteres Video in dem grob erwähnt wird, wofür man das Mesh nutzen kann und warum man dann immer noch seinen Internet-Anschluss teilen sollte:
 ---
