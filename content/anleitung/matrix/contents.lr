@@ -1,12 +1,12 @@
-title: Matrix Chat
+title: Matrix-Chat
 ---
 body:
 
 Freifunk Bodensee nutzt Matrix als Chat um miteinander in Verbindung zu kommen.
 
-Komm vorbei und lass uns coole Freifunk Projekte machen.
+Komm vorbei und lass uns coole Freifunk-Projekte machen.
 ---
-subtitle: Freifunk Gruppenchat
+subtitle: Freifunk-Gruppenchat
 ---
 preview: /anleitung/matrix/matrix.png
 ---
@@ -48,34 +48,34 @@ relevanz: 18
 ---
 content2:
 
- Matrix Raum betreten
+ Matrix-Raum betreten
 ===========
 
- Matrix Benutzer erstellen
+ Matrix-Benutzer erstellen
 ---------------------------------
 
-Um den Matrix Raum zu betreten, benötigt Ihr als erstes einen Benutzer auf einem Matrix Server. 
+Um den Matrix-Raum zu betreten, benötigt ihr als erstes einen Benutzer auf einem Matrix-Server. 
 Hierfür bieten wir euch die Registrierung auf [bodensee.space/riot](https://bodensee.space/riot) an.
-Dort dürft ihr euch Registrieren und einen Account erstellen. Mit diesem Account könnt ihr euch Beispielsweise auch über die Riot.im Handy, Iphone oder Desktop-App anmelden.
+Dort dürft ihr euch registrieren und einen Account erstellen. Mit diesem Account könnt ihr euch beispielsweise auch über Riot im Handy, iPhone oder per Desktop-App anmelden.
 
- In der App Anmelden
+ In der App anmelden
 ----------------------
-Um sich in der App anzumelden und den Freifunk Bodensee Matrix Server zu verwenden, müsst ihr angeben, dass ihr euch nicht bei matrix.org registriert habt, sondern bei matrix.bodensee.space.
+Um sich in der App anzumelden und den Freifunk-Bodensee-Matrix-Server zu verwenden, müsst ihr angeben, dass ihr euch nicht bei matrix.org registriert habt, sondern bei matrix.bodensee.space.
 
 Die genaue Adresse dafür lautet:
 ````
 https://matrix.bodensee.space
 ````
-Als Identitätsserver verwendet Ihr am besten die Standardeinstellung!
+Als Identitätsserver verwendet ihr am besten die Standardeinstellung!
 
- Freifunk Bodensee Chat betreten
+ Freifunk-Bodensee-Chat betreten
 ----------------------------------
-Wenn ihr euch bei Matrix bzw. bei Riot angemeldet habt, könnt ihr den Freifunk Chat betreten.
+Wenn ihr euch bei Matrix bzw. bei Riot angemeldet habt, könnt ihr den Freifunk-Chat betreten.
 Ihr habt oben eine Suchleiste, dort könnt ihr direkt den Raum angeben:
 ````
 #ffbsee@matrix.bodensee.space
 ````
 
-Bei dem Riot Server auf [bodensee.space](https://bodensee.space/riot) könnt ihr auch direkt auf den vorgeschlagenen Freifunk Bodensee Chat klicken und Beitreten.
+Bei dem Riot-Server auf [bodensee.space](https://bodensee.space/riot) könnt ihr auch direkt auf den vorgeschlagenen Freifunk-Bodensee-Chat klicken und beitreten.
 
-Es gibt natürlich noch mehr Clients als Riot, mit denen Ihr euch verbinden könnt. Schaut hierfür mal auf <a href="https://matrix.to/#/#ffbsee:matrix.bodensee.space">matrix.to</a> vorbei!
+Es gibt natürlich noch mehr Clients als Riot, mit denen ihr euch verbinden könnt. Schaut hierfür mal auf <a href="https://matrix.to/#/#ffbsee:matrix.bodensee.space">matrix.to</a> vorbei!
