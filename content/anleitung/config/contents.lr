@@ -1,4 +1,4 @@
-title: Freifunk Router Konfigurieren
+title: Freifunk-Router konfigurieren
 ---
 relevanz: 30
 ---
@@ -7,31 +7,31 @@ preview: /anleitung/config/example.png
 body:
 
 Nach dem Flashen des Routers ist dieser sofort einsatzbereit und kann verwendet werden. <br/>
-Trotzdem lässt sich der Router noch Konfigurieren und man kann den Router zum Beispiel einen Namen geben und auf der Karte beim [Meshviewer](https://meta.ffbsee.net/meshviewer) auftauchen lassen.
+Trotzdem lässt sich der Router noch konfigurieren und man kann den Router zum Beispiel einen Namen geben und auf der Karte beim [Meshviewer](https://meta.ffbsee.net/meshviewer) auftauchen lassen.
 ---
-subtitle: Gib deinen Router einen Namen
+subtitle: Gib deinem Router einen Namen
 ---
 content:
 
-Nachdem der Freifunk Router mit der passenden Firmware [geflasht](/anleitung/flashen) wurde, ist dieser sofort Einsatzbereit.
+Nachdem der Freifunk-Router mit der passenden Firmware [geflasht](/anleitung/flashen) wurde, ist dieser sofort einsatzbereit.
 
-Sollte ein anderer Freifunk Bodensee Router in Reichweite sein, baut dein Router eine Mesh Verbindung mit dem anderen Router auf und verbreitet selber ein Freies WLAN. Oder du teilst deine Internetverbindung und steckst ein LAN-Kabel von deinem Router deines Internetanbieters in den blauen "WAN-Port" des Freifunk Routers. Dein Freifunk Router baut dann eine verschlüsselte Fastd-VPN-Verbindung zu einem der Freifunk Gateways auf und leitet alle Daten in dem Freifunk WLAN dorthin weiter.
+Sollte ein anderer Freifunk-Bodensee-Router in Reichweite sein, baut dein Router eine Mesh-Verbindung mit dem anderen Router auf und verbreitet selber ein freies WLAN. Oder du teilst deine Internetverbindung und steckst ein LAN-Kabel von deinem Router deines Internetanbieters in den blauen "WAN-Port" des Freifunk-Routers. Dein Freifunk-Router baut dann eine verschlüsselte Fastd-VPN-Verbindung zu einem der Freifunk-Gateways auf und leitet alle Daten in dem Freifunk-WLAN dorthin weiter.
 
-Auf dem [Meshviewer](https://meta.ffbsee.net/meshviewer) werden alle Freifunk Router im Freifunk Bodensee Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihm mit Geo-Koordinaten an der richtigen Position aufauchen zu lassen, kann man seinen Freifunk Router noch Konfigurieren.
+Auf dem [Meshviewer](https://meta.ffbsee.net/meshviewer) werden alle Freifunk-Router im Freifunk-Bodensee-Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihm mit Geo-Koordinaten an der richtigen Position aufauchen zu lassen, kann man seinen Freifunk-Router noch konfigurieren.
 
  Konfigurationsoberfläche erreichen
 --------------------------------------------------
-Die Konfigurationsoberfläche ist Standardmäßig nur über die Gelben "LAN-Ports" erreichbar. Verbindest du deinen Computer mit einem der LAN Ports, solltest du über DHCP eine IPv4 Adresse aus dem Bereich ``192.168.133.0/24`` bekommen. Dort erreichst du deinen Freifunk Router über die Adresse ``192.168.133.1``.
+Die Konfigurationsoberfläche ist standardmäßig nur über die gelben "LAN-Ports" erreichbar. Verbindest du deinen Computer mit einem der LAN-Ports, solltest du über DHCP eine IPv4-Adresse aus dem Bereich ``192.168.133.0/24`` bekommen. Dort erreichst du deinen Freifunk-Router über die Adresse ``192.168.133.1``.
 Die Administratons-Oberfläche ist mit HTTPS erreichbar. Der Benutzername ist immer "root". Als Passwort ist erstmal nichts gesetzt.
 ```
 Router: 192.168.133.1
 User: root
 Passwort: 
 ```
-Beim Anmelden warnt dich dein Browser, dass das TLS Zertifikat Selber Signiert ist und er dem Zertifikat daher nicht Vertrauen kann.
+Beim Anmelden warnt dich dein Browser, dass das TLS-Zertifikat selber signiert ist und er dem Zertifikat daher nicht vertrauen kann.
 Das ist beabsichtigt und du musst deinem Browser bestätigen, dass das trotzdem okay ist.
 
- Konfigurations Optionen
+ Konfigurationsoptionen
 ==============================
 Als erstes empfielt es sich, ein neues Passwort zu setzen. Hierzu gibt es den Menüpunkt "Passwort" in der Navigationsleiste auf dem Router.
 In dem Video gibt es ein paar Tipps zum Thema Passwortsicherheit:
@@ -54,6 +54,6 @@ content2:
 
  "Einstellungen"
 -------------------------
-Im Bereich Einstellungen lassen sich grundlegende Dinge Einstellen, wie sich der Freifunk Router verhalten soll.
-So kann man dort dem Router einen Namen geben, mit dem er Beispielsweise im Meshviewer auftaucht. Auserdem einen Standort, wo er auf der Karte im Meshviewer erscheinen soll.
+Im Bereich Einstellungen lassen sich grundlegende Dinge einstellen, wie sich der Freifunk-Router verhalten soll.
+So kann man dort dem Router einen Namen geben, mit dem er beispielsweise im Meshviewer auftaucht. Außerdem einen Standort, wo er auf der Karte im Meshviewer erscheinen soll.
 <center><a href="https://meta.ffbsee.net/meshviewer/" class="button primary">Meshviewer</a></center>
