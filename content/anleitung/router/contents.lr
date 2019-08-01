@@ -31,7 +31,7 @@ content2:
 
  Wichtig:
 ===============
-Bei den Freifunk Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn ein Router mit Hardware Revision v4.2 funktioniert, dass auch die Revision v4.3 oder v5 funktioniert.
+Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn ein Router mit Hardware Revision v4.2 funktioniert, dass auch die Revision v4.3 oder v5 funktioniert.
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router flashen</a>
 
@@ -45,7 +45,7 @@ Der Archer C7 ist einer der aktuell am einfachsten einzurichtenden Freifunk Rout
 Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
 Unterstützt werden nur die Modelle v2 und v4 in unserem stable Release. 
 Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
-Für die aktuell (April 2019) erhältliche Version 5 gibt es ein beta Release. Das kann funktionieren, ist aber etwas Fehleranfällig.
+Für die aktuell (April 2019) erhältliche Version 5 gibt es ein beta Release. Das kann funktionieren, ist aber etwas fehleranfällig.
 Leider ist der Router mit 70€-100€ relativ teuer.
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
@@ -79,7 +79,7 @@ Videos schauen auf mittlerer Qualität.
 TP-Link WDR 1043ND
 --------------
 ```
-Der TP-Link WDR 1043 ist auch noch einer der besseren Freifunk Router.
+Der TP-Link WDR 1043 ist auch noch einer der besseren Freifunk-Router.
 Leider sendet er nur auf dem 2.4 GHz Band, aber das ist ja schon mal etwas.
 Unterstützt werden nur die Modelle v2 bis v5.
 Die Version v1 ist zu schwach und hat sich leider als nicht kompatibel herausgestellt.
@@ -122,8 +122,8 @@ Freifunk Offloader
 ================
 
 Ein Freifunk Offloader ist ein kleiner Computer mit deutlich besseren Resourcen
-als ein Freifunk Router, der die Verbindung zu den Freifunk Gateways herstellt.
-Damit lässt sich eine deutlich bessere Verbindung ins Freifunk Netz erzielen,
+als ein Freifunk-Router, der die Verbindung zu den Freifunk-Gateways herstellt.
+Damit lässt sich eine deutlich bessere Verbindung ins Freifunk-Netz erzielen,
 mit einer Bandbreite von meistens 80MBit bis 120MBit.
 
 
@@ -133,11 +133,11 @@ mit einer Bandbreite von meistens 80MBit bis 120MBit.
 Beliebte Hardware für einen Offloader ist eine Siemens Futro S550.
 Diese gibt es gebraucht für 5€-20€ zu kaufen.
 
-Mit einem Offloader empfiehlt es sich, auch professionelle Freifunk Installationen
-wie Richtfunk Installationen oder größere WLAN Abdeckungen zu realisieren.
+Mit einem Offloader empfiehlt es sich, auch professionelle Freifunk-Installationen
+wie Richtfunk-Installationen oder größere WLAN-Abdeckungen zu realisieren.
 Das einrichten des Freifunk Offloaders ist etwas aufwendiger, 
-da diese bei der meisten Hardware über die Serielle Konsole und
-einen USB Stick installiert wird.
+da diese bei der meisten Hardware über die serielle Konsole und
+einen USB-Stick installiert wird.
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
 mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
@@ -149,18 +149,18 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 PC-Engine APU
 -----------------
 ```
-Die PC-Engine APU ist eher das Profi-Equipment eines Netzwerk Administrators.
+Die PC-Engine APU ist eher das Profi-Equipment eines Netzwerk-Administrators.
 Die APU kommt mit starker Hardware und ist schon fast zu schade um "nur" für einen
 Freifunk Offloader eingesetzt zu werden.
 
 Bei der Installation gibt es mehrere Möglichkeiten. Entweder man installiert
 ein normales auf Debian basierendes Betriebssystem und installiert 
-die einzelnen komponenten von Freifunk von Hand. 
-Derzeit haben wir leider noch kein fertiges Script dafür, dass das erledigt. 
+die einzelnen Komponenten von Freifunk von Hand. 
+Derzeit haben wir leider noch kein fertiges Script dafür, das das erledigt. 
 Aber mit etwas Nachfrage und Motivation von euch haben wir bestimmt Lust,
 das gerne nachzuliefern.
 
-Natürlich funktionieren die x86 images unserer Firmware auch für die APU.
+Natürlich funktionieren die x86-Images unserer Firmware auch für die APU.
 
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
@@ -175,15 +175,15 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
  WLAN Access Point
 --------------------------------
 ```
-Für die Freifunk Installation mit einem Offloader lässt sich als WLAN Access Point 
-im prinzip jeder beliebiger WLAN Router verwenden.
+Für die Freifunk-Installation mit einem Offloader lässt sich als WLAN Access Point 
+im Prinzip jeder beliebige WLAN-Router verwenden.
 Besonders gute Erfahrungen haben wir mit der Ubiquity Unify AP-AC-Pro gemacht.
 Dieser lässt sich über einen Controller managen. 
 Gerne helfen wir hier bei der Installation weiter.
-Außerdem betreiben wir einen Unify Controller auf einem der Gateway Server
+Außerdem betreiben wir einen Unify-Controller auf einem der Gateway-Server
 und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware managen könnt.
 ```
-<b>Empfohlene Unify APs  für die Installation mit einem Offloader, die über den WLAN Controller betrieben werden:</b><br/><br/>
+<b>Empfohlene Unify APs für die Installation mit einem Offloader, die über den WLAN-Controller betrieben werden:</b><br/><br/>
 <a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unify AP-AC-Pro</a>
 <a href="https://unifi-mesh.ubnt.com" class="button">Unify AC-Mesh</a><br/><br/>
 
@@ -199,10 +199,10 @@ TP-Link CPE210 / CPE510
 ```
 KEINE KAUFEMPFEHLUNG
 
-Der TP-Link CPE ist einer der günstigsten Freifunk Router.
+Der TP-Link CPE ist einer der günstigsten Freifunk-Router.
 Leider sendet er nur je nach Hardware auf einem Frequenzband, aber das ist ja schon mal etwas.
 Der CPE 210 sendet auf 2.4 GHz, der CPE 510 auf 5 GHz.
-Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
+Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60°-Winkel und nicht in alle Richtungen.
 Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und 
 seiner hohen Störanfälligkeit gerne als Briefbeschwerer.
 Mit Freifunk ist nur das Modell v1.x kompatibel.
