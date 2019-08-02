@@ -15,7 +15,7 @@ ask: Welchen Freifunk Router empfehlt ihr?
 ----
 text:
 
-Um ein Freifunk Netz zu haben, dass sich nicht nur zum Versenden von E-Mails und textbasierten Nachrichten eignet, sondern auch für Bilder, Videos und größeren Datenmengen geeignet ist, solltest du nicht den billigsten Router nehmen, sondern die stärkere, dafür aber leider auch teurere Hardware.
+Um ein Freifunk-Netz zu haben, das sich nicht nur zum Versenden von E-Mails und textbasierten Nachrichten eignet, sondern auch für Bilder, Videos und größere Datenmengen geeignet ist, solltest du nicht den billigsten Router nehmen, sondern die stärkere, dafür aber leider auch teurere Hardware.
 
 Eine aktuelle Auswahl findest du im Bereich Anleitungen.
 #### faq ####
@@ -31,34 +31,34 @@ ask: Wie kann ich mitmachen?
 ----
 text:
 
-Der erste Schritt ist, selber einen Freifunk Router aufzustellen. Hierfür findest du eine Anleitung auf unserer Webseite. Weiter geht es damit, anderen Menschen von Freifunk zu erzählen und beim Aufstellen von Freifunk Routern zu helfen.
+Der erste Schritt ist, selber einen Freifunk-Router aufzustellen. Hierfür findest du eine Anleitung auf unserer Webseite. Weiter geht es damit, anderen Menschen von Freifunk zu erzählen und beim Aufstellen von Freifunk-Routern zu helfen.
 
 Wenn du Lust hast, bei der Firmware mitzuhelfen, dann schau doch mal auf GitHub vorbei. 
-Melde dich doch mal auf der [Mailingliste](/kontakt) und komm bei [einem Treffen](/kalender) vorbei. Außerdem Schau mal bei der Seite [Unterstützung](/helfen) vorbei.
+Melde dich auf der [Mailingliste](/kontakt) und komm bei [einem Treffen](/kalender) vorbei. Schau außerdem mal bei der Seite [Unterstützung](/helfen) vorbei.
 #### faq ####
 ask: Ist mein Router mit Freifunk kompatibel?
 ----
 text:
 
-Unsere Freifunk Firmware basiert auf [OpenWRT](https://openwrt.org). Wenn es also möglich ist, OpenWRT auf deinen Router zu flashen, lässt sich meistens auch eine Freifunk Firmware bauen.
+Unsere Freifunk Firmware basiert auf [OpenWRT](https://openwrt.org). Wenn es also möglich ist, OpenWRT auf deinen Router zu flashen, lässt sich meistens auch eine Freifunk-Firmware bauen.
 
-Doch wenn dein Router sehr wenig Ressourcen wie nur wenige MB Flash und RAM hat, könnte es für Freifunk nicht ausreichen. Du kannst auf der [Firmware](https://github.com/ffbsee/firmware) Github Seite selber dein Glück probieren. Oder du meldest dich auf der [Mailingliste](/kontakt).
+Doch wenn dein Router sehr wenig Ressourcen wie nur wenige MB Flash und RAM hat, könnte es für Freifunk nicht ausreichen. Du kannst auf der [Firmware](https://github.com/ffbsee/firmware)-Github-Seite selber dein Glück probieren. Oder du meldest dich auf der [Mailingliste](/kontakt).
 #### faq ####
-ask: Ich bekomme keine IPv4 Adresse?
+ask: Ich bekomme keine IPv4-Adresse?
 ----
 text:
 
 Dann ist dein Router vermutlich nicht korrekt mit dem Internet verbunden.
-Der Freifunk Bodensee Router verteilen standardmäßig ein offenes WLAN mit der SSID ``Freifunk``. In diesem WLAN werden direkt vom Router IPv6 Adresse vergeben, so dass Geräte sich auch untereinander erreichen können.<br/>
+Die Freifunk-Bodensee-Router verteilen standardmäßig ein offenes WLAN mit der SSID ``Freifunk``. In diesem WLAN werden direkt vom Router IPv6-Adresse vergeben, so dass Geräte sich auch untereinander erreichen können.<br/>
 Außerdem versuchen sich die Router mit der SSID ``ffbsee_mesh`` untereinander zu finden, um eine große Mesh-Wolke aufzubauen.
-<br/><br/>Die IPv4 Adressen werden von den Freifunk Gateways vergeben. Daher bekommst du nur eine solche Adresse, wenn dein Router (oder ein Router mit dem dein Router meshed) mit dem Internet verbunden ist.
-<br/>Dies geschieht in der Regel so, dass du den blauen ``WAN``-Port des Freifunk Routers in einen der gelben Ports des Routers deines Internet-Anbieters steckst.
+<br/><br/>Die IPv4-Adressen werden von den Freifunk-Gateways vergeben. Daher bekommst du nur eine solche Adresse, wenn dein Router (oder ein Router, mit dem dein Router meshed) mit dem Internet verbunden ist.
+<br/>Dies geschieht in der Regel so, dass du den blauen ``WAN``-Port des Freifunk-Routers mit einem der gelben Ports des Routers deines Internet-Anbieters verbindest.
 #### faq ####
-ask: Wie teuer ist es einen Freifunk Router aufzustellen?
+ask: Wie teuer ist es einen Freifunk-Router aufzustellen?
 ----
-text: Wir verlangen keine Gebühr oder so etwas, damit du die Freifunk Firmware auf deinen Router flashen kannst. Und auch das Benutzen der Freifunk Gateways erlauben wir dir einfach so, weil wir von der Freifunk Idee überzeugt sind.<br/>Den passenden Freifunk Router musst du dir allerdings selber kaufen. Wenn noch keine anderen Freifunk Router in deiner Nähe sind, musst du deinen Freifunk Router nicht nur mit Strom, sondern auch mit Internet versorgen, damit dieser einen Zugang ins Freifunknetz und darüber auch ins Internet bekommt. Wenn aber bereits ein anderer Router vorhanden ist, können die sich auch über [Mesh](/anleitung/mesh/) verbinden.
+text: Wir verlangen keine Gebühr oder so etwas, damit du die Freifunk-Firmware auf deinen Router flashen kannst. Und auch das Benutzen der Freifunk-Gateways erlauben wir dir einfach so, weil wir von der Freifunk-Idee überzeugt sind.<br/>Den passenden Freifunk-Router musst du dir allerdings selber kaufen. Wenn noch keine anderen Freifunk-Router in deiner Nähe sind, musst du deinen Freifunk-Router nicht nur mit Strom, sondern auch mit Internet versorgen, damit dieser einen Zugang ins Freifunknetz und darüber auch ins Internet bekommt. Wenn aber bereits ein anderer Router vorhanden ist, können die sich auch über [Mesh](/anleitung/mesh/) verbinden.
 #### faq ####
-ask: Ist das denn sicher
+ask: Ist das denn sicher?
 ----
 text:
 
@@ -66,11 +66,11 @@ Ja!
 
 Wieso? Das erfährst du unter [Sicher surfen](/anleitung/sicher-surfen/).
 #### faq ####
-ask: Welche verpflichtungen habe ich, wenn ich bei Freifunk mitmache?
+ask: Welche Verpflichtungen habe ich, wenn ich bei Freifunk mitmache?
 ----
 text:
 
-Wenn du bei uns mitmachst und Freifunk über unsere Server-Infrastruktur anbietest, haben wir zwei bitten an dich:
+Wenn du bei uns mitmachst und Freifunk über unsere Server-Infrastruktur anbietest, haben wir zwei Bitten an dich:
 
 Verwende bitte die SSID ``Freifunk``. Dann kommt jeder, der schonmal im Freifunk war einfach wieder ins WLAN rein, ohne lange suchen zu müssen, wie das Freifunk hier jetzt heißt. Gerne darfst du aber eine weitere SSID aussenden die einen beliebig anderen Namen hat.
 
@@ -82,13 +82,13 @@ ask: Wann ist euer nächstes Treffen?
 ----
 text:
 
-Sobald jemand dazu einlädt, findet auch ein Freifunk Bodensee Treffen statt.
+Sobald jemand dazu einlädt, findet auch ein Freifunk-Bodensee-Treffen statt.
 
-Wenn du also gerne ein Freifunk Treffen, am besten noch bei dir in der Nähe haben möchtest, dann lade dazu doch am besten selber ein!
+Wenn du also gerne ein Freifunk-Treffen, am besten noch bei dir in der Nähe haben möchtest, dann lade dazu doch am besten selber ein!
 
 Wenn du keine dafür geeigneten Räumlichkeiten zur Verfügung hast, können wir auch in das Vereinsheim der [Toolbox Bodensee e.V.](https://toolbox-bodensee.de).
 
-Einladungen zum Freifunk Treffen sollten auf jeden Fall an die Mailingliste gesendet werden.
+Einladungen zum Freifunk-Treffen sollten auf jeden Fall an die Mailingliste gesendet werden.
 #### faq ####
 ask: Muss ich als Freifunker Angst vor Abmahnungen haben?
 ----
@@ -96,11 +96,11 @@ text:
 
 Nein!
 
-Wir arbeiten mit Freifunk 3-Ländereck zusammen, die sind anderen Telekommunikationsdiensteanbietern (ISP) rechtlich praktisch gleichgestellt und Sie können sich in Bezug der Störerhaftung auf das "Provider Privileg” berufen. Unabhängig von der rechtlichen Situation als Telekommunikationsdiensteanbieter, sorgen wir mit technischen Maßnahmen dafür, dass die Störerhaftung nicht auf den eigentlichen Betreiber des Routers zurückfällt.
+Wir arbeiten mit Freifunk 3-Ländereck zusammen, die sind anderen Telekommunikationsdiensteanbietern (ISP) rechtlich praktisch gleichgestellt und sie können sich in Bezug der Störerhaftung auf das "Provider Privileg” berufen. Unabhängig von der rechtlichen Situation als Telekommunikationsdiensteanbieter sorgen wir mit technischen Maßnahmen dafür, dass die Störerhaftung nicht auf den eigentlichen Betreiber des Routers zurückfällt.
 #### faq ####
-ask: Meine Frage wurde nicht beantwortet?
+ask: Meine Frage wurde nicht beantwortet!
 ----
-text: Stelle uns deine Frage nochmal. Am besten auf der Mailingliste oder im IRC. Sobald du eine Antwort bekommen hast, wäre es echt cool, wenn du diese hier Eintragen könntest. Den Quellcode der Webseite findest du auf [GitHub](https://github.com/ffbsee/ffbsee-webseite).
+text: Stelle uns deine Frage nochmal. Am besten auf der Mailingliste oder im IRC. Sobald du eine Antwort bekommen hast, wäre es echt cool, wenn du diese hier eintragen könntest. Den Quellcode der Webseite findest du auf [GitHub](https://github.com/ffbsee/ffbsee-webseite).
 #### faq ####
 ask: Wo finde ich weitere Antworten zu technischen Fragen?
 ----
