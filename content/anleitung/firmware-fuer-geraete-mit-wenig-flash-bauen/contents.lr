@@ -4,11 +4,11 @@ content:
 
 Manche Geräte mit 4MB haben besonders wenig Speicher verfügbar, so dass es dafür kein offizielles Image gibt, zum Beispiel TP-Link TL-WA850RE v2. 
 
-Zuerst folgt man der Anleitung zum bauen der Firmware https://github.com/ffbsee/firmware/tree/next bis man zum Schritt kommt wo die Firmware gebaut wird (make).
+Zuerst folgt man der Anleitung zum Bauen der Firmware https://github.com/ffbsee/firmware/tree/next bis man zum Schritt kommt wo die Firmware gebaut wird (make).
 
-Für das genannte Gerät bekommt man zum Beispiel ein Image indem man mittels "make menuconfig" die Option "Kernel modules -> Wireless Drivers -> kmod-mac80211 -> Export mac80211" deaktiviert sowie bei "Target Images -> squashfs -> Block size" 512 einstellt was allerdings mehr RAM benötigt da mindestens 3 Blöcke im RAM bleiben (https://openwrt.org/docs/guide-user/additional-software/saving_space#modifying_build_configuration_variables)
+Für das genannte Gerät bekommt man zum Beispiel ein Image, indem man mittels "make menuconfig" die Option "Kernel modules -> Wireless Drivers -> kmod-mac80211 -> Export mac80211" deaktiviert sowie bei "Target Images -> squashfs -> Block size" 512 einstellt, was allerdings mehr RAM benötigt da mindestens 3 Blöcke im RAM bleiben (https://openwrt.org/docs/guide-user/additional-software/saving_space#modifying_build_configuration_variables)
 
-Im Ordner "files/www/lan/" sollte noch die Datei "footer.ffbsee.animated.svg" gelöscht werden, damit verzichtet man zwar auf den schönen animierten footer, spart aber ein wenig Platz.
+Im Ordner "files/www/lan/" sollte noch die Datei "footer.ffbsee.animated.svg" gelöscht werden, damit verzichtet man zwar auf den schönen animierten Footer, spart aber ein wenig Platz.
 
 Am Ende startet man "make" und hat hoffentlich eine funktionierende Firmware.
 
@@ -16,7 +16,7 @@ Am Ende startet man "make" und hat hoffentlich eine funktionierende Firmware.
 Weitere Inspiration zum Firmware kleiner bekommen: 
 -  weitere Optionen aus https://openwrt.org/docs/guide-user/additional-software/saving_space#modifying_build_configuration_variables probieren
 - javascript und css im Ordner files/www mit uglify-js/uglifycss oder ähnlichem schrumpfen
-- logd entfernen (make menuconfig -> Base system -> logd), man bekommt dann natürlich keine logs mehr, aber falls es läuft schaut man da eh nie rein
+- logd entfernen (make menuconfig -> Base system -> logd), man bekommt dann natürlich keine Logs mehr, aber falls es läuft schaut man da eh nie rein
 
 ---
 subtitle: 
