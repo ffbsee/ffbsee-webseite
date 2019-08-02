@@ -8,9 +8,9 @@ subtitle: Welchen Router könnt ihr empfehlen?
 ---
 body:
 
-Es gibt viele Geräte, die sich als WLAN AccesPoint eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
+Es gibt viele Geräte, die sich als WLAN Ac­cess-Point eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
 
-Hier erfährst du, welche Router wir dir empfehlen können und von welche Router du deine Finger lassen solltest.
+Hier erfährst du, welche Router wir dir empfehlen können und von welchen Routern du deine Finger lassen solltest.
 ---
 code:
 
@@ -31,7 +31,7 @@ content2:
 
  Wichtig:
 ===============
-Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn ein Router mit Hardware Revision v4.2 funktioniert, dass auch die Revision v4.3 oder v5 funktioniert.
+Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn eine Hardware-Revision eines Routers, z.B. die v4.2 funktioniert, dann auch die v4.3 oder v5 kompatibel ist.
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router flashen</a>
 
@@ -43,7 +43,7 @@ Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" cla
 ```
 Der Archer C7 ist einer der aktuell am einfachsten einzurichtenden Freifunk Router.
 Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
-Unterstützt werden nur die Modelle v2 und v4 in unserem stable Release. 
+Unterstützt werden nur die Modelle v2 und v4 in unserem stable Release.
 Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
 Für die aktuell (April 2019) erhältliche Version 5 gibt es ein beta Release. Das kann funktionieren, ist aber etwas fehleranfällig.
 Leider ist der Router mit 70€-100€ relativ teuer.
@@ -121,7 +121,7 @@ Videos schauen auf niedriger bis mittlerer Qualität.
 Freifunk Offloader
 ================
 
-Ein Freifunk Offloader ist ein kleiner Computer mit deutlich besseren Resourcen
+Ein Freifunk Offloader ist ein kleiner Computer mit deutlich besseren Ressourcen
 als ein Freifunk-Router, der die Verbindung zu den Freifunk-Gateways herstellt.
 Damit lässt sich eine deutlich bessere Verbindung ins Freifunk-Netz erzielen,
 mit einer Bandbreite von meistens 80MBit bis 120MBit.
@@ -135,8 +135,8 @@ Diese gibt es gebraucht für 5€-20€ zu kaufen.
 
 Mit einem Offloader empfiehlt es sich, auch professionelle Freifunk-Installationen
 wie Richtfunk-Installationen oder größere WLAN-Abdeckungen zu realisieren.
-Das einrichten des Freifunk Offloaders ist etwas aufwendiger, 
-da diese bei der meisten Hardware über die serielle Konsole und
+Das Einrichten des Freifunk Offloaders ist etwas aufwendiger,
+da dieser bei der meisten Hardware über die serielle Konsole und
 einen USB-Stick installiert wird.
 
 Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
@@ -154,9 +154,9 @@ Die APU kommt mit starker Hardware und ist schon fast zu schade um "nur" für ei
 Freifunk Offloader eingesetzt zu werden.
 
 Bei der Installation gibt es mehrere Möglichkeiten. Entweder man installiert
-ein normales auf Debian basierendes Betriebssystem und installiert 
-die einzelnen Komponenten von Freifunk von Hand. 
-Derzeit haben wir leider noch kein fertiges Script dafür, das das erledigt. 
+ein normales auf Debian basierendes Betriebssystem und installiert
+die einzelnen Komponenten von Freifunk von Hand.
+Derzeit haben wir leider noch kein fertiges Script dafür, das das erledigt.
 Aber mit etwas Nachfrage und Motivation von euch haben wir bestimmt Lust,
 das gerne nachzuliefern.
 
@@ -175,10 +175,10 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
  WLAN Access Point
 --------------------------------
 ```
-Für die Freifunk-Installation mit einem Offloader lässt sich als WLAN Access Point 
+Für die Freifunk-Installation mit einem Offloader lässt sich als WLAN Access Point
 im Prinzip jeder beliebige WLAN-Router verwenden.
 Besonders gute Erfahrungen haben wir mit der Ubiquity Unify AP-AC-Pro gemacht.
-Dieser lässt sich über einen Controller managen. 
+Dieser lässt sich über einen Controller managen.
 Gerne helfen wir hier bei der Installation weiter.
 Außerdem betreiben wir einen Unify-Controller auf einem der Gateway-Server
 und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware managen könnt.
@@ -203,12 +203,12 @@ Der TP-Link CPE ist einer der günstigsten Freifunk-Router.
 Leider sendet er nur je nach Hardware auf einem Frequenzband, aber das ist ja schon mal etwas.
 Der CPE 210 sendet auf 2.4 GHz, der CPE 510 auf 5 GHz.
 Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60°-Winkel und nicht in alle Richtungen.
-Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und 
+Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und
 seiner hohen Störanfälligkeit gerne als Briefbeschwerer.
 Mit Freifunk ist nur das Modell v1.x kompatibel.
 Die Kosten für den Router liegen bei 25€-50€.
 
-Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive 
+Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive
 E-Mails schreiben und Textnachrichten senden. Videos und Bilder
 in niedriger Qualität haben meistens eine relativ lange Ladezeit.
 ```

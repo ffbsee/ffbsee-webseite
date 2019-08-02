@@ -17,23 +17,23 @@ Nachdem der Freifunk-Router mit der passenden Firmware [geflasht](/anleitung/fla
 
 Sollte ein anderer Freifunk-Bodensee-Router in Reichweite sein, baut dein Router eine Mesh-Verbindung mit dem anderen Router auf und verbreitet selber ein freies WLAN. Oder du teilst deine Internetverbindung und steckst ein LAN-Kabel von deinem Router deines Internetanbieters in den blauen "WAN-Port" des Freifunk-Routers. Dein Freifunk-Router baut dann eine verschlüsselte Fastd-VPN-Verbindung zu einem der Freifunk-Gateways auf und leitet alle Daten in dem Freifunk-WLAN dorthin weiter.
 
-Auf dem [Meshviewer](https://meta.ffbsee.net/meshviewer) werden alle Freifunk-Router im Freifunk-Bodensee-Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihm mit Geo-Koordinaten an der richtigen Position aufauchen zu lassen, kann man seinen Freifunk-Router noch konfigurieren.
+Auf dem [Meshviewer](https://meta.ffbsee.net/meshviewer) werden alle Freifunk-Router im Freifunk-Bodensee-Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihn mit Geo-Koordinaten an der richtigen Position auftauchen zu lassen, kann man seinen Freifunk-Router noch konfigurieren.
 
  Konfigurationsoberfläche erreichen
 --------------------------------------------------
 Die Konfigurationsoberfläche ist standardmäßig nur über die gelben "LAN-Ports" erreichbar. Verbindest du deinen Computer mit einem der LAN-Ports, solltest du über DHCP eine IPv4-Adresse aus dem Bereich ``192.168.133.0/24`` bekommen. Dort erreichst du deinen Freifunk-Router über die Adresse ``192.168.133.1``.
-Die Administratons-Oberfläche ist mit HTTPS erreichbar. Der Benutzername ist immer "root". Als Passwort ist erstmal nichts gesetzt.
+Die Administrations-Oberfläche ist mit HTTPS erreichbar. Der Benutzername ist immer "root". Als Passwort ist erst mal nichts gesetzt.
 ```
 Router: 192.168.133.1
 User: root
-Passwort: 
+Passwort:
 ```
 Beim Anmelden warnt dich dein Browser, dass das TLS-Zertifikat selber signiert ist und er dem Zertifikat daher nicht vertrauen kann.
 Das ist beabsichtigt und du musst deinem Browser bestätigen, dass das trotzdem okay ist.
 
  Konfigurationsoptionen
 ==============================
-Als erstes empfielt es sich, ein neues Passwort zu setzen. Hierzu gibt es den Menüpunkt "Passwort" in der Navigationsleiste auf dem Router.
+Als erstes empfiehlt es sich, ein neues Passwort zu setzen. Hierzu gibt es den Menüpunkt "Passwort" in der Navigationsleiste auf dem Router.
 In dem Video gibt es ein paar Tipps zum Thema Passwortsicherheit:
 ---
 code:
