@@ -31,9 +31,9 @@ body2img: /images/mitmachen.png
 ---
 body2l: /anleitung/router/
 ---
-body2m: Auf unserer Webseite findest du ausführliche Anleitungen, die dir helfen, deinen ersten Freifunk Router aufzustellen.
+body2m: Auf unserer Webseite findest du ausführliche Anleitungen, die dir helfen, deinen ersten Freifunk-Router aufzustellen.
 ---
-body2t: Du brauchst nur einen Freifunk Router!
+body2t: Du brauchst nur einen Freifunk-Router!
 ---
 body2b: Welchen Router?
 ---
@@ -57,9 +57,9 @@ main: Freifunk Bodensee
 ---
 mainimg: /images/FFBSee.svg
 ---
-main1: Freifunk Firmware
+main1: Freifunk-Firmware
 ---
-main1m: Du brauchst eine speziell für Freifunk entwickelte Firmware für deinen Router, um diesen in einen Freifunk Router zu verwandeln.
+main1m: Du brauchst eine speziell für Freifunk entwickelte Firmware für deinen Router, um diesen in einen Freifunk-Router zu verwandeln.
 ---
 main2: Karte
 ---
@@ -81,9 +81,9 @@ Freifunk ist eine nicht-kommerzielle Initiative für freie Funknetzwerke.
 
 Mach mit. Und teile dein Netz mit deinen Mitmenschen.
 ---
-main2m: Auf der Karte (Meshviewer/Freifunk Map) siehst du viele Freifunk Router, die zu Freifunk Bodensee gehören.
+main2m: Auf der Karte (Meshviewer/Freifunk Map) siehst du viele Freifunk-Router, die zu Freifunk Bodensee gehören.
 ---
-unten: Wie funktioniert Freifunk
+unten: Wie funktioniert Freifunk?
 ---
 untenm: In 87 Sekunden erklärt dir Lisa in diesem Video, was Freifunk ist und wie es funktioniert.
 ---
@@ -93,7 +93,7 @@ untent: Wie Freifunk funktioniert
 ---
 main1l: https://firmware.ffbsee.de/firmware/
 ---
-main1t: Firmware Download
+main1t: Firmware-Download
 ---
 main1la: /anleitung/flashen/
 ---
@@ -103,7 +103,7 @@ maina: Mailingliste
 ---
 mainal: https://list.ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee
 ---
-mainam: Wir tauschen uns über die Freifunk Bodensee Mailingliste aus. Diese kannst du hier abonnieren:
+mainam: Wir tauschen uns über die Freifunk-Bodensee-Mailingliste aus. Diese kannst du hier abonnieren:
 ---
 mainat: Mailingliste abonnieren
 ---
@@ -113,7 +113,7 @@ mainata: freifunk-bodensee@list.ffbsee.de
 ---
 mainb: GitHub
 ---
-mainbm: Sowohl unsere Firmware, als auch die Konfiguration unserer Server ist Open Source und bei GitHub einsehbar:
+mainbm: Sowohl unsere Firmware als auch die Konfiguration unserer Server ist Open Source und bei GitHub einsehbar:
 ---
 main2l: https://mate.ffbsee.net/meshviewer/
 ---
