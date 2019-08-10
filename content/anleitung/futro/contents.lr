@@ -1,6 +1,6 @@
 title: Einen Futro flashen
 ---
-body: Um einen Freifunk Offloader wie den Siemens Futro zu installieren, musst du dir einen Stick präperieren, mit einem bestimmten Freifunk-Image bespielen und das dann auf dem Futro installieren
+body: Um einen Freifunk-Offloader wie den Siemens Futro zu installieren, musst du dir einen Stick präperieren, mit einem bestimmten Freifunk-Image bespielen und das dann auf dem Futro installieren
 ---
 content:
 
@@ -14,18 +14,18 @@ Auf diesen USB-Stick kopiert man dann zusätzlich ein genau dafür vorbereitetes
 Dann schließt man den Stick an den Futro an und bootet vom Stick.
 Dabei installiert sich die Firmware automatisch auf die Festplatte des Futro.
 
-Und schon hat man einen funktionierenden Freifunk Offloader.
+Und schon hat man einen funktionierenden Freifunk-Offloader.
 Dieser ist ganz normal wie jeder Freifunk-Router auch über seinen LAN-Port erreichbar.
 
  Den USB-Stick vorbereiten:
 ---------------------------
 Von klugen Freifunk-Firmware-Entwicklern gibt es dazu eine eigene Anleitung.<br/>
 Diese findet man auf [github.com/oszilloskop/Gluon2Futro](https://github.com/oszilloskop/Gluon2Futro#%C3%9Cbertragen-des-gluon2futro-images-auf-einen-usb-stick).<br/>
-Diese sollte man ausfürlich lesen und dann wie dort beschrieben durchführen!
+Man sollte sie ausfürlich lesen und dann die Schritte wie dort beschrieben durchführen!
 
 ### Kurzfassung:
 1. Dieses [gluon2futro.img](https://raw.githubusercontent.com/oszilloskop/Gluon2Futro/master/gluon2futro.img) auf den USB-Stick schreiben. Zum Beispiel mit ``dd`` oder `` Win32 Disk Imager``.
-2. Den frisch erstellten Stick in deinem Computer als Laufwerk mit deinem Datei Explorer öffnen und die [GLUON2FUTRO.img.gz](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz) in das Wurzelverzeihnis des USB-Sticks kopieren.
+2. Den frisch erstellten Stick in deinem Computer als Laufwerk mit deinem Datei-Explorer öffnen und die [GLUON2FUTRO.img.gz](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz) in das Wurzelverzeichnis des USB-Sticks kopieren.
 3. USB-Stick auswerfen und den Futro vom USB-Stick booten.
 
 
@@ -38,7 +38,7 @@ Im März 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/fi
 ---
 relevanz: 19
 ---
-subtitle: Wie man einen Freifunk Offloader installiert
+subtitle: Wie man einen Freifunk-Offloader installiert
 ---
 content2:
 

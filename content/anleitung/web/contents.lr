@@ -5,7 +5,7 @@ preview: /anleitung/web/laptop.jpg
 body:
 
 Dein Router braucht eine spezielle Firmware, um am Freifunk teilzunehmen.
-Wie du diese genau bekommst, erfährst du hier
+Wie du diese genau bekommst, erfährst du hier.
 ---
 relevanz: 30
 ---
@@ -15,7 +15,7 @@ code:
 
 <center>
 <br/>
-<a href="/anleitung/flashen" class="button primary">Informationen zum Router flashen</a>
+<a href="/anleitung/flashen" class="button primary">Informationen zum Router-Flashen</a>
 </center>
 <br/><br/><br/>
 ---
