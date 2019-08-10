@@ -18,14 +18,14 @@ Sollte man mal sein Passwort vergessen haben oder hat man sich beim Konfiguriere
 Dieser ist ausführlich auf [openwrt.org/de/doc/howto/generic.failsafe](https://openwrt.org/de/doc/howto/generic.failsafe) dokumentiert.
 
 
- Recovery-Modus auslösen via Hardware-Taster
+ Recovery-Modus auslösen via Hardware-Reset-Taster
 -----------------------------------------------------------
 
- 1. Setzen Sie die IP Adresse Ihres Computers auf ``192.168.1.2`` und die Subnetzmaske auf ``255.255.255.0``, weil im Failsafe-Modus kein DHCP-Server läuft und OpenWrt oder Freifunk somit keine IPs vergibt
+ 1. Setzen Sie die IP-Adresse Ihres Computers auf ``192.168.1.2`` und die Subnetzmaske auf ``255.255.255.0``, weil im Failsafe-Modus kein DHCP-Server läuft und OpenWrt oder Freifunk somit keine IPs vergibt
  2. Starten Sie ihr Gerät neu indem Sie den Strom unterbrechen
- 3. Lösen Sie nun den Failsafe-Modus während des Bootvorganges aus, indem Sie im richtigen Zeitfenster den Hardware-Taster einmalig betätigen
+ 3. Lösen Sie nun den Failsafe-Modus während des Bootvorganges aus, indem Sie im richtigen Zeitfenster den Hardware-Reset-Taster einmalig betätigen
    * Das Zeitfenster ist 2 Sekunden lang beginnt aber je nach Gerät bei so 6 Sekunden bis teils 60 Sekunden und ganz selten noch länger (z.B. DIR-300 A) nachdem das Gerät am Stromkreis angeschlossen worden ist.
-   * wenn Sie den Beginn des Zeitfensters für Ihr Gerät nicht kennen, drücken Sie einfach wiederholt den Hardware-Taster so lange, bis Sie sehen, dass OpenWrt im Failsafe-Modus gebootet hat. Keine Angst, es passiert nichts, wenn sie den Taster zum “falschen Zeitpunkt” drücken. ;-) Es ist falsch, den Taster gedrückt zu halten, da lediglich beim Drücken einmalig und beim Loslassen wieder einmalig ein IRQ gesendet wird. Um im Zeitfenster den IRQ zu senden, müssen Sie also wiederholt drücken!
+   * wenn Sie den Beginn des Zeitfensters für Ihr Gerät nicht kennen, drücken Sie einfach wiederholt den Hardware-Reset-Taster so lange, bis Sie sehen, dass OpenWrt im Failsafe-Modus gebootet hat. Keine Angst, es passiert nichts, wenn sie den Taster zum “falschen Zeitpunkt” drücken. ;-) Es ist falsch, den Taster gedrückt zu halten, da lediglich beim Drücken einmalig und beim Loslassen wieder einmalig ein IRQ gesendet wird. Um im Zeitfenster den IRQ zu senden, müssen Sie also wiederholt drücken!
  4. Dass OpenWrt in den Failsafe-Modus gebootet hat, lässt sich z.B. daran erkennen, dass sie System-LED schnell blinkt oder eben daran, dass ``192.168.1.1`` pingbar ist
  5. Sie können sich nun über SSH mit ``ssh root@192.168.1.1  `` verbinden. Wenn nach einem Passwort gefragt wird, einfach ``ENTER`` drücken!
 ````bash

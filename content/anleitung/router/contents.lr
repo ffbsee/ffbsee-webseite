@@ -1,4 +1,4 @@
-title: Welcher Freifunk Router?
+title: Welcher Freifunk-Router?
 ---
 preview: /images/mitmachen.png
 ---
@@ -8,7 +8,7 @@ subtitle: Welchen Router könnt ihr empfehlen?
 ---
 body:
 
-Es gibt viele Geräte, die sich als WLAN Ac­cess-Point eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
+Es gibt viele Geräte, die sich als WLAN-Ac­cess-Point eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
 
 Hier erfährst du, welche Router wir dir empfehlen können und von welchen Routern du deine Finger lassen solltest.
 ---
@@ -25,15 +25,15 @@ content:
 
 Unsere Freifunk-[Firmware](https://github.com/ffbsee/firmware) funktioniert mit einer angepassten Version von [OpenWRT](https://openwrt.org).
 
-Wer einen mit Freifunk kompatiblen Router haben möchte, muss sich zwischen drei Optionen entscheiden:
+Wer einen mit Freifunk-kompatiblen Router haben möchte, muss sich zwischen drei Optionen entscheiden:
 ---
 content2:
 
  Wichtig:
 ===============
-Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn eine Hardware-Revision eines Routers, z.B. die v4.2 funktioniert, dann auch die v4.3 oder v5 kompatibel ist.
+Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn eine Hardware-Revision eines Routers, z. B. die v4.2 funktioniert, dann auch die v4.3 oder v5 kompatibel ist.
 
-Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router flashen</a>
+Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router-Flashen</a>
 
 <h2 id="teuer">Gute Freifunk-Router<h2>
 <h4>Leider etwas teuer</h4>

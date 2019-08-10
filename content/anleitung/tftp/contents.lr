@@ -37,7 +37,7 @@ Außerdem sollte man einen kleinen Switch parat haben, an dem man nur seinen Com
  TFTP-Server unter Windows:
 ------------------------
 
-Sofern man auf seinem Windows PC noch keinen TFTP-Server hat, muss einer installiert werden.
+Sofern man auf seinem Windows-PC noch keinen TFTP-Server hat, muss einer installiert werden.
 
 Ein möglicher TFTP-Server ist das Programm [openTFTP](https://sourceforge.net/projects/tftp-server/).
 
@@ -54,7 +54,7 @@ Es wird die Firmware für die Erstinstallation (``FACTORY``) benötigt. Diese fi
 
 Starte per Doppelklick RunStandAloneMT.bat
 
-Wenn man nun alles richtig gemacht hat, öffnet sich eine DOS-Box und in der letzte Zeile steht
+Wenn man nun alles richtig gemacht hat, öffnet sich eine DOS-Box und in der letzten Zeile steht
 ```
 Listening On: 192.168.0.66:69
 ```
@@ -64,7 +64,7 @@ Den Router von einer gelben Buchse per LAN-Kabel an einen kleinen Switch anschli
 
 Den Reset-Knopf am Router festhalten. Bei gedrücktem Reset-Knopf den Router einschalten. Den Reset-Knopf so lange drücken, bis nur noch die Schloss-LED (bzw. bei v8 ggf. die Zahnrad-LED) leuchtet. Den Reset-Knopf noch einige Sekunden länger gedrückt halten, danach kann dieser losgelassen werden.
 
-Auf dem Computer in der DOS-Box beim OpenTFTP-Server sollte nun stehen, welchen Namen die Firmware haben sollte. Die Firmware Datei dementsprechend umbenennen und wieder mit gedrückter Reset-Taste den Router neu starten.
+Auf dem Computer in der DOS-Box beim OpenTFTP-Server sollte nun stehen, welchen Namen die Firmware haben sollte. Die Firmware-Datei dementsprechend umbenennen und wieder mit gedrückter Reset-Taste den Router neu starten.
 
 In der DOS-Box kann man den Fortschritt beim Kopieren der Firmware-Datei beobachten. Wenn der Vorgang abgeschlossen ist, sollte der Router nach ein paar Minuten wieder neu starten und wieder für Freifunk bereit stehen.
 
