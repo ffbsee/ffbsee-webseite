@@ -11,13 +11,13 @@ ask: Warum ist das alles kostenlos? Wo ist der Haken?
 ----
 text: Freifunk ist eine gemeinschaftliche Bewegung, die einen freien Netzzugang als gesellschaftlichen Grundstein sieht. Wir möchten zudem den derzeitigen rechtlichen (Störerhaftung) sowie datenschutzrechtlichen (Kundendaten sammeln) Problematiken aus dem Weg gehen. Die Infrastruktur wird ausschließlich über Spenden finanziert.
 #### faq ####
-ask: Welchen Freifunk Router empfehlt ihr?
+ask: Welchen Freifunk-Router empfehlt ihr?
 ----
 text:
 
 Um ein Freifunk-Netz zu haben, das sich nicht nur zum Versenden von E-Mails und textbasierten Nachrichten eignet, sondern auch für Bilder, Videos und größere Datenmengen geeignet ist, solltest du nicht den billigsten Router nehmen, sondern die stärkere, dafür aber leider auch teurere Hardware.
 
-Eine aktuelle Auswahl findest du im Bereich Anleitungen.
+Eine aktuelle Auswahl findest du im Bereich "Anleitungen".
 #### faq ####
 ask: Wo finde ich die Firmware?
 ----
@@ -40,11 +40,11 @@ ask: Ist mein Router mit Freifunk kompatibel?
 ----
 text:
 
-Unsere Freifunk Firmware basiert auf [OpenWRT](https://openwrt.org). Wenn es also möglich ist, OpenWRT auf deinen Router zu flashen, lässt sich meistens auch eine Freifunk-Firmware bauen.
+Unsere Freifunk-Firmware basiert auf [OpenWRT](https://openwrt.org). Wenn es also möglich ist, OpenWRT auf deinen Router zu flashen, lässt sich meistens auch eine Freifunk-Firmware bauen.
 
 Doch wenn dein Router sehr wenig Ressourcen wie nur wenige MB Flash und RAM hat, könnte es für Freifunk nicht ausreichen. Du kannst auf der [Firmware](https://github.com/ffbsee/firmware)-Github-Seite selber dein Glück probieren. Oder du meldest dich auf der [Mailingliste](/kontakt).
 #### faq ####
-ask: Ich bekomme keine IPv4-Adresse?
+ask: Ich bekomme keine IPv4-Adresse.
 ----
 text:
 
