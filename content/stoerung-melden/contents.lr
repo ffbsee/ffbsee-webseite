@@ -19,18 +19,18 @@ Bitte beschreibe dein Problem möglichst genau. Mit einer kurzen Nachricht in de
 + Was ist kaputt?
 + Wann ist es dir aufgefallen?
 + Wie können wir den Fehler nachvollziehen?
-+ Wie lautet der Name und die MAC Adresse deines Freifunk-Routers?
++ Wie lautet der Name und die MAC-Adresse deines Freifunk-Routers?
 + Was für einen Freifunk-Router verwendest du? *(Hardware Version, Versionsnummer der Firmware, ...)*
 + Ist dein Freifunk-Router mit dem Internet verbunden?
- - In welchen Port steckt welches Kabel?
- - Was hast du für ein Internet Anbieter *(zB. TeleData, Telekom, Vodaphone, NeckarCom, TK-Lindau, Stadtwerke Konstanz...)*
+ - In welchem Port steckt welches Kabel?
+ - Was hast du für ein Internetanbieter *(zB. TeleData, Telekom, Vodaphone, NeckarCom, TK-Lindau, Stadtwerke Konstanz...)*
 + Wenn es das Problem besser beschreibt, schick doch ein Foto deines Routers oder einen Screenshot deiner Konfiguration mit.
 
 Wir hoffen, dass wir das Problem nachvollziehen können und dann auch relativ schnell beheben können.
 
 <hr/>
 
-Wenn du technisch etwas Erfahrung hast, dann findest du  den Fehler vielleicht selber. Die zwei großen Anlaufstellen hier wären einerseits die Freifunk-Firmware oder die Konfiguration des Freifunknetzes.
+Wenn du technisch etwas Erfahrung hast, dann findest du den Fehler vielleicht selber. Die zwei großen Anlaufstellen hier wären einerseits die Freifunk-Firmware oder die Konfiguration des Freifunknetzes.
 Von beiden ist der Quellcode öffentlich auf GitHub einsehbar und wir würden uns gewaltig über konstruktive Beiträge oder womöglich sogar eigenen Code von dir freuen, der Freifunk voran bringt:
 
 <center>
