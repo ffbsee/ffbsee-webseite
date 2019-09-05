@@ -57,6 +57,19 @@ oder
 ```bash
 sudo pacman -S git-lfs
 ```
+
+ Berechtigungen
+=================
+Da Microsoft immer mehr nach lulu müffelt, haben wir begonnen dieses Repo nach [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/ffbsee-webseite.git) umzuziehen.
+
+Das ist bei weiten noch nicht fertig und sollte man mal richtig machen.
+
+Die LFS Daten sollte dort gepflegt werden!!!
+
+```url
+https://gitea.see-base.de/FFBSee/ffbsee-webseite.git
+```
+
  
  Design:
 ----------
