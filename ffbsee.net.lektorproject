@@ -2,6 +2,7 @@
 name = ffbsee.net
 url = https://ffbsee.net/
 locale = de_DE
+locale = de_DE
 
 [servers.ffbsee]
 name = ffbsee
@@ -10,6 +11,26 @@ url_style = absolute
 enabled = yes
 default = yes
 target = rsync://web17@c3woc.de:/var/www/clients/client10/web17/web
+
+[alternatives.de]
+name = Deutsch
+primary = yes
+locale = de_DE
+
+[alternatives.en]
+name = Englisch
+locale = en_US
+url_prefix = /en/
+
+[alternatives.aut]
+name = Österreich
+url_prefix = /aut/
+locale = de
+
+[alternatives.che]
+name = Schweiz
+url_prefix = /che/
+locale = de
 
 [packages]
 lektor-atom = 0.2
