@@ -1,5 +1,6 @@
-{% macro render_help_post(post, from_index=false) %}
-{% if from_index %}
+{%- from "macros/translator.j2" import translator %}
+{%- macro render_help_post(post, from_index=false) %}
+{%- if from_index %}
         <!-- Section -->
             <section>
                 <div class="image"><a href="{{ post|url }}"><img src="{% if post.preview %}{{ post.preview|url }}{% else %}/images/fragen.png{% endif %}" alt="" /></a></div>
@@ -10,7 +11,7 @@
                     {{ post.body }}
                 </div>
             </section>
-{% else %}
+{%- else %}
     <div class="blog-post">
         <header class="major special">
             <h1>{{ post.title }}</h1>{%
