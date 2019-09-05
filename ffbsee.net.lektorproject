@@ -33,6 +33,4 @@ url_prefix = /che/
 locale = de
 
 [packages]
-lektor-atom = 0.2
-lektor-jsminify = 1.4.1
 lektor-scsscompile = 1.2.4
