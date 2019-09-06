@@ -3,6 +3,32 @@
     RedirectMatch 404 /\.git
 </IfModule>
 
+# Use HSTS
+Header set Strict-Transport-Security "max-age=31556926"
+
+# Prevent mime based attacks (IE and Chrome)
+Header set X-Content-Type-Options "nosniff"
+
+# Activate XSS Praeventions-/Filter-Tools
+# Optional: mode=block
+Header set X-XSS-Protection "1; mode=block"
+
+# Limit frame/iframe Usage
+Header append X-Frame-Options "SAMEORIGIN"
+
+# Cookies only via SSL and and no Javascript-Access to them
+# Optional: Expires, Max-Age, Path, Domain
+Header always edit Set-Cookie (.*) "$1; HttpOnly; Secure"
+
+# (Down-) Load only contents from allowed sources
+Header set Content-Security-Policy "default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';"
+
+# Referrer Policy
+Header set Referrer-Policy "origin-when-cross-origin"
+
+# Feature Policy
+Header always set Feature-Policy "geolocation 'none'; midi 'none'; camera 'none'; usb 'none'; magnetometer 'none'; accelerometer 'none'; vr 'none'; speaker 'none'; ambient-light-sensor 'none'; gyroscope 'none'; microphone 'none'"
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
