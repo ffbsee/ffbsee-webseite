@@ -10,7 +10,7 @@ url = https://ffbsee.net/
 url_style = absolute
 enabled = yes
 default = yes
-target = rsync://web17@c3woc.de:/var/www/clients/client10/web17/web
+target = rsync://web17@ffbsee.net:/var/www/clients/client10/web17/web
 
 [alternatives.de]
 name = Deutsch
