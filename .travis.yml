@@ -10,7 +10,6 @@ before_install:
   - git lfs pull
 install: 
   - pip3 install lektor
-  - lektor plugins add lektor-scsscompile
 
 script: "make build" 
 
