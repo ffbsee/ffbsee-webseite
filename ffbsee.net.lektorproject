@@ -33,4 +33,4 @@ url_prefix = /che/
 locale = de
 
 [packages]
-lektor-scss = 1.3.0
+lektor-scss = 1.3.3

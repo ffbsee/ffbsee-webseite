@@ -15,14 +15,13 @@ install:
 	else 
 	  echo -e "Please install Imagemagick, python3-pip and gcc"
 	fi
-	pip3 install wheel --user
-	pip3 install lektor --user
-
+	pip3 install --user --upgrade wheel
+	pip3 install --user --upgrade lektor
 
 build:
 	lektor clean --yes
 	lektor plugin flush-cache 
-	lektor build $(LEKTOR_PLUGIN_FLAGS)
+	python3 -m lektor build $(LEKTOR_PLUGIN_FLAGS)
 
 server:
 	lektor server $(LEKTOR_SERVER_FLAGS)
@@ -30,5 +29,5 @@ server:
 server-all:
 	lektor clean --yes
 	lektor plugin flush-cache
-	lektor server $(LEKTOR_PLUGIN_FLAGS) $(LEKTOR_SERVER_FLAGS)
+	python3 -m lektor server $(LEKTOR_PLUGIN_FLAGS) $(LEKTOR_SERVER_FLAGS)
 
