@@ -15,7 +15,7 @@ subtitle: Wie man die Firmware auf den Router bekommt
 ---
 content:
 
-Nachdem ihr euch einen [Freifunk-Router](anleitung/router) ausgesucht habt, geht es nun darum, diesen mit der passenden Firmware auszustatten.
+Nachdem ihr euch einen <a href="/anleitung/router/">Freifunk-Router</a> ausgesucht habt, geht es nun darum, diesen mit der passenden Firmware auszustatten.
 Dieser Vorgang wird "Router-Flashen" genannt.
 
 ---
@@ -40,7 +40,7 @@ Für jeden Router gibt es unterschiedliche Firmware-Dateien. Diese werden unters
  Firmware finden
 ---------------
 
-Um die passende Firmware für deinen Router zu finden, gibt es sowohl den <a href="https://firmware.ffbsee.de/fw-wizard/" class="button primary">Firmware Wizard</a> als auch eine <a href="https://firmware.ffbsee.de/firmware/" class="button">Liste aller Firmware-Dateien</a>.
+Um die passende Firmware für deinen Router zu finden, gibt es sowohl den <a href="https://firmware.ffbsee.de/fw-wizard/" >Firmware Wizard</a> als auch eine <a href="https://firmware.ffbsee.de/firmware/" >Liste aller Firmware-Dateien</a>.
 Hierbei ist es besonders wichtig, die genaue Version eures Freifunk-Routers zu kennen. Diese steht *(wie auch unten bei den Bildern beschrieben)* auf der Rückseite des Routers. Da die meisten Router von einer Versionsnummer zu einer anderen komplett unterschiedlich sein können, ist es wichtig, dass die Versionsnummer **genau** übereinstimmt.
 Bei Modellen mit vielen verschiedenen Versionen sind diese im Firmware Wizard nicht immer gut sortiert und so kann es sein, dass die neueste Version in der Mitte der Liste auftaucht und nicht am Anfang oder Ende.
 
@@ -48,7 +48,7 @@ Bei Modellen mit vielen verschiedenen Versionen sind diese im Firmware Wizard ni
  Firmware selber bauen
 ---------------------------
 Wir schreiben ständig davon, dass unsere Firmware Open Source ist. Das bedeutet, dass du mit ein wenig Erfahrung unter Linux und mit der Shell die Firmware selber aus dem Quellcode kompilieren kannst. Genau das haben wir auch gemacht und das fertige Ergebnis im Internet zum Download angeboten.
-Die Firmware inklusive einer kleinen Anleitung zum Selberkompilieren findest du auf <a href="https://github.com/ffbsee/firmware/" class="button">GitHub</a> oder auch selber gehostet auf [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/firmware).<br/>
+Die Firmware inklusive einer kleinen Anleitung zum Selberkompilieren findest du auf <a href="https://github.com/ffbsee/firmware/" >GitHub</a> oder auch selber gehostet auf [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/firmware).<br/>
 **Tipp:** Die meisten Freifunk-Router sind unter der Kategorie ar71xx zu finden.
 
 
