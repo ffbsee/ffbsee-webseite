@@ -94,6 +94,23 @@
                                </ul>
                             {% endif %}</li>
                         {% endfor %}
+
+                        {%- set newPath = this._path %}
+                        {%- if not newPath.endswith('/') %}
+                        {%- set newPath = newPath + '/' %}
+                        {%- endif %}
+                        <li>
+
+                          <a href="/{{- translator('default_langswitch_path', 'navigation', this.alt, 'en') -}}{{ newPath }}">
+                          Language
+                          </a>
+                          <ul>
+                            <li><a href="{{ newPath }}">deutsch</a></li>
+                            <li><a href="/en{{ newPath}}">english <i>(if available)</i></a></li>
+                          </ul>
+
+                        </li>
+
                     </ul>
                 </nav>
             </section>
