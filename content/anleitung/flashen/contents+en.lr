@@ -1,0 +1,76 @@
+body:
+
+This chapter explains how the Freifunk firmware is installed the router.<br/>
+
+This process is called "router flashing".
+
+---
+code:
+
+<div class="box" style="color: red;">
+<p>Attention: The OS of the router can be damaged irreparably when flashing it with the incorrect firmware or if a power shutdown occurs while flashing. In most cases, this can be fixed via the serial console, but not always. Therefore, you have to be extremely careful and must not carelessly unplug the router from the power supply while it copies the firmware to its memory.</p>
+
+</div>
+---
+content:
+
+After you selected a <a href="/en/anleitung/router/">Freifunk router</a>, you will now need to equip it with the suitable firmware.
+This process is called "router flashing".
+
+---
+content2:
+
+ Firmware Structure
+-------------------------------
+
+There are different firmware files for each router which are divided into ``FACTORY `` and ``SYSUPGRADE``.
+
++ The ``FACTORY`` firmware  files are suitable for the initial installation of a router, i.e. to change from the manufacturer's firmware *(freshly from the factory in which it was produced)* to a Freifunk firmware. 
++ The ``SYSUPGRADE`` firmware is necessary for routers that already have an [OpenWRT](https://openwrt.org/)-based firmware such as a Freifunk router from another Freifunk community or another Freifunk Bodensee router. 
+
+
+ Find Firmware
+---------------
+
+In order to find the suitable firmware for your router, there is either the <a href="https://firmware.ffbsee.de/fw-wizard/" >Firmware Wizard</a> as well as a <a href="https://firmware.ffbsee.de/firmware/" >List of all firmware files</a>.
+It is extremely important to know the exact version of your Freifunk router. You will find it *(as also described in the pictures below)* at the back side of the router. As most routers can differ immensely from one version number to the other, it is extremely important that the version number matches **exactly**.
+For models with many different version numbers, these are not always well sorted in the Firmware Wizard and it might therefore happen that the latest version shows up in the middle of the list and not at the beginning or the end. 
+
+ Build your own firmware
+---------------------------
+We frequently mention that we use Open Source firmware. That means with a little bit of Linux experience and knowledge in using the Shelly you can easily compile the firmware from the source code. This is exactly what we did and then we made the finished result available as download on the Internet. 
+You can find the firmware as well as instructions on how to compile it yourself on <a href="https://github.com/ffbsee/firmware/" >GitHub</a> or self-hosted on [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/firmware).<br/>
+**Tip:** Most Freifunk routers can be found in the ar71xx category.
+
+
+ Flashing the Router
+=================
+
+There are basically to options to equip a router with a Freifunk firmware: The easiest way is to upload a file via the web interface of the router and to wait for the router to install it on its own. The other way would be to provide the firmware via a TFTP server and convince the router to download and install it. 
+
+For several router models, the installation via the web interface is deactivated in the original firmware of the manufacturer which is why the firmware can only be installed via the TFTP server. So, if you encounter problems installing via the web interface then you should try using the TFTP server method. Also, a seemingly damaged Freifunk router can often be revived with the help of the TFTP server.
+
+
+<center>
+<a href="/en/anleitung/tftp" class="button primary">Flashing the router with TFTP</a>
+<a href="/en/anleitung/web" class="button primary">Flashing the router using the web interface</a>
+</center><br/><br/>
+
+If you encounter problems durign flashing. we are glad to assist you. Simply come to one of our Freifunk meetings or contact us. 
+
+<center>
+<a href="/en/kalender" class="button">Dates</a>
+<a href="/en/kontakt" class="button">Contact</a>
+</center>
+<br/><br/>
+
+After successful flashing of the router it is ready to use. We would however recommend that you configure it. 
+<center><a href="/en/anleitung/config/" class="button">Configure the router</a></center>
+---
+preview: /anleitung/flashen/router.jpg
+---
+relevanz: 32
+---
+subtitle: How to get the firmware onto the router
+---
+title: Information on Flashing the Router
