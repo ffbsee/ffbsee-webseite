@@ -57,7 +57,7 @@ event: Freifunk Installation Haus der Katholischen Kirche Ravensburg besprechen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Wir planen und besprechen den Freifunk Aufbaus des Haus der Katholischen Kirche Ravensburg. Wenn ihr mitreden wollt oder öhnliche Fragen habt... kommt vorbei!
 ----
@@ -71,7 +71,7 @@ event: Freifunk Baden-Württemberg Treffen
 ----
 ort: HFG nd ZKM in karlsruhe
 ----
-url: 
+url:
 ----
 description: Auf der GPN(  http://gulas.ch ) findet man eineige Freifunker ausdem Baden-Württembergischen Bereich...
 ----
@@ -85,7 +85,7 @@ event: Beta Firmware testen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: :Um unsere Freifunk Firmware weiter zu entwickeln braucht es am Schluss auch Leute, die kontrollieren ob die Firmware auch auf den unterschiedlichen Routern läuft. || Nächsten Mittwoch gibt es dafür die Gelegenheit mitzuhelfen und zu kontrollieren ob die neue Firmware nun einsatzfähig ist.
 ----
@@ -113,7 +113,7 @@ event: Freifunk Bodensee Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Wir treffen uns und machen Freifunk! Kommt vorbei!
 ----
@@ -127,7 +127,7 @@ event: Maker Faire Bodensee Friedrichshafen
 ----
 ort: Messe Friedrichshafen
 ----
-url: 
+url:
 ----
 description: Freifunk Bodensee informaiert an einem Stand auf der Maker Faire Bodensee über das Projekt und die Fortschritte. Außerdem können livevor Ort router geflasht werden und wir organisieren das Besucher-WLAN der Maker Faire Bodensee.
 ----
@@ -141,7 +141,7 @@ event: Freifunk Bodensee Camp
 ----
 ort: Campus der Waldorfschule Überlingen
 ----
-url: 
+url:
 ----
 description: Das Freifunk Camp am Bodensee findet statt.
 ----
@@ -155,7 +155,7 @@ event: Freifunk Bodensee Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Freifunk Bodensee trifft sich seit langer Pause wieder zu einem Freifunk treffen.|Diesesmal sind wir in der https://toolbox-bodensee.de in Markdorf
 ----
@@ -169,7 +169,7 @@ event: Freifunk Treffen Toolbox
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Im Vereinsheim des Toolbox Bodensee e.V. gibt es mal wieder ein Treffen von Freifunk-Bodensee. Das Treffen ist für alle Interessierten offen.
 ----
@@ -183,7 +183,7 @@ event: Freifunk Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Es geht u.a. um die Planung des Freifunk Camp!
 ----
@@ -197,7 +197,7 @@ event: FFBW::sued Treffen
 ----
 ort: „Engel“, Obere Hauptstraße 4, 78532 Tuttlingen
 ----
-url: 
+url:
 ----
 description: Wir treffen uns zu einem Communityübergreifenden treffen in Tuttlingen.
 ----
@@ -211,7 +211,7 @@ event: Flash in den Mai [FFS]
 ----
 ort: Göppingen
 ----
-url: 
+url:
 ----
 description: Flash in den Mai - von Freifunk Stuttgart
 ----
@@ -225,7 +225,7 @@ event: Freifunk Treffen
 ----
 ort: Owingen
 ----
-url: 
+url:
 ----
 description: Freifunk-Bodensee Treffen | mit Fokus auf “überregionale Vernetzung” aber auch “alternative Dienste, wofür ist das Netz gut\, not only free-wifi”.
 ----
@@ -239,7 +239,7 @@ event: Wir stellen Freifunk vor
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Was ist Freifunk? Wir erklären es!
 ----
@@ -253,7 +253,7 @@ event: Wireless Community Weekend 2018
 ----
 ort: c-base, Berlin
 ----
-url: 
+url:
 ----
 description: https://wireless-meshup.org/
 ----
@@ -267,7 +267,7 @@ event: Freifunk Camp
 ----
 ort: Fallenbunnen, Friedrichshafen
 ----
-url: 
+url:
 ----
 description: Wir wollen die FFBW::con am Bodensee haben. Mit Vorträgen, Baden, Workshops, Grillen und Freifunk.
 ----
@@ -281,7 +281,7 @@ event: Freifunk-Flash-Workshop
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Am Tage der offenen Tür der Toolbox, findet unser FF-Workshop dort statt.
 ----
@@ -295,9 +295,9 @@ event: unser (un-)regelmäßiges Community-Meeting
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
-description: 
+description:
 ----
 confirmed: yes
 #### termine ####
@@ -309,7 +309,7 @@ event: FFBW Treffen
 ----
 ort: Lörrach
 ----
-url: 
+url:
 ----
 description: vom 23.3-25.3 lädt Freifunk Dreiländereck zum FFBW Treffen nach Lörrach ein. Kommt alle vorbei!
 ----
@@ -337,7 +337,7 @@ event: Freifunk Gateway aufsetzen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Wir setzen einen Freifunk Gateway auf||Wen das interessiert und wer mitmachen will oder dabei gerne etwas lernen will... Kommt vorbei.
 ----
@@ -351,9 +351,9 @@ event: Freifunk Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
-description: 
+description:
 ----
 confirmed: yes
 #### termine ####
@@ -365,9 +365,9 @@ event: Freifunk Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
-description: 
+description:
 ----
 confirmed: yes
 #### termine ####
@@ -379,7 +379,7 @@ event: Hack To The Future
 ----
 ort: Löwentalerstr. 20, 88046 Friedrichshafen
 ----
-url: 
+url:
 ----
 description: Wir sind dabei. Beim Junghackerthon in Friedrichshafen.
 ----
@@ -407,7 +407,7 @@ event: Friedrichshafener Freifunk Treffen
 ----
 ort:
 
-Segel-Motorboot-Club Friedrichshafen 
+Segel-Motorboot-Club Friedrichshafen
 ----
 url: https://freifunk-bodensee.net/blog/fffn/
 ----
@@ -441,7 +441,7 @@ url: https://freifunk-bodensee.net/blog/technik-16/
 ----
 description:
 
-Am 3. Dezember 2016 haben wir das erste Freifunk Bodensee-Techniktreffen veranstaltet. Dabei haben wir Themen, wie die Grundlagen der Netzwerktechnik, unsere Firmware und deren Entwicklung sowie den Aufbau der Serverinfrastruktur und des Freifunk Backbone behandelt. 
+Am 3. Dezember 2016 haben wir das erste Freifunk Bodensee-Techniktreffen veranstaltet. Dabei haben wir Themen, wie die Grundlagen der Netzwerktechnik, unsere Firmware und deren Entwicklung sowie den Aufbau der Serverinfrastruktur und des Freifunk Backbone behandelt.
 ----
 confirmed: yes
 #### termine ####
@@ -467,9 +467,9 @@ event: Freifunk Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
-description: 
+description:
 ----
 confirmed: yes
 #### termine ####
@@ -479,7 +479,7 @@ ende: 2016-1-05 19:00:42 Europe/Berlin
 ----
 event:
 
-FFBW::con 
+FFBW::con
 ----
 ort: Stuttgart
 ----
@@ -513,7 +513,7 @@ ort: Toolbox Bodensee e.V.
 ----
 url: https://freifunk-bodensee.net/blog/juni-16/
 ----
-description: 
+description:
 ----
 confirmed: yes
 #### termine ####
@@ -539,7 +539,7 @@ event: Freifunk Treffen
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: wir haben eine neue Firmware...
 ----
@@ -581,11 +581,11 @@ event: Wiederbeleben von Freifunk (abgesagt wegen fehlenden Teilnehmern)
 ----
 ort: Toolbox Bodensee e.V.
 ----
-url: 
+url:
 ----
 description: Unser Freifunk Netz befindet sich nicht in einem wirklich guten Zustand und bedarf an vielen Stellen etwas liebe, zuneigung und wartung. Da es alleine nur wenig spaß macht Freifunk zu reparieren können wir uns gerne am 31. April und am 1. Mai mit 2-5 Menschen in der Toolbox treffen um da endlich mal vorran zu kommen.||Ziel ist es bald wieder ein Freifunk Netz zu haben, auf das man stolz sein kann.||Je nachdem wer Lust hat zu helfen gibt es drei Themen, die man machen kann:||- Aufbau eines wieder funktionalen Freifunk Netzes mit BATMAN V: https://github.com/ffbsee/ansible.git||- Weiter entwickeln an einer wieder funktionierenden Freifunk Firmware, die man als 'stable' Releasen kann: https://github.com/ffbsee/firmware.git||- Gestalten einer aktuellen Freifunk Präsentation mit modernen Werkzeugen - die alte ist mehr als in die Jahre gekommen: https://github.com/ffbsee/praesentation  (Und bei der gelegenheit auch Hexagoale Freifunk aufkleber entwerfen. sechseckig ist das neue quadratisch!)||Das alles sind Themen, die dringenst erledigt werden müssten.|Also lass uns gemeinsam loslegen||Natürlich müsst ihr keine spezialexperten sein um mithelfen zu können.|Es geht viel eher darum wieder etwas mehr zusammen zu kommen und gemeinsam an Freifunk zu arbeiten.. |||Denn was alleine langweilig ist, das kann zusammen echt spaß machen!|L3D würde sich über anmeldungen über die Mailingliste freuen. || Ohne mindestens einen weiteren Teilnehmer wird nichts an Freifunk gemacht. Die Toolbox ist aber trotzdem offen!
 ----
-confirmed: 
+confirmed:
 #### termine ####
 start: 2019-05-01 17:00:00 Europe/Berlin
 ----
@@ -629,16 +629,16 @@ description: Am Samstag, den 6. Juli findet die diesjährige Mitgliederversammlu
 ----
 confirmed: yes
 #### termine ####
-start: 2019-10-13 13:37:23 Europe/Berlin
+start: 2019-10-13 14:00:00 Europe/Berlin
 ----
-ende: 2019-10-13 18:00:23 Europe/Berlin
+ende: 2019-10-13 18:00:00 Europe/Berlin
 ----
-event: nicht-jahreshauptversammlung des Förderverein Freie Netze Bodensee e.V.
+event: Mitgliederversammlung Förderverein Freie Netze Bodensee e.V.
 ----
 ort: Toolbox, Markdorf
 ----
 url: https://ffnbsee.org
 ----
-description: Am 13.10 ist nicht die Jahreshauptversammlung des Förderverein Freie Netze Bodensee e.V. || Kommt trotzdem vorbei, wenn ihr wollt!
+description: Am 13.10 ist Mitgliederversammlung des Fördervereins Freie Netze Bodensee e.V.
 ----
 confirmed: yes
