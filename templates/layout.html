@@ -42,10 +42,12 @@
                             ['/camp', 'Camp'],
                             ['/kontakt', 'Kontakt'],
                             ['/helfen', 'Unterstützen']
-                            ] %}<li{%
-                        if this.is_child_of(href) %} class="active"{% endif
-                            %}><a href="{{ href|url }}">{{ title }}</a>{%
-                        if title == 'Unterstützen' %}
+                            ] %}
+                            <li{% if this.is_child_of(href) %} class="active"{% endif %}>
+                            <a href="{{ href|url }}">
+                              {{- translator('navi_' + title, 'navigation', this.alt) -}}
+                            </a>
+                            {% if title == 'Unterstützen' %}
                                 <ul>
                                     <li><a href="{{ '/helfen'|url }}">Wie kann ich Freifunk unterstützen?</a></li>
                                     <li><a href="https://www.betterplace.me/ffbsee-hardware/">Spendenkampagne Hardware Finanzieren</a></li>
@@ -93,6 +95,23 @@
                                </ul>
                             {% endif %}</li>
                         {% endfor %}
+
+                        {%- set newPath = this._path %}
+                        {%- if not newPath.endswith('/') %}
+                        {%- set newPath = newPath + '/' %}
+                        {%- endif %}
+                        <li>
+
+                          <a href="/{{- translator('default_langswitch_path', 'navigation', this.alt, 'en') -}}{{ newPath }}">
+                          Language
+                          </a>
+                          <ul>
+                            <li><a href="{{ newPath }}">deutsch</a></li>
+                            <li><a href="/en{{ newPath}}">english <i>(if available)</i></a></li>
+                          </ul>
+
+                        </li>
+
                     </ul>
                 </nav>
             </section>

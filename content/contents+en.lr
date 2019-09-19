@@ -1,0 +1,131 @@
+body1: What is Freifunk?
+---
+body1l: /anleitung/
+---
+body1m:
+
+Freifunk is a decentralized free WiFi network that mainly connects computers and mobile devices. - and with a connection to the broad Internet.
+The network is established by people setting up a WiFi router at their window sill and thus making Freifunk available.
+
+Here at this website you will get to know our Freifunk goal and why it is a good idea to join us.
+---
+body1t: Get to know Freifunk
+---
+body2: Join an be part of Freifunk
+---
+body2b: Which router?
+---
+body2img: /images/mitmachen.png
+---
+body2l: /anleitung/router/
+---
+body2m: On our website there are detailed instructions to help you set up you first own Freifunk router.
+---
+body2t: You only need a Freifunk router!
+---
+body3: How does that work?
+---
+body3b: Find answers
+---
+body3img: /images/fragen.png
+---
+body3l: /faq/
+---
+body3m:
+
+Do you have questions on Freifunk?
+You need help with the devices and technology behind and you are looking for a contact person? 
+Maybe our Frequently Asked Questions can help! 
+---
+body3t: Questions on Freifunk?
+---
+head: Participate
+---
+head_link: #first
+---
+kalender: yes
+---
+main: Freifunk Bodensee
+---
+main1: Freifunk Firmware
+---
+main1fa: fas fa-download
+---
+main1l: https://firmware.ffbsee.de/firmware/
+---
+main1la: /anleitung/flashen/
+---
+main1m:
+
+You will need a router firmware especially developed for Freifunk in order to make it become a Freifunk router. 
+---
+main1t: Firmware Download
+---
+main1ta: Instructions: Flashing the Router
+---
+main2: Map
+---
+main2fa: fas fa-map
+---
+main2l: https://mate.ffbsee.net/meshviewer/
+---
+main2m: The map (Meshviewer/Freifunk Map) shows you numerous Freifunk router that belong to the Freifunk Bodensee network.
+---
+main2t: Map
+---
+maina: Mailing List
+---
+mainafa: fas fa-mail-bulk
+---
+mainal: https://list.ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee
+---
+mainala: mailto:freifunk-bodensee@list.ffbsee.de
+---
+mainam: We exchange knowledge ind information via the Freifunk Bodensee mailing list. You can subscribe here:
+---
+mainat: Subscribe to mailing list
+---
+mainata: freifunk-bodensee@list.ffbsee.de
+---
+mainb: GitHub
+---
+mainbfa: fab fa-github
+---
+mainbl: https://github.com/ffbsee/
+---
+mainbm: Our firmware as well as the configuration of our servers is OpenSource and available at GitHub:
+---
+mainbt: GitHub Freifunk Bodensee
+---
+mainimg: /images/FFBSee.svg
+---
+mainimgt: Flash your router
+---
+mainm:
+
+Freifunk is an initiative for free communication in digital networks.
+We establish publicly available, non-commercial networks that are owned by the society and that are free of censorship or filters.
+
+Freifunk is a decentralized, independent community network with access to the Internet.  
+Everyone can connect to the WiFi network - without password, without registration. Everyone can use, join or participate in Freifunk.
+
+Free wireless networks are set up and maintained by you and us autonomously. Every person sets up a WiFi router for the data transfer of others. That way we create a free infrastructure. For everyone. 
+
+Freifunk is a non-commercial initiative for free wireless networks.
+
+Join us. And share you network with your fellows.
+---
+title: Freifunk Bodensee
+---
+unten: How does Freifunk work?
+---
+untenl: /anleitung/
+---
+untenm: In this 87 second video, Lisa explains what Freifunk is and how it works (German).
+---
+untent: How Freifunk works
+---
+welcome:
+
+Freifunk Bodensee
+Free Wireless Network - Everywhere and for Everyone!

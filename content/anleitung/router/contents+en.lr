@@ -1,0 +1,227 @@
+body:
+
+There are several devices, that are suitable as WiFi Access Point. However, only a few of them are compatible wi th OpenWRT. 
+
+Here you can find information on which routers we recommend and which to better avoid. 
+---
+code:
+
+<center>
+<a href="#teuer" class="button primary">Moderately okay but extremely expensive</a><br/><br/>
+<a href="#komplex" class="button primary">Fast and low-price, but high technical effort needed</a><br/><br/>
+<a href="#schrott" class="button">Very slow but a low price</a>
+</center>
+<br/><br/>
+---
+content:
+
+Our Freifunk [firmware](https://github.com/ffbsee/firmware) works best with an adapted version of [OpenWRT](https://openwrt.org).
+
+If you want a router that is compatible with Freifunk, you will have to choose between these three options:
+---
+content2:
+
+ Important:
+===============
+For Freifunk routers, the exact hardware revision is extremely important. It wasn't only once that a hardware changed immensely from one version to the next and completely different resources were installed or even another CPU was used. Needless to say, that a hardware revision of a router that worked e.g. in version v4.2 is not necessarily compatible to v4.3 or v5.
+
+Please read the instructions for installing the firmware: <a href="/anleitung/flashen" class="button primary">Instructions: Flashing the Router</a> 
+
+<h2 id="teuer">Good Freifunk Routers<h2>
+<h4>Unfortunately slightly expensive</h4>
+
+ Archer C7
+--------------
+```
+The Archer C7 is currently one of the easiest Freifunk routers to set up.  
+It is one of the few models that provides WiFi on both 2.4 GHz and 5 GHz.
+Our stable release only supports models v2 and v4.
+Versions v1 and v3 unfortunately turned out to be incompatible. 
+There is a beta release for the currently available version 5 (April 2019). It can work but 
+might also be prone to errors. 
+Unfortunately, this router is very expensive, costing €70-€100. 
+
+The Freifunk WiFi is suitable for each Internet traffic possible including videos in 
+medium to high quality.
+```
+<span class="image right"><img src="/anleitung/router/archer-c7.jpg" alt="Archer C7"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Price comparison</a><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware information</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a><br/><br/>
+<br/><br/>
+
+
+TP-Link WDR 4300 and WDR 3600
+--------------
+```
+The TP-Link WDR 4300 and the WDR 3600 were very good models for Freifunk. 
+When the routers were still produced, they only cost approx. €25. 
+They are among the first models that could transmit WiFi on 2.4 GHz as well as on 5 GHz.
+Unfortunately, these routers are no longer available and pop up on the second-hand market for 
+more than €100. 
+
+The Freifunk WiFi is suitable for each Internet traffic possible including videos in medium quality. 
+```
+<span class="image right"><img src="/anleitung/router/wdr4300.jpg" alt="WDR 4300"></span><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware information WDR 4300</a><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/tl-wdr3600" class="button">Hardware information WDR 3600</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a><br/><br/><br/><br/>
+
+
+
+TP-Link WDR 1043ND
+--------------
+```
+The TP-Link WDR 1043 is also among the better Freifunk routers.
+Unfortunately it only transmits the WiFi signal on a 2.4 GHz band which is still something. 
+Only models v2 to v5 are supported. 
+Version v1 is to weak and has therefore turned out to be incompatible. 
+Version v5 has to be flashed via tftp, though. 
+Unfortunately, with a price between €40 and €80, it is still pricey.
+
+The Freifunk WiFi is suitable for each Internet traffic possible including videos 
+in low to medium quality. 
+
+```
+<span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Price comparison</a><br/><br/>
+<a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware information</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a><br/><br>
+<a href="/anleitung/tftp" class="button">Flash router with TFTP</a><br/><br/><br/><br/>
+
+Ubiquity Nanostation
+--------------
+```
+The Ubiquity Nanostation is also suitable as medium-quality Freifunk router. 
+Its design as sectorial antenna enables it to transfer the WiFi in a 60-degree angle and 
+not in all directions. 
+Unfortunately, it only transmits the WiFi signal on 2.4 GHz or 5 GHz - depending on the 
+hardware model, which is still something. 
+The Nanostation M2 model transmits on 2.4 GHz, Nanostation M5 model on 5GHz.
+Unfortunately, with a price between €40 and €80, it is still pricey, however it is suitable for 
+directional radio when the correct configuration is set up.
+
+The Freifunk WiFi is suitable for each Internet traffic possible including videos 
+in low to medium quality. 
+```
+<span class="image right"><img src="/anleitung/router/nanostation.jpg" alt="Ubiquity Nanostation"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Price comparison</a><br/><br/>
+<a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware information</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
+
+
+
+<br/><br/><br/>
+<h2 id="komplex">Complex but good Freifunk installations<h2>
+<h4>Relatively complicated but very good, though!</h4>
+
+Freifunk Off-loader
+================
+
+A Freifunk off-loader is a small computer with significantly better resources compared to a Freifunk router that sets up the connection to the Freifunk gateways.  
+That way an enormously better connection to the Freifunk network can be established, using a bandwidth of usually 80MBit to 120 MBit. 
+
+
+
+ Siemens Futro S550
+-----------------
+```
+The Siemens Futro S550 is the most popular off-loader hardware.
+Second-hand, you can purchase it for €5-€20. 
+
+Using an off-loader, we recommend to implement more professional Freifunk installations 
+with directional radio or wider WiFi broadcast. 
+Installing the Freifunk off-loader turned out to need a little more effort, as most hardware 
+require an installation via serial console and USB drive.
+
+The Freifunk WiFi is suitable for each Internet traffic possible including multiple 
+parallel videos in very high quality. 
+
+```
+<a href="https://www.ebay.de/sch/i.html?_nkw=futro+s550" class="button">Price comparison</a><br/><br/>
+<a href="https://ffmuc.net/wiki/doku.php?id=knb:futro" class="button primary">Freifunk off-loader</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a><br/><br/>
+
+PC-Engine-APU
+-----------------
+```
+The PC-Engine APU is more or less the professional equipment of a network administrator.
+The APU includes a strong hardware and is therefore almost to good to be "only" used as 
+Freifunk off-loader. 
+
+The installation can be done in several ways. You either install a Debian-based OS and then install 
+the individual Freifunk components manually. 
+Unfortunately we currently do not have a suitable script that carries these steps out automatically. 
+However, with some effort, motivations and the right questions from you we will also be motivated 
+to fix and provide this. 
+
+The alternative would be to use the x86 images of our firmware which do of course also 
+work for the APU.
+
+The Freifunk WiFi is suitable for each Internet traffic possible including multiple 
+parallel videos in very high quality. 
+
+```
+<span class="image right"><img src="/anleitung/router/apu.jpg" alt="PC-Engines-APU"></span><br/><br/>
+<a href="https://www.apu-board.de/" class="button">Details</a><br/><br/>
+<a href="https://www.heise.de/preisvergleich/pc-engines-apu2c4-a1511653.html" class="button">Buy APU</a><br/><br/>
+<a href="https://github.com/ffbsee/ansible" class="button primary">Freifunk components</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a><br/><br/>
+
+ WiFi AccessPoint
+--------------------------------
+```
+For Freifunk installations with an off-loader, basically any WiFi router can be used as WiFi AccessPoint.
+We had especially good experiences with the Ubiquity Unify AP-AC-Pro.
+It can be managed via a controller. 
+We gladly help with the installation.
+Furthermore, we operate a Unify controller at one of the gateway servers and provide you with an account
+there through which you can manage your own hardware. 
+
+```
+<b>Recommended Unify APs for installations with an off-loader that are operated via the WiFi controller:</b><br/><br/>
+<a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unify AP-AC-Pro</a>
+<a href="https://unifi-mesh.ubnt.com" class="button">Unify-AC-Mesh</a><br/><br/>
+
+<br/><br/><br/>
+<h2 id="schrott">Cheaper hardware for slower Freifunk<h2>
+<h4>It still works but is very very slow!</h4>
+
+Freifunk can also be provided with hardware that is less expensive. However, you cannot expect 
+to achieve a Freifunk with a huge bandwidth.
+The WiFi here is mostly only suitable for writing e-mails or sending text messages. Watching videos or 
+sharing pictures is often prone to long loading and waiting times or the bandwidth isn't even enough. 
+
+TP-Link CPE210 / CPE510
+--------------
+```
+NOT RECOMMENDED! DON'T BUY!
+
+The TP-Link CPE is one of the cheapest Freifunk router.
+Unfortunately. depending on the hardware  it only provides WiFi at on frequency band which is still 
+something. 
+The CPE 210 transmits at 2.4 GHz, the CPE 510 at 5 GHz.
+Its sectorial antenna design enables it to send the WiFi signal in a 60° angle and not in all directions.
+More experienced Freifunk members call it paperweight due to its very heavy hardware and its high 
+failure proneness.
+Only the v1.x model is compatible with Freifunk. 
+The router costs €25-€50.
+
+However, this router is still suitable for Freifunk, covering most Internet traffic incl. writing e-mails 
+and sending text messages. Videos and pictures in low quality do have a relatively long loading time
+in most cases. 
+```
+<span class="image right"><img src="/anleitung/router/cpe510.jpg" alt="Ubiquity Nanostation"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html" class="button">Price comparison CPE210</a><br/><br/>
+<a href="https://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html" class="button">Price comparison CPE510</a><br/><br/>
+<a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware informationen CPE210</a><br/><br/>
+<a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware informationen CPE510</a><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a><br/><br/>
+---
+preview: /images/mitmachen.png
+---
+relevanz: 42
+---
+subtitle: Which router can be recommended?
+---
+title: Which Freifunk Router?
