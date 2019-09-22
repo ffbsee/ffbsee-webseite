@@ -1,0 +1,95 @@
+body: Here we will tell you how to flash a router to become a Freifunk router with the help of a TFTP server.
+---
+code:
+
+<center>
+<video poster="/anleitung/tftp/video.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/tftp.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="https://www.youtube.com/watch?v=4K_yL4RlL7c" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Florian "adlerweb" Knodt</i></p>
+</center>
+---
+content:
+
+There are two methods to equip a router with Freifunk firmware: via the "Update firmware" section in the web menu  of the router or with the help of a TFTP server. Some routers block flashing via the web UI and therefore, the option of using the TFTP server is the only option left.
+
+ Preparation:
+-------------------
+The computer has to be set to the fixed ``192.168.0.66/24`` IPv4 address from which it tries to download firmware during the booting process in recovery mode.
+It is the following address:
+```
+IPv4 address: 192.168.0.66
+Sub-net mask: 255.255.255.0 
+```
+Furthermore you should have a small switch to which you only connect your computer and the router that is intended to get Freifunk.
+
+ TFTP server under Windows:
+------------------------
+
+If you don't already have a TFTP server on your Windows computer, you have to install one.
+
+a possible TFTP server [openTFTP](https://sourceforge.net/projects/tftp-server/).
+
+After installation, you can find the OpenTFTPServerMT.ini file in the ``C:\OpenTFTPServer`` directory. In this file, you now have to enter the IP address that is used by they server to check if a router sends requests. This would be 192.168.0.66 for most routers.
+
+In the OpenTFTPServerMT.ini file, line
+```
+192.168.0.66
+```
+is added in the LISTON-ON section.
+
+The firmware files are now copied into the ``C:\OpenTFTPServer\`` directory using the correct name.
+You will need the firmware for initial installation (``FACTORY``) which can be found in the [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard/).
+
+Start by double-clicking RunStandAloneMT.bat
+
+If you carried out everything correctly, a DOS window opens up and the last line reads
+```
+Listening On: 192.168.0.66:69
+```
+If you receive a message stating "bind fail", probably a mistake was made when entering the static IP address.
+
+Connect the router from a yellow socket to a small switch using a LAN cable. The computer should also be connected.
+
+Press and hold the reset button of the router. Switch on the router while holding the reset button pressed. Keep the reset button pressed unitl only the lock LED (or for v8 the gear LED) lights up. Keep the rest button pressed for a few more seconds, then you can let go.
+
+In the OpenTFTP section in the DOS window of your computer you should be able to see the name of the firmware. Rename the firmware file respectively and restart the router while holding the rest button pressed.
+
+In the DOS window, you can monitor the progress of copying the firmware file. As soon as the process is finished, the router should reboot after few minutes and be available for Freifunk again.
+
+Do not forget to set the IP address of the computer back to DHCP when all work is done.
+
+There is also a video tutorial for this:
+-------------------------------------------------------- 
+---
+content2:
+
+ TFTP server under Linux
+------------
+
+Under Linux, there are multiple TFTP servers such as the [tftpd-hps](https://help.ubuntu.com/community/TFTP).
+Most of the time, it can be installed via the package manager of you distribution and started via the system command:
+```
+sudo systemctl start tftpd
+systemctl status tftpd
+```
+Using the status command, the directory for the firmware images can be detected.
+The Linux computer certainly also requires the IP address ``192.168.0.66/24``.
+
+Unfortunately, there is no lucid log file do that you know what names the imaged should have. In that case, looking them up in OpenWrt Wiki is the only option.
+ 
+ Further information on the devices:
+-----------------
+
+The exact details such as IP address or name of the firmware can be found <a href="https://openwrt.org/toh/start" class="button primary">OpenWRT-Wiki</a>.
+---
+preview: /anleitung/tftp/easy.jpg
+---
+relevanz: 23
+---
+subtitle: Flashing the router but without a web browser
+---
+title: Flashing the Router with an TFTP Server

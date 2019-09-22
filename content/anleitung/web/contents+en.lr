@@ -1,0 +1,82 @@
+body:
+
+Your router needs a special firmware to participate in Freifunk.
+We will tell you know how to get it.
+---
+code:
+
+<center>
+<br/>
+<a href="/anleitung/flashen" class="button primary">Information on flashing the router</a>
+</center>
+<br/><br/><br/>
+---
+content:
+
+What exactly has to be considered while flashing the router and where to get the suitable firmware, you will get to know here:
+
+---
+content2:
+
+ Router unboxing
+-----------------------
+<span class="image fit">
+<img src="/anleitung/web/hardware.jpg"/>
+</span>
+
+First, plug the router into the power socket with the power supply unit (1). Then connect the router to your computer via the the LAN cable (2) using one of the yellow sockets.
+
+<span class="image fit">
+<img src="/anleitung/web/port.jpg"/>
+</span>
+
+ Download and install firmware
+-------------------------
+
+<span class="image fit">
+<img src="/anleitung/web/version.jpg"/>
+</span>
+
+Currently we support different router models. First of all you have to check which firmware you need. The router type (1) and the hardware version (2) are most important. Both details can be found on the backside of your device.
+
+The respective firmware can then be found in the [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard) list.
+
+Now switch on the router and, after 2 minutes, go to the address ``http://192.168.0.1`` in your browser. A login mask shows up that asks for username and password. Enter the user``admin`` and the password ``admin``.
+
+<span class="image fit">
+<img src="/anleitung/web/841.jpg"/>
+</span>
+
+At the new page, select the "System Tools" entry at the left hand side and the "Firmware Upgrade". Afterwards the page should look like the following picture.
+
+<span class="image fit">
+<img src="/anleitung/web/flash.jpg"/>
+</span>
+
+You can now select the firmware that you just downloaded via the "Browse" button. After you confirmed that the firmware should be installed, the process starts. Don't cut off the power supply from the router now otherwise the installation will fail.
+
+<span class="image fit">
+<img src="/anleitung/web/upload.jpg"/>
+</span>
+
+After the firmware was completely installed, the router reboots. You will recognize the reboot because the LEDs blink. First, they blink wildly, then they go off.
+
+<span class="image fit">
+<img src="/anleitung/web/wait.jpg"/>
+</span>
+
+After a few minutes, disconnect the ethernet cable from your computer and connect it again. You will now get a new address that starts with "192.168.133".
+You can now configure your router via the address ``http://192.168.133.1`` and assign a name and coordinates.
+From now on, the Freifunk router is now ready and and you can connect it to the Internet via the blue WAN port.
+
+<a href="/anleitung/config/" class="button">Confure router</a>
+
+Source: [Freifunk München](https://ffmuc.net/router-flashen/)
+---
+preview: /anleitung/web/laptop.jpg
+---
+relevanz: 30
+---
+subtitle: Flashing the router - very easy
+---
+title: Flashing the router via the Web UI
