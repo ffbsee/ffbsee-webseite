@@ -1,0 +1,92 @@
+body:
+
+If the router doesn't react normally and won't accept the password, it's not the end of the world.
+The recovery mode can help to reset the password or the whole router.
+---
+content:
+
+If you forgot your password or if you get locked out from your router during the configuration, there is still a recovery mode.
+
+It is completely documented at [openwrt.org/de/doc/howto/generic.failsafe](https://openwrt.org/de/doc/howto/generic.failsafe).
+
+
+ Trigger recovery mode via hardware reset push-button
+-----------------------------------------------------------
+
+ 1. Set the IP address of your computer to ``192.168.1.2`` an the sub-net mask to ``255.255.255.0`` as in fail-safe mode there is no DHCP server available and OpenWrt or Freifunk therefore doesn't assign IPs
+ 2. Start your device by disconnecting it from the power supply
+ 3. Now trigger the fail-safe mode during the boot process by pressing the hardware reset push-button once in the correct time window
+   * The time window is 2 seconds long and starts between 6 and 60 seconds after connecting the device to the power supply again - this however depends on the device and might - in rare cases (such as the DIR-300 A) - even take longer.
+   * If you don't know the start of the time window for your device, simply press the hardware reset push-button repeatedly until you can see that OpenWrt booted in fail-safe mode. Don't worry, nothing is going to happen if you press the push-button "at the wrong moment" ;-) It would be incorrect to press the push-button constantly, as only by pressing it once and letting it go again, the IRQ is sent. In order to sent an IRQ within the time window, you have to press it repeatedly!
+ 4. You will recognize that OpenWrt is in fail-safe mode because the system LED blinks quickly or because ``192.168.1.1`` is pingable.
+ 5. You can now connect to ``ssh root@192.168.1.1  `` via SSH. If asked for a password, simply press ``ENTER``!
+````bash
+ssh  -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null root@192.189.1.1
+```
+*Under Windows you can for example use Putty for SSH.*
+---
+content2:
+
+ In fail-safe mode
+----------------------------
+
+In fail-safe mode, the OpenWrt root system doesn't consist of the mini-fo file system, which is a combination of the SquashFS and the JFFS2 file system, but only of the SquashFS partition. The JFFS2 partition is not mounted at all. In order to carry out repairs at the JFFS2 partition, you will need to mount it in a writable state. The easiest way to do that is by using a script:
+````bash
+mount_root
+````
+
+If you forgot your password, create new one with:
+
+````bash
+passwd
+````
+
+If you forgot the IP address, you can detect it with:
+
+````bash
+uci get network.lan.ipaddr
+````
+
+Or execute the firstboot script - all settings will be reset:
+`````bash
+firstboot -y
+`````
+
+As soon as all work in fail-safe mode is done, execute
+
+````bash
+reboot -f
+````
+
+
+ Problems when trying to access the router with IPv4
+-----------------------------------------------------------
+
+Should you have problems accessing the router via the IPv4 address (``192.168.1.1``), you can try it via IPv6.
+
+Each device that is suitable for IPv6, creates a ``fe80::/64`` address on its own. That way, two devices can communicate via this fe80 address without some having to care about setting the IP addresses.
+
+So if you are directly connected to your Freifunk router via ethernet, you can detect the IPv6 address with the help of the following command:
+````bash
+ping ff02::1%eth0
+````
+This a ping to all devices within the local network that are connected to the ``eth0`` interface. If you used another network interface you will naturally have to replace eth0 by the other designation.
+
+You should now receive a response from two different fe80:: addresses. One of them is your own one. The other address is the Freifunk router that you are connected with.
+
+Now you can connect to the router as usual with ``ssh  -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=/dev/null root@fe80::aaaa:bbbb:cccc:dddd%eth0``. *aaaa:bbbb:cccc:dddd should of course be the address of your router!*
+
+You can even connect to this address via the web browser, however, the recovery mode does not offer a web browser. But if you don't know the address of you router, this might help as well.
+
+````bash
+http://[fe80::aaaa:bbbb:cccc:dddd]/
+````
+In the browser, the IPv6 address is stated in square brackets.
+---
+preview: /images/recovery.jpg
+---
+relevanz: 24
+---
+subtitle: How can I access the router if I forgot the password?
+---
+title: Recovery Mode and Password Reset
