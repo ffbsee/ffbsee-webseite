@@ -40,7 +40,7 @@ Gerne helfen wir auch bei Freifunk-Treffen bei Fragen und Problemen weiter oder 
 
 <h3 id="code">Entwickle an der Freifunk-Bodensee-Firmware</h3>
 
-Die Freifunk-Firmware liegt auf [GitHub](https://github.com/ffbsee/firmware) und kann von jedem verbessert, modifiziert und nach gebaut werden.
+Die Freifunk-Firmware liegt auf [GitHub](https://github.com/ffbsee/firmware) und kann von jedem verbessert, modifiziert und nachgebaut werden.
 Es sind erfahrungsgemäß nur sehr wenige, die sich an der Firmwareentwicklung beteiligen. Die Freifunk-Bodensee-Firmware basiert aber auf [OpenWRT](https://openwrt.org) und wird von uns dafür regelmäßig angepasst, um mit euren Routern Freifunk zu machen.
 
 Hier gilt es die aktuelle Entwicklung an OpenWRT im Auge zu behalten, um weiter mit neuer Hardware kompatibel zu sein und mögliche Sicherheitslücken zeitnah zu schließen. Außerdem entwickeln sich die von Freifunk verwendeten Pakete weiter und auch hier muss sichergestellt werden, dass diese weiterhin mit unserer Firmware kompatibel sind.
