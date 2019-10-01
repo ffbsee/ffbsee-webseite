@@ -23,7 +23,7 @@ ask: Wo finde ich die Firmware?
 ----
 text:
 
-Die Firmware für die Router gibt es auf <a href="https://firmware.ffbsee.de/fw-wizard/" class="button">firmware.ffbsee.de</a>.
+Die Firmware für die Router gibt es auf <a href="https://firmware.ffbsee.de/fw-wizard/" class="button">firmware.ffbsee.de</a>
 
 Eine Liste mit allen verfügbaren Images gibt es auf [firmware.ffbsee.de/firmware](https://firmware.ffbsee.de/firmware). Den Quellcode der Firmware gibt es auf [GitHub](https://github.com/ffbsee/firmware). Hier könnt ihr eure Firmware auch direkt aus dem Quelltext kompilieren. Eine Anleitung dazu steht dort.
 #### faq ####
