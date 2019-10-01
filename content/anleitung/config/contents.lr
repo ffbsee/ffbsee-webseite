@@ -7,7 +7,7 @@ preview: /anleitung/config/example.png
 body:
 
 Nach dem Flashen des Routers ist dieser sofort einsatzbereit und kann verwendet werden. <br/>
-Trotzdem lässt sich der Router noch konfigurieren und man kann den Router zum Beispiel einen Namen geben und auf der Karte beim [Meshviewer](https://meta.ffbsee.net/meshviewer) auftauchen lassen.
+Trotzdem lässt sich der Router noch konfigurieren und man kann den Router zum Beispiel einen Namen geben und auf der Karte beim [Meshviewer](https://mate.ffbsee.net/meshviewer) auftauchen lassen.
 ---
 subtitle: Gib deinem Router einen Namen
 ---
@@ -17,7 +17,7 @@ Nachdem der Freifunk-Router mit der passenden Firmware [geflasht](/anleitung/fla
 
 Sollte ein anderer Freifunk-Bodensee-Router in Reichweite sein, baut dein Router eine Mesh-Verbindung mit dem anderen Router auf und verbreitet selber ein freies WLAN. Oder du teilst deine Internetverbindung und steckst ein LAN-Kabel von deinem Router deines Internetanbieters in den blauen "WAN-Port" des Freifunk-Routers. Dein Freifunk-Router baut dann eine verschlüsselte Fastd-VPN-Verbindung zu einem der Freifunk-Gateways auf und leitet alle Daten in dem Freifunk-WLAN dorthin weiter.
 
-Auf dem [Meshviewer](https://meta.ffbsee.net/meshviewer) werden alle Freifunk-Router im Freifunk-Bodensee-Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihn mit Geo-Koordinaten an der richtigen Position auftauchen zu lassen, kann man seinen Freifunk-Router noch konfigurieren.
+Auf dem [Meshviewer](https://mate.ffbsee.net/meshviewer) werden alle Freifunk-Router im Freifunk-Bodensee-Netz aufgelistet. Um deinen Router auch mit einem Namen zu versehen und ihn mit Geo-Koordinaten an der richtigen Position auftauchen zu lassen, kann man seinen Freifunk-Router noch konfigurieren.
 
  Konfigurationsoberfläche erreichen
 --------------------------------------------------
@@ -56,4 +56,4 @@ content2:
 -------------------------
 Im Bereich Einstellungen lassen sich grundlegende Dinge einstellen, wie sich der Freifunk-Router verhalten soll.
 So kann man dort dem Router einen Namen geben, mit dem er beispielsweise im Meshviewer auftaucht. Außerdem einen Standort, wo er auf der Karte im Meshviewer erscheinen soll.
-<center><a href="https://meta.ffbsee.net/meshviewer/" class="button primary">Meshviewer</a></center>
+<center><a href="https://mate.ffbsee.net/meshviewer/" class="button primary">Meshviewer</a></center>
