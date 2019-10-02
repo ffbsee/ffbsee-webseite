@@ -12,7 +12,7 @@ Aber wer bezahlt das ganze?
 content:
 
 Bei Freifunk Bodensee gibt es vier Gateway Server, die für die Funktion des Freifunk Bodensee Netz elementar wichtig sind.
-Auf diesen gateways läuft alles, was wichtig ist um ein funktionierendes Netz zu haben. So läuft nicht nur ein DHCP Server, der IPv4 Adressen verteilt, sondern es werden dort auch DNS Adressen aufgelöst, Router Advertisements verteilt und natürlich auch traffic geroutet. Je nach Ziel raus ins große Internet oder weiter in das ICVPN zu einer anderen Freifunk Community.
+Auf diesen Gateways läuft alles, was wichtig ist um ein funktionierendes Netz zu haben. So läuft nicht nur ein DHCP Server, der IPv4 Adressen verteilt, sondern es werden dort auch DNS Adressen aufgelöst, Router Advertisements verteilt und natürlich auch Traffic geroutet. Je nach Ziel raus ins große Internet oder weiter in das ICVPN zu einer anderen Freifunk Community.
 
  Wer bezahlt das?
 --------------------------
@@ -31,7 +31,7 @@ Für den gw01 hatte sich recht schnell ein "Pate" gefunden, der den kompletten S
 
 Der gw03 wurde 2018 von L3D und erolfr bezahlt. Für 2019 gibt es nun eine [Spenden-kampange](https://www.betterplace.me/ffbsee-2019) den Server für 2019 zu finanzieren. 
 
-Außerdem gibt es noch einen fündten Server, den [meta.ffbsee.net](htttps://meta.ffbsee.net). Dieser Server steht auch bei Hetzner und übernimmt das anzeigen der Freifunk Router im [Meshviewer](https://meta.ffbsee.net/meshviewer) sowie etwas Monitoring der vier anderen Server.
+Außerdem gibt es noch einen fünten Server, den [mate.ffbsee.net](htttps://mate.ffbsee.net). Dieser Server steht auch bei Hetzner und übernimmt das anzeigen der Freifunk Router im [Meshviewer](https://mate.ffbsee.net/meshviewer) sowie etwas Monitoring der vier anderen Server.
 
 Dieser Server wird von Mart finanziert.
 ---
