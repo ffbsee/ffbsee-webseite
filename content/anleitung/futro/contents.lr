@@ -5,11 +5,23 @@ body: Um einen Freifunk-Offloader wie den Siemens Futro zu installieren, musst d
 content:
 
 Leider ist das Flashen eines Futros nicht ganz so easy, wie das Flashen eines normalen Freifunk-Routers.<br/>
-Dennoch ist das mit vertretbarem Aufwand und ein kleinen wenig technischem Verständnis machbar.
+Dennoch ist das mit vertretbarem Aufwand und ein klein wenig technischem Verständnis machbar.
+
+ Welches Image muss da drauf kopiert werden?
+----------------------------------------------------------
+Um das passende Image zu finden, musst du es dir im [Verzeichnis mit allen Freifunk-Bodensee-Images](https://firmware.ffbsee.de/firmware/) heraussuchen.<br/>
+Es sollte dort in der neusten Stable-Firmware-Ordner im Unterordner `futrobeta/ eine Datei geben, die ``combined-squashfs_for-GLUON2FUTRO.img.gz`` oder so ähnlich heißt. 
+
+Im Oktober 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/firmware/2.0.0/futrobeta/ffbsee-2.0.0-futro-combined-squashfs.img.gz).
 
  Was muss man machen?
 ------------------------------
-Um die Freifunk-Bodensee-Firmware auf einen Futro-Offloader zu bekommen, braucht man einen speziell präperierten USB-Stick.<br/>
+Grundsätzlich muss man nichts viel anders machen als bei jedem Router. Da sich auf dem Futro aber normalerweise keine Software befindet mithilfe dieser man die Freifunk-Firmware flashen kann, muss man an dieser Stelle einen anderen Weg gehen.
+Dabei gibt zwei Möglichkeiten wir man vorgehen kann.
+
+### Mit einem USB-Stick:
+
+Um die Freifunk-Bodensee-Firmware auf einen Futro-Offloader zu bekommen, braucht man einen speziell präparierten USB-Stick.<br/>
 Auf diesen USB-Stick kopiert man dann zusätzlich ein genau dafür vorbereitetes Image der Freifunk-Firmware.<br/>
 Dann schließt man den Stick an den Futro an und bootet vom Stick.
 Dabei installiert sich die Firmware automatisch auf die Festplatte des Futro.
@@ -17,24 +29,44 @@ Dabei installiert sich die Firmware automatisch auf die Festplatte des Futro.
 Und schon hat man einen funktionierenden Freifunk-Offloader.
 Dieser ist ganz normal wie jeder Freifunk-Router auch über seinen LAN-Port erreichbar.
 
- Den USB-Stick vorbereiten:
----------------------------
+#### Den USB-Stick vorbereiten:
 Von klugen Freifunk-Firmware-Entwicklern gibt es dazu eine eigene Anleitung.<br/>
 Diese findet man auf [github.com/oszilloskop/Gluon2Futro](https://github.com/oszilloskop/Gluon2Futro#%C3%9Cbertragen-des-gluon2futro-images-auf-einen-usb-stick).<br/>
 Man sollte sie ausfürlich lesen und dann die Schritte wie dort beschrieben durchführen!
 
-### Kurzfassung:
+#### Kurzfassung:
 1. Dieses [gluon2futro.img](https://raw.githubusercontent.com/oszilloskop/Gluon2Futro/master/gluon2futro.img) auf den USB-Stick schreiben. Zum Beispiel mit ``dd`` oder `` Win32 Disk Imager``.
 2. Den frisch erstellten Stick in deinem Computer als Laufwerk mit deinem Datei-Explorer öffnen und die [GLUON2FUTRO.img.gz](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz) in das Wurzelverzeichnis des USB-Sticks kopieren.
 3. USB-Stick auswerfen und den Futro vom USB-Stick booten.
 
+### Mit einem Kartenleser
+Etwas einfacher geht das Ganze mit einem Kartenleser für CF-Speicherkarten. Hierzu muss man den Futro öffnen und die Speicherkarte abziehen. Anschließend kann man das Image über das Kartenlesegerät auf die Karte spielen und wieder einbauen.
 
- Welches Image muss da drauf kopiert werden?
-----------------------------------------------------------
-Um das passende Image zu finden, musst du es dir im [Verzeichnis mit allen Freifunk-Bodensee-Images](https://firmware.ffbsee.de/firmware/) heraussuchen.<br/>
-Es sollte dort in der neusten Stable-Firmware-Ordner im Unterordner ``x86`` in dessen Unterordner ``geode`` eine Datei geben, die ``combined-squashfs_for-GLUON2FUTRO.img.gz`` oder so ähnlich heißt. 
+####Aufspielen der Firmaware mit dd
+Bevor ihr die Firmware aufspielt müsst ihr herausfinden welche Geräte-ID euer Kartenleser hat. Dazu könnt ihr das Kommando ``dmesg`` verwenden.
+````bash
+root@linux:~# dmesg | egrep '\[sd.\]'
+[    1.473459] sd 0:0:0:0: [sdd] 994896 512-byte logical blocks: (509 MB/485 MiB)
+[    1.480990] sd 0:0:0:0: [sdd] Write Protect is off
+[    1.485828] sd 0:0:0:0: [sdd] Mode Sense: 00 3a 00 00
+[    1.485942] sd 0:0:0:0: [sdd] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[    1.499251] sd 0:0:0:0: [sdd] Attached SCSI disk
+````
+In diesem Beispiel hat die Karte die ID ``sdd``.
+Benutzt ihr einen 4-in-1 Kartenleser ist die ID nicht so leicht herauszufinden. Dazu findet ihr weiter Infos [hier](https://www.cs.sfu.ca/~ggbaker/personal/cf-linux)(Englisch).
 
-Im März 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz).
+Anschließend müsst Ihr die Firmware herunterladen und entpacken. Zum entpacken benutzt am besten ``gunzip``:
+````bash
+root@linux:~# gunzip ffbsee-2.0.0-futro-combined-squashfs.img.gz
+````
+Anschließend kopiert ihr das Image mit ``dd`` auf die Speicherkarte:
+````bash
+
+root@linux:~# dd if=ffbsee-2.0.0-futro-combined-squashfs.img of=/dev/sdd bs=1M
+````
+
+
+
 ---
 relevanz: 19
 ---
@@ -45,5 +77,12 @@ content2:
  Mehrere Ports am Futro?
 -------------------------
 Leider kommt der Futro standardmäßig nur mit einem Ethernet-Port.
-Dieser ist jedoch relativ einfach durch einen Mini-PCI-Express-Ethernet-Anschluss oder einen USB-Ethernet-Adapter erweiterbar.
+Dieser ist jedoch relativ einfach durch einen Mini-PCI-Ethernet-Anschluss oder einen USB-Ethernet-Adapter erweiterbar.
+Soll eine PCI-Karte eingebaut werden ist noch ein sogenannter Riser notwendig. Außerdem sollte man wissen dass ausschließlich Low-Profile-Karten in den Futro passen.
 
+---
+code:
+
+<div class="box" style="color: red;">
+<p>Achtung, beim benutzen von <b>dd</b> solltet ihr euch ganz sicher sein die richtige ID ausgewählt zu haben. Alles andere kann eure auf dem Rechner gespeicherten Nachhaltig Daten zerstören!</p>
+</div>
