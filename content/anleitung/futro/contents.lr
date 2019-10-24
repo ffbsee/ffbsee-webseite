@@ -16,8 +16,8 @@ Im Oktober 2019 war das aktuelle Image [dieses hier](https://firmware.ffbsee.de/
 
  Was muss man machen?
 ------------------------------
-Grundsätzlich muss man nichts viel anders machen als bei jedem Router. Da sich auf dem Futro aber normalerweise keine Software befindet mithilfe dieser man die Freifunk-Firmware flashen kann, muss man an dieser Stelle einen anderen Weg gehen.
-Dabei gibt zwei Möglichkeiten wir man vorgehen kann.
+Grundsätzlich muss man nichts viel anders machen als bei jedem Router. Da sich auf dem Futro aber normalerweise keine Software befindet, mithilfe dieser man die Freifunk-Firmware flashen könnte, muss man an dieser Stelle einen anderen Weg gehen.
+Dabei gibt zwei Möglichkeiten wie man vorgehen kann.
 
 ### Mit einem USB-Stick:
 
@@ -40,7 +40,7 @@ Man sollte sie ausfürlich lesen und dann die Schritte wie dort beschrieben durc
 3. USB-Stick auswerfen und den Futro vom USB-Stick booten.
 
 ### Mit einem Kartenleser
-Etwas einfacher geht das Ganze mit einem Kartenleser für CF-Speicherkarten. Hierzu muss man den Futro öffnen und die Speicherkarte abziehen. Anschließend kann man das Image über das Kartenlesegerät auf die Karte spielen und wieder einbauen.
+Etwas einfacher geht das Ganze mit einem Kartenleser für CF-Speicherkarten.  Dazu muss man allerdings den Futro öffnen und benötigt eben einen Kartenleser. Ist der Futro geöffnet kann man die Speicherkarte einfach herausziehen, das Image aufspielen und wieder einbauen.
 
 ####Aufspielen der Firmaware mit dd
 Bevor ihr die Firmware aufspielt müsst ihr herausfinden welche Geräte-ID euer Kartenleser hat. Dazu könnt ihr das Kommando ``dmesg`` verwenden.
@@ -53,7 +53,7 @@ root@linux:~# dmesg | egrep '\[sd.\]'
 [    1.499251] sd 0:0:0:0: [sdd] Attached SCSI disk
 ````
 In diesem Beispiel hat die Karte die ID ``sdd``.
-Benutzt ihr einen 4-in-1 Kartenleser ist die ID nicht so leicht herauszufinden. Dazu findet ihr weiter Infos [hier](https://www.cs.sfu.ca/~ggbaker/personal/cf-linux)(Englisch).
+Benutzt ihr einen 4-in-1 Kartenleser ist die ID oft nicht so leicht herauszufinden. Dazu findet ihr weiter Infos [hier](https://www.cs.sfu.ca/~ggbaker/personal/cf-linux) (Englisch).
 
 Anschließend müsst Ihr die Firmware herunterladen und entpacken. Zum entpacken benutzt am besten ``gunzip``:
 ````bash
@@ -61,7 +61,6 @@ root@linux:~# gunzip ffbsee-2.0.0-futro-combined-squashfs.img.gz
 ````
 Anschließend kopiert ihr das Image mit ``dd`` auf die Speicherkarte:
 ````bash
-
 root@linux:~# dd if=ffbsee-2.0.0-futro-combined-squashfs.img of=/dev/sdd bs=1M
 ````
 
@@ -74,15 +73,23 @@ subtitle: Wie man einen Freifunk-Offloader installiert
 ---
 content2:
 
- Mehrere Ports am Futro?
+Konfiguration:
+------------------------- 
+Hat man das Image aufgespielt gibt es zwei Konfigurationen die man im BIOS noch vornehmen sollte. Zum einen sollte man``halt on errors`` ausschalten, damit der Futro auch ohne angeschlossene Tastatur bootet, und zu anderen empfielt es sich ``in case of power failure`` auf ``always on`` stellen, damit der Futro startet sobald das Netzteil angeschlossen wird. 
+In das BIOS Menü gelangt ihr, wenn ihr F2 drückt während der Futro bootet.
+
+Mehrere Ports am Futro?
 -------------------------
 Leider kommt der Futro standardmäßig nur mit einem Ethernet-Port.
 Dieser ist jedoch relativ einfach durch einen Mini-PCI-Ethernet-Anschluss oder einen USB-Ethernet-Adapter erweiterbar.
 Soll eine PCI-Karte eingebaut werden ist noch ein sogenannter Riser notwendig. Außerdem sollte man wissen dass ausschließlich Low-Profile-Karten in den Futro passen.
 
+
+Weitere Infos rund um den Einsatz eines Futro als Offloader und wie man ihn konfiguriert findet ihr [hier](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294) oder [hier](https://wiki.freifunk.net/Fastd_Offloader).
+
 ---
 code:
 
 <div class="box" style="color: red;">
-<p>Achtung, beim benutzen von <b>dd</b> solltet ihr euch ganz sicher sein die richtige ID ausgewählt zu haben. Alles andere kann eure auf dem Rechner gespeicherten Nachhaltig Daten zerstören!</p>
+<p>Achtung, beim benutzen von <b style="color: red;">dd</b> solltet ihr euch ganz sicher sein die richtige ID ausgewählt zu haben. Alles andere kann eure auf dem Rechner gespeicherten Daten Nachhaltig zerstören!</p>
 </div>
