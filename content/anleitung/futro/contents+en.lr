@@ -1,0 +1,96 @@
+body: In order to install a off-loader such as the Siemens Futro, you have to prepare a flash drive, put a certain Freifunk image on it and install it on the Futro afterwards.
+---
+code:
+
+<div class="box" style="color: red;">
+<p>Caution! When using  <b style="color: red;">dd</b> you should be absolutely sure that you selected the correct ID. Any other action could sustainably destroy  data saved on your computer!</p>
+</div>
+---
+content:
+
+Unfortunately, flashing a Futro is not as easy as flashing a "standard" Freifunk router.<br/>
+It is however still doable with sufficient effort and a little bit of technical knowledge.
+
+ Which image has to be copied onto the Futro?
+----------------------------------------------------------
+In order to find the suitable image, you have to look for it in the [directory with all Freifunk Bodensee images](https://firmware.ffbsee.de/firmware/).<br/>
+In the latest stable-firmware folder there should be a sub-folder `futrobeta/ with a file called ``combined-squashfs_for-GLUON2FUTRO.img.gz`` or the like.
+
+In October 2019 the latest image was [this one](https://firmware.ffbsee.de/firmware/2.0.0/futrobeta/ffbsee-2.0.0-futro-combined-squashfs.img.gz).
+
+ What to do
+------------------------------
+In general, you don't have to do anything different as for any other router. But as the Futro usually does not have software installed that supports you in flashing the Freifunk firmware, you will have to act differently here.
+So there are two possibilities to proceed.
+
+### With an USB flash drive:
+
+You will need a specially prepared USB flash drive in order to install the Freifunk firmware on the the Futro off-loader.<br/>
+Additionally, you will need to copy a exactly prepared image of the Freifunk firmware onto this USB flash drive.<br/>
+Then you connect the flash drive to the Futro and boot from the flash drive.
+That way, the firmware is installed automatically onto the hard drive of the Futro.
+
+And there you go - you have a functional Freifunk off-loader.
+It will be accessible via its LAN port such as any other Freifunk router.
+
+#### Preparing the USB flash drive:
+There are instructions - written by smart Freifunk firmware developers.<br/>
+It is available at [github.com/oszilloskop/Gluon2Futro](https://github.com/oszilloskop/Gluon2Futro#%C3%9Cbertragen-des-gluon2futro-images-auf-einen-usb-stick).<br/>
+You should read it thoroughly and follow the steps described there!
+
+#### Summary:
+1. Write this [gluon2futro.img](https://raw.githubusercontent.com/oszilloskop/Gluon2Futro/master/gluon2futro.img) onto the USB flash drive, by using for example ``dd`` or `` Win32 Disk Imager``.
+2. Open the freshly created flash drive on your computer with your file explorer as drive and copy [GLUON2FUTRO.img.gz](https://firmware.ffbsee.de/firmware/1.0.5/x86/geode/ffbsee-1.0.5-550-combined-squashfs_for-GLUON2FUTRO.img.gz) into the root directory of the USB flash drive.
+3. Eject the USB flash drive and boot the Futro from the USB flash drive.
+
+### With a card reader
+It is slightly easier to use a card reader for CF memory cards. You will however have to open the Futro and you will need a card reader. As soon as the Futro is open, you can easily take out the memory card, install the image mount the card again.
+
+####Installing the Firmware with dd
+Before installing the firmware, you will need to find out which device your card reader has, You can use the ``dmesg`` command to do so.
+
+````bash
+root@linux:~# dmesg | egrep '\[sd.\]'
+[    1.473459] sd 0:0:0:0: [sdd] 994896 512-byte logical blocks: (509 MB/485 MiB)
+[    1.480990] sd 0:0:0:0: [sdd] Write Protect is off
+[    1.485828] sd 0:0:0:0: [sdd] Mode Sense: 00 3a 00 00
+[    1.485942] sd 0:0:0:0: [sdd] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[    1.499251] sd 0:0:0:0: [sdd] Attached SCSI disk
+````
+In this example, the card has the ID ``sdd``.
+If you use a 4-in-1 card reader, the ID often is not so easy to identify. You can find further information on that [here](https://www.cs.sfu.ca/~ggbaker/personal/cf-linux).
+
+Afterwards, download and extract the firmware. For extraction, ``gunzip`` is the most suitable tool:
+````bash
+root@linux:~# gunzip ffbsee-2.0.0-futro-combined-squashfs.img.gz
+````
+Then you copy the image onto the memory card using ``dd``:
+````bash
+root@linux:~# dd if=ffbsee-2.0.0-futro-combined-squashfs.img of=/dev/sdd bs=1M
+````
+
+
+
+---
+content2:
+
+Configuration:
+------------------------- 
+As soon as the image is installed, there are two configurations that you should perform in BIOS. On the one hand, switch off ``halt on errors`` so that the Futro can boot without a keyboard being connected. On the other hand it is recommended to set ``in case of power failure`` to ``always on`` so that the Futro starts up as soon as the power supply is connected.
+To reach the BIOS menu, press F2 while the Futro is booting.
+
+Multiple Ports at the Futro?
+-------------------------
+Unfortunately the Futro can only handle only one Ethernet port.
+However, you can relatively easily extend it with a Mini-PCI-Ethernet connection or an USB Ethernet adapter. 
+If a PCI card shall be installed, a so-called riser is necessary. Furthermore, it is important to know that only low-profile cards fit into the Futro.
+
+
+Further information about using the Futro as off-loader and how to configure it can be found [here](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294) or [here](https://wiki.freifunk.net/Fastd_Offloader).
+
+---
+relevanz: 19
+---
+subtitle: How to install a Freifunk Off-Loader
+---
+title: Flashing a Futro

@@ -1,0 +1,38 @@
+body:
+
+Freifunk is a WiFi without encryption.
+Here you will get to know why this is not completely dangerous and that you can still use it.
+---
+code:
+
+<center>
+<video poster="/anleitung/sicher-surfen/sichersurfen.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/Sicher-surfen.ogv" type="video/ogg">
+        <source src="/video/Sicher-surfen.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="http://www.alexanderlehmann.net/Verschluesselung/" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Alexander Lehmann, Lena Schall und Florian Maerlender</i></p>
+</center>
+---
+content:
+
+A Freifunk router supplies an open WiFi without encryption.
+
+This video shows you why this is not a problem (in German).
+---
+content2:
+
+Link to the recommended plugin:
+<a href="https://www.eff.org/https-everywhere" class="button special">HTTPS Everywhere</a>
+
+The video was created in 2015. Nowadays, most websites automatically forward to HTTPS and therefore encrypt the connection between your mobile phone/laptop and the sever that hosts the website. It is absolutely irrelevant if your computer uses WiFi with a totally complex password or Freifunk.
+---
+preview: /anleitung/sicher-surfen/preview.jpg
+---
+relevanz: 13
+---
+subtitle: Can on open WiFi be secure?
+---
+title: Secured Surfing
