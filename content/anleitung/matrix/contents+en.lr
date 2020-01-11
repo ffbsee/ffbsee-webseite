@@ -1,0 +1,81 @@
+body:
+
+Freifunk Bodensee uses Matrix as chat to get in touch with each other.
+
+Come by and let's make cool Freifunk projects.
+---
+code:
+
+<center>
+<video poster="/anleitung/matrix/riot_720p.png" class="image fit" preload="none" controls="">
+        <source src="/video/riot.ogv" type="video/ogg">
+        <source src="/video/riot.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.youtube.com/watch?v=IVfrSSPspIw">youtube.com</a>.
+</video>
+<a rel="license" href="https://www.youtube.com/watch?v=BoVhbX5v5kE" target="_blank">
+    <p><i>Quelle: Youtube Channel riot.chat</i></p>
+</center>
+<br/>
+<center>
+<video poster="/anleitung/matrix/matrix_720p.png" class="image fit" preload="none" controls="">
+        <source src="/video/matrix.ogv" type="video/ogg">
+        <source src="/video/matrix.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf https://www.youtube.com/watch?v=jr2mXSKq3B4
+</video>
+<a rel="license" href="https://www.youtube.com/watch?v=jr2mXSKq3B4" target="_blank">
+    <p><i>Quelle: Youtube Channel matrixdotorg</i></p></a>
+</center>
+---
+content:
+
+We use <a href="https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)">Matrix</a> as group chat for Freifunk Bodensee. <br/>
+The most popular client for matrix is called Riot. <br/>We use the following room for chatting:
+
+````
+#ffbsee:matrix.bodensee.space
+````
+
+ What Matrix and Riot are, you will learn in these videos:
+------------------------
+---
+content2:
+
+ Enter Matrix Room
+===========
+
+ Create Matrix User
+---------------------------------
+
+In order to enter the Matrix room, you will first need a user on a Matrix server. 
+We offer a registration on [bodensee.space/riot](https://bodensee.space/riot).
+Here you can register and create an account. With the help of this account you can sign in for example in Riot via mobile phone, iPhone or via desktop app.
+
+ Sign in into the app
+----------------------
+In order to sign in into the app and to use the Freifunk Bodensee server you will need that you registered at matrix.bodensee.space and not at matrix.org.
+
+The exact address is:
+````
+https://matrix.bodensee.space
+````
+Use the standard setting as identity server!
+
+ Enter Freifunk Bodensee Chat
+----------------------------------
+As soon as you registered at Matrix or Riot respectively, you can enter the Freifunk chat.
+At the top you an find a search field where you can directly type in the room:
+````
+#ffbsee@matrix.bodensee.space
+````
+
+When using the Riot server on [bodensee.space](https://bodensee.space/riot) you can directly click on the suggested Freifunk Bodensee chat and enter the room.
+
+There are certainly more clients than Riot that you can use to connect. Feel free to visit <a href="https://matrix.to/#/#ffbsee:matrix.bodensee.space">matrix.to</a>!
+---
+preview: /anleitung/matrix/matrix.png
+---
+relevanz: 18
+---
+subtitle: Freifunk group chat
+---
+title: Matrix Chat
