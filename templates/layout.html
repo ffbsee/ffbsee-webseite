@@ -8,7 +8,7 @@
         <title>{% block title %}Freifunk Bodensee{% endblock %} — ffbsee.net</title>
         <meta property="og:title" content="{{ this.title }}"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:image" content={% block expand_ogg_image 
+        <meta property="og:image" content={% block expand_ogg_image
         %}"{{ '/images/ffbsee.png'|asseturl }}"{% endblock %} />
         <meta name="theme-color" content="#4797ec" >
         <link href="https://freifunk-bodensee.net/feed.xml" rel="alternate" title="Neues von Freifunk Bodensee" type="application/rss+xml">
@@ -21,7 +21,7 @@
                 else %}"{{ '/css/main.css'|asseturl }}"{%
                 endif %}{%
             else %}"{{ '/css/main.min.css'|asseturl }}"{%
-            endif %} /> 
+            endif %} />
         {% block meta %}
         <script src="{{ '/js/jquery-3.3.1.min.js'|asseturl }}"></script>{% endblock %}
     </head>
@@ -29,7 +29,7 @@
         <div id="wrapper">
             <section id="header"{% if this._path == '/' %} class="alt"{% endif %}>
                 <a href="/index.html" class="logo"><strong>Freifunk Bodensee</strong></a>
-                
+
                 <nav id="nav">
                     <ul>
                         <li{% if this._path == '/' %} class="current"{% endif
@@ -49,8 +49,7 @@
                             {% if title == 'Unterstützen' %}
                                 <ul>
                                     <li><a href="{{ '/helfen'|url }}">Wie kann ich Freifunk unterstützen?</a></li>
-                                    <li><a href="https://www.betterplace.me/ffbsee-hardware/">Spendenkampagne Hardware Finanzieren</a></li>
-                                    <li><a href="https://www.betterplace.me/ffbsee-backbone/">Spendenkampagne Backbone reparieren</a></li>
+                                    <li><a href="https://ffnbsee.org/">Förderverein Freie Netze Bodensee e.V.</a></li>
                                 </ul>
                          {% elif title == 'Kontakt' %}
                                 <ul>
@@ -135,9 +134,9 @@ Ausgetragen wird dieser Konflikt auf den Rücken der Internetnutzer und Kreative
 Wenn Sie unsere Kritik an der geplanten Urheberrechtsreform teilen, werden Sie aktiv:
 </p>
 <ul style="text-align: left"><li>unterzeichnen Sie die Petition <a href="https://www.change.org/p/stoppt-die-zensurmaschine-rettet-das-internet-uploadfilter-artikel13-saveyourinternet">"Stoppt die Zensurmaschine – Rettet das Internet!"</a>,</li>
-    <li><a href="https://pledge2019.eu/de">kontaktieren Sie die Abgeordneten des Europäischen Parlaments</a>,</li> 
+    <li><a href="https://pledge2019.eu/de">kontaktieren Sie die Abgeordneten des Europäischen Parlaments</a>,</li>
 
-    <li><a href="https://savetheinternet.info/demos">gehen Sie am 23. März auf die Straße</a>,</li> 
+    <li><a href="https://savetheinternet.info/demos">gehen Sie am 23. März auf die Straße</a>,</li>
 
     <li>nehmen Sie Ihr demokratisches Recht wahr und gehen Sie am 26. Mai zur Wahl.</li></ul>
 

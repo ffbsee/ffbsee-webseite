@@ -642,3 +642,17 @@ url: https://ffnbsee.org
 description: Am 13.10 ist Mitgliederversammlung des Fördervereins Freie Netze Bodensee e.V.
 ----
 confirmed: yes
+#### termine ####
+start: 2020-02-29 17:00:00 Europe/Berlin
+----
+ende: 2020-02-29 20:00:00 Europe/Berlin
+----
+event: Mitgliederversammlung Förderverein Freie Netze Bodensee e.V.
+----
+ort: Toolbox, Markdorf
+----
+url: https://ffnbsee.org/blog/jahreshauptversammlung-am-29022020/
+----
+description: Am 29.02. ist Mitgliederversammlung des Fördervereins Freie Netze Bodensee e.V.
+----
+confirmed: yes
