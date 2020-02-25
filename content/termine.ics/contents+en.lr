@@ -626,3 +626,16 @@ description: Am Samstag, den 6. Juli findet die diesjährige Mitgliederversammlu
 confirmed: yes
 ---
 title: Freifunk Bodensee Dates
+confirmed: yes
+#### termine ####
+start: 2020-08-13 13:00:00 Europe/Berlin
+----
+ende: 2020-08-16 16:42:00 Europe/Berlin
+----
+event: Technik Camp 2020
+----
+ort: Campus of the Überlingen Waldorf School
+----
+url: https://ffbsee.net/camp/
+----
+description: The Technology Camp 2020 will take place in the middle of August in the Lake Constance region near Überlingen! The Technology Camp is a small international meeting of hackers, technology enthusiasts and interested citizens. For four days there will be exchange and discussion, but also programming or tinkering. There will be a lecture program and workshops, as well as joint activities.

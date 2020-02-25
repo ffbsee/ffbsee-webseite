@@ -656,3 +656,19 @@ url: https://ffnbsee.org/blog/jahreshauptversammlung-am-29022020/
 description: Am 29.02. ist Mitgliederversammlung des Fördervereins Freie Netze Bodensee e.V.
 ----
 confirmed: yes
+---
+confirmed: yes
+#### termine ####
+start: 2020-08-13 13:00:00 Europe/Berlin
+----
+ende: 2020-08-16 16:42:00 Europe/Berlin
+----
+event: Technik Camp 2020
+----
+ort: Campus der Waldorfschule Überlingen
+----
+url: https://ffbsee.net/camp/
+----
+description: Das Technik Camp 2020 findet vom mitte August in der Bodenseeregion bei Überlingen statt!||Das Technik-Camp ist ein kleines internationales Treffen von Hackern, Technikbegeisterten und interessierten Bürgern. Vier Tage lang wird sich ausgetauscht und diskutiert, aber auch programmiert oder gebastelt.|Es gibt ein Vortragsprogramm und Workshops, sowie gemeinsame Aktionen.
+----
+confirmed: yes
