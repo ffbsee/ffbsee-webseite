@@ -1,4 +1,4 @@
-_model: page
+_model: camppage
 ---
 title: Freifunk Camp 2018
 ---
@@ -58,7 +58,7 @@ Außerdem gibt es dort in der Nähe der Eisdiele Freifunk.
 Mit dem Auto:
 Wie ihr auf den Karten [5,6] schon gesehen habt, gibt es einen ausreichend großen Parkplatz.
 Dort könnt ihr kostenlos parken und am Freifunk Camp teilnehmen.
-
+Das zweite Freifunk Camp fand in Überlingen am Campus der Waldorfschule statt.
 Mit dem Flugzeug:
 Der nächste größere Flughafen ist in Friedrichshafen. Solltet ihr mit dem Helikopter komen,
 klärt das doch bitte vorher mit den Behörden ab und gebt uns rechtzeitig Bescheid, um einen Landeplatz zu makieren.
@@ -106,3 +106,7 @@ Eure Freifunk Camp Orga
 Lizenz der unteren Bilder: Karol Roller, “THE BEER-WARE LICENSE” (Revision 42)
 Lizenz des obersten Bild: L3D - MIT Lizenz - https://github.com/ffbsee/ffbsee-webseite/blob/master/LICENSE 
 ```
+---
+description: Das zweite Freifunk Camp fand in Überlingen am Campus der Waldorfschule statt.
+---
+id: 2

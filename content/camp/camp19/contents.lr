@@ -1,0 +1,132 @@
+_model: camppage
+---
+title: Technik Camp 2019
+---
+body:
+
+Das Technik-Camp ist ein kleines internationales Treffen von Hackern, Technikbegeisterten und interessierten Bürgern. Vier Tage lang wird sich ausgetauscht und diskutiert, aber auch programmiert oder gebastelt. Es gibt ein Vortragsprogramm und Workshops, sowie gemeinsame Aktionen.
+
+Das Technik Camp 2019 wird veranstaltet von den Hackerspaces am Bodensee, die sich als [Chaos Bodensee](https://bodensee.space) zusammen getan haben, also der [Toolbox Bodensee e.V.](https://toolbox-bodensee.de) zusammen mit dem Hackerspace [see-base](https://see-base.de), dem Hackerspace [HacKNology](https://hacknology.de), dem Verein [Förderverein Freie Netze Bodensee e.V.)](https://ffnbsee.org) und [Freifunk Bodensee](https://ffbsee.net).
+Es ist der Nachfolger des "Freifunk Camp", das sich nun einer größeren Gruppe an Menschen und Themen öffnet.
+
+<center>
+<a href="https://anmeldung.ffbsee.de/ffbsee/camp19" class="button special">Anmeldung (geschlossen)</a>
+<a href="https://pretalx.ffbsee.de/camp19/cfp" class="button special primary">Vortrag oder Workshop einreichen</a><br/><br/>
+<a href="https://pretalx.ffbsee.de/camp19/schedule/" class="button">vorläufiges Vortragsprogramm</a>
+</center><br/>
+```
+Es haben sich 70 Teilnehmer angemeldet, mit denen wir gemeinsam ein tolles Technik Camp erleben werden.
+So gerne wir auch eine gigantische Veranstaltung für Millionen von Teilnehmern veranstalten wollen,
+fangen wir erstmal klein an und haben bei 70 Teilnehmern die Anmeldung geschlossen.
+
+Es wird auch keine Tageskarten geben.
+
+Wer dennoch kommen möchte, darf gerne das Vortrags- und Workshop-Programm erweitern
+und sich mit uns in Kontakt setzen.
+```
+<center><img src="../technikcamp2019.png" style="width:90%; max-width:480px"></center>
+<br>
+
+```
+Datum: 1. - 4. August 2019
+Ort: Campus der Waldorfschule Überlingen
+Adresse: Rengoldshauser Str. 20, 88662 Überlingen
+```
+
+Links: [Karte (experimentell und unfertig)](/map/) - [OSM](https://www.openstreetmap.org/way/195611475)
+
+*So sieht es bei der Location aus:*
+<p><span class="image fit"><img src="/blog/freifunk-camp-2018/camp.jpg"/></span></p>
+
+ Kommunikation
+--------------------------
+
+Wer sich an der Planung und Organisation des Camps beteiligen möchte, der darf gerne dem entsprechenden Matrix-Channel beitreten! Für alle anderen Anliegen gibt es den Gruppen-Chat:
+
+* Planungs-Chat: [#eventorga:matrix.bodensee.space](https://matrix.to/#/#eventorga:matrix.bodensee.space)
+* Gruppen-Chat: [#camp:matrix.bodensee.space](https://matrix.to/#/#camp:matrix.bodensee.space)
+
+Bei Fragen erreicht ihr uns auch unter folgender Mailadresse:
+```
+mailto:camp@ffbsee.de
+```
+
+ Anreise
+---------------
+
+**Mit dem Zug:**
+Die nächste Haltestelle für den Zug ist "Überlingen" [OSM](https://www.openstreetmap.org/node/51990845) oder "Überlingen-Nußdorf" [OSM](https://www.openstreetmap.org/node/99996445). Von dort gibt es meistens Busse, die in die Nähe des Camps fahren.
+
+**Mit dem Bus:**
+Die möglichen Haltestellen sind: 
+ - Überlingen Rengoldshausen Waldorfschule [OSM](https://www.openstreetmap.org/node/4328247781)
+ - Überlingen Haus Rengold / L200 A [OSM](https://www.openstreetmap.org/node/4612658392)
+ - Überlingen Haus Rengold  [OSM](https://www.openstreetmap.org/node/3705565539)
+ - Überlingen Bregenzer Zentrum [OSM](https://www.openstreetmap.org/node/4610438415)
+ - Überlingen Gewerbegebiet [OSM](https://www.openstreetmap.org/node/4558539160)
+ - Alternativ gibt es vielleicht Teilnehmer, die bereit sind Menschen vom Bahnhof abzuholen. Fragt hierfür am besten rechtzeitig im [Gruppenchat](https://matrix.to/#/#camp:matrix.bodensee.space) an
+
+**Mit dem Schiff:**
+In Überlingen am Landungsplatz [OSM](https://www.openstreetmap.org/way/123617910) gibt es einige Schiffe, die dort anlegen. Gerade für Teilnehmer aus den benachbarten Ländern könnte das eine attraktive Reisemöglichkeit sein. Außerdem gibt es dort in der Nähe der Eisdiele Freifunk.
+
+**Mit dem Auto:**
+Zum Parken empfehlen wir den Parkplatz der Waldorfschule.
+
+**Mit dem Flugzeug:**
+Der nächste größere Flughafen ist in Friedrichshafen. Solltet ihr wirklich der Meinung sein, dieses Verkehrsmittel zu verwenden, bitten wir euch mindestens euren CO2-Verbrauch bei z.B. [atmosfair](https://www.atmosfair.de/de/) auszugleichen.
+
+
+ Verpflegung
+------------
+Während des Camps gibt es eine Grundverpflegung durch uns. Es wird ein langes Früstück geben. Außerdem wird am Abend gemeinsam gegrillt, Pizza gebacken oder etwas gekocht.
+Wir bitten euch, euch bei den Ausgaben und dem Kochen zu beteiligen.
+Außerdem gibt es frisches Gemüse aus dem Gewächshaus des Gartenbaus.
+Zudem hat das [C3WOC](https://c3woc.de/#tourdaten) ein Waffeleisen mit ans Frühstück gestellt.
+Details zur Essensplaung gibt es im Fahrplan. 
+
+Wir freuen uns natürlich sehr, wenn ihr eure kulinarischen Spezialitäten mitbringt und mit uns teilt.
+
+ Unterkunft
+---------------------
+Bei der [Anmeldung](https://anmeldung.ffbsee.de/ffbsee/camp19) habt ihr die Möglichkeit Interesse an einem Platz für euer Zelt oder einen Schlafplatz im Gebäude anzumelden. Hierfür solltet ihr auf jeden Fall eure eigene Isomatte und Schlafsack mitbringen.
+
+Es wird mindestens drei warme Duschen geben, die wir uns eben teilen müssen. Euer Handtuch habt ihr natürlich selber dabei!
+
+Alternativ gibt es auch das [Naturata Hotel](http://www.naturata-gmbh.de/hotel/) direkt neben an, was aber sehr schnell ausgebucht ist.
+
+ Vortragsprogramm
+--------------------
+Apps wie Giggity [Google Play](https://play.google.com/store/apps/details?id=net.gaast.giggity&hl=de) - [F-Droid](https://f-droid.org/de/packages/net.gaast.giggity/) ermöglichen es sehr gut, den Fahrplan auf dem Handy anzuschauen. 
+
+Die Shedule URL für die Giggity App lautet:
+```txt
+https://pretalx.ffbsee.de/camp19/schedule/export/schedule.xml
+```
+
+ Bilder vom letzten Jahr
+-------------------------------
+Letztes Jahr hatte das Technik Camp den namen "Freifunk Camp". Auf der folgenden Seite könnt ihr weitere Infos und Fotos dazu finden:
+[Freifunk Camp 2018](/camp/camp18/)
+
+<p><span class="image fit"><img src="/camp/camp18nachts.jpg"/></span></p>
+<p><span class="image fit"><img src="/camp/camp18/garten.jpg"/></span></p>
+<p><span class="image fit"><img src="/camp/camp18/feuer.jpg"/></span></p>
+
+### Bildlizenzen:
+```txt
+Lizenz der unteren Bilder: Karol Roller, “THE BEER-WARE LICENSE” (Revision 42)
+Lizenz des obersten Bild: L3D - MIT Lizenz - https://github.com/ffbsee/ffbsee-webseite/blob/master/LICENSE
+Lizenz des Plakats: ZeHa und L3D - MIT Lizenz - https://github.com/ffbsee/ffbsee-webseite/blob/master/LICENSE
+```
+---
+subtitle: Technik Camp am Bodensee
+---
+description:
+
+Das Technik Camp findet vom 1. - 4. August 2019 in Überlingen am Bodensee statt.
+
+Euch erwarten dort spannende Vorträge und Workshops. Zusammen mit Menschen aus den Hacker- und Makerspaces der Region.
+
+Zusammen tauschen wir uns aus, grillen, löten, basteln, hackern, freifunken, programmieren, spielen und haben vor allem Spaß am Gerät.
+---
+id: 1

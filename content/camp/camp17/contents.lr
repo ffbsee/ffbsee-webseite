@@ -1,4 +1,4 @@
-_model: page
+_model: camppage
 ---
 title: Freifunk Camp 2017
 ---
@@ -61,3 +61,7 @@ Und man kann dort sogar zelten ;-) Vielleicht sieht man sich ja!?
 ```
 ---
 subtitle: Das erste Freifunk Camp
+---
+description: Das erste Freifunk Camp fand im Fallenbrunnen im Casino statt.
+---
+id: 3
