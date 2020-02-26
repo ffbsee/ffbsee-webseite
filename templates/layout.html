@@ -75,7 +75,7 @@
                                 <ul>
                                     <li><a href="{{ '/camp'|url }}">Camp</a></li>
                                     {% set root = site.get('/camp/', alt=this.alt) %}{%
-                                    for child in root.children recursive %}{% if loop.index <= 5 %}
+                                    for child in root.children.order_by('id', 'name') recursive %}{% if loop.index <= 5 %}
                                     <li{%
                                          if this._path == child._path %} class="active"{% endif
                                          %}><a href="{{ child|url }}"> -> {{ child.title }}</a></li>{%
