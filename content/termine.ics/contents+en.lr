@@ -624,9 +624,6 @@ url: https://freifunk-3laendereck.net/mitgliederversammlung-2019/
 description: Am Samstag, den 6. Juli findet die diesjährige Mitgliederversammlung des FF3L im Forsthof, Bad Säckingen, statt. Wir treffen uns ab 15:00 h, die Mitgliederversammlung beginnt um 16:00 Uhr.|Herzlich eingeladen sind alle Mitglieder und interessierte Nichtmitglieder.|Auch Menschen gänzlich ohne Glied sind wilkommen.||Turnusgemäß wird der Vorstand neu gewählt. Wer sich für die Mitarbeit im Vorstand interessiert und kandidieren will, bitten wir, vorab mit uns Kontakt aufzunehmen.|Weitere Themenvorschläge für die Agenda können ebenfalls vorab an uns geschickt werden. Wir freuen uns über jede Anregung.||Im Anschluss an die Mitgliederversammlung wollen wir gemeinsam grillen. Für alkoholfreie Getränke sorgt der FF3L, ebenso für Brötchen und Brot. Grillgut, Teller, Besteck und Gläser bitten wir, selbst mitzubringen.  Wir freuen uns auf eine interessante Mitgliederversammlung und das anschließende gemütliche Grillfest.||Der Vorstand des FF3L
 ----
 confirmed: yes
----
-title: Freifunk Bodensee Dates
-confirmed: yes
 #### termine ####
 start: 2020-08-13 13:00:00 Europe/Berlin
 ----
@@ -639,3 +636,7 @@ ort: Campus of the Überlingen Waldorf School
 url: https://ffbsee.net/camp/
 ----
 description: The Technology Camp 2020 will take place in the middle of August in the Lake Constance region near Überlingen! The Technology Camp is a small international meeting of hackers, technology enthusiasts and interested citizens. For four days there will be exchange and discussion, but also programming or tinkering. There will be a lecture program and workshops, as well as joint activities.
+----
+confirmed: yes
+---
+title: Freifunk Bodensee Dates

@@ -73,8 +73,8 @@
             {%- endif %}
           {%- endfor %}
         <center>
-          <a href="/kalender/" class="button">Alle Termine</a>
-          <a href="/termine.ics" class="button primary">Termine Abonnieren</a>
+          <a href="{{ '/kalender/'|url(alt=alt) }}" class="button">Alle Termine</a>
+          <a href="{{ '/termine.ics'|url(alt=alt) }}" class="button primary">Termine Abonnieren</a>
         </center>
         <br/><br/><br/>
       {%- endif -%}
