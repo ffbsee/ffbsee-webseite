@@ -1,0 +1,56 @@
+body:
+
+Here you will find out on how YOU can invite people to a Freifunk meeting.
+
+Select a date and time which suits you. And then you invite people.
+---
+code: <br/>
+---
+content:
+
+Inviting people to a Freifunk meeting is relatively easy.
+
+ Preparation
+--------------
+The first step is to select a date that seems suitable to you and probably to many other people, too.<br/>
+Usually, an evening during or an afternoon on a weekend is most suitable.
+
+Then you will need to organize a location for the meeting.<br/>
+We had good experience with schools or universities. If you know people there, it shouldn't be a problem to get a free room for an evening or afternoon. Also meeting rooms of local clubs turned out to be good locations.<br/>
+Lees suitable are - from our experience - reserved tables in a bar or restaurant. Past meetings in such locations were rarely comfortable and always had an unwelcoming atmosphere.
+
+If you can't find a location yourself or need a location in Markdorf, then the club house of the [Toolbox Bodensee e.V.](https://toolbox-bodensee.de) might be a good solution. We already had several Freifunk meetings there.  In order to organize a meeting there, have look at [their calendar](https://toolbox-bodensee.de/termine/) if your selected date is already still available. Furthermore you will need to find a member of the Toolbox who is willing to open up the club house for the meeting and close it again afterwards. The easiest way is to come to the open day of the Toolbox on Thursday  evenings and ask if anyone is ready to support you. Some of the Toolbox members are Freifunk contributors anyway and would therefore be happy to help.
+---
+content2:
+
+ Invitation
+-------------------
+Now that you found a suitable location and date, you will have to inform other people about it.<br/>
+There are two important channels on which you should spread the word.
+
+The [mailing list](/en/kontakt/) ``freifunk-bodensee@list.ffbsee.de``
+
+And the [calendar](/en/kalender/) on this website.
+
+It is the easiest way to send an e-mail to the mailing list if subscribed to it (which you obviously did a long time ago).<br/>
+The website is updated via [GitHub](https://github.com/ffbsee/ffbsee-webseite.git).
+It would be great to see that you try to edit the website yourself and to create pull requests for your changes.<br/>
+If you however have problems proceeding, then we will gladly support you.
+
+Further channels for your announcement are e.g. the [Matrix chat](/en/anleitung/matrix/) as well as Twitter, Facebook, Mastodon and Telegram.
+
+ The meeting
+----------------
+
+If you invited people to a meeting, it is also your task to host the upcoming discussions a bit.
+
+You might want to think of what should happen during the meeting. Is it more an informative and explanatory event where interested people get information on what Freifunk is and how it work and how to flash a router or is it more of a talk and discussion event in order to discuss what is new in Freifunk and who everything goes. Or is it simply a meeting to organize and plan projects?
+
+Or maybe you have a completely different or better idea?!
+
+---
+relevanz: 3
+---
+subtitle: How can I invite people to a Freifunk Meetup?
+---
+title: Invitation to a Freifunk Meetup

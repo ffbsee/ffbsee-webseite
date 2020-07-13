@@ -70,7 +70,7 @@ content2:
  TFTP server under Linux
 ------------
 
-Under Linux, there are multiple TFTP servers such as the [tftpd-hps](https://help.ubuntu.com/community/TFTP).
+With Linux, there are multiple TFTP servers such as the [tftpd-hps](https://help.ubuntu.com/community/TFTP).
 Most of the time, it can be installed via the package manager of you distribution and started via the system command:
 ```
 sudo systemctl start tftpd

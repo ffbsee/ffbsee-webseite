@@ -1,0 +1,22 @@
+content:
+
+Devices with 4 MB do have very little memory available so that there is no official image for them such; an example is the TP-Link TL-WA850RE v2. But you can build a leaner firmware yourself.
+
+First of all, follow the instructions on building the firmware (https://github.com/ffbsee/firmware/tree/next) until you reach the step of building the firmware (make).
+
+For the device mentioned for example you will get an image by deactivating the "Kernel modules -> Wireless Drivers -> kmod-mac80211 -> Export mac80211" option and setting the value 512 at "Target Images -> squashfs -> Block size" via "make menuconfig", however, this used up more RAM as at least 3 blocks remain in the RAM (https://openwrt.org/docs/guide-user/additional-software/saving_space#modifying_build_configuration_variables).
+
+In the "files/www/lan/" folder you should delete the "footer.ffbsee.animated.svg" file which on the one hand results in abandoning of the beautiful animated footer on the configuration page but on the other hand saves you a little more memory.
+
+Finally, start "make" and hopefully get a fully functional firmware.
+
+
+Further inspirations on making the firmware leaner:
+- Try other options from https://openwrt.org/docs/guide-user/additional-software/saving_space#modifying_build_configuration_variables probieren
+- Reduce javascript and css in the files/www mit uglify-js/uglifycss folder or others
+- Remove logd (make menuconfig -> Base system -> logd), you will not get logs anymore but if it works you will never look into these anyway.
+
+---
+subtitle: 
+---
+title: Build Firmware for Devices With Insufficient Flash

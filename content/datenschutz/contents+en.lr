@@ -1,0 +1,132 @@
+body:
+
+NOTE: The following is a translation from the German Data Protection Disclaimer. The German version is binding. 
+
+Responsible for data protection within Freifunk Bodensee:
+------------------------
+
+```
+Freifunk Bodensee
+Martin Hellebrand
+Neufracher Straße 16
+88682 Salem
+Deutschland
+```
+
+Contact: <a href="mailto:kommunikation@ffbsee.net">kommunikation@ffbsee.de</a>
+
+
+Types of data processed:
+--------------
+
++ Personal data (e.g. names, addresses)
++ Contact data (e.g. e-mail addresses, phone numbers)
++ Content data (e.g. entered texts, photos, videos)
++ User data (e.g. visited websites used software, access times)
++ Meta / Communication data (e.g. device information, IP addresses). 
+
+
+ Legal Basis for Data Processing at FFBSEE 
+-----------------
+
+The processing of data is based on the basic data protection regulation
+
+ 1. for processing for the purpose of fulfilling our services and carrying out contractual measures as well as answering inquiries in accordance with Art. 6 Para. 1 letter b DSGVO
+ * for processing in order to fulfill our legal obligations pursuant to Art. 6 Para. 1 lit. c DSGVO.
+ * for processing to safeguard our legitimate interests in accordance with Art. 6 Para. 1 lit. f DSGVO.
+ * in the event that vital interests of the data subject or of another natural person make it necessary to process personal data pursuant to Art. 6 para. 1 lit. d DSGVO.
+
+ 
+Security Measures
+-----------------------------------
+
+In accordance with Art. 32 DSGVO and taking into account the state of the art, the implementation costs and the nature, scope, circumstances and purposes of the processing as well as the varying probability of occurrence and severity of the risk to the rights and freedoms of natural persons, we take appropriate technical and organisational measures to ensure a level of protection appropriate to the risk.
+
+Such measures shall include in particular safeguarding the confidentiality, integrity and availability of data by controlling physical access to data, as well as access, input, disclosure, safeguarding of availability and segregation of data relating to them. Furthermore, we have established procedures to ensure that data subjects' rights are exercised, data is deleted, and we respond to any threats to the data. Furthermore, we take the protection of personal data into account as early as the development or selection of hardware, software and processes, in accordance with the principle of data protection through technology design and through data protection-friendly presetting (Art. 25 DSGVO).
+
+
+ Third-Party Cooperation
+-----------------------------------
+
+If, in the course of our processing, we disclose data to other persons and companies (processors or third parties), transfer it to them or otherwise grant them access to the data, this is only done on the basis of a legal authorisation (e.g. if a transfer of the data to third parties is necessary for the fulfilment of the contract in accordance with Art. 6 Para. 1 letter b DSGVO), if you have consented, if a legal obligation provides for this or on the basis of our legitimate interests (e.g. when using agents, web hosts).
+
+
+ Rights of Affected People
+--------------------------------------------
+
+As a person affected, you are entitled to the following rights:
+
+ 1. the right to obtain confirmation as to whether or not data in question is being processed and to obtain information about this data and to receive further information and a copy of the data in accordance with Art. 15 DSGVO. in accordance with Art. 16 DSGVO 
+ * the right to demand the completion of the data concerning you or the correction of incorrect data concerning you. According to Art. 17 DSGVO the right to demand that data concerning you be deleted immediately, or alternatively, according to Art. 18 DSGVO, to demand a restriction on the processing of the data. 
+ * the right to obtain the data concerning you which you have provided us with in accordance with Art. 20 DSGVO and to demand that it be passed on to other persons responsible. in accordance with Art. 77 DSGVO 
+ * the right to lodge a complaint with the competent supervisory authority 
+
+
+ Recovation Right
+-------------------------
+
+You have the right to revoke consents granted in accordance with Art. 7 para. 3 DSGVO with effect for the future.
+
+
+ Right of Objection
+---------------------------
+
+ You may at any time object to the future processing of data concerning you in accordance with Art. 21 DSGVO.
+
+
+ Cookies
+-------------------
+
+"Cookies" are small files that are stored on the user's computer. Different information can be stored within the cookies. A cookie is primarily used to store information about a user (or the device on which the cookie is stored) during or after his visit to an online offer. Temporary cookies, or "session cookies" or "transient cookies", are cookies that are deleted after a user leaves an online offer and closes his browser. A login status, for example, can be stored in such a cookie. "Permanent" or "persistent" cookies are those that remain stored even after the browser is closed. For example, the login status can be saved if the user visits it after several days. We may use temporary and permanent cookies and provide information on this in our data protection declaration. If users do not want cookies to be stored on their computer, they are asked to deactivate the corresponding option in the system settings of their browser. Stored cookies can be deleted in the system settings of the browser. The exclusion of cookies can lead to functional restrictions of this online offer.
+Freifunk Bodensee attempts to use as few cookies as possible on its pages. For example, this page is generated from markdown texts in static HTML which does not require and use cookies unless this is done by externally integrated content.
+
+A cookie is also a relatively tasty pastry that is intended for consumption by the end user. When visiting and using Freifunk, it is recommended to use cookies on your own and to bake them yourself or to buy them from a third party, depending on your desire, motivation and budget. This type of cookies can also be shared with other users of Freifunk and thus usually have a positive effect on living together. The use and destruction of this type of cookies is entirely up to the end user.
+
+
+ Deletion of Data
+---------------------------
+
+The data processed by us will be deleted or restricted in their processing in accordance with articles 17 and 18 DSGVO. Unless expressly stated in this data protection declaration, the data stored by us will be deleted as soon as they are no longer required for their intended purpose and the deletion does not conflict with any statutory storage obligations. If the data are not deleted because they are required for other and legally permissible purposes, their processing will be restricted. This means that the data is blocked and not processed for other purposes. This applies, for example, to data that must be retained for commercial or tax law reasons. According to legal requirements in Germany, the storage is in particular for 10 years in accordance with §§ 147 para. 1 AO, 257 para. 1 nos. 1 and 4, para. 4 HGB (books, records, management reports, accounting vouchers, trading books, documents relevant for taxation, etc.) and 6 years in accordance with § 257 para. 1 nos. 2 and 3, para. 4 HGB (commercial letters).
+
+
+ Processing of Data When you use the Freifuk Network of ffbsee
+========================================
+
+ As operator of a router to provide an open WiFi
+------------------------------------------------------------
+
+If you operate a Freifunk node (router with Freifunk firmware), we store information about the router, the firmware version used, the number of users of the Freifunk node, the status of the node (processor load and memory usage, availability, airtime) for a period of 4 weeks to ensure stable network operation. The stored data is published on the Internet and can be viewed under the domain [mate.ffbsee.net](https://mate.ffbsee.net/). If you have stored contact details in the configuration of the router, these can also be viewed there. If you have configured your Freifunk node in such a way that it is to be shown on the map, it will be shown under the specified geographic coordinates. 
+
+ As a user of the Freifunk Dreiländereck network 
+----------------------------------------------------------
+
+In order to be able to establish a connection with the network, you will be provided with a network-internal IP address. The communication that takes place for this purpose contains the hardware address of the terminal device (MAC address) that you use and its name. This information is stored for up to 2 hours after the network is used. For technical reasons it is possible for other users of the FFBSEE network to determine which MAC addresses are currently logged on to the network.
+
+ As a user of FFBSEE:
+------------------------------------
+
+ Your contributions will be forwarded to all registered users of the mailing list and may be stored in a publicly accessible archive. as users of communication services such as email and chat, your user name, password and other data entered by you, as well as communication/metadata generated during processing, will be stored for the use of the respective service. 
+
+ As user of other services:
+---------------------------------------
+
+Within the network of FFBSEE, operators of Freifunk nodes or other users of the FFBSEE network may offer additional services. The respective operators are fully responsible for such services. 
+
+Contact 
+-----------------------
+
+When contacting us (e.g. via contact form, e-mail, telephone or social media), the user's details are processed for the purpose of handling the contact request and its processing in accordance with Art. 6 Para. 1 lit. b) DSGVO. The user's details may be stored in a customer relationship management system ("CRM system") or comparable enquiry organisation. We delete the enquiries if they are no longer required. We review the necessity every two years; furthermore, the statutory archiving obligations apply.
+
+ Hosting
+---------------------
+The hosting services we use serve to provide the following services: Infrastructure and platform services, computing capacity, storage space and database services, security services as well as technical maintenance services that we use for the purpose of operating this online offer.
+
+In doing so, we, or in the case of use of our hosting provider, process inventory data, contact data, content data, contract data, usage data, meta and communication data of customers, interested parties and visitors of this online offer on the basis of our legitimate interests in an efficient and secure provision of this online offer in accordance with Art. 6 para. 1 lit. f DSGVO in conjunction with Art. 6 para. 1 lit. f DSGVO. Art. 28 DSGVO.
+
+
+Translated with www.DeepL.com/Translator (free version)
+
+---
+subtitle: Freifunk Bodensee pays high attention to privacy!
+---
+title: Data Protection

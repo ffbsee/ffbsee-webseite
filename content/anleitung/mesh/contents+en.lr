@@ -1,0 +1,41 @@
+body:
+
+A Freifunk router not only provides the devices directly connected to it but also tries to directly connect to other Freifunk routers within reach and exchange data with them.
+
+This connection is called "mesh".
+---
+code:
+
+<center>
+<video poster="/anleitung/mesh/video.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/mesh.ogv" type="video/ogg">
+        <source src="/video/mesh.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="https://www.br.de/mediathek/video/netzwelt-was-ist-freifunk-av:5a3c3fafdd95b200180bc4dc" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>BR Netzwerk</i></p>
+</center>
+---
+content:
+
+In contrast to the client-server operation typical for WiFi connections (an Access Point as server and end devices as clients - the so-called infrastructure mode) where data packages are distributed radially, the individual computers/network nodes of a mesh exchange data directly (peer-to-peer of ad-hoc mode).
+
+The routes on which the data are transferred in the mesh network (the Mobile Ad-Hoc Network, MANET), are dynamically calculated depending on availabilty of the nodes and connection quality and load. There are a number of different approaches (routing protocols) on how to calculate these routes. As soon as the routing software connected to another node within the mesh, it gathers information on who else is in the network and calculates the paths to existing nodes (ad-hoc routing). If you use a laptop with WiFi and meshing software for example and meet sympathizers, the network builds up and you can exchange data or 
+access the Internet via multiple relays.
+
+Elektra recorded an [extensive contribution in the Chaosradio Express podcast](https://cre.fm/cre016) (German) on the idea of mesh networks that are the technical Basis of Freifunk.
+
+Functionalities of the mesh network
+-----------------------------
+Besides the video on our [home page](/#footer), there is also another video (in German) that gives a rough overview on what to use a mesh for and why you should still share your Internet connection:
+---
+content2: Further information can be found on [freifunk.net/Meshing](https://wiki.freifunk.net/Meshing).
+---
+preview: /anleitung/mesh/mesh.jpg
+---
+relevanz: 12
+---
+subtitle: Connect Each Other!
+---
+title: Mesh

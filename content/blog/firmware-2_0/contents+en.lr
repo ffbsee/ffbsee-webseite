@@ -1,0 +1,46 @@
+author: L3D
+---
+body:
+
+People who actively follow the GitHub repository on firmware development might have already recognized it. [github.com/ffbsee/ffbsee-firmware](https://github.com/ffbsee/ffbsee-firmware.git)
+There is a new stable version of the Freifunk Bodensee firmware:
+```
+Firmware Version 2.0 (stable)
+```
+
+---
+content:
+
+People who actively follow the GitHub repository on firmware development have already recognized it.
+
+<a href="https://github.com/ffbsee/ffbsee-firmware/releases/tag/v2.0" class="button">github.com/ffbsee/ffbsee-firmware</a>
+
+There is a new stable version of the Freifunk Bodensee firmware:
+
+```
+Firmware Version 2.0 (stable)
+```
+
+It has the latest OpenWRT version, more supported devices and a completely new and optimized routing algorithm.
+
+The firmware is now available as <a href="https://firmware.ffbsee.de/firmware/2.0.0/" class="button primary">Download</a>
+
+It can also be selected from this <a href="https://software.ffbsee.de/fw-wizard/" class="button">Firmware selector</a>
+
+As we start a new Freifunk Bodensee network with the release of this new firmware, the IP addresses have also changed.
+The LAN-IPv4 address (192.168.133.1) for configuring remains the same but the "nextnode" IPs used to configure of the node directly from the Freifunk network distributed by this node are different now.
+The new nextnode IPs are:
+IPv6: [fdef:1701:b5ee:23::] (you must really use the square brackets in your web browser!)
+IPv4: 10.15.239.127
+
+As we create the firmware in our rare free time and do not have every router model at home, we were able to test everything on many, however, problems might still occur, e.g. on hardware that we simply could not test. Furthermore you might need to manually update nodes that only had access to the Freifunk Bodensee network  via mesh. Feel free to support and help us so that we can do more extensive tests in the future: support in firmware work or make hardware temporarily available to.
+
+For those with deactivated updater it is absolutely necessary to manually update soon as the version has incompatible components (such as the routing algorithm) and the new version makes a lot of things much better than before.
+---
+pub_date: 2019-07-05
+---
+subtitle: Freifunk Bodensee Firmware: Version 2.0 (stable)
+---
+title: New Stable Firmware
+---
+twitter_handle: L3D

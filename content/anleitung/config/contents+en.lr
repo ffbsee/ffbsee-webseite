@@ -1,0 +1,59 @@
+body:
+
+After flashing the router, it is ready to operate and can be used directly. <br/>
+However, the router can still be configured and you can, for example, give your router a name and make it visible on the map of the [Meshviewer](https://mate.ffbsee.net/meshviewer).
+---
+code:
+
+<center>
+<video poster="/anleitung/config/pwd.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/passwort.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="http://www.alexanderlehmann.net/Verschluesselung/" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Alexander Lehmann, Lena Schall und Florian Maerlender</i></p>
+</center>
+
+
+---
+content:
+
+After [flashing](/en/anleitung/flashen) the router with the suitable firmware, it is ready to use.
+
+If another Freifunk Bodensee router is close by, your router builds up a mesh connection with this other router and shares free WiFi by itself. Another option is that you yourself share your Internet connection and plug in the LAN cable of the router of your Internet provider into the blue WAN port of the Freifunk router. Your Freifunk router then sets up an encrypted fastd-VPN connection to one of the Freifunk gateways and routes all data there within the Freifunk WiFi.
+
+The [Meshviewer](https://mate.ffbsee.net/meshviewer) shows all Freifunk routers within the Freifunk Bodensee network. You can still configure your router in order to give your router a name an show it on the map in exactly the correct position with the help of geographical coordinates.
+
+ Access configuration interface
+--------------------------------------------------
+You can access the configuration interface only via the yellow LAN ports by default. Connect your computer with in of the LAN ports and you should get an IPv4 address from the ``192.168.133.0/24`` range via DHCP. You can then access your Freifunk router via the address ``192.168.133.1``.
+The administration interface can be accessed via HTTPS. The user name is always "root". There is no password set.
+```
+Router: 192.168.133.1
+User: root
+Password:
+```
+During login, your browsers warns you that it found a self-signed TLS certificate which is therefore not trustworthy.
+This is an intended behavior and you have to confirm that that is still okay.
+
+ Configuration options
+==============================
+First of all we recommend to set a new password via the "Password" menu item in the navigation bar of the router interface.
+The video provides you with tips on the topic of Password Security (German):
+---
+content2:
+
+ "Settings"
+-------------------------
+In the settings area you can configure basic settings on how the Freifunk router should act.
+Here you can give it a name and location that will be shown on the Meshviewer map.
+<center><a href="https://mate.ffbsee.net/meshviewer/" class="button primary">Meshviewer</a></center>
+---
+preview: /anleitung/config/example.png
+---
+relevanz: 30
+---
+subtitle: Give Your Router a Name
+---
+title: How to Configure the Freifunk Router
