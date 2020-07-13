@@ -28,7 +28,7 @@ Router: 192.168.133.1
 User: root
 Passwort:
 ```
-Beim Anmelden warnt dich dein Browser, dass das TLS-Zertifikat selber signiert ist und er dem Zertifikat daher nicht vertrauen kann.
+Beim Anmelden warnt dich dein Browser, dass das TLS-Zertifikat selbst signiert ist und er dem Zertifikat daher nicht vertrauen kann.
 Das ist beabsichtigt und du musst deinem Browser bestätigen, dass das trotzdem okay ist.
 
  Konfigurationsoptionen

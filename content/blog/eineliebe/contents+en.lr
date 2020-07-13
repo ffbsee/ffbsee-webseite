@@ -1,0 +1,68 @@
+author: L3D
+---
+body:
+
+Alredy at the beginning of the planning phase of the "Eine Liebe" Festival, we were asked if we could supply WiFi there. 
+
+And this is why there is Freifunk at the Festival.
+---
+content:
+
+The region of Lake Constance is well known for it's beautiful nature, the delicious fruits from the farms and the holiday atmosphere. This became famous - even to the Internet dead zones of German providers which is why they settled here as well. 
+
+The same applies to the ["Eine Liebe" Festival](https://eineliebe.de/) near Herdwangen-Schönach.
+
+You can find a wonderful areas here which is home of a - for the Lake Constance region - huge festival an the beloved dead zones that appear to be continuous, unbidden guests at the festival.
+
+But: If we as Freifunk Bodensee are asked to help - we will do our best to improve the situation.
+
+This year, we dragged the Internet out of nowhere with the help of 3 LTE routers and a huge antenna:
+
+<p><span class="image fit"><img src="/blog/eineliebe/antenne_natur.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/antenne.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/antenne_vom_zelt_ohne_zelt.jpg"/></p>
+<br/>
+
+Several LTE antennas were attached to the antenna: one directed towards the next Vaderphone radio mast and the others towards the magenta-colored LT mast. 
+
+We also distributed eight Unify AP-AC Pro over the whole festival area and connected them to each other - partly via mesh but mostly via Ethernet cables.
+
+The Unify controller was operated locally on a PC-Engine-APU.
+This and two Fritzbox 4040 were used as our Freifunk off-loaders.
+
+We had three separate networks: one for the organizers that urgently needed Internet in order to communicate with the world outside such as the artists, one for the ticket office in order to scan the tickets and an open Freifunk network. Open for everyone - as it is our philosophy.
+
+<br/>
+This was our setup in the management tent:
+
+<p><span class="image fit"><img src="/blog/eineliebe/techn1k.jpg"/></p>
+
+We finally got everything out of air that was possible - which resulted in 150GB data that was used up throughout the 3 days.
+
+The network gave us speed test results of Vaderphone between 5MBit/s and 30MBit/s. However, this made Freifunk very slow and would not have made it possible to use the standard MTU.
+
+The Telekom (2 routers) provided result of only  7MBit/s to 10MBit/s, but the quality was continuously stable and good. 
+Even Freifunk didn't get worse results via this setup.
+
+**More pictures:**
+<p><span class="image fit"><img src="/blog/eineliebe/eineliebe.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/technik.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/zelt_und_kabel.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/outdoow-switch.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/kabelfuehrung.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/disko.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/buehne.jpg"/></p>
+<p><span class="image fit"><img src="/blog/eineliebe/buehne_red.jpg"/></p>
+
+```
+All pictures were taken by L3D and have an MIT license:
+https://github.com/ffbsee/ffbsee-webseite/blob/master/LICENSE
+```
+---
+pub_date: 2019-06-09
+---
+subtitle: The "Eine Liebe" Festival was equipped with Freifunk this year again
+---
+title: "Eine Liebe" Festival - With Freifunk
+---
+twitter_handle: L3D
