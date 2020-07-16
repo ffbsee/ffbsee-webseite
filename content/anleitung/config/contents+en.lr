@@ -34,7 +34,7 @@ Router: 192.168.133.1
 User: root
 Password:
 ```
-During login, your browsers warns you that it found a self-signed TLS certificate which is therefore not trustworthy.
+During login, your browser warns you that it found a self-signed TLS certificate which is therefore not trustworthy.
 This is an intended behavior and you have to confirm that that is still okay.
 
  Configuration options
