@@ -1,42 +1,35 @@
-_model: page
----
-title: Unterstützung
----
-subtitle: Was kann ich zu Freifunk beitragen?
----
 body:
 
-Freifunk Bodensee ist eine Initiative für freies WLAN und unzensierten Internetzugang.
-Wir betreiben die Freifunk-Infrastruktur in unserer Freizeit, weil wir vom Gedanken des freien Internetzugangs für Jeden überzeugt sind.
+Freifunk Bodensee is an initiative for free WiFi and uncensored Internet access.
+We operate the Freifunk infrastructure in our free time because we are convinced of the idea of free Internet access for everyone.
 
-Wenn du die Idee auch gut findest, würden wir uns sehr über deine Unterstützung freuen! Auch ein Dankeschön oder die Organisation eines Treffens, um Anderen die Idee von Freifunk näher zu bringen, ist schon eine Unterstützung die wir zu schätzen wissen
-
-# Was kann ich machen?
+If you also like the idea, we would be happy if you supported us! a simple "Thank you" or the organization of a meeting to tell others about the idea of Freifunk is also a type of support that we really appreciate.
+# What can I do?
 
 <center>
-<a href="#share" class="button primary">Erzähle anderen von Freifunk</a><br/><br/>
-<a href="#help" class="button primary">Hilf anderen beim Routeraufbau</a><br/><br/>
-<a href="#code" class="button primary">Beteilige dich bei der Freifunk-Firmware</a><br/><br/>
-<a href="#give" class="button primary">Spenden</a><br/>
+<a href="#share" class="button primary">Tell others about Freifunk</a><br/><br/>
+<a href="#help" class="button primary">Help others setting up a router</a><br/><br/>
+<a href="#code" class="button primary">Participate in the Freifunk firmware</a><br/><br/>
+<a href="#give" class="button primary">Donations</a><br/>
 </center><br/>
 
-<h3 id="share">Erzähle anderen von Freifunk</h3>
+<h3 id="share">Tell others about Freifunk</h3>
 
-Viele Menschen kennen Freifunk nicht und wissen daher auch nicht, wie einfach es sein kann, ein offenes WLAN für jeden anzubieten.
+A lot of people don't know about Freifunk and therefore also don't know how easy it can be to offer open WiFi for everyone. 
 
-Erzähle anderen Menschen von Freifunk und ermuntere sie, auch einen Freifunk-Router aufzustellen. Es wäre echt schön, wenn man irgendwann überall einen offenen Internetzugang hat, auch wenn man gerade kein LTE empfängt oder das Datenvolumen schon wieder aufgebraucht ist.
+Tell other people about Freifunk and encourage them to set up a Freifunk router. It would be awesome, if at some point in time, having an open Internet access is normal, even if there is not LTE available or if the data volume is already used up.
 
-Auf [GitHub](https://github.com/ffbsee/ffbsee-grafik) gibt es Vorlagen für Aufkleber und Flyer. Wir haben aber auch eine große Zahl an Flyern und Aufklebern fertig gedruckt, die wir gerne mit dir teilen.
+You can find templates for stickers and flyers on [GitHub](https://github.com/ffbsee/ffbsee-grafik). But we also have a large selection of flyers and stickers ready to use that we will gladly share with you.
 
-<h3 id="help">Hilf anderen beim Routeraufbau</h3>
+<h3 id="help">Help others setting up a router</h3>
 
-Nachdem Menschen von Freifunk erfahren haben, geht es darum, auch mit zu machen und seinen ersten Freifunk-Router aufzubauen. Hierfür gibt es zwar viele Hilfen und Anleitungen auf unserer Webseite, aber am besten versteht man das, wenn man beim Router flashen nicht alleine ist.
+As soon as people got to know Freifunk, it is now time to participate and to set up your first Freifunk router. For this purpose, there are many help options and instructions on our website but you will understand it best if you are not alone while flashing the router.
 
-Wir würden uns riesig darüber freuen, wenn du anderen Menschen dabei hilfst, ihren passenden Freifunk-Router zu finden und diesen mit der richtigen Firmware auszustatten.
+We would be really glad if you helped other people find a suitable Freifunk router and to equip it with the correct firmware.
 
-Gerne helfen wir auch bei Freifunk-Treffen bei Fragen und Problemen weiter oder geben Tipps über die Mailingliste und im IRC.
+We will also help with questions and problems during Freifunk meetings and give advice via the mailing list and in IRC.
 
-<h3 id="code">Beteilige dich bei der Freifunk-Firmware</h3>
+<h3 id="code">Participate in the Freifunk firmware</h3>
 
 Die Freifunk-Firmware liegt auf [GitHub](https://github.com/ffbsee/ffbsee-firmware) und kann von jedem verbessert, modifiziert und nachgebaut werden. Allerdings haben auch wir uns die Router-Firmware nicht komplett selbst ausgedacht. Die Freifunk-Bodensee-Firmware basiert auf [OpenWRT](https://openwrt.org) und wird von uns dafür regelmäßig angepasst, um mit euren Routern Freifunk zu machen.
 
@@ -62,3 +55,7 @@ Oder du hast einen schnellen Internetanschluss und gleichzeitig ein gutes Konzep
 Wir freuen uns natürlich auch über Hardwarespenden. So bieten sich zum Beispiel das Spenden von Freifunk-Routern an, die dann an interessierte Freifunk-Einsteiger gegeben werden können um mehr Freifunk zu machen.
 
 Neben dem [Förderverein Freie Netze Bodensee e.V.](https://ffnbsee.org) gibt es auch noch weitere Vereine aus der Region die uns bei dem Betrieb des Freifunk-Netzes unterstützen und sich über Spenden freuen. Der Verein [Freifunk Dreiländereck e. V.](https://freifunk-3laendereck.net/mitmachen/) unterstützt uns, da er als Internet-Service-Provider bei der Bundesnetzagentur gemeldet ist bei der rechtlichen Situation beim Mieten der Freifunk-Gateways. Die [Toolbox Bodensee e.V.](https://toolbox-bodensee.de/mitglied-werden/) ist der Punkt an dem Freifunk-Bodensee gegründet wurde und stellt uns immernoch regelmäßig Räume für unsere Versammlungen zur Verfügung.
+---
+subtitle: How an I  contribute to Freifunk?
+---
+title: Support
