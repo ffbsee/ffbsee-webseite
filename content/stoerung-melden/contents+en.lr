@@ -1,0 +1,42 @@
+body:
+
+If you think something within the Freifunk network is not working correctly or if you you think your Freifunk router doesn't work as it should, then it would be nice if you could let us know. 
+
+ Contact options:
+=================================
+**E-mail:** [stoerung@freifunk-bodensee.net](mailto:stoerung@freifunk-bodensee.net).<br/>
+**Phone:** [+49 7544 - 96 67 222](tel:+4975449667222).<br/>
+**Mailing list:** [freifunk-bodensee@list.ffbsee.de](mailto:freifunk-bodensee@list.ffbsee.de):
+
+Please describe your problem as exactly as possible. A short message stating "It doesn't work" is not very helpful for us.
+
+ The following data can be helpful for problem analysis:
+------------------------
++ What is not working?
++ When did you recognize it?
++ How can we reproduce the malfunction?
++ What is the name and the MAC address of the Freifunk router?
++Which Freifunk router do you use? (Hardware version, version number of the firmware, ...)*
++ Is your Freifunk router connected to the Internet?
+ - In which port is the cable plugged in?
+ - What Internet provider do you use? *(e.g. TeleData, Telekom, Vodaphone, NeckarCom, TK-Lindau, Stadtwerke Konstanz...)*
++ If it helps describing the problem in more detail, you can also attach a picture of your router or a screenshot of your configuration.
+
+We hope that we will be able to reproduce the malfunction and solve the issue in a relatively short time.
+
+<hr/>
+
+If you are technically experienced, you can maybe find the error yourself. There are two main spots to go to - either the Freifunk firmware or the configuration o the Freifunk network. 
+Both of them have their source code publicly available on GitHub and we would be very happy if you contributed with constructive ideas or own code that pushes Freifunk forwards:
+
+<center>
+<a href="https://github.com/ffbsee/ansible" class="button primary">Configuration of the Freifunk server</a>
+<a href="https://github.com/ffbsee/firmware" class="button primary">Freifunk Bodensee firmware</a>
+</center><br/>
+
+
+If you have questions about how our firmware or the configuration of the gateways work, you are welcome to contact and if we have time, we will explain it to you.
+---
+subtitle: Tell us if you recognize something strange!
+---
+title: Report Malfunctions

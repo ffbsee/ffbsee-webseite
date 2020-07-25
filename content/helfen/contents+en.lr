@@ -31,30 +31,30 @@ We will also help with questions and problems during Freifunk meetings and give 
 
 <h3 id="code">Participate in the Freifunk firmware</h3>
 
-Die Freifunk-Firmware liegt auf [GitHub](https://github.com/ffbsee/ffbsee-firmware) und kann von jedem verbessert, modifiziert und nachgebaut werden. Allerdings haben auch wir uns die Router-Firmware nicht komplett selbst ausgedacht. Die Freifunk-Bodensee-Firmware basiert auf [OpenWRT](https://openwrt.org) und wird von uns dafür regelmäßig angepasst, um mit euren Routern Freifunk zu machen.
+The Freifunk firmware is available on [GitHub](https://github.com/ffbsee/ffbsee-firmware) and can be improved, modified and rebuilt by everyone. However, we did not develop the firmware completely on our own. The Freifunk Bodensee firmware is based on [OpenWRT](https://openwrt.org) and is regularly adapted by us to make your routers suitable for Freifunk.
 
-Hier gilt es die aktuelle Entwicklung an OpenWRT im Auge zu behalten, um weiter mit neuer Hardware kompatibel zu sein und mögliche Sicherheitslücken zeitnah zu schließen. Außerdem entwickeln sich die von Freifunk verwendeten Pakete weiter und auch hier muss sichergestellt werden, dass wir diese aktuell halten damit unsere Firmware zukunftsfähig bleibt.
+Here, it is important to keep an eye on the current developments of OpenWRT in order to remain compatible with new hardware and to close possible security gaps as quickly as possible. Also the packages used by Freifunk ware further developed and we have to make sure to keep them up to date so that our firmware remains fit for the future.
 
-Auch die Wünsche und Anforderungen, die Menschen an die Firmware haben, entwickeln sich laufend weiter und manche davon sollten umgesetzt werden.
-Da steckt jede Menge zeitaufwändige ehrenamtliche Arbeit drin und wir freuen uns über jeden, der sich hier beteiligen will.
+The same applies to demands and requirements that people have towards the firmware - they develop constantly and some of them should be implemented sooner than later.
+This results in a huge amount of voluntary work and we are happy about each person contributing in this project.
 
-<h3 id="give">Spenden</h3>
+<h3 id="give">Donations</h3>
 
-Leider ist der Betrieb eines großen öffentlichen Netzwerkes nicht kostenlos. Zwar werden die Router von den Freiwilligen selbst gekauft und sind auch selbst nicht besonders kostenspielig, aber trotzdem fallen laufende Kosten für den Betrieb an, hauptsächlich für den Betrieb der Server, die das Rückgrat des Freifunk-Netzes bilden. Zu diesen Servern (auch "Freifunk-Gateways" genannt) verbinden sich die Router, damit der Internetanschluß und die Rechner der Freifunker sicher bleiben.
+Unfortunately, the operation of a large public network is not for free. The routers are bought by the voluntary participants themselves and are not that expensive, however, there are still running costs, mainly for operating the servers that build the backbone of the Freifunk network. The routers connect to those servers (also called "Freifunk gateways") so that the Internet connection and the computers of the users are secured.
 
-Wenn du Freifunk verwendest oder anbietest, und du dich an den Kosten beteiligen möchtest oder uns einfach in Form einer Spende ein kleines Dankeschön zukommen lassen magst, dann kannst du das über eine Spende an den "Förderverein Freie Netze Bodensee e.V." tun. Wir haben diesen Verein gegründet damit es eine Instanz gibt die offiziell für den Betrieb des Freifunk-Netzes verantwortlich ist.
+If you use or offer Freifunk and would like to participate in the costs or if you would like to send a little appreciation in form of money, then you can do this by sending a donation to the "Förderverein Freie Netze Bodensee e.V.". We founded this association so that there is an instance that is officially responsible for the operation of the Freifunk network.
 
 <div style="text-align: center">
-<a href="https://ffnbsee.org/verein/spenden/" class="button primary">Spende an den Förderverein Freie Netze Bodensee e.V.</a>
+<a href="https://ffnbsee.org/verein/spenden/" class="button primary">Donation to the Förderverein Freie Netze Bodensee e.V.</a>
 </div><br/>
 
-Wenn du die Finanzierung oder ein Sponsoring für einen ganzen Server übernehmen magst oder jemanden kennst, der gerne so etwas macht, dann sprich uns doch darauf an.
+If you would like to take over financing or sponsoring a whole server or if you know somebody who would love to do that, feel free to contact us.
 
-Oder du hast einen schnellen Internetanschluss und gleichzeitig ein gutes Konzept zum Bearbeiten von Abuse-Anfragen und bist bereit, einen Freifunk-Gateway bei dir zu betreiben und den Traffic direkt auszuleiten.
+Or you have a fast Internet connection and a great concept to reject abuse requests and you are willing to operate a Freifunk gateway and to rout out the traffic directly.
 
-Wir freuen uns natürlich auch über Hardwarespenden. So bieten sich zum Beispiel das Spenden von Freifunk-Routern an, die dann an interessierte Freifunk-Einsteiger gegeben werden können um mehr Freifunk zu machen.
+We are furthermore happy about hardware donations such as Freifunk routers that can then be given to interested Freifunk beginners and that way spread Freifunk even more.
 
-Neben dem [Förderverein Freie Netze Bodensee e.V.](https://ffnbsee.org) gibt es auch noch weitere Vereine aus der Region die uns bei dem Betrieb des Freifunk-Netzes unterstützen und sich über Spenden freuen. Der Verein [Freifunk Dreiländereck e. V.](https://freifunk-3laendereck.net/mitmachen/) unterstützt uns, da er als Internet-Service-Provider bei der Bundesnetzagentur gemeldet ist bei der rechtlichen Situation beim Mieten der Freifunk-Gateways. Die [Toolbox Bodensee e.V.](https://toolbox-bodensee.de/mitglied-werden/) ist der Punkt an dem Freifunk-Bodensee gegründet wurde und stellt uns immernoch regelmäßig Räume für unsere Versammlungen zur Verfügung.
+There are other associations except for the [Förderverein Freie Netze Bodensee e.V.](https://ffnbsee.org) in the region that support us with the operation of the Freifunk network that would be happy to receive donations. The [Freifunk Dreiländereck e. V.](https://freifunk-3laendereck.net/mitmachen/) association is registered as Internet Service Provider with the Federal Network Agency and can therefore support us with legal issues when renting the Freifunk gateways. The [Toolbox Bodensee e.V.](https://toolbox-bodensee.de/en/mitglied-werden/) association is the location where Freifunk Bodensee was founded and still regularly offers rooms for our Freifunk meetings. 
 ---
 subtitle: How an I  contribute to Freifunk?
 ---
