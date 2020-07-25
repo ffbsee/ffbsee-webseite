@@ -1,0 +1,74 @@
+body:
+
+There are many ways to hear about Freifunk Bodensee. Here you can find out which ones exactly:
+
+ Mailing list
+-----------------------
+
+The mailing list is the spot to discuss important and exciting topics around Freifunk Bodensee. Furthermore it is used to invite to new events such as a local Freifunk meeting. It is also used to announce major innovations of the firmware and to discuss topics that are changed within the firmware and which need to be taken into consideration by the firmware team. You can also send your questions or support requests to this mailing list. We try to help everyone, starting with "How do I download the firmware?" to complex topics such as "Can somebody help me to set up a directional radio connection" and many many other topics.
+
+So in order to participate in Freifunk Bodensee, subscribing to the mailing list and sending a friendly " Hello, I want to join" mail is always a good step to do. 
+
+<center>
+<a href="mailto:freifunk-bodensee@list.ffbsee.de" class="button primary">Write to the mailing list</a>
+<a href="https://list.ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee" class="button primary">Subscribe to mailing list</a>
+</center><br/>
+
+Technology Nerds
+-------------------------
+The technology nerds of Freifunk Bodensee use <a href="https://en.wikipedia.org/wiki/Matrix_(protocol)">Matrix</a> as chat for Freifunk Bodensee. There you can find a group-like communication in which we talk about ideas regarding Freifunk, new Freifunk meetings are planned as well as the setup of Freifunk installations. And of course we help in case of router problems.
+
+Connecting to the Matrix chat is very easy as soon as you installed the client. 
+Here you can find instructions: 
+
+<center>
+<a href="/en/anleitung/matrix/" class="button">Matrix instructions</a>
+<a href="https://matrix.to/#/#ffbsee:matrix.bodensee.space" class="button primary">Matrix channel</a>
+</center><br/>
+
+
+Direct contact
+--------------------------------
+In order to directly contact our Freifunk Bodensee administrators, have a look at [Report malfunction](/en/stoerung-melden/). There you can find a direct contact person who can help you in most cases. However, we would prefer a mail to the mailing list as this gives other people the opportunity to find answers to questions that they had themselves - and share knowledge that way. Furthermore it relieves the operators of Freifunk Bodensee who operate the network in their free time and do not always have the time to answer to complex messages.
+
+<center>
+<a href="/en/stoerung-melden/" class="button primary">Report malfunction</a>
+</center><br/>
+
+ Social Media
+--------------------------------
+Of course, we also use several Social *(and some very unsocial)* Media as well. Here we post contents very irregularly and recognize direct messages or mentions with very strong delay.
+
+<center>
+<a href="https://chaos.social/@FFBSee" class="button primary">Mastodon</a>
+<a href="https://twitter.com/@FFBSee" class="button primary">Twitter</a>
+<a href="https://www.facebook.com/freifunk.bodensee/" class="button primary">Facebook</a>
+</center><br/>
+
+ Forum
+---------------
+There is a huge Freifunk Forum in which we also participate (in German).
+
+<center><a href="https://forum.freifunk.net/c/community/freifunk-bodensee" class="button primary">Freifunk Forum</a></center><br/>
+
+Source code
+-----------------
+Both our firmware and the setup of your gateways is publicly available on different platforms:
+
+<center>
+<a href="https://github.com/ffbsee" class="button primary">Github</a>
+<a href="https://gitea.see-base.de/ffbsee" class="button primary">Github Mirror</a>
+</center><br/>
+
+ Freifunk Nodes
+-----------------------
+The routers of Freifunk Bodensee offer the option to set voluntary information. These are shown e.g. in the Meshviewer and in the node list:
+
+<center>
+<a href="https://mate.ffbsee.net/meshviewer" class="button primary">Meshviewer</a>
+<a href="https://mate.ffbsee.net/FFNodeList" class="button primary">Node list</a>
+</center><br/>
+---
+subtitle: How to contact Freifunk Bodensee?
+---
+title: Contact
