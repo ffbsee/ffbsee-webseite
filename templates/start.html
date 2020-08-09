@@ -62,7 +62,7 @@
             {%- if counter|length < 2 %}
  {##}         <tr>
  {##}           <th>Stand {{ none|datetimeformat('MMMM YYYY') }}</th>
- {##}           <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk Treffen ein!</th>
+ {##}           <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk-Treffen ein!</th>
  {##}           <th><a href="/anleitung/treffen/">Hier erfährst du</a>, wie das geht.</th>
  {##}         </tr>
             {%- endif %}
@@ -74,7 +74,7 @@
           {%- endfor %}
         <center>
           <a href="{{ '/kalender/'|url(alt=alt) }}" class="button">Alle Termine</a>
-          <a href="{{ '/termine.ics'|url(alt=alt) }}" class="button primary">Termine Abonnieren</a>
+          <a href="{{ '/termine.ics'|url(alt=alt) }}" class="button primary">Termine abonnieren</a>
         </center>
         <br/><br/><br/>
       {%- endif -%}
