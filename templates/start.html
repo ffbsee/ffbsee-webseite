@@ -25,16 +25,16 @@
     <div class="inner">
       {%- if this.kalender %}
         <header class="major special">
-          <h2>kommende Termine</h2>
-          <p>Was ist los bei Freifunk Bodensee?</p>
+            <h2>{{- translator('cal_UpcomingEvents', 'calendar', this.alt, 'de') -}}</h2>
+          <p>{{- translator('cal_Intro', 'calendar', this.alt, 'de') -}}</p>
         </header>
         <div class="table-wrapper">
           <table>
             <thead>
               <tr>
-                <th>Datum</th>
-                <th>nächste Veranstaltungen</th>
-                <th>Ort</th>
+                <th>{{- translator('cal_Date', 'calendar', this.alt, 'de') -}}</th>
+                <th>{{- translator('cal_Events', 'calendar', this.alt, 'de') -}}</th>
+                <th>{{- translator('cal_Location', 'calendar', this.alt, 'de') -}}</th>
               </tr>
             </thead>
           <tbody>
@@ -61,9 +61,9 @@
               {%- endfor %}
             {%- if counter|length < 2 %}
  {##}         <tr>
- {##}           <th>Stand {{ none|datetimeformat('MMMM YYYY') }}</th>
- {##}           <th>Leider keine Termine geplant. Lade DU doch mal zu einem Freifunk-Treffen ein!</th>
- {##}           <th><a href="/anleitung/treffen/">Hier erfährst du</a>, wie das geht.</th>
+ {##}           <th>{{- translator('cal_LastUpdated', 'calendar', this.alt, 'de') -}}: {{ none|datetimeformat('MMMM YYYY') }}</th>
+ {##}           <th>{{- translator('cal_NoEvents', 'calendar', this.alt, 'de') -}}<br /><a href="{{ '/anleitung/treffen/'|url(alt=alt) }}">{{- translator('cal_InstructionsInvitation', 'calendar', this.alt, 'de') -}}</th>
+ {##}           <th>&nbsp;</th>
  {##}         </tr>
             {%- endif %}
  {#    #}         </tbody>
@@ -73,8 +73,8 @@
             {%- endif %}
           {%- endfor %}
         <center>
-          <a href="{{ '/kalender/'|url(alt=alt) }}" class="button">Alle Termine</a>
-          <a href="{{ '/termine.ics'|url(alt=alt) }}" class="button primary">Termine abonnieren</a>
+          <a href="{{ '/kalender/'|url(alt=alt) }}" class="button">{{- translator('cal_AllEvents', 'calendar', this.alt, 'de') -}}</a>
+          <a href="{{ '/termine.ics'|url(alt=alt) }}" class="button primary">{{- translator('cal_SubscribeEvents', 'calendar', this.alt, 'de') -}}</a>
         </center>
         <br/><br/><br/>
       {%- endif -%}
