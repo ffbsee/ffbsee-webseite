@@ -21,7 +21,7 @@ Header append X-Frame-Options "SAMEORIGIN"
 Header always edit Set-Cookie (.*) "$1; HttpOnly; Secure"
 
 # (Down-) Load only contents from allowed sources
-Header set Content-Security-Policy "default-src 'none'; script-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self';"
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; media-src 'self';"
 
 # Referrer Policy
 Header set Referrer-Policy "origin-when-cross-origin"
