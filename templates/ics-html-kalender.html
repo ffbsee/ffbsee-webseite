@@ -13,9 +13,9 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Datum</th>
-                                <th>Veranstaltung</th>
-                                <th>Ort</th>
+                                <th>{{- translator('cal_Date', 'calendar', this.alt, 'de') -}}</th> 
+                                <th>{{- translator('cal_Event', 'calendar', this.alt, 'de') -}}</th> 
+                                <th>{{- translator('cal_Location', 'calendar', this.alt, 'de') -}}</th> 
                             </tr>
                         </thead>
                         <tbody>{% 
@@ -42,8 +42,8 @@
                             endif %}{%
                         endfor %}
                 <center>
-                    <a href="/kalender/" class="button">Alle Termine</a>
-                    <a href="/termine.ics" class="button primary">Termine Abonnieren</a>
+                    <a href="/kalender/" class="button">{{- translator('cal_AllEvents', 'calendar', this.alt, 'de') -}}</a>
+                    <a href="/termine.ics" class="button primary">{{- translator('cal_SubscribeEvents', 'calendar', this.alt, 'de') -}}</a>
                 </center><br/><br/><br/>{%
 endif %}
 
