@@ -3,52 +3,41 @@
 
  Freifunk Bodensee - Webseite
 ============================
-Die Webseite der Freifunk Community [Freifunk Bodensee](https://ffbsee.net).
+Dieses git repository enthält die Webseite der Freifunk Community [Freifunk Bodensee (ffbsee)](https://ffbsee.net).
 
  Lektor CMS:
 ------------
 Das CMS für diese Webseite ist [Lektor](https://www.getlektor.com/).
 Die Installationsanleitung gibt es [hier](https://www.getlektor.com/downloads/).
-Lektor ist auch als Python Modul verfügbar und kann mit ``python2 -m lektor`` verwendet werden.
-Auch die Installation über pip ist möglich:
-
-```bash
-virtualenv venv
-. venv/bin/activate
-pip3 install lektor
-```
-
-Zum Starten von Lektor muss man mit der Komandozeile in das root Verzeichnis der Webseite gehen
-und dort mit dem Befehl ``lektor server`` startet man Lektor und öffnen auf 127.0.0.1 den Port 5000 über den die Webseite
-bearbeitbar ist. Die Versionskontrolle der Webseite findet über Git statt. Daher wenn möglich Bilder erst
-bearbeiten, bevor diese Veröffentlicht werden!
-
-You can use ``make`` to install all needed packages:
+Lektor ist auch als Python Modul verfügbar und kann mit ``python3 -m lektor`` verwendet werden.
+Mit dem mitgelieferten Makefile ist die Installation am einfachsten:
 
 ```bash
 make install
 ```
 
+Zum Starten von Lektor muss man mit der Komandozeile in das root Verzeichnis der Webseite gehen.
+Dort wird mit dem Befehl ``make server`` Lektor gestartet, öffnen auf 127.0.0.1 den Port 5000 und erlaubt dort die Bearbeitung der Freifunk Bodensee Webseite.
+Die Versionierung der Webseite findet über git statt. Daher wenn möglich Bilder erst bearbeiten, bevor diese Veröffentlicht werden!
+
  Zur neuen Webseite Beitragen:
 ------------------------
  1. Dieses Repository Forken oder einen neuen Branch machen (übers GitHub Interface)
- 2. Geforktes Repository Clonen (``git lfs clone https://github.com/<Your_Name>/webseite.git ffbsee-webseite``)
+ 2. Geforktes Repository Clonen (``git lfs clone https://github.com/<Your_Name>/ffbsee-webseite.git``)
  3. Öffne deine Komandozeile im geklonten Repository-Fork (``cd ffbsee-webseite``)
- 4. Lektor starten (``python2 -m lektor server`` oder ``lektor server``)
+ 4. Lektor starten (``make install`` oder ``python3 -m lektor server``)
  5. Webseite updaten... (``http://localhost:5000/``)
  6. Lektor Beenden (``Strg. + C``)
- 7. Änderungen commiten (``git add --all; git commit -m "An der Webseite habe ich _____ geändert"``)
+ 7. Änderungen commiten (``git -a commit -m "An der Webseite habe ich _____ geändert"``)
  8. Änderungen hochladen (``git push``)
- 9. Pull-Request Stellen (übers GitHub Interface)
+ 9. Pull-Request stellen (übers GitHub Interface)
 
 
  Bilder und große Dateien
 ---------------------------
-Für große Dateien haben wir angefangen auf [git-lfs](https://git-lfs.github.com/) zu setzen. Hierbei werden große Dateien nicht mehr ganz so schlimm in die History des git eingebaut.
-Das war mit mehreren MB großen Bildern schon schlimm, aber noch verkraftbar. Mit größeren Videos aber... Sollte man das halt echt nicht direkt ins git werden!
-
+Für große Dateien setzen wir auf [git-lfs](https://git-lfs.github.com/). Die Bilder und Videos sollten in einer für die Webseite einbindung sinnvollen größe in git gespeichert werden (Ladezeiten).
 Zur verwendung von git-lfs muss die git-lfs command line extention installiert sein!
-Die geschieht auf den gängigsten Platformen zB. mit:
+Auf den gängigsten Platformen kann diese wie folgt installiert werden:
 
 ```bash
 sudo apt install git-lfs
@@ -60,19 +49,13 @@ sudo pacman -S git-lfs
 
  Berechtigungen
 =================
-Da Microsoft immer mehr nach lulu müffelt, haben wir begonnen dieses Repo nach [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/ffbsee-webseite.git) umzuziehen.
-
-Das ist bei weiten noch nicht fertig und sollte man mal richtig machen.
-
-Die LFS Daten sollte dort gepflegt werden!!!
+Die LFS Daten liegen auf dem gitea der see-base und müssen derzeit dort gepflegt werden!!!
+Ein account mit entsprechender Berechtigung ist deshalb auch dort nötig.
 
 ```url
 https://gitea.see-base.de/FFBSee/ffbsee-webseite.git
 ```
 
- 
  Design:
 ----------
 Design based on [pixelarity.com](https://pixelarity.com/?ref=9477955687)
-
-
