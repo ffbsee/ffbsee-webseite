@@ -47,7 +47,7 @@ Schließe zuerst den Router mit dem Netzteil (1) an eine Steckdose an. Anschlie�
 
 Wir unterstützen aktuell verschiedene Routermodelle. Zunächst musst du prüfen, welche Firmware du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest du auf der Rückseite deines Geräts.
 
-Die entsprechende Firmware findest du dann beim [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard).
+Die entsprechende Firmware findest du dann unter [Firmware-Download](https://firmware.ffbsee.de/).
 
 Schalte nun den Router ein und rufe nach ca. 2 Minuten die Adresse ``http://192.168.0.1`` in deinem Browser auf. Es erscheint eine Anmeldemaske, die nach Benutzername und Passwort fragt. Hier gibst du als Benutzername ``admin`` und als Passwort ebenfalls ``admin`` ein.
 

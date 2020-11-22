@@ -8,16 +8,16 @@ subtitle: Welchen Router könnt ihr empfehlen?
 ---
 body:
 
-Es gibt viele Geräte, die sich als WLAN-Ac­cess-Point eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
+Es gibt viele Geräte, die sich als WLAN-AccessPoint eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
 
 Hier erfährst du, welche Router wir dir empfehlen können und von welchen Routern du deine Finger lassen solltest.
 ---
 code:
 
 <center>
-<a href="#teuer" class="button primary">Mittelmäßig gut aber richtig teuer</a><br/><br/>
-<a href="#komplex" class="button primary">Schnell und günstig, aber technisch aufwendig</a><br/><br/>
-<a href="#schrott" class="button">Sehr langsam, aber immerhin günstig</a>
+<a href="#teuer" class="button primary">Mittelklasse-Router</a><br/><br/>
+<a href="#komplex" class="button primary">Technisch aufwändigere Lösungen</a><br/><br/>
+<a href="#schrott" class="button">Einsteiger-Geräte</a>
 </center>
 <br/><br/>
 ---
@@ -31,7 +31,7 @@ content2:
 
  Wichtig:
 ===============
-Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn eine Hardware-Revision eines Routers, z. B. die v4.2 funktioniert, dann auch die v4.3 oder v5 kompatibel ist.
+Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass, wenn eine Hardware-Revision eines Routers, z. B. die v4.2 funktioniert, dann auch die v4.3 oder v5 kompatibel ist.
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router-Flashen</a>
 
@@ -42,105 +42,116 @@ Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" cla
 --------------
 ```
 Der Archer C7 ist einer der aktuell am einfachsten einzurichtenden Freifunk-Router.
-Er ist einer der wenigen Modelle, der sowohl auf 2.4GHz und auf 5GHz ein WLAN sendet.
-Unterstützt werden nur die Modelle v2 und v4 in unserem stable Release.
-Die Version v1 und v3 haben sich leider als nicht kompatibel herausgestellt.
-Für die aktuell (April 2019) erhältliche Version 5 gibt es ein Beta-Release. Das kann funktionieren, ist aber etwas fehleranfällig.
-Leider ist der Router mit 70€-100€ relativ teuer.
+Der Router kann sowohl auf 2.4GHz und auf 5GHz gleichzeitig ein WLAN anbieten.
+Unterstützt werden die Modelle v2, v4 und v5 in unserem stable Release.
+Der Archer C7 kostet als Neugerät ein bisschen mehr als 50 Euro. Der Router schafft mit unserer momentan verwendeten Freifunk-Firmware maximal 15 Mbit/s Datendurchsatz.
 
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-Videos schauen auf mittlerer bis hoher Qualität.
+Damit eignet sich der Router für jeglichen möglichen Internetverkehr inklusive
+Video-Streaming auf mittlerer bis hoher Qualität für wenige Personen oder für Internetgrundversorgung für ein paar mehr Personen gleichzeitig.
 ```
 <span class="image right"><img src="/anleitung/router/archer-c7.jpg" alt="Archer C7"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/2.3.0/ar71xx/generic/" class="button primary">Firmware</a><br/><br/>
 <br/><br/>
 
-
-TP-Link WDR 4300 und WDR 3600
+Netgear R6120
 --------------
 ```
-Der TP-Link WDR 4300 und der WDR 3600 waren sehr gute Modelle für Freifunk.
-Als die Router noch hergestellt wurden, kosteten sie ~25€.
-Sie sind eine der ersten Modelle, die sowohl auf 2.4GHz und auf 5GHz ein WLAN senden.
-Leider gibt es die Router nicht mehr zu kaufen und tauchen auf dem Gebrauchtmarkt meistens für über 100€ auf.
+Der Netgear R6120 ist vielleicht minimal langsamer als der Archer C7, kostet aber auch weniger (unter 40 Euro)
+Auch dieser Router kann recht einfach geflasht werden und kann gleichzeitig 2.4 zund 5 GHz.
 
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-Videos schauen auf mittlerer Qualität.
+
+Die nutzbare Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
+Video-Streaming auf mittlerer Qualität.
 ```
-<span class="image right"><img src="/anleitung/router/wdr4300.jpg" alt="WDR 4300"></span><br/><br/>
-<a href="https://openwrt.org/toh/tp-link/tl-wdr4300" class="button">Hardware-Informationen WDR 4300</a><br/><br/>
-<a href="https://openwrt.org/toh/tp-link/tl-wdr3600" class="button">Hardware-Informationen WDR 3600</a><br/><br/>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WDR" class="button primary">Firmware</a><br/><br/><br/><br/>
-
+<span class="image right"><img src="/anleitung/router/r6120.jpg" alt="Netgear R6120"></span><br/><br/>
+<a href="https://openwrt.org/toh/netgear/netgear_r6120" class="button">Hardware-Informationen</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/2.3.0/ipq40xx/generic/" class="button primary">Firmware</a><br/><br/><br/><br/>
 
 
 TP-Link WDR 1043ND
 --------------
 ```
-Der TP-Link WDR 1043 ist auch noch einer der besseren Freifunk-Router.
-Leider sendet er nur auf dem 2.4 GHz-Band, aber das ist ja schon mal etwas.
+Dieser Router ist zwar keine Kaufempfehlung mehr, kann aber, falls man diesen Router breits besitzt oder sehr günstig kaufen kann, durchaus noch ein brauchbares Freifunk-Erlebnis bieten. Der Speicherplatz und der Arbeitsspeicher dieser Geräte ist zumindest groß genug, dass wir auch weiterhin Updates bereit stellen können.
+Der TP-Link WDR 1043 ist im Vergleich zum Archer C7 etwas langsamer und kann nur das 2.4 GHz-Band für WLAN nutzen.
 Unterstützt werden nur die Modelle v2 bis v5.
-Die Version v1 ist zu schwach und hat sich leider als nicht kompatibel herausgestellt.
-Die Version 5 muss leider über tftp geflashed werden.
-Leider ist der Router mit 40€-80€ immer noch relativ teuer.
+Eine Empfehlung also nur, wenn man den Router schon besitzt oder sehr günstig gebraucht kaufen kann.
 
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-Videos schauen auf niedriger bis mittlerer Qualität.
+Die Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
+Video-Streaming auf niedriger bis mittlerer Qualität.
 ```
 <span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a><br/><br>
+<a href="https://firmware.ffbsee.de/firmware/2.3.0/ar71xx/generic/" class="button primary">Firmware</a><br/><br>
 <a href="/anleitung/tftp" class="button">Router mit TFTP flashen</a><br/><br/><br/><br/>
 
-Ubiquity-Nanostation
+Ubiquity UAP-AC-Mesh
 --------------
 ```
-Die Ubiquity-Nanostation eignet sich auch als mittelwertiger Freifunk-Router.
-Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
-Leider sendet er nur entweder 2.4 GHz oder 5GHz je nach Hardwaremodell, aber das ist ja schon mal etwas.
-Das Modell Nanostation M2 sendet auf 2.4 GHz, das Modell Nanostation M5 auf 5GHz.
-Leider ist der Router mit 40€-80€ immer noch relativ teuer, er eignet sich aber dafür auch bei der richtigen Konfiguration für Richtfunkverbindungen.
+Der Ubiquity UAP-AC-Mesh, auch bekannt als Hasenohr, eignet sich auch als brauchbarer Outdoor-Freifunk-Router.
+Der Router unterstützt sowohl 2.4 Ghz als auch 5 GHz. Der Router kann unaufffällig an einer Hausfassade montiert werden und mit einer Ein-Kabellösung (mit PoE) angeschlossen werden.
 
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-Videos schauen auf niedriger bis mittlerer Qualität.
+
+Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
+Video-Streaming auf niedriger bis mittlerer Qualität.
 ```
-<span class="image right"><img src="/anleitung/router/nanostation.jpg" alt="Ubiquity-Nanostation"></span><br/><br/>
-<a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a><br/><br/>
-<a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
+<span class="image right"><img src="/anleitung/router/hasenohr.jpg" alt="Ubiquity-UAC-AP-Mesh"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/ubiquiti-unifi-ac-mesh-uap-ac-m-a1547488.html" class="button">Preisvergleich</a><br/><br/>
+<a href="http://openwrt.org/toh/ubiquiti/ubiquiti_uap-ac-mesh_3.7.xx.xxxx" class="button">Hardware-Informationen</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/2.3.0/ar71xx/generic/" class="button primary">Firmware</a><br/><br/><br/><br/>
 
+Für Experimentierfreudige: Fritzbox 4040
+--------------
+```
+Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich. Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro. Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein kleines Cafe oder einen nicht so großen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit und Geduld bei der Erstinstallation vorausgesetzt!
+
+Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
+Video-Streaming auf mittlerer bis hoher Qualität.
+```
+<span class="image right"><img src="/anleitung/router/fritzbox4040.jpg" alt="Fritzbox 4040"></span><br/><br/>
+<a href="https://www.heise.de/preisvergleich/avm-fritz-box-4040-20002763-a1501050.html" class="button">Preisvergleich</a><br/><br/>
+<a href="https://openwrt.org/toh/avm/avm_fritz_box_4040" class="button">Hardware-Informationen und Installationsanleitung per FTP</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/2.3.0/ipq40xx/generic/" class="button primary">Firmware</a><br/><br/><br/><br/>
 
 
 <br/><br/><br/>
-<h2 id="komplex">Komplexe aber gute Freifunk-Installation<h2>
-<h4>Recht kompliziert, dafür aber sehr gut!</h4>
+<h2 id="komplex">Aufwändigere Installationen mit teils sehr hohem Datendurchsatz<h2>
+<h4>Für Fortgeschrittene</h4>
 
 Freifunk-Offloader
 ================
 
-Ein Freifunk-Offloader ist ein kleiner Computer mit deutlich besseren Ressourcen
-als ein Freifunk-Router, der die Verbindung zu den Freifunk-Gateways herstellt.
-Damit lässt sich eine deutlich bessere Verbindung ins Freifunk-Netz erzielen,
-mit einer Bandbreite von meistens 80MBit bis 120MBit.
+Ein Freifunk-Offloader kann entweder ein normaler Freifunk-Router mit deaktiviertem WLAN sein oder noch besser ein kleiner oder großer Computer mit deutlich Leistungsfähigkeit, der nur die Verbindung zu den Freifunk-Gateways herstellt und den Datenverkehr über VPN abwickelt. Damit am Ende aber trotzdem ein Freifunk-WLAN angeboten werden kann, benötigt man mindestens ein weiteres WLAN-Gerät (einen sog. AccessPoint), das an dem Freifunk-Offloader angeschlossen wird. Ein normaler Freifunk-Router hat meist nur einen einzigen Chip (SoC), der sich um alles kümmern muss, wodurch die Geschwindigkeit des Datendurchsatzes leidet. Bei dieser Lösung mit getrenntem Offloader plus AccessPoint können sich die Geräte die Arbeit teilen und sehr viel höhere Geschwindkeiten beim Datendurchsatz erreichen.
+Bei dieser Lösung könnte z. B. auch ein bereits bestehendes WLAN-Netz mit mehreren AccessPoints nachträglich um ein Freifunk-WLAN erweitert werden (z. B. als zweite SSID, die über ein separates VLAN versorgt wird).
+Die Bandbreiten können mit dieser Lösung zwischen ca. 25 Mbit/s und maximal ca. 120 Mbit/s erreichen, abhängig von der eingesetzen Hardware.
+Der Haupt-Nachteil bei Offloader-Installationen ist übrigens, dass hier üblicherweise kein Freifunk-Mesh-Netz zum Anbinden weiterer (externer) Freifunk-Knoten per WLAN angeboten werden kann.
+
+
+ Raspberry Pi 4
+-----------------
+```
+Der Raspberri Pi ist ein legendärer Minicomputer, den es schon seit vielen Jahren in verschiedenen Versionen gibt. Für Freifunk eignet sich allerdings erst der Raspberry Pi 4, da dieser die Netzwerkbuchse intern besser angebunden hat und zudem über schnelle USB 3.0-Anschlüsse verfügt.
+Einen Raspberry Pi kann man inkl. Netzteil bereits für unter 50 Euro kaufen. Es können allerdings weitere Kosten für Gehäuse und u.U. einem USB-LAN-Adapter hinzu kommen. Der eingebaute WLAN-Chip eignet sich leider gar nicht für Freifunk, so dass man den Raspberry Pi 4 hauptsächlich als reinen Offloader nutzen kann. Theoretisch wäre es jedoch möglich, einen USB-WLAN-Stick anzuschließen.
+Man kann eine ganz normale Freifunk Firmware installieren oder aber das Standard-RaspberryPiOS zu mit zusätzlicher Freifunk Bodensee Software nutzen. Bereits die günstigste Variante (2 GB RAM) des Raspberry Pi 4 eignet sich sehr gut. Die anderen Varianten bieten nur Vorteile, falls man noch weitere Software installieren und nutzen möchte um z. B. Dienste im Freifunk-Netz anzubieten. Die Installation der normalen Freifunk-Firmware geht ähnlich einfach (Micro-SD-Karte flashen) wie die Installation jedes anderen Raspberry Pi Betriebssystems. Nach der Installation können u.U. Linux-Kenntnisse von Vorteil sein, z. B. falls das USB-WLAN-Dongle nicht automatisch erkannt wird, oder man stattdessen lieber alles per VLAN über nur eine Netzwerkbuchse lösen möchte.
+
+Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Restaurants, eines Vereinsheims oder gar eines Strandbads mit einer schnellen Verbindung zu den Freifunk-Gateways zu versorgen.
+```
+<a href="https://www.heise.de/preisvergleich/?fs=raspberry+pi+4&in=" class="button">Preisvergleich</a><br/><br/>
+<a href="" class="button primary">Hardware-Informationen</a><br/><br/>
+<a href="https://firmware.ffbsee.de/firmware/2.3.0/raspi4/" class="button">Firmware</a><br/><br/>
 
 
  Siemens Futro S550
 -----------------
 ```
-Beliebte Hardware für einen Offloader ist ein Siemens Futro S550.
-Diesen gibt es gebraucht für 5€-20€ zu kaufen.
+Beliebte Hardware für einen Offloader ist ein Siemens Futro S550 oder S550-II.
+Diese gibt es gebraucht ab ca. 20€ zu kaufen. Es wird hier zusätzlich eine interne PCI-Netzwerkkarte oder ein USB-LAN-Adapter zusätzlich benötigt. Für die Installation von Freifunk wird Bildschirm, Tastatur und ein speziell geflashter USB-Stick benötigt.
 
-Mit einem Offloader empfiehlt es sich, auch professionelle Freifunk-Installationen
-wie Richtfunk-Installationen oder größere WLAN-Abdeckungen zu realisieren.
-Das Einrichten des Freifunk-Offloaders ist etwas aufwendiger,
-da dieser bei der meisten Hardware über die serielle Konsole und
-einen USB-Stick installiert wird.
-
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
+Die Bandbreite kann ähnlich gut sein wie beim Raspberry PI 4, wenn auch in der Spitze nicht ganz so schnell (30-90 Mbit/s) 
+Der Offloader eignet sich für jeglichen möglichen Internetverkehr inklusive
+mehrfachem gleichzeitigen Video-Streaming auf sehr guter Qualität, auch für viele Personen gleichzeitig.
 ```
 <a href="https://www.ebay.de/sch/i.html?_nkw=futro+s550" class="button">Preisvergleich</a><br/><br/>
 <a href="https://ffmuc.net/wiki/doku.php?id=knb:futro" class="button primary">Freifunk-Offloader</a><br/><br/>
@@ -149,22 +160,14 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 PC-Engine-APU
 -----------------
 ```
-Die PC-Engine-APU ist eher das Profi-Equipment eines Netzwerk-Administrators.
-Die APU kommt mit starker Hardware und ist schon fast zu schade um "nur" für einen
-Freifunk-Offloader eingesetzt zu werden.
+Ähnlich wie bei Raspberry Pi 4 und Siemens Futro kann man mit einer PC-Engine-APU einen sehr schnellen, leistungsfähigen Freifunk-Offloader bereitstellen.
+Die PC-Engine-APU ist eher das Profi-Equipment eines Netzwerk-Administrators, hat mehrere Gigabit-Ports an Bord und kostet entsprechend auch einiges mehr als z. B. ein Raspberry Pi 4.
 
-Bei der Installation gibt es mehrere Möglichkeiten. Entweder man installiert
-ein normales auf Debian basierendes Betriebssystem und installiert
-die einzelnen Komponenten von Freifunk von Hand.
-Derzeit haben wir leider noch kein fertiges Script dafür, das das erledigt.
-Aber mit etwas Nachfrage und Motivation von euch haben wir bestimmt Lust,
-das gerne nachzuliefern.
+Die Installation per serieller Schnittstelle und mit Installations-Image von USB-Stick ist etwas für Profis oder sehr fortgeschrittene User.
+Auch hier ist eine Installation eines normalen Freifunk-Images oder aber eine Installation eines Standard-Debian-Systems mit nachträglicher Installation der Freifunk-Komponenten möglich. Dieses Gerät wurde z. B. schon bei größeren Veranstaltungen dazu genutzt, eine große Anzahl von Nutzern gleichzeitig ins Freifunk-Netz und an das Internet zu verbinden.
 
-Natürlich funktionieren die x86-Images unserer Firmware auch für die APU.
+Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Restaurants, eines Vereinsheims, oder gar eines Schwimmbads mit einer schnelle Verbindung zu den Freifunk-Gateways zu versorgen.
 
-
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 ```
 <span class="image right"><img src="/anleitung/router/apu.jpg" alt="PC-Engines-APU"></span><br/><br/>
 <a href="https://www.apu-board.de/" class="button">Details</a><br/><br/>
@@ -172,10 +175,10 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 <a href="https://github.com/ffbsee/ansible" class="button primary">Freifunkkomponenten</a><br/><br/>
 <a href="https://firmware.ffbsee.de/firmware/1.0.5/x86/generic/" class="button">Firmware</a><br/><br/>
 
- WLAN-Access-Point
+ WLAN-AccessPoint
 --------------------------------
 ```
-Für die Freifunk-Installation mit einem Offloader lässt sich als WLAN-Access-Point
+Für die Freifunk-Installation mit einem Offloader lässt sich als WLAN-AccessPoint
 im Prinzip jeder beliebige WLAN-Router verwenden.
 Besonders gute Erfahrungen haben wir mit der Ubiquity Unify AP-AC-Pro gemacht.
 Dieser lässt sich über einen Controller managen.
@@ -188,33 +191,19 @@ und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware manage
 <a href="https://unifi-mesh.ubnt.com" class="button">Unify-AC-Mesh</a><br/><br/>
 
 <br/><br/><br/>
-<h2 id="schrott">Günstigere Hardware für langsames Freifunk<h2>
-<h4>Es funktioniert auch, ist aber sehr langsam!</h4>
+<h2 id="schrott">Günstige Geräte<h2>
+<h4>Es gibt auch günstige Einsteigergeräte für eine Freifunk-Grundversorgung</h4>
 
-Auch mit nicht so teurer Hardware lässt sich Freifunk machen. Allerdings darf man dann nicht erwarten, ein Freifunk mit großer Bandbreite zu haben.
-Das WLAN eignet sich meist nur noch um E-Mails zu schreiben oder Textnachrichten zu senden. Videos anschauen oder Bilder teilen ist oft mit höheren Wartezeiten verbunden oder die Bandbreite reicht gar nicht mehr aus.
+Es gab früher eine Reihe von Routern ab 20 Euro, die wir zum damaligen Zeitpunkt und mit den damaligen Anforderungen sogar empfehlen konnten.
+Momentan gibt es kaum brauchbare Geräte in dieser Preisklasse.
+Wir testen momentan allerdings Geräte z. B. von GL.iNet und Netgear. 
+Sobald wir hier Erfahrungen sammeln konnten, gibt es hier vielleicht auch wieder Empfehlungen.
 
-TP-Link CPE210 / CPE510
+
+
+Ältere Geräte mit wenig Speicherplatz und Arbeitsspeicher (Keine Empfehlung!)
 --------------
 ```
-KEINE KAUFEMPFEHLUNG
+Nicht empfehlen können wir heutzutage den Kauf von älteren Geräten, die den heutigen Anforderungen nicht mehr gerecht werden. Auch nicht als Gebrauchtgeräte. Das gilt für alle Geräte, die nur 4 MB oder weniger Speicherplatz (Flash) und nur 32 MB Arbeitspeicher (RAM) haben.
+Es gibt eine ganze Reihe ehemalig sehr beliebter Router (z.B. TP-Link WR841), die wir nicht mehr empfehlen können. Zum Teil haben wir für diese Geräte zwar noch Firmware, wir können diese jedoch nur noch in Ausnahmefällen mit neuer Firmware (nur noch bei kritischen Sicherheitsproblemen) versorgen. Wer noch solche Geräte besitzt und z. B. aus Gründen der Nachhaltigkeit Altgeräte verwenden möchte, darf gerne eine Freifunk-Bodensee-Firmware aufspielen, so lange wir unsere Software für den sehr kleinen Speicherplatz dieser Geräte anbieten können. Wir bitten aber darum diese Geräte nicht mehr in Mesh-Verbünden zu nutzen und auch nicht mehr an gut besuchten öffentlichen Orten, da das angebotene Freifunk-Netz einfach nicht mehr den heutigen Anforderungen der Menschen entspricht. In einigen Fällen können diese Geräte sogar andere Freifunk-Router in der Nähe negativ beeinflussen.
 
-Der TP-Link CPE ist einer der günstigsten Freifunk-Router.
-Leider sendet er nur je nach Hardware auf einem Frequenzband, aber das ist ja schon mal etwas.
-Der CPE 210 sendet auf 2.4 GHz, der CPE 510 auf 5 GHz.
-Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60°-Winkel und nicht in alle Richtungen.
-Erfahrene Freifunker bezeichnen das Modell wegen seiner sehr schwachen Hardware und
-seiner hohen Störanfälligkeit gerne als Briefbeschwerer.
-Mit Freifunk ist nur das Modell v1.x kompatibel.
-Die Kosten für den Router liegen bei 25€-50€.
-
-Trotzdem eignet sich das Freifunk für den meisten Internetverkehr inklusive
-E-Mails schreiben und Textnachrichten senden. Videos und Bilder
-in niedriger Qualität haben meistens eine relativ lange Ladezeit.
-```
-<span class="image right"><img src="/anleitung/router/cpe510.jpg" alt="Ubiquity-Nanostation"></span><br/><br/>
-<a href="https://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html" class="button">Preisvergleich CPE210</a><br/><br/>
-<a href="https://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html" class="button">Preisvergleich CPE510</a><br/><br/>
-<a href="http://openwrt.org/toh/tp-link/tl-cpe210" class="button">Hardware-Informationen CPE210</a><br/><br/>
-<a href="http://openwrt.org/toh/tp-link/tl-cpe510" class="button">Hardware-Informationen CPE510</a><br/><br/>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=cpe" class="button primary">Firmware</a><br/><br/>
