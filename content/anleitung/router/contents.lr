@@ -8,7 +8,7 @@ subtitle: Welchen Router könnt ihr empfehlen?
 ---
 body:
 
-Es gibt viele Geräte, die sich als WLAN-Access-Point eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
+Es gibt viele Geräte, die sich als WLAN-AccessPoint eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
 
 Hier erfährst du, welche Router wir dir empfehlen können und von welchen Routern du deine Finger lassen solltest.
 ---
@@ -194,7 +194,7 @@ und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware manage
 <h2 id="schrott">Günstige Geräte<h2>
 <h4>Es gibt auch günstige Einsteigergeräte für eine Freifunk-Grundversorgung</h4>
 
-Es gab früher eine Reihe von Routern ab 20 Euro, die wir zum damaligen Zeitpunkt und mit den damailgen Anforderungen sogar empfehlen konnten.
+Es gab früher eine Reihe von Routern ab 20 Euro, die wir zum damaligen Zeitpunkt und mit den damaligen Anforderungen sogar empfehlen konnten.
 Momentan gibt es kaum brauchbare Geräte in dieser Preisklasse.
 Wir testen momentan allerdings Geräte z. B. von GL.iNet und Netgear. 
 Sobald wir hier Erfahrungen sammeln konnten, gibt es hier vielleicht auch wieder Empfehlungen.
