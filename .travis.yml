@@ -17,9 +17,9 @@ install:
 script: "make build"
 
 before_deploy:
-  - "echo 'ffbsee.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC5NslYj+wtriBuKIxJfDRm9E2hnlstWR8durQ6pKvVvP7wjcoXIyAxe41GvJ9SoEhSjF7oVlzlw+zAkzl5WOZ4=' > ~/.ssh/known_hosts"
-  - "echo 'ffbsee.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICPjpWvNTpw08/uTX0vTAZVDUDSxFOexeqqkWxqDBSM3' >> ~/.ssh/known_hosts"
-  - "echo 'ffbsee.net ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIq9jSnxybmYM0Qhhf6Q/L3vRSdVOL4Yk2KPHU9dTahCK9UMTVHa+klUKwhk8ObYV27Q40HaREJypMSejIocMUp1WQVBPzL/krLgKGnBjy+zo3GVR9oculcc5XfzyMG6fY2YoEfJB2Mgd5pXUD9J9sIWj7x5oXcLT0koehaUnDyVYfX3YMT9tfutUI1juzI/VMwyC4nhGsdyjYNe5CEYi7Xfr39Gb7m/lk38zRH1HdWq3vyd8VzVo6PFUZZTC58GIWgvGX7PVGMHU2tmtVixoDynXyMPik0P+QfignSqQqL+sbEyG0dynZBOFkhy6bt8Z58jjaLZI/C+kgd+YIuEMX' >> ~/.ssh/known_hosts"
+  - "echo 'ffbsee.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFeaPH+onFycj5nldRpRJtcstlYMosQJSv2iwXEA05/3Zv2RA5pUdBWgv48AA06hQlnp7TA/SCQyM+mCNXW3uEQ=' > ~/.ssh/known_hosts"
+  - "echo 'ffbsee.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDSWASdI5hMoq4pIEPgINEVljbK4zbOtaX9DSqtevtXi' >> ~/.ssh/known_hosts"
+  - "echo 'ffbsee.net ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDvlRfU/8X1JBM1VxuYBg+svXfpacQKmVnsF2GVSgAvIuUFKAVsgpH8/ge6DsVhGT5tifjGfzPsi44lO471pc+W3y7Eiu1mhtutiR68JqGafFfv3onEoX9Bt01M8ueA1vyXqHuVHGXi6O+YgpM8BXaCHI1/cHYPD13pDXlp7ZXVNKaWRvsiRwGL5EJwaMdAGabS3nWNwAbxMTzvdJjsW5zY4+lYCfSvwrcm7F7FEpjzRdT9DIXD7SkaeHk98N+5uIrgnwzhmn1yYrkymFQbge5iIvpD4jqSaUePRBPI7d9VyFJXJXLy1arpFbAkRzTm0Gzg41vY5Yd0Y97HmH0xbqZ/' >> ~/.ssh/known_hosts"
 deploy:
   provider: script
   script: "lektor deploy --key $LEKTOR_DEPLOY_KEY ffbsee"
