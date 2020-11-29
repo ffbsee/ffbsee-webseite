@@ -108,7 +108,7 @@ Video-Streaming auf niedriger bis mittlerer Qualität.
 Für Experimentierfreudige: Fritzbox 4040
 --------------
 ```
-Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich. Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro. Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein Cafe odene Ferienwohnung oder einen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit und Geduld bei der Erstinstallation vorausgesetzt!
+Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich. Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro. Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein Cafe, eine Ferienwohnung oder einen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit und Geduld bei der Erstinstallation vorausgesetzt!
 
 Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf mittlerer bis hoher Qualität.
