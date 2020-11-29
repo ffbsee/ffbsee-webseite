@@ -50,6 +50,7 @@ Für einen Singlecore-Plastikrouter ist das richtig schnell.
 Die nutzbare Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf hoher Qualität.
 ```
+
 <span class="image right"><img src="/anleitung/router/r6220.png" alt="Netgear R6220"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz: CC Attribution-Share Alike 4.0 International</a> von <a href="https://openwrt.org">openwrt.org</a></span><br/>
 <a href="https://openwrt.org/toh/netgear/netgear_r6220" class="button">Hardware-Informationen</a><br/><br/>
 <a href="https://software.ffbsee.de/firmware-selector/?q=Netgear%E2%81%A3%20R6220%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
@@ -121,10 +122,12 @@ Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein 
 oder einen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit
 und Geduld bei der Erstinstallation vorausgesetzt!
 
+
 Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf mittlerer bis hoher Qualität.
 ```
 <span class="image right"><img src="/anleitung/router/avm-fritz-box-4040.jpg" alt="Fritzbox 4040"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz:  CC-BY-NC-SA 4.0</a> von <a href="https://github.com/Moorviper/Freifunk-Router-Anleitungen">Daniel Krah</a></span><br/><br/>
+
 <a href="https://www.heise.de/preisvergleich/avm-fritz-box-4040-20002763-a1501050.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/avm/avm_fritz_box_4040" class="button">Hardware-Informationen und Installationsanleitung per FTP</a><br/><br/>
 <a href="https://software.ffbsee.de/firmware-selector/?q=AVM%E2%81%A3%20FRITZ!Box%C2%A04040%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
