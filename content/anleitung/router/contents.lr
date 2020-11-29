@@ -38,7 +38,7 @@ Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" cla
 <h2 id="teuer">Mittelklasse Freifunk-Router<h2>
 <h4>Ordentliche Leistung ab ca. 40 Euro</h4>
 
-Netgear R6120
+Netgear R6220
 --------------
 ```
 Der Netgear R6220 ist neu in unserer Liste und ist ab ca. 55 Euro erhältlich.
@@ -50,7 +50,7 @@ Für einen Singlecore-Plastikrouter ist das richtig schnell.
 Die nutzbare Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf hoher Qualität.
 ```
-<span class="image right"><img src="https://openwrt.org/_media/media/netgear/netgear_r6220.png?w=400&tok=de2130" alt="Netgear R6220"></span><br/><br/>
+<span class="image right"><img src="/anleitung/router/r6220.png" alt="Netgear R6220"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz: CC Attribution-Share Alike 4.0 International</a> von <a href="https://openwrt.org">openwrt.org</a></span><br/>
 <a href="https://openwrt.org/toh/netgear/netgear_r6220" class="button">Hardware-Informationen</a><br/><br/>
 <a href="https://software.ffbsee.de/firmware-selector/?q=Netgear%E2%81%A3%20R6220%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
 
@@ -61,12 +61,14 @@ Video-Streaming auf hoher Qualität.
 Der Archer C7 ist einer der aktuell am einfachsten einzurichtenden Freifunk-Router.
 Der Router kann sowohl auf 2.4GHz und auf 5GHz gleichzeitig ein WLAN anbieten.
 Unterstützt werden die Modelle v2, v4 und v5 in unserem stable Release.
-Der Archer C7 kostet als Neugerät ein bisschen mehr als 50 Euro. Der Router schafft mit unserer momentan verwendeten Freifunk-Firmware maximal 15 Mbit/s Datendurchsatz.
+Der Archer C7 kostet als Neugerät ein bisschen mehr als 50 Euro. Der Router schafft 
+mit unserer momentan verwendeten Freifunk-Firmware maximal 15 Mbit/s Datendurchsatz.
 
 Damit eignet sich der Router für jeglichen möglichen Internetverkehr inklusive
-Video-Streaming auf mittlerer bis hoher Qualität für wenige Personen oder für Internetgrundversorgung für ein paar mehr Personen gleichzeitig.
+Video-Streaming auf mittlerer bis hoher Qualität für wenige Personen oder für
+Internetgrundversorgung für ein paar mehr Personen gleichzeitig.
 ```
-<span class="image right"><img src="/anleitung/router/archer-c7.jpg" alt="Archer C7"></span><br/><br/>
+<span class="image right"><img src="/anleitung/router/archer-c7.png" alt="Archer C7"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz: CC Attribution-Share Alike 4.0 International</a> von <a href="https://openwrt.org">openwrt.org</a></span><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware-Informationen</a><br/><br/>
 <a href="https://software.ffbsee.de/firmware-selector/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a><br/><br/>
@@ -82,7 +84,7 @@ Auch dieser Router kann recht einfach geflasht werden und kann gleichzeitig 2.4 
 Die nutzbare Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf mittlerer Qualität.
 ```
-<span class="image right"><img src="/anleitung/router/r6120.jpg" alt="Netgear R6120"></span><br/><br/>
+<span class="image right"><img src="/anleitung/router/r6120.png" alt="Netgear R6120"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz: CC Attribution-Share Alike 4.0 International</a> von <a href="https://openwrt.org">openwrt.org</a></span><br/>
 <a href="https://openwrt.org/toh/netgear/netgear_r6120" class="button">Hardware-Informationen</a><br/><br/>
 <a href="https://software.ffbsee.de/firmware-selector/?q=Netgear%E2%81%A3%20R6120%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
 
@@ -90,15 +92,18 @@ Video-Streaming auf mittlerer Qualität.
 TP-Link WDR 1043ND
 --------------
 ```
-Dieser Router ist zwar keine Kaufempfehlung mehr, kann aber, falls man diesen Router breits besitzt oder sehr günstig kaufen kann, durchaus noch ein brauchbares Freifunk-Erlebnis bieten. Der Speicherplatz und der Arbeitsspeicher dieser Geräte ist zumindest groß genug, dass wir auch weiterhin Updates bereit stellen können.
-Der TP-Link WDR 1043 ist im Vergleich zum Archer C7 etwas langsamer und kann nur das 2.4 GHz-Band für WLAN nutzen.
-Unterstützt werden nur die Modelle v2 bis v5.
+Dieser Router ist zwar keine Kaufempfehlung mehr, kann aber, falls man diesen Router bereits 
+besitzt oder sehr günstig kaufen kann, durchaus noch ein brauchbares Freifunk-Erlebnis bieten.
+Der Speicherplatz und der Arbeitsspeicher dieser Geräte ist zumindest groß genug, dass wir 
+auch weiterhin Updates bereit stellen können.
+Der TP-Link WDR 1043 ist im Vergleich zum Archer C7 etwas langsamer und kann nur 
+das 2.4 GHz-Band für WLAN nutzen. Unterstützt werden nur die Modelle v2 bis v5.
 Eine Empfehlung also nur, wenn man den Router schon besitzt oder sehr günstig gebraucht kaufen kann.
 
 Die Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf niedriger bis mittlerer Qualität.
 ```
-<span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"></span><br/><br/>
+<span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz: CC Attribution-Share Alike 4.0 International</a> von <a href="https://openwrt.org">openwrt.org</a></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware-Informationen</a><br/><br/>
 <a href="https://firmware.ffbsee.de/firmware-selector/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a><br/><br>
@@ -108,12 +113,18 @@ Video-Streaming auf niedriger bis mittlerer Qualität.
 Für Experimentierfreudige: Fritzbox 4040
 --------------
 ```
-Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich. Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro. Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein Cafe, eine Ferienwohnung oder einen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit und Geduld bei der Erstinstallation vorausgesetzt!
+Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-
+Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann
+geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich.
+Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro.
+Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein Cafe, eine Ferienwohnung
+oder einen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit
+und Geduld bei der Erstinstallation vorausgesetzt!
 
 Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf mittlerer bis hoher Qualität.
 ```
-<span class="image right"><img src="https://software.ffbsee.de/firmware-selector/pictures/avm-fritz-box-4040.jpg" alt="Fritzbox 4040"></span><br/><br/>
+<span class="image right"><img src="/anleitung/router/avm-fritz-box-4040.jpg" alt="Fritzbox 4040"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Bildlizenz:  CC-BY-NC-SA 4.0</a> von <a href="https://github.com/Moorviper/Freifunk-Router-Anleitungen">Daniel Krah</a></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/avm-fritz-box-4040-20002763-a1501050.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/avm/avm_fritz_box_4040" class="button">Hardware-Informationen und Installationsanleitung per FTP</a><br/><br/>
 <a href="https://software.ffbsee.de/firmware-selector/?q=AVM%E2%81%A3%20FRITZ!Box%C2%A04040%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
@@ -126,20 +137,40 @@ Video-Streaming auf mittlerer bis hoher Qualität.
 Freifunk-Offloader
 ================
 
-Ein Freifunk-Offloader kann entweder ein normaler Freifunk-Router mit deaktiviertem WLAN sein oder noch besser ein kleiner oder großer Computer mit deutlich Leistungsfähigkeit, der nur die Verbindung zu den Freifunk-Gateways herstellt und den Datenverkehr über VPN abwickelt. Damit am Ende aber trotzdem ein Freifunk-WLAN angeboten werden kann, benötigt man mindestens ein weiteres WLAN-Gerät (einen sog. AccessPoint), das an dem Freifunk-Offloader angeschlossen wird. Ein normaler Freifunk-Router hat meist nur einen einzigen Chip (SoC), der sich um alles kümmern muss, wodurch die Geschwindigkeit des Datendurchsatzes leidet. Bei dieser Lösung mit getrenntem Offloader plus AccessPoint können sich die Geräte die Arbeit teilen und sehr viel höhere Geschwindkeiten beim Datendurchsatz erreichen.
-Bei dieser Lösung könnte z. B. auch ein bereits bestehendes WLAN-Netz mit mehreren AccessPoints nachträglich um ein Freifunk-WLAN erweitert werden (z. B. als zweite SSID, die über ein separates VLAN versorgt wird).
-Die Bandbreiten können mit dieser Lösung zwischen ca. 25 Mbit/s und maximal ca. 120 Mbit/s erreichen, abhängig von der eingesetzen Hardware.
-Der Haupt-Nachteil bei Offloader-Installationen ist übrigens, dass hier üblicherweise kein Freifunk-Mesh-Netz zum Anbinden weiterer (externer) Freifunk-Knoten per WLAN angeboten werden kann.
-
+Ein Freifunk-Offloader kann entweder ein normaler Freifunk-Router mit deaktiviertem WLAN sein oder noch besser
+ein kleiner oder großer Computer mit deutlich Leistungsfähigkeit, der nur die Verbindung zu den Freifunk-Gateways
+herstellt und den Datenverkehr über VPN abwickelt. Damit am Ende aber trotzdem ein Freifunk-WLAN angeboten werden
+kann, benötigt man mindestens ein weiteres WLAN-Gerät (einen sog. AccessPoint), das an dem Freifunk-Offloader
+angeschlossen wird. Ein normaler Freifunk-Router hat meist nur einen einzigen Chip (SoC), der sich um alles
+kümmern muss, wodurch die Geschwindigkeit des Datendurchsatzes leidet. Bei dieser Lösung mit getrenntem Offloader
+plus AccessPoint können sich die Geräte die Arbeit teilen und sehr viel höhere Geschwindkeiten beim
+Datendurchsatz erreichen.
+Bei dieser Lösung könnte z. B. auch ein bereits bestehendes WLAN-Netz mit mehreren AccessPoints nachträglich um
+ein Freifunk-WLAN erweitert werden (z. B. als zweite SSID, die über ein separates VLAN versorgt wird).
+Die Bandbreiten können mit dieser Lösung zwischen ca. 25 Mbit/s und maximal ca. 120 Mbit/s erreichen, abhängig 
+von der eingesetzen Hardware. Der Haupt-Nachteil bei Offloader-Installationen ist übrigens, dass hier üblicher-
+weise kein Freifunk-Mesh-Netz zum Anbinden weiterer (externer) Freifunk-Knoten per WLAN angeboten werden kann.
 
  Raspberry Pi 4
 -----------------
 ```
-Der Raspberri Pi ist ein legendärer Minicomputer, den es schon seit vielen Jahren in verschiedenen Versionen gibt. Für Freifunk eignet sich allerdings erst der Raspberry Pi 4, da dieser die Netzwerkbuchse intern besser angebunden hat und zudem über schnelle USB 3.0-Anschlüsse verfügt.
-Einen Raspberry Pi kann man inkl. Netzteil bereits für unter 50 Euro kaufen. Es können allerdings weitere Kosten für Gehäuse und u.U. einem USB-LAN-Adapter hinzu kommen. Der eingebaute WLAN-Chip eignet sich leider gar nicht für Freifunk, so dass man den Raspberry Pi 4 hauptsächlich als reinen Offloader nutzen kann. Theoretisch wäre es jedoch möglich, einen USB-WLAN-Stick anzuschließen.
-Man kann eine ganz normale Freifunk Firmware installieren oder aber das Standard-RaspberryPiOS zu mit zusätzlicher Freifunk Bodensee Software nutzen. Bereits die günstigste Variante (2 GB RAM) des Raspberry Pi 4 eignet sich sehr gut. Die anderen Varianten bieten nur Vorteile, falls man noch weitere Software installieren und nutzen möchte um z. B. Dienste im Freifunk-Netz anzubieten. Die Installation der normalen Freifunk-Firmware geht ähnlich einfach (Micro-SD-Karte flashen) wie die Installation jedes anderen Raspberry Pi Betriebssystems. Nach der Installation können u.U. Linux-Kenntnisse von Vorteil sein, z. B. falls das USB-WLAN-Dongle nicht automatisch erkannt wird, oder man stattdessen lieber alles per VLAN über nur eine Netzwerkbuchse lösen möchte.
+Der Raspberry Pi ist ein legendärer Minicomputer, den es schon seit vielen Jahren in verschiedenen
+Versionen gibt. Für Freifunk eignet sich allerdings erst der Raspberry Pi 4, da dieser die Netzwerkbuchse intern
+besser angebunden hat und zudem über schnelle USB 3.0-Anschlüsse verfügt. Einen Raspberry Pi kann man
+inkl. Netzteil bereits für unter 50 Euro kaufen. Es können allerdings weitere Kosten für Gehäuse und u.U. einem
+USB-LAN-Adapter hinzu kommen. Der eingebaute WLAN-Chip eignet sich leider gar nicht für Freifunk, so dass man
+den Raspberry Pi 4 hauptsächlich als reinen Offloader nutzen kann. Theoretisch wäre es jedoch möglich, einen
+USB-WLAN-Stick anzuschließen. Man kann eine ganz normale Freifunk Firmware installieren oder aber das
+Standard-RaspberryPiOS zu mit zusätzlicher Freifunk Bodensee Software nutzen. Bereits die günstigste
+Variante (2 GB RAM) des Raspberry Pi 4 eignet sich sehr gut. Die anderen Varianten bieten nur Vorteile, falls
+man noch weitere Software installieren und nutzen möchte um z. B. Dienste im Freifunk-Netz anzubieten.
+Die Installation der normalen Freifunk-Firmware geht ähnlich einfach (Micro-SD-Karte flashen) wie die
+Installation jedes anderen Raspberry Pi Betriebssystems. Nach der Installation können u.U. Linux-Kenntnisse von
+Vorteil sein, z. B. falls das USB-WLAN-Dongle nicht automatisch erkannt wird, oder man stattdessen lieber alles
+per VLAN über nur eine Netzwerkbuchse lösen möchte.
 
-Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Restaurants, eines Vereinsheims oder gar eines Strandbads mit einer schnellen Verbindung zu den Freifunk-Gateways zu versorgen.
+Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Restaurants, eines Vereinsheims
+oder gar eines Strandbads mit einer schnellen Verbindung zu den Freifunk-Gateways zu versorgen.
 ```
 <a href="https://www.heise.de/preisvergleich/?fs=raspberry+pi+4&in=" class="button">Preisvergleich</a><br/><br/>
 <a href="" class="button primary">Hardware-Informationen</a><br/><br/>
@@ -150,9 +181,14 @@ Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Rest
 -----------------
 ```
 Beliebte Hardware für einen Offloader ist ein Siemens Futro S550 oder S550-II.
-Diese gibt es gebraucht ab ca. 20€ zu kaufen. Es wird hier zusätzlich eine interne PCI-Netzwerkkarte oder ein USB-LAN-Adapter zusätzlich benötigt. Für die Installation von Freifunk wird Bildschirm, Tastatur und ein speziell geflashter USB-Stick benötigt.
+Diese gibt es gebraucht ab ca. 20€ zu kaufen. Es wird hier zusätzlich eine interne PCI-Netzwerkkarte oder ein
+USB-LAN-Adapter zusätzlich benötigt. Für die Installation von Freifunk wird Bildschirm, Tastatur und ein
+speziell geflashter USB-Stick benötigt.
 
-Die Bandbreite kann ähnlich gut sein wie beim Raspberry PI 4, wenn auch in der Spitze nicht ganz so schnell (30-90 Mbit/s) 
+Die Bandbreite kann ähnlich gut sein wie beim Raspberry PI 4, wenn auch in der Spitze nicht ganz so
+schnell (30-90 Mbit/s). Der Offloader eignet sich für jeglichen möglichen Internetverkehr inklusive
+mehrfachem gleichzeitigen Video-Streaming auf sehr guter Qualität, auch für viele Personen gleichzeitig.
+
 Der Offloader eignet sich für jeglichen möglichen Internetverkehr inklusive
 mehrfachem gleichzeitigen Video-Streaming auf sehr guter Qualität, auch für viele Personen gleichzeitig.
 ```
@@ -163,13 +199,17 @@ mehrfachem gleichzeitigen Video-Streaming auf sehr guter Qualität, auch für vi
 PC-Engine-APU
 -----------------
 ```
-Ähnlich wie bei Raspberry Pi 4 und Siemens Futro kann man mit einer PC-Engine-APU einen sehr schnellen, leistungsfähigen Freifunk-Offloader bereitstellen.
-Die PC-Engine-APU ist eher das Profi-Equipment eines Netzwerk-Administrators, hat mehrere Gigabit-Ports an Bord und kostet entsprechend auch einiges mehr als z. B. ein Raspberry Pi 4.
+Ähnlich wie bei Raspberry Pi 4 und Siemens Futro kann man mit einer PC-Engine-APU einen sehr schnellen,
+leistungsfähigen Freifunk-Offloader bereitstellen. Die PC-Engine-APU ist eher das Profi-Equipment eines Netzwerk-
+Administrators, hat mehrere Gigabit-Ports an Bord und kostet entsprechend auch einiges mehr als z. B. ein Raspberry Pi 4.
 
-Die Installation per serieller Schnittstelle und mit Installations-Image von USB-Stick ist etwas für Profis oder sehr fortgeschrittene User.
-Auch hier ist eine Installation eines normalen Freifunk-Images oder aber eine Installation eines Standard-Debian-Systems mit nachträglicher Installation der Freifunk-Komponenten möglich. Dieses Gerät wurde z. B. schon bei größeren Veranstaltungen dazu genutzt, eine große Anzahl von Nutzern gleichzeitig ins Freifunk-Netz und an das Internet zu verbinden.
+Die Installation per serieller Schnittstelle und mit Installations-Image von USB-Stick ist etwas für Profis oder
+sehr fortgeschrittene User. Auch hier ist eine Installation eines normalen Freifunk-Images oder aber eine Installation
+eines Standard-Debian-Systems mit nachträglicher Installation der Freifunk-Komponenten möglich. Dieses Gerät wurde z. B.
+bei größeren Veranstaltungen dazu genutzt, eine große Anzahl von Nutzern ins Freifunk-Netz und an das Internet zu verbinden.
 
-Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Restaurants, eines Vereinsheims, oder gar eines Schwimmbads mit einer schnelle Verbindung zu den Freifunk-Gateways zu versorgen.
+Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Restaurants, eines Vereinsheims, oder gar eines
+Schwimmbads mit einer schnelle Verbindung zu den Freifunk-Gateways zu versorgen.
 
 ```
 <span class="image right"><img src="/anleitung/router/apu.jpg" alt="PC-Engines-APU"></span><br/><br/>
