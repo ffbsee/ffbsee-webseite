@@ -10,7 +10,7 @@ body:
 
 Es gibt viele Geräte, die sich als WLAN-AccessPoint eignen. Davon sind aber nur wenige mit OpenWRT und Freifunk kompatibel.
 
-Hier erfährst du, welche Router wir dir empfehlen können und von welchen Routern du deine Finger lassen solltest.
+Hier erfährst du, welche Router wir dir empfehlen können und welche Router besser nicht mehr eingesetzt werden sollten..
 ---
 code:
 
@@ -35,8 +35,25 @@ Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam n
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router-Flashen</a>
 
-<h2 id="teuer">Gute Freifunk-Router<h2>
-<h4>Leider etwas teuer</h4>
+<h2 id="teuer">Mittelklasse Freifunk-Router<h2>
+<h4>Ordentliche Leistung ab ca. 40 Euro</h4>
+
+Netgear R6120
+--------------
+```
+Der Netgear R6220 ist neu in unserer Liste und ist ab ca. 55 Euro erhältlich.
+Dieser Router kann recht einfach über das Web-Interface geflasht werden und 
+kann gleichzeitig 2.4 zund 5 GHz. Leider sind die Antennen nicht abnehmbar.
+Der VPN-Datendurchsatz über unsere Gateways kann etwas mehr als 20 Mbit/s erreichen.
+Für einen Singlecore Plastikrouter ist das richtig schnell.
+
+Die nutzbare Bandbreite eignet sich für jeglichen möglichen Internetverkehr inklusive
+Video-Streaming auf hoher Qualität.
+```
+<span class="image right"><img src="https://openwrt.org/_media/media/netgear/netgear_r6220.png?w=400&tok=de2130" alt="Netgear R6220"></span><br/><br/>
+<a href="https://openwrt.org/toh/netgear/netgear_r6220" class="button">Hardware-Informationen</a><br/><br/>
+<a href="https://software.ffbsee.de/firmware-selector/?q=Netgear%E2%81%A3%20R6220%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
+
 
  Archer C7
 --------------
@@ -52,7 +69,7 @@ Video-Streaming auf mittlerer bis hoher Qualität für wenige Personen oder für
 <span class="image right"><img src="/anleitung/router/archer-c7.jpg" alt="Archer C7"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/archer-c5-c7-wdr7500#hardware_highlights" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/firmware/2.3.0/ar71xx/generic/" class="button primary">Firmware</a><br/><br/>
+<a href="https://software.ffbsee.de/firmware-selector/?q=TP-Link%E2%81%A3%20Archer%C2%A0C7%E2%81%A3" class="button primary">Firmware</a><br/><br/>
 <br/><br/>
 
 Netgear R6120
@@ -67,7 +84,7 @@ Video-Streaming auf mittlerer Qualität.
 ```
 <span class="image right"><img src="/anleitung/router/r6120.jpg" alt="Netgear R6120"></span><br/><br/>
 <a href="https://openwrt.org/toh/netgear/netgear_r6120" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/firmware/2.3.0/ipq40xx/generic/" class="button primary">Firmware</a><br/><br/><br/><br/>
+<a href="https://software.ffbsee.de/firmware-selector/?q=Netgear%E2%81%A3%20R6120%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
 
 
 TP-Link WDR 1043ND
@@ -84,36 +101,22 @@ Video-Streaming auf niedriger bis mittlerer Qualität.
 <span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/firmware/2.3.0/ar71xx/generic/" class="button primary">Firmware</a><br/><br>
+<a href="https://firmware.ffbsee.de/firmware-selector/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a><br/><br>
 <a href="/anleitung/tftp" class="button">Router mit TFTP flashen</a><br/><br/><br/><br/>
 
-Ubiquity UAP-AC-Mesh
---------------
-```
-Der Ubiquity UAP-AC-Mesh, auch bekannt als Hasenohr, eignet sich auch als brauchbarer Outdoor-Freifunk-Router.
-Der Router unterstützt sowohl 2.4 Ghz als auch 5 GHz. Der Router kann unaufffällig an einer Hausfassade montiert werden und mit einer Ein-Kabellösung (mit PoE) angeschlossen werden.
-
-
-Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
-Video-Streaming auf niedriger bis mittlerer Qualität.
-```
-<span class="image right"><img src="/anleitung/router/hasenohr.jpg" alt="Ubiquity-UAC-AP-Mesh"></span><br/><br/>
-<a href="https://www.heise.de/preisvergleich/ubiquiti-unifi-ac-mesh-uap-ac-m-a1547488.html" class="button">Preisvergleich</a><br/><br/>
-<a href="http://openwrt.org/toh/ubiquiti/ubiquiti_uap-ac-mesh_3.7.xx.xxxx" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/firmware/2.3.0/ar71xx/generic/" class="button primary">Firmware</a><br/><br/><br/><br/>
 
 Für Experimentierfreudige: Fritzbox 4040
 --------------
 ```
-Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich. Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro. Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein kleines Cafe oder einen nicht so großen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit und Geduld bei der Erstinstallation vorausgesetzt!
+Die Fritzbox 4040 kann ein ziemlich schneller Freifunk-Router sein, allerdings ist die Erst-Installation per FTP und unter Zuhilfenahm eines kleinen Switches relativ aufwändig. Wenn man es dann geschafft hat die Freifunk-Firmware aufzuspielen, sind durchaus 20-30 Mbit/s Datendurchsatz möglich. Also fast das Doppelte wie z.B. beim Archer C7. Die Fritzbox 4040 kostet neu aber ca. 70 Euro. Wie üblich bei einer Fritzbox gibt es auch nur die internen Antennen. Für ein Cafe odene Ferienwohnung oder einen Vereinsraum kann dieser Router aber gute Ergebnisse liefern - etwas Experimentierfreudigkeit und Geduld bei der Erstinstallation vorausgesetzt!
 
 Der Datendurchsatz mit unserer Freifunk-Firmware eignet sich für jeglichen möglichen Internetverkehr inklusive
 Video-Streaming auf mittlerer bis hoher Qualität.
 ```
-<span class="image right"><img src="/anleitung/router/fritzbox4040.jpg" alt="Fritzbox 4040"></span><br/><br/>
+<span class="image right"><img src="https://software.ffbsee.de/firmware-selector/pictures/avm-fritz-box-4040.jpg" alt="Fritzbox 4040"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/avm-fritz-box-4040-20002763-a1501050.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/avm/avm_fritz_box_4040" class="button">Hardware-Informationen und Installationsanleitung per FTP</a><br/><br/>
-<a href="https://firmware.ffbsee.de/firmware/2.3.0/ipq40xx/generic/" class="button primary">Firmware</a><br/><br/><br/><br/>
+<a href="https://software.ffbsee.de/firmware-selector/?q=AVM%E2%81%A3%20FRITZ!Box%C2%A04040%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
 
 
 <br/><br/><br/>
@@ -140,7 +143,7 @@ Die machbare Bandbreite eignet sich um z. B. das bestehende WLAN-Netz eines Rest
 ```
 <a href="https://www.heise.de/preisvergleich/?fs=raspberry+pi+4&in=" class="button">Preisvergleich</a><br/><br/>
 <a href="" class="button primary">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/firmware/2.3.0/raspi4/" class="button">Firmware</a><br/><br/>
+<a href="https://software.ffbsee.de/firmware-selector/?q=Raspberry%C2%A0Pi%C2%A0Foundation%E2%81%A3%20PI%C2%A04%E2%81%A3" class="button">Firmware</a><br/><br/>
 
 
  Siemens Futro S550
@@ -192,13 +195,17 @@ und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware manage
 
 <br/><br/><br/>
 <h2 id="schrott">Günstige Geräte<h2>
-<h4>Es gibt auch günstige Einsteigergeräte für eine Freifunk-Grundversorgung</h4>
+<h4>Günstig, nur für zu Hause geeignet</h4>
 
-Es gab früher eine Reihe von Routern ab 20 Euro, die wir zum damaligen Zeitpunkt und mit den damaligen Anforderungen sogar empfehlen konnten.
-Momentan gibt es kaum brauchbare Geräte in dieser Preisklasse.
-Wir testen momentan allerdings Geräte z. B. von GL.iNet und Netgear. 
-Sobald wir hier Erfahrungen sammeln konnten, gibt es hier vielleicht auch wieder Empfehlungen.
-
+Als unser Freifunknetz neu aufgebaut wurde, setzten wir ziemlich viele Router ein, 
+die teilweise unter 20 Euro kosteten. Wir können das heute für den Produktiveinsatz
+nicht empfehlen, da die geringe Bandbreite eher zu Frustration bei den Nutzer*Innen 
+führen kann. 
+Wer trotzdem zum privaten Experimentieren mit einem solchen Gerät spielen möchte,
+könnte z.B. mit dem GL.iNET AR-150 erste Erfahrungen sammeln.
+Die Bandbreite von max 5-8 Mbit/s ist genauso wenig wie bei den nicht mehr 
+empfohlenen Altgeräten. Wir erwähnen den AR-150 nur, weil er mehr Speicher hat.
+Er ist aber explizit keine Empfehlung!
 
 
 Ältere Geräte mit wenig Speicherplatz und Arbeitsspeicher (Keine Empfehlung!)
