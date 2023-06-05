@@ -39,7 +39,7 @@ For models with many different version numbers, these are not always well sorted
  Build your own firmware
 ---------------------------
 We frequently mention that we use Open Source firmware. That means with a little bit of Linux experience and knowledge in using the Shelly you can easily compile the firmware from the source code. This is exactly what we did and then we made the finished result available as download on the Internet. 
-You can find the firmware as well as instructions on how to compile it yourself on <a href="https://github.com/ffbsee/firmware/" >GitHub</a> or self-hosted on [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/firmware).<br/>
+You can find the firmware as well as instructions on how to compile it yourself on <a href="https://github.com/ffbsee/firmware/" >GitHub</a>.<br/>
 **Tip:** Most Freifunk routers can be found in the ar71xx category.
 
 

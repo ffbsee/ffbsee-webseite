@@ -48,7 +48,7 @@ Bei Modellen mit vielen verschiedenen Versionen sind diese im Firmware Wizard ni
  Firmware selber bauen
 ---------------------------
 Wir schreiben ständig davon, dass unsere Firmware Open Source ist. Das bedeutet, dass du mit ein wenig Erfahrung unter Linux und mit der Shell die Firmware selber aus dem Quellcode kompilieren kannst. Genau das haben wir auch gemacht und das fertige Ergebnis im Internet zum Download angeboten.
-Die Firmware inklusive einer kleinen Anleitung zum Selberkompilieren findest du auf <a href="https://github.com/ffbsee/firmware/" >GitHub</a> oder auch selber gehostet auf [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/firmware).<br/>
+Die Firmware inklusive einer kleinen Anleitung zum Selberkompilieren findest du auf <a href="https://github.com/ffbsee/firmware/" >GitHub</a>.<br/>
 **Tipp:** Die meisten Freifunk-Router sind unter der Kategorie ar71xx zu finden.
 
 
