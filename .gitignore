@@ -39,3 +39,6 @@ assets/js/*.min.js
 assets/hyperbolic/
 assets/css/main.min.css
 assets/css/main.css
+
+# Website output
+output/
