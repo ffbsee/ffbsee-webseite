@@ -3,6 +3,7 @@ name = ffbsee.net
 url = https://ffbsee.net/
 locale = de_DE
 locale = de_DE
+output_path = output/
 
 [servers.ffbsee]
 name = ffbsee
